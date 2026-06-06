@@ -4,7 +4,7 @@ import moduleData from '../data/modulo1.json';
 import Mascot from './Mascot';
 
 export default function Lesson() {
-  const { currentLevelId, lives, loseLife, finishLesson, gainExp, gameState } = useGame();
+  const { currentLevelId, lives, loseLife, finishLesson, gainExp, gameState, isHintActive, clearHint } = useGame();
   
   const [questions, setQuestions] = useState([]);
   const [currentIndex, setCurrentIndex] = useState(0);
@@ -65,6 +65,29 @@ export default function Lesson() {
     }
   }, [currentIndex, questions]);
 
+  useEffect(() => {
+    if (isHintActive && status === 'playing' && questions.length > 0) {
+      const currentQ = questions[currentIndex];
+      if (currentQ.type === 'multiple_choice') {
+        const correctIdx = currentQ.options.findIndex(o => o.id === currentQ.correctAnswerId);
+        setSelectedOption(correctIdx);
+      } else if (currentQ.type === 'true_false') {
+        setSelectedOption(currentQ.correctAnswer ? 0 : 1);
+      } else if (currentQ.type === 'text_input') {
+        setTextInput(currentQ.correctAnswers[0]);
+      } else if (currentQ.type === 'fill_in_blanks_cards') {
+        setBlankAnswers([...currentQ.correctAnswers]);
+      } else if (currentQ.type === 'match_pairs') {
+        const pairs = [];
+        for (let i = 0; i < currentQ.pairs.length; i++) {
+           const rightIdx = shuffledRightPairs.findIndex(rp => rp.originalIdx === i);
+           pairs.push([i, rightIdx]);
+        }
+        setMatchingPairs(pairs);
+      }
+    }
+  }, [isHintActive, currentIndex, questions, status, shuffledRightPairs]);
+
   if (questions.length === 0) return <div>Cargando...</div>;
 
   const currentQ = questions[currentIndex];
@@ -124,11 +147,13 @@ export default function Lesson() {
     } else {
       // Proceed to next
       if (lives === 0 && status === 'incorrect') {
+        clearHint();
         finishLesson(false, gameState === 'practice'); // Fail
         return;
       }
 
       if (currentIndex < questions.length - 1) {
+        clearHint();
         setCurrentIndex(i => i + 1);
         setSelectedOption(null);
         setMatchingPairs([]);
@@ -140,6 +165,7 @@ export default function Lesson() {
         setStatus('playing');
         setMascotState('thinking');
       } else {
+        clearHint();
         finishLesson(true, gameState === 'practice'); // Success
       }
     }

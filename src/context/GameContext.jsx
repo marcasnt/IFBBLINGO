@@ -56,6 +56,21 @@ export const GameProvider = ({ children }) => {
     }
   };
 
+  const [isHintActive, setIsHintActive] = useState(false);
+
+  const buyHint = () => {
+    if (exp >= 50 && !isHintActive) {
+      setExp(e => e - 50);
+      setIsHintActive(true);
+      return true;
+    }
+    return false;
+  };
+
+  const clearHint = () => {
+    setIsHintActive(false);
+  };
+
   const gainExp = (amount) => {
     setExp(e => e + amount);
   };
@@ -99,7 +114,9 @@ export const GameProvider = ({ children }) => {
       streak, setStreak,
       unlockedLevelId,
       currentLevelId, setCurrentLevelId,
-      gameState, startLesson, startPractice, finishLesson, backToMap
+      gameState, setGameState,
+      startLesson, startPractice, finishLesson, backToMap,
+      isHintActive, buyHint, clearHint
     }}>
       {children}
     </GameContext.Provider>

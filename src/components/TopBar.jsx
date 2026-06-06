@@ -1,13 +1,21 @@
-import { Heart, Zap, Flame, Moon, Sun } from 'lucide-react';
+import { Heart, Zap, Flame, Moon, Sun, Lightbulb } from 'lucide-react';
 import { useGame } from '../context/GameContext';
 import { useState } from 'react';
 import HeartsModal from './HeartsModal';
 
 export default function TopBar() {
-  const { lives, exp, streak, theme, toggleTheme, gameState } = useGame();
+  const { lives, exp, streak, theme, toggleTheme, gameState, buyHint } = useGame();
   const [showHearts, setShowHearts] = useState(false);
 
   const isCompact = gameState !== 'map';
+
+  const handleHintClick = () => {
+    if (buyHint()) {
+      // Option handled
+    } else {
+      alert('Necesitas al menos 50 EXP para usar un comodín.');
+    }
+  };
 
   return (
     <>
@@ -20,7 +28,7 @@ export default function TopBar() {
         position: 'sticky',
         top: 0,
         zIndex: 10,
-        borderBottom: '2px solid var(--color-gray)',
+        borderBottom: '2px solid var(--color-gray-shadow)',
         transition: 'all 0.2s ease',
         fontSize: isCompact ? '0.85rem' : '1rem'
       }}>
@@ -41,6 +49,25 @@ export default function TopBar() {
           <Zap fill="var(--color-blue)" size={isCompact ? 20 : 24} style={{ marginRight: '4px' }} />
           {exp}
         </div>
+
+        {isCompact && (
+          <div 
+            className="flex-center" 
+            style={{ 
+              color: 'var(--color-secondary)', 
+              fontWeight: 800, 
+              cursor: 'pointer',
+              backgroundColor: 'var(--color-surface)',
+              borderRadius: '8px',
+              padding: '4px'
+            }} 
+            onClick={handleHintClick}
+            title="Usar comodín (-50 EXP)"
+          >
+            <Lightbulb size={isCompact ? 20 : 24} style={{ marginRight: '4px' }} />
+            50
+          </div>
+        )}
       </div>
       
       {showHearts && <HeartsModal onClose={() => setShowHearts(false)} />}
