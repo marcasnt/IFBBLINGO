@@ -360,7 +360,17 @@ export default function Lesson() {
         {status === 'correct' && <h2 style={{ color: 'var(--color-primary-shadow)', marginBottom: '16px' }}>¡Excelente!</h2>}
         {status === 'incorrect' && (
           <h2 style={{ color: 'var(--color-danger-shadow)', marginBottom: '16px', fontSize: '1.1rem' }}>
-            Incorrecto. {currentQ.type === 'MATCHING' ? 'Las parejas no eran correctas.' : `La respuesta era: ${currentQ.options[currentQ.correctAnswerIndex]}`}
+            Incorrecto. La respuesta correcta era: {(() => {
+              if (currentQ.type === 'match_pairs') return 'Las parejas de la lista.';
+              if (currentQ.type === 'true_false') return currentQ.correctAnswer ? 'Verdadero' : 'Falso';
+              if (currentQ.type === 'multiple_choice') {
+                const opt = currentQ.options.find(o => o.id === currentQ.correctAnswerId);
+                return opt ? opt.text : '';
+              }
+              if (currentQ.type === 'text_input') return currentQ.correctAnswers[0];
+              if (currentQ.type === 'fill_in_blanks_cards') return currentQ.correctAnswers.join(' - ');
+              return '';
+            })()}
           </h2>
         )}
         
