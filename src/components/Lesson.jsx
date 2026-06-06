@@ -140,10 +140,28 @@ export default function Lesson() {
     if (status !== 'playing') return;
     
     if (side === 'left') {
-      if (matchingPairs.some(p => p[0] === index)) return; // Already paired
+      const existingPairIndex = matchingPairs.findIndex(p => p[0] === index);
+      if (existingPairIndex !== -1) {
+        // Undo this pair
+        setMatchingPairs(prev => prev.filter((_, i) => i !== existingPairIndex));
+        return;
+      }
+      if (selectedLeft === index) {
+        setSelectedLeft(null);
+        return;
+      }
       setSelectedLeft(index);
     } else {
-      if (matchingPairs.some(p => p[1] === index)) return; // Already paired
+      const existingPairIndex = matchingPairs.findIndex(p => p[1] === index);
+      if (existingPairIndex !== -1) {
+        // Undo this pair
+        setMatchingPairs(prev => prev.filter((_, i) => i !== existingPairIndex));
+        return;
+      }
+      if (selectedRight === index) {
+        setSelectedRight(null);
+        return;
+      }
       setSelectedRight(index);
     }
   };
@@ -302,7 +320,16 @@ export default function Lesson() {
                       key={i} 
                       className={`word-card ${isUsed ? 'used' : ''}`}
                       onClick={() => {
-                        if (status !== 'playing' || isUsed) return;
+                        if (status !== 'playing') return;
+                        if (isUsed) {
+                          const newBlanks = [...blankAnswers];
+                          const idxToRemove = newBlanks.indexOf(opt);
+                          if (idxToRemove !== -1) {
+                            newBlanks[idxToRemove] = null;
+                            setBlankAnswers(newBlanks);
+                          }
+                          return;
+                        }
                         const emptyIdx = blankAnswers.indexOf(null);
                         if (emptyIdx !== -1) {
                           const newBlanks = [...blankAnswers];
@@ -310,7 +337,7 @@ export default function Lesson() {
                           setBlankAnswers(newBlanks);
                         }
                       }}
-                      disabled={isUsed || status !== 'playing'}
+                      disabled={status !== 'playing'}
                     >
                       {opt}
                     </button>

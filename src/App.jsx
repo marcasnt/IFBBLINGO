@@ -18,11 +18,15 @@ function GameContent() {
   );
 }
 
+import ErrorBoundary from './components/ErrorBoundary';
+
 function App() {
   return (
-    <GameProvider>
-      <GameContent />
-    </GameProvider>
+    <ErrorBoundary>
+      <GameProvider>
+        <GameContent />
+      </GameProvider>
+    </ErrorBoundary>
   );
 }
 
