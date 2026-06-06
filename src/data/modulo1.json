@@ -115,7 +115,7 @@
         "question": "La molécula principal que almacena energía en el organismo es el ATP.",
         "correctAnswer": true,
         "xp": 10,
-        "explanation": "Recuerda que la afirmación es verdadera. Comprender este hecho es vital para dominar la base teórica de este módulo."
+        "explanation": "El ATP es efectivamente la principal moneda de energía del organismo, almacenada en enlaces de fósforo."
       },
       {
         "type": "multiple_choice",
@@ -136,7 +136,7 @@
         ],
         "correctAnswerId": "A",
         "xp": 10,
-        "explanation": "La respuesta correcta es \"ATPasa\". Esta es la opción más precisa según los fundamentos fisiológicos del temario."
+        "explanation": "La ATPasa es la enzima clave necesaria para liberar la energía almacenada en los enlaces del ATP."
       },
       {
         "type": "match_pairs",
@@ -156,7 +156,7 @@
           }
         ],
         "xp": 15,
-        "explanation": "Unir correctamente estos conceptos te ayuda a estructurar mentalmente las diferencias y relaciones clave entre ellos."
+        "explanation": "El sistema aeróbico usa oxígeno, el anaeróbico produce energía sin él y el ATP es la moneda base."
       },
       {
         "type": "text_input",
@@ -169,7 +169,7 @@
           "oxigeno"
         ],
         "xp": 20,
-        "explanation": "El término exacto que define este proceso o concepto es \"Oxígeno\". Es un vocabulario técnico que debes memorizar."
+        "explanation": "En la cadena oxidativa aeróbica, el oxígeno actúa como el último aceptor de electrones para formar H2O."
       },
       {
         "type": "fill_in_blanks_cards",
@@ -185,14 +185,14 @@
           "duración"
         ],
         "xp": 15,
-        "explanation": "Cada palabra clave tiene su lugar específico. Recordar el orden correcto consolida tu comprensión de la oración completa."
+        "explanation": "Todos los sistemas energéticos actúan de forma simultánea y solapada según la duración e intensidad."
       },
       {
         "type": "true_false",
         "question": "El inicio de cualquier ejercicio es fundamentalmente aeróbico.",
         "correctAnswer": false,
         "xp": 10,
-        "explanation": "Recuerda que la afirmación es falsa. Comprender este hecho es vital para dominar la base teórica de este módulo."
+        "explanation": "Falso. El inicio de cualquier ejercicio es fundamentalmente anaeróbico debido al retraso en la vía aeróbica."
       },
       {
         "type": "multiple_choice",
@@ -213,7 +213,7 @@
         ],
         "correctAnswerId": "B",
         "xp": 10,
-        "explanation": "La respuesta correcta es \"Fosfocreatina\". Esta es la opción más precisa según los fundamentos fisiológicos del temario."
+        "explanation": "El sistema anaeróbico aláctico usa la fosfocreatina (CP) para renovar el ATP sin producir ácido láctico."
       }
     ]
   },
@@ -227,7 +227,7 @@
         "question": "La vía anaeróbica aláctica provoca una gran acumulación de ácido láctico.",
         "correctAnswer": false,
         "xp": 10,
-        "explanation": "Recuerda que la afirmación es falsa. Comprender este hecho es vital para dominar la base teórica de este módulo."
+        "explanation": "Falso. La vía anaeróbica aláctica no produce ácido láctico, esa es la vía láctica."
       },
       {
         "type": "multiple_choice",
@@ -248,7 +248,7 @@
         ],
         "correctAnswerId": "A",
         "xp": 10,
-        "explanation": "La respuesta correcta es \"Dos\". Esta es la opción más precisa según los fundamentos fisiológicos del temario."
+        "explanation": "La glucólisis anaeróbica produce solo 2 moléculas de ATP por glucosa, frente a las 36 de la aeróbica."
       },
       {
         "type": "match_pairs",
@@ -268,7 +268,7 @@
           }
         ],
         "xp": 15,
-        "explanation": "Unir correctamente estos conceptos te ayuda a estructurar mentalmente las diferencias y relaciones clave entre ellos."
+        "explanation": "El oxígeno debe llegar desde el aire hasta la mitocondria para la combustión aeróbica."
       },
       {
         "type": "text_input",
@@ -281,7 +281,7 @@
           "pH"
         ],
         "xp": 20,
-        "explanation": "El término exacto que define este proceso o concepto es \"Ácido láctico\". Es un vocabulario técnico que debes memorizar."
+        "explanation": "La vía aeróbica es mucho más rentable, produciendo hasta un 1800% más energía que la anaeróbica."
       },
       {
         "type": "fill_in_blanks_cards",
@@ -297,14 +297,14 @@
           "económico"
         ],
         "xp": 15,
-        "explanation": "Cada palabra clave tiene su lugar específico. Recordar el orden correcto consolida tu comprensión de la oración completa."
+        "explanation": "Los lípidos (grasas) solo pueden usarse como combustible mediante la vía aeróbica (beta-oxidación)."
       },
       {
         "type": "true_false",
         "question": "Desde el punto de vista del O2, resulta más 'barata' la energía obtenida de grasas que de hidratos de carbono.",
         "correctAnswer": false,
         "xp": 10,
-        "explanation": "Recuerda que la afirmación es falsa. Comprender este hecho es vital para dominar la base teórica de este módulo."
+        "explanation": "Los sistemas de energía se solapan y no actúan de manera aislada."
       },
       {
         "type": "multiple_choice",
@@ -325,7 +325,7 @@
         ],
         "correctAnswerId": "B",
         "xp": 10,
-        "explanation": "La respuesta correcta es \"Mitocondria\". Esta es la opción más precisa según los fundamentos fisiológicos del temario."
+        "explanation": "La acumulación de ácido láctico (disminución del pH) causa la fatiga y limita la glucólisis."
       }
     ]
   },
@@ -339,7 +339,7 @@
         "question": "La fuerza es capaz de modificar el estado de reposo de un cuerpo o producirle una deformación.",
         "correctAnswer": true,
         "xp": 10,
-        "explanation": "Recuerda que la afirmación es verdadera. Comprender este hecho es vital para dominar la base teórica de este módulo."
+        "explanation": "La fuerza es la causa capaz de modificar el estado de reposo o movimiento de un cuerpo."
       },
       {
         "type": "multiple_choice",
@@ -360,7 +360,7 @@
         ],
         "correctAnswerId": "B",
         "xp": 10,
-        "explanation": "La respuesta correcta es \"Potencia\". Esta es la opción más precisa según los fundamentos fisiológicos del temario."
+        "explanation": "La potencia incluye el factor tiempo (P=W/t), siendo el trabajo en el mínimo tiempo posible."
       },
       {
         "type": "match_pairs",
@@ -380,7 +380,7 @@
           }
         ],
         "xp": 15,
-        "explanation": "Unir correctamente estos conceptos te ayuda a estructurar mentalmente las diferencias y relaciones clave entre ellos."
+        "explanation": "El trabajo mecánico es simplemente fuerza por distancia (W=Fxd), sin importar el tiempo."
       },
       {
         "type": "text_input",
@@ -390,7 +390,7 @@
           "elasticidad"
         ],
         "xp": 20,
-        "explanation": "El término exacto que define este proceso o concepto es \"Elasticidad\". Es un vocabulario técnico que debes memorizar."
+        "explanation": "La elasticidad es la capacidad del tejido de recuperar su forma original tras ser deformado."
       },
       {
         "type": "fill_in_blanks_cards",
@@ -406,14 +406,14 @@
           "ángulo"
         ],
         "xp": 15,
-        "explanation": "Cada palabra clave tiene su lugar específico. Recordar el orden correcto consolida tu comprensión de la oración completa."
+        "explanation": "El músculo transforma la energía química de los alimentos en energía mecánica con un 20-30% de eficiencia."
       },
       {
         "type": "true_false",
         "question": "Los aparatos isocinéticos mantienen una distancia constante, haciendo que fuerza y momento sean prácticamente paralelos.",
         "correctAnswer": true,
         "xp": 10,
-        "explanation": "Recuerda que la afirmación es verdadera. Comprender este hecho es vital para dominar la base teórica de este módulo."
+        "explanation": "La tensión muscular no es constante a lo largo del arco de movimiento."
       },
       {
         "type": "multiple_choice",
@@ -434,7 +434,7 @@
         ],
         "correctAnswerId": "B",
         "xp": 10,
-        "explanation": "La respuesta correcta es \"Por debajo del 50%\". Esta es la opción más precisa según los fundamentos fisiológicos del temario."
+        "explanation": "En la máxima elongación fisiológica se alcanza el punto de máxima tensión muscular."
       }
     ]
   },
@@ -448,7 +448,7 @@
         "question": "El músculo transforma energía química en mecánica con una eficiencia del 100%.",
         "correctAnswer": false,
         "xp": 10,
-        "explanation": "Recuerda que la afirmación es falsa. Comprender este hecho es vital para dominar la base teórica de este módulo."
+        "explanation": "Falso. Cada músculo tiene su propia curva de tensión característica."
       },
       {
         "type": "multiple_choice",
@@ -469,7 +469,7 @@
         ],
         "correctAnswerId": "B",
         "xp": 10,
-        "explanation": "La respuesta correcta es \"Sarcómero\". Esta es la opción más precisa según los fundamentos fisiológicos del temario."
+        "explanation": "El sóleo es monoarticular, por lo que aísla el trabajo de pantorrillas cuando la rodilla está flexionada."
       },
       {
         "type": "match_pairs",
@@ -489,7 +489,7 @@
           }
         ],
         "xp": 15,
-        "explanation": "Unir correctamente estos conceptos te ayuda a estructurar mentalmente las diferencias y relaciones clave entre ellos."
+        "explanation": "Para activar al máximo la masa gemelar, el ejercicio debe hacerse con las rodillas extendidas."
       },
       {
         "type": "text_input",
@@ -501,7 +501,7 @@
           "miosina"
         ],
         "xp": 20,
-        "explanation": "El término exacto que define este proceso o concepto es \"Actina\". Es un vocabulario técnico que debes memorizar."
+        "explanation": "Una palanca tiene un punto de apoyo, una potencia (fuerza) y una resistencia."
       },
       {
         "type": "fill_in_blanks_cards",
@@ -517,14 +517,14 @@
           "lesiones"
         ],
         "xp": 15,
-        "explanation": "Cada palabra clave tiene su lugar específico. Recordar el orden correcto consolida tu comprensión de la oración completa."
+        "explanation": "Los músculos biarticulares cruzan y actúan sobre dos articulaciones diferentes."
       },
       {
         "type": "true_false",
         "question": "Una contracción muscular involucra una acción aislada de un solo músculo sin importar sus antagonistas.",
         "correctAnswer": false,
         "xp": 10,
-        "explanation": "Recuerda que la afirmación es falsa. Comprender este hecho es vital para dominar la base teórica de este módulo."
+        "explanation": "Un ejercicio poliarticular involucra dos o más articulaciones, como la sentadilla."
       },
       {
         "type": "multiple_choice",
@@ -541,7 +541,7 @@
         ],
         "correctAnswerId": "B",
         "xp": 10,
-        "explanation": "La respuesta correcta es \"Grandes y multinucleadas\". Esta es la opción más precisa según los fundamentos fisiológicos del temario."
+        "explanation": "En una polea clásica (carga indirecta), la resistencia es constante e independiente del ángulo."
       }
     ]
   },
@@ -555,7 +555,7 @@
         "question": "Las dendritas de la neurona son responsables de su interacción con otras células nerviosas.",
         "correctAnswer": true,
         "xp": 10,
-        "explanation": "Recuerda que la afirmación es verdadera. Comprender este hecho es vital para dominar la base teórica de este módulo."
+        "explanation": "Los protagonistas o agonistas son los principales responsables del movimiento."
       },
       {
         "type": "multiple_choice",
@@ -576,7 +576,7 @@
         ],
         "correctAnswerId": "B",
         "xp": 10,
-        "explanation": "La respuesta correcta es \"120 m/s\". Esta es la opción más precisa según los fundamentos fisiológicos del temario."
+        "explanation": "Los antagonistas se oponen al movimiento y deben relajarse para permitirlo."
       },
       {
         "type": "match_pairs",
@@ -596,7 +596,7 @@
           }
         ],
         "xp": 15,
-        "explanation": "Unir correctamente estos conceptos te ayuda a estructurar mentalmente las diferencias y relaciones clave entre ellos."
+        "explanation": "Fijadores, neutralizadores y antagonistas."
       },
       {
         "type": "text_input",
@@ -607,7 +607,7 @@
           "la neurona"
         ],
         "xp": 20,
-        "explanation": "El término exacto que define este proceso o concepto es \"Neurona\". Es un vocabulario técnico que debes memorizar."
+        "explanation": "Los neutralizadores anulan la acción secundaria indeseada de un músculo."
       },
       {
         "type": "fill_in_blanks_cards",
@@ -623,14 +623,14 @@
           "médula"
         ],
         "xp": 15,
-        "explanation": "Cada palabra clave tiene su lugar específico. Recordar el orden correcto consolida tu comprensión de la oración completa."
+        "explanation": "En un press de banca, el tríceps y el pectoral mayor actúan al unísono como agonistas/sinergistas."
       },
       {
         "type": "true_false",
         "question": "La neurona solo puede responder a estímulos químicos y nunca a eléctricos.",
         "correctAnswer": false,
         "xp": 10,
-        "explanation": "Recuerda que la afirmación es falsa. Comprender este hecho es vital para dominar la base teórica de este módulo."
+        "explanation": "Al trabajar con pesos libres, la resistencia siempre va dirigida hacia abajo por la gravedad."
       },
       {
         "type": "multiple_choice",
@@ -651,7 +651,7 @@
         ],
         "correctAnswerId": "A",
         "xp": 10,
-        "explanation": "La respuesta correcta es \"Sinapsis\". Esta es la opción más precisa según los fundamentos fisiológicos del temario."
+        "explanation": "El músculo esquelético humano puede contraerse isométricamente o de forma dinámica (anisométrica)."
       }
     ]
   },
@@ -665,7 +665,7 @@
         "question": "En la contracción isométrica existe un gran trabajo mecánico.",
         "correctAnswer": false,
         "xp": 10,
-        "explanation": "Recuerda que la afirmación es falsa. Comprender este hecho es vital para dominar la base teórica de este módulo."
+        "explanation": "1RM es la carga máxima que se puede levantar en una sola repetición máxima."
       },
       {
         "type": "multiple_choice",
@@ -686,7 +686,7 @@
         ],
         "correctAnswerId": "A",
         "xp": 10,
-        "explanation": "La respuesta correcta es \"Concéntrica\". Esta es la opción más precisa según los fundamentos fisiológicos del temario."
+        "explanation": "Falso. Es peligroso realizar pruebas de 1RM en principiantes sin técnica ni base."
       },
       {
         "type": "match_pairs",
@@ -706,7 +706,7 @@
           }
         ],
         "xp": 15,
-        "explanation": "Unir correctamente estos conceptos te ayuda a estructurar mentalmente las diferencias y relaciones clave entre ellos."
+        "explanation": "La hipertrofia muscular suele requerir cargas del 70-85% (entre 6 y 15 repeticiones)."
       },
       {
         "type": "text_input",
@@ -717,7 +717,7 @@
           "isotónica"
         ],
         "xp": 20,
-        "explanation": "El término exacto que define este proceso o concepto es \"Anisométrica\". Es un vocabulario técnico que debes memorizar."
+        "explanation": "El trabajo de resistencia muscular se realiza con cargas del 50-70% (más de 15 repeticiones)."
       },
       {
         "type": "fill_in_blanks_cards",
@@ -733,14 +733,14 @@
           "freno"
         ],
         "xp": 15,
-        "explanation": "Cada palabra clave tiene su lugar específico. Recordar el orden correcto consolida tu comprensión de la oración completa."
+        "explanation": "Las máquinas isocinéticas mantienen una velocidad constante independientemente de la fuerza aplicada."
       },
       {
         "type": "true_false",
         "question": "La contracción isocinética se caracteriza por realizarse a una velocidad angular constante.",
         "correctAnswer": true,
         "xp": 10,
-        "explanation": "Recuerda que la afirmación es verdadera. Comprender este hecho es vital para dominar la base teórica de este módulo."
+        "explanation": "El entrenamiento de potencia utiliza cargas relativamente altas pero enfatiza la máxima velocidad."
       },
       {
         "type": "multiple_choice",
@@ -757,7 +757,7 @@
         ],
         "correctAnswerId": "B",
         "xp": 10,
-        "explanation": "La respuesta correcta es \"Resistencia o tensión constante\". Esta es la opción más precisa según los fundamentos fisiológicos del temario."
+        "explanation": "El volumen de entrenamiento es la cantidad total (series x repeticiones)."
       }
     ]
   },
@@ -771,7 +771,7 @@
         "question": "La dinamometría isométrica mide la fuerza a lo largo de todo el movimiento.",
         "correctAnswer": false,
         "xp": 10,
-        "explanation": "Recuerda que la afirmación es falsa. Comprender este hecho es vital para dominar la base teórica de este módulo."
+        "explanation": "La hipertrofia se manifiesta por el aumento del diámetro (y posiblemente el número) de las fibras musculares."
       },
       {
         "type": "multiple_choice",
@@ -788,7 +788,7 @@
         ],
         "correctAnswerId": "B",
         "xp": 10,
-        "explanation": "La respuesta correcta es \"Máxima Repetición (carga máxima para 1 repetición)\". Esta es la opción más precisa según los fundamentos fisiológicos del temario."
+        "explanation": "Falso. Las primeras adaptaciones de fuerza (primeras semanas) son principalmente neurales (sincronización)."
       },
       {
         "type": "match_pairs",
@@ -808,7 +808,7 @@
           }
         ],
         "xp": 15,
-        "explanation": "Unir correctamente estos conceptos te ayuda a estructurar mentalmente las diferencias y relaciones clave entre ellos."
+        "explanation": "Al principio, la fuerza aumenta por la mejora en la activación de unidades motoras y el EMG."
       },
       {
         "type": "text_input",
@@ -819,7 +819,7 @@
           "75 por ciento"
         ],
         "xp": 20,
-        "explanation": "El término exacto que define este proceso o concepto es \"75%\". Es un vocabulario técnico que debes memorizar."
+        "explanation": "La sincronización intramuscular mejora la eficiencia con la que las fibras musculares trabajan juntas."
       },
       {
         "type": "fill_in_blanks_cards",
@@ -835,14 +835,14 @@
           "fibras"
         ],
         "xp": 15,
-        "explanation": "Cada palabra clave tiene su lugar específico. Recordar el orden correcto consolida tu comprensión de la oración completa."
+        "explanation": "El calentamiento y el estiramiento son fundamentales antes del ejercicio de fuerza."
       },
       {
         "type": "true_false",
         "question": "Las máquinas isocinéticas ajustan automáticamente la resistencia para mantener la velocidad constante.",
         "correctAnswer": true,
         "xp": 10,
-        "explanation": "Recuerda que la afirmación es verdadera. Comprender este hecho es vital para dominar la base teórica de este módulo."
+        "explanation": "La carga habitual genera mesetas, por lo que el principio de sobrecarga exige incrementar el estímulo."
       },
       {
         "type": "multiple_choice",
@@ -859,7 +859,7 @@
         ],
         "correctAnswerId": "B",
         "xp": 10,
-        "explanation": "La respuesta correcta es \"El elemento elástico del músculo\". Esta es la opción más precisa según los fundamentos fisiológicos del temario."
+        "explanation": "Los levantadores olímpicos entrenan la fuerza máxima con muy pocas repeticiones (1-5) e intervalos largos."
       }
     ]
   },
@@ -873,7 +873,7 @@
         "question": "La hipertrofia muscular aparece antes que las adaptaciones neurales al iniciar un entrenamiento.",
         "correctAnswer": false,
         "xp": 10,
-        "explanation": "Recuerda que la afirmación es falsa. Comprender este hecho es vital para dominar la base teórica de este módulo."
+        "explanation": "El entrenamiento de fuerza en niños (supervisado) mejora el rendimiento y proviene lesiones."
       },
       {
         "type": "multiple_choice",
@@ -890,7 +890,7 @@
         ],
         "correctAnswerId": "B",
         "xp": 10,
-        "explanation": "La respuesta correcta es \"Adaptación neural\". Esta es la opción más precisa según los fundamentos fisiológicos del temario."
+        "explanation": "Falso. Las ganancias de fuerza iniciales en prepúberes se dan por adaptaciones neurales, no hipertrofia."
       },
       {
         "type": "match_pairs",
@@ -910,7 +910,7 @@
           }
         ],
         "xp": 15,
-        "explanation": "Unir correctamente estos conceptos te ayuda a estructurar mentalmente las diferencias y relaciones clave entre ellos."
+        "explanation": "En ancianos, el entrenamiento de fuerza combate la osteoporosis y recupera la funcionalidad motora."
       },
       {
         "type": "text_input",
@@ -921,7 +921,7 @@
           "el principio de sobrecarga"
         ],
         "xp": 20,
-        "explanation": "El término exacto que define este proceso o concepto es \"Principio de sobrecarga\". Es un vocabulario técnico que debes memorizar."
+        "explanation": "La ACSM recomienda circuitos de pesas con intensidades del 40-50% para adultos sanos y ancianos."
       },
       {
         "type": "fill_in_blanks_cards",
@@ -937,14 +937,14 @@
           "activación"
         ],
         "xp": 15,
-        "explanation": "Cada palabra clave tiene su lugar específico. Recordar el orden correcto consolida tu comprensión de la oración completa."
+        "explanation": "Un beneficio comprobado del ejercicio en mayores es la autosuficiencia funcional y mejora de la autoestima."
       },
       {
         "type": "true_false",
         "question": "Disminuir la inhibición de los músculos antagonistas es una forma de mejorar la fuerza.",
         "correctAnswer": true,
         "xp": 10,
-        "explanation": "Recuerda que la afirmación es verdadera. Comprender este hecho es vital para dominar la base teórica de este módulo."
+        "explanation": "El entrenamiento de fuerza ha probado ser seguro, a veces con menos riesgos que deportes aeróbicos intensos."
       },
       {
         "type": "multiple_choice",
@@ -961,7 +961,7 @@
         ],
         "correctAnswerId": "B",
         "xp": 10,
-        "explanation": "La respuesta correcta es \"80 y 100%\". Esta es la opción más precisa según los fundamentos fisiológicos del temario."
+        "explanation": "En pacientes cardíacos, un circuito suave de pesas mejora la HTA y la PA diastólica sin daños."
       }
     ]
   },
@@ -975,7 +975,7 @@
         "question": "El análisis funcional estudia el tipo de contracción que desarrolla cada músculo durante el movimiento.",
         "correctAnswer": true,
         "xp": 10,
-        "explanation": "Recuerda que la afirmación es verdadera. Comprender este hecho es vital para dominar la base teórica de este módulo."
+        "explanation": "Falso. Si te limitas siempre a la misma carga, tu cuerpo se adapta y te estancas (principio de sobrecarga)."
       },
       {
         "type": "multiple_choice",
@@ -992,7 +992,7 @@
         ],
         "correctAnswerId": "B",
         "xp": 10,
-        "explanation": "La respuesta correcta es \"Arcos de movilidad de las articulaciones\". Esta es la opción más precisa según los fundamentos fisiológicos del temario."
+        "explanation": "El 'tonelaje' permite cuantificar el trabajo absoluto realizado (Series x Repeticiones x Peso)."
       },
       {
         "type": "match_pairs",
@@ -1012,7 +1012,7 @@
           }
         ],
         "xp": 15,
-        "explanation": "Unir correctamente estos conceptos te ayuda a estructurar mentalmente las diferencias y relaciones clave entre ellos."
+        "explanation": "El principio de especificidad dicta que debes entrenar movimientos similares al gesto deportivo que buscas mejorar."
       },
       {
         "type": "text_input",
@@ -1022,7 +1022,7 @@
           "cadena cinematica"
         ],
         "xp": 20,
-        "explanation": "El término exacto que define este proceso o concepto es \"Cadena cinemática\". Es un vocabulario técnico que debes memorizar."
+        "explanation": "Periodización, Alternancia y Sobrecarga."
       },
       {
         "type": "fill_in_blanks_cards",
@@ -1038,14 +1038,14 @@
           "ángulos"
         ],
         "xp": 15,
-        "explanation": "Cada palabra clave tiene su lugar específico. Recordar el orden correcto consolida tu comprensión de la oración completa."
+        "explanation": "En el método de 'Intensidades Máximas I' (90-100%) se debe descansar unos 3 minutos entre series."
       },
       {
         "type": "true_false",
         "question": "El análisis biomecánico completo ignora las estructuras óseas y de tejido conectivo.",
         "correctAnswer": false,
         "xp": 10,
-        "explanation": "Recuerda que la afirmación es falsa. Comprender este hecho es vital para dominar la base teórica de este módulo."
+        "explanation": "La sobrecompensación es la fase donde el cuerpo asimila el estrés y mejora su nivel inicial."
       },
       {
         "type": "multiple_choice",
@@ -1066,7 +1066,7 @@
         ],
         "correctAnswerId": "B",
         "xp": 10,
-        "explanation": "La respuesta correcta es \"Es una contracción fisiológica con tensión variable\". Esta es la opción más precisa según los fundamentos fisiológicos del temario."
+        "explanation": "Durante la 'temporada', el objetivo es mantener la fuerza ganada en la pretemporada con el mínimo volumen posible."
       }
     ]
   },
@@ -1080,7 +1080,7 @@
         "question": "La ergometría es un test de esfuerzo realizado bajo condiciones controladas en laboratorio.",
         "correctAnswer": true,
         "xp": 10,
-        "explanation": "Recuerda que la afirmación es verdadera. Comprender este hecho es vital para dominar la base teórica de este módulo."
+        "explanation": "El lactato se produce en la glucólisis anaeróbica como subproducto del piruvato."
       },
       {
         "type": "multiple_choice",
@@ -1097,7 +1097,7 @@
         ],
         "correctAnswerId": "B",
         "xp": 10,
-        "explanation": "La respuesta correcta es \"Cicloergómetro\". Esta es la opción más precisa según los fundamentos fisiológicos del temario."
+        "explanation": "Falso. El umbral láctico no es fijo; varía con el entrenamiento, dieta y fibras activadas."
       },
       {
         "type": "match_pairs",
@@ -1117,7 +1117,7 @@
           }
         ],
         "xp": 15,
-        "explanation": "Unir correctamente estos conceptos te ayuda a estructurar mentalmente las diferencias y relaciones clave entre ellos."
+        "explanation": "VO2max es la máxima capacidad del organismo para captar, transportar y consumir oxígeno."
       },
       {
         "type": "text_input",
@@ -1127,7 +1127,7 @@
           "economia de carrera"
         ],
         "xp": 20,
-        "explanation": "El término exacto que define este proceso o concepto es \"Economía de carrera\". Es un vocabulario técnico que debes memorizar."
+        "explanation": "Umbral aeróbico y umbral anaeróbico."
       },
       {
         "type": "fill_in_blanks_cards",
@@ -1143,14 +1143,14 @@
           "transferencia"
         ],
         "xp": 15,
-        "explanation": "Cada palabra clave tiene su lugar específico. Recordar el orden correcto consolida tu comprensión de la oración completa."
+        "explanation": "La ergonomía deportiva usa el tapiz rodante y el cicloergómetro para estandarizar las mediciones del VO2."
       },
       {
         "type": "true_false",
         "question": "El tapiz rodante permite alterar tanto la velocidad como la pendiente durante el test.",
         "correctAnswer": true,
         "xp": 10,
-        "explanation": "Recuerda que la afirmación es verdadera. Comprender este hecho es vital para dominar la base teórica de este módulo."
+        "explanation": "El ácido láctico puede ser reciclado por el hígado y los músculos lentos (fibras I) para dar más energía."
       },
       {
         "type": "multiple_choice",
@@ -1167,7 +1167,7 @@
         ],
         "correctAnswerId": "B",
         "xp": 10,
-        "explanation": "La respuesta correcta es \"Continuos\". Esta es la opción más precisa según los fundamentos fisiológicos del temario."
+        "explanation": "Con el entrenamiento, el umbral láctico se desplaza hacia la derecha (mayor intensidad sin lactato)."
       }
     ]
   },
@@ -1181,7 +1181,7 @@
         "question": "El VO2 máximo aumenta de forma indefinida a lo largo de toda la vida deportiva del atleta de élite.",
         "correctAnswer": false,
         "xp": 10,
-        "explanation": "Recuerda que la afirmación es falsa. Comprender este hecho es vital para dominar la base teórica de este módulo."
+        "explanation": "El primer umbral (VT1 o aeróbico) marca el punto donde comienza a subir el lactato por encima del reposo, pero aún se estabiliza."
       },
       {
         "type": "multiple_choice",
@@ -1198,7 +1198,7 @@
         ],
         "correctAnswerId": "A",
         "xp": 10,
-        "explanation": "La respuesta correcta es \"Gasto cardíaco\". Esta es la opción más precisa según los fundamentos fisiológicos del temario."
+        "explanation": "El segundo umbral (VT2 o anaeróbico) indica una subida abrupta de ventilación para compensar la acumulación desmedida de ácido láctico."
       },
       {
         "type": "match_pairs",
@@ -1218,7 +1218,7 @@
           }
         ],
         "xp": 15,
-        "explanation": "Unir correctamente estos conceptos te ayuda a estructurar mentalmente las diferencias y relaciones clave entre ellos."
+        "explanation": "Falso. El umbral es altamente individual y depende fuertemente de la especialidad, genética y entrenamiento."
       },
       {
         "type": "text_input",
@@ -1229,7 +1229,7 @@
           "ml/kg*min"
         ],
         "xp": 20,
-        "explanation": "El término exacto que define este proceso o concepto es \"ml/kg.min\". Es un vocabulario técnico que debes memorizar."
+        "explanation": "Para hallar el umbral ventilatorio VT1 de manera precisa en pruebas de laboratorio se usa la calorimetría indirecta (análisis de gases)."
       },
       {
         "type": "fill_in_blanks_cards",
@@ -1245,14 +1245,14 @@
           "máximo"
         ],
         "xp": 15,
-        "explanation": "Cada palabra clave tiene su lugar específico. Recordar el orden correcto consolida tu comprensión de la oración completa."
+        "explanation": "Los equivalentes respiratorios VE/VO2 y VE/VCO2 son clave para detectar el punto de inflexión ventilatoria."
       },
       {
         "type": "true_false",
         "question": "El factor periférico del VO2 hace referencia a la capacidad del músculo para extraer el oxígeno de la sangre.",
         "correctAnswer": true,
         "xp": 10,
-        "explanation": "Recuerda que la afirmación es verdadera. Comprender este hecho es vital para dominar la base teórica de este módulo."
+        "explanation": "Falso. Los umbrales no son fijos, son estados metabólicos dinámicos."
       },
       {
         "type": "multiple_choice",
@@ -1273,7 +1273,7 @@
         ],
         "correctAnswerId": "B",
         "xp": 10,
-        "explanation": "La respuesta correcta es \"Genéticos\". Esta es la opción más precisa según los fundamentos fisiológicos del temario."
+        "explanation": "Tener el VT1 muy bajo sugiere entrenar más ejercicios aeróbicos base de larga duración."
       }
     ]
   },
@@ -1287,7 +1287,7 @@
         "question": "La Frecuencia Cardíaca (FC) sube de manera casi lineal respecto al aumento del consumo de oxígeno (VO2).",
         "correctAnswer": true,
         "xp": 10,
-        "explanation": "Recuerda que la afirmación es verdadera. Comprender este hecho es vital para dominar la base teórica de este módulo."
+        "explanation": "Las fibras Tipo I (rojas/lentas) tienen muchísima mioglobina y mitocondrias para sostener la vía aeróbica."
       },
       {
         "type": "multiple_choice",
@@ -1308,7 +1308,7 @@
         ],
         "correctAnswerId": "B",
         "xp": 10,
-        "explanation": "La respuesta correcta es \"Menor\". Esta es la opción más precisa según los fundamentos fisiológicos del temario."
+        "explanation": "Las fibras Tipo IIb (blancas/rápidas) son puramente anaeróbicas, de gran diámetro y fuerza, pero se fatigan rápidamente."
       },
       {
         "type": "match_pairs",
@@ -1328,7 +1328,7 @@
           }
         ],
         "xp": 15,
-        "explanation": "Unir correctamente estos conceptos te ayuda a estructurar mentalmente las diferencias y relaciones clave entre ellos."
+        "explanation": "Las fibras Tipo IIa son un punto intermedio, usando tanto vía aeróbica como anaeróbica láctica."
       },
       {
         "type": "text_input",
@@ -1340,7 +1340,7 @@
           "acido piruvico"
         ],
         "xp": 20,
-        "explanation": "El término exacto que define este proceso o concepto es \"Glucosa\". Es un vocabulario técnico que debes memorizar."
+        "explanation": "Falso. La dotación fibrilar (cantidad de rojas vs blancas) es un factor genético que el entrenamiento no cambia radicalmente, solo adapta."
       },
       {
         "type": "fill_in_blanks_cards",
@@ -1356,14 +1356,14 @@
           "poca"
         ],
         "xp": 15,
-        "explanation": "Cada palabra clave tiene su lugar específico. Recordar el orden correcto consolida tu comprensión de la oración completa."
+        "explanation": "El reclutamiento de unidades motoras comienza con las fibras lentas y se van sumando las rápidas al aumentar la carga."
       },
       {
         "type": "true_false",
         "question": "El lactato medido en sangre refleja de manera exacta e inmediata todo lo que ocurre dentro del músculo.",
         "correctAnswer": false,
         "xp": 10,
-        "explanation": "Recuerda que la afirmación es falsa. Comprender este hecho es vital para dominar la base teórica de este módulo."
+        "explanation": "En levantamiento olímpico predomina absoluto reclutamiento de las fibras Tipo IIb por la altísima carga."
       },
       {
         "type": "multiple_choice",
@@ -1380,7 +1380,7 @@
         ],
         "correctAnswerId": "B",
         "xp": 10,
-        "explanation": "La respuesta correcta es \"Las fibras tipo I\". Esta es la opción más precisa según los fundamentos fisiológicos del temario."
+        "explanation": "Un atleta de maratón puede tener un 80% de fibras musculares Tipo I (lentas)."
       }
     ]
   },
@@ -1394,7 +1394,7 @@
         "question": "El umbral anaeróbico indica el momento en que se empieza a acumular lactato en la sangre de manera abrupta.",
         "correctAnswer": true,
         "xp": 10,
-        "explanation": "Recuerda que la afirmación es verdadera. Comprender este hecho es vital para dominar la base teórica de este módulo."
+        "explanation": "Las barras y mancuernas ejercen resistencia directa y pura de la gravedad."
       },
       {
         "type": "multiple_choice",
@@ -1411,7 +1411,7 @@
         ],
         "correctAnswerId": "A",
         "xp": 10,
-        "explanation": "La respuesta correcta es \"Aumento del equivalente ventilatorio para el O2\". Esta es la opción más precisa según los fundamentos fisiológicos del temario."
+        "explanation": "Falso. En las poleas se puede aislar mucho mejor el grupo muscular al variar la dirección de la carga."
       },
       {
         "type": "match_pairs",
@@ -1431,7 +1431,7 @@
           }
         ],
         "xp": 15,
-        "explanation": "Unir correctamente estos conceptos te ayuda a estructurar mentalmente las diferencias y relaciones clave entre ellos."
+        "explanation": "Las poleas son Cargas Indirectas Simples."
       },
       {
         "type": "text_input",
@@ -1441,7 +1441,7 @@
           "bicarbonato"
         ],
         "xp": 20,
-        "explanation": "El término exacto que define este proceso o concepto es \"Bicarbonato\". Es un vocabulario técnico que debes memorizar."
+        "explanation": "Las máquinas isocinéticas mantienen una resistencia acomodada para igualar la velocidad angular en todo el rango."
       },
       {
         "type": "fill_in_blanks_cards",
@@ -1457,14 +1457,14 @@
           "III"
         ],
         "xp": 15,
-        "explanation": "Cada palabra clave tiene su lugar específico. Recordar el orden correcto consolida tu comprensión de la oración completa."
+        "explanation": "El peso de una mancuerna siempre tracciona perpendicularmente al suelo."
       },
       {
         "type": "true_false",
         "question": "El estado nutricional previo no afecta la curva del lactato durante un test.",
         "correctAnswer": false,
         "xp": 10,
-        "explanation": "Recuerda que la afirmación es falsa. Comprender este hecho es vital para dominar la base teórica de este módulo."
+        "explanation": "El trabajo de las máquinas universales o Nautilus guiadas anula gran parte del trabajo de los músculos estabilizadores."
       },
       {
         "type": "multiple_choice",
@@ -1481,7 +1481,7 @@
         ],
         "correctAnswerId": "B",
         "xp": 10,
-        "explanation": "La respuesta correcta es \"Precisa\". Esta es la opción más precisa según los fundamentos fisiológicos del temario."
+        "explanation": "Para la salud articular de los ancianos o rehabilitación, las máquinas guiadas y poleas son ideales y muy seguras."
       }
     ]
   },
@@ -1495,7 +1495,7 @@
         "question": "La fuerza es una herramienta que previene la osteoporosis al aplicar estrés mecánico en los huesos.",
         "correctAnswer": true,
         "xp": 10,
-        "explanation": "Recuerda que la afirmación es verdadera. Comprender este hecho es vital para dominar la base teórica de este módulo."
+        "explanation": "Una cadena cinemática abierta permite que el segmento distal (ej. mano o pie) se mueva libremente."
       },
       {
         "type": "multiple_choice",
@@ -1512,7 +1512,7 @@
         ],
         "correctAnswerId": "B",
         "xp": 10,
-        "explanation": "La respuesta correcta es \"Aumenta significativamente la fuerza\". Esta es la opción más precisa según los fundamentos fisiológicos del temario."
+        "explanation": "Una cadena cinemática cerrada (ej. sentadillas) mantiene fijo el segmento distal y requiere acción simultánea en varias articulaciones."
       },
       {
         "type": "match_pairs",
@@ -1532,7 +1532,7 @@
           }
         ],
         "xp": 15,
-        "explanation": "Unir correctamente estos conceptos te ayuda a estructurar mentalmente las diferencias y relaciones clave entre ellos."
+        "explanation": "Falso. La cadena cerrada reparte fuerzas entre más articulaciones siendo más funcional y menos lesiva."
       },
       {
         "type": "text_input",
@@ -1543,7 +1543,7 @@
           "sociales"
         ],
         "xp": 20,
-        "explanation": "El término exacto que define este proceso o concepto es \"Social\". Es un vocabulario técnico que debes memorizar."
+        "explanation": "El análisis mecánico consiste en descomponer en movimientos simples el gesto deportivo general."
       },
       {
         "type": "fill_in_blanks_cards",
@@ -1559,14 +1559,14 @@
           "fuerza"
         ],
         "xp": 15,
-        "explanation": "Cada palabra clave tiene su lugar específico. Recordar el orden correcto consolida tu comprensión de la oración completa."
+        "explanation": "En biomecánica, todos los movimientos se originan en rotaciones angulares de las articulaciones involucradas."
       },
       {
         "type": "true_false",
         "question": "El ACSM en 1998 advirtió sobre el peligro de hacer series de 8-10 repeticiones en adultos mayores.",
         "correctAnswer": false,
         "xp": 10,
-        "explanation": "Recuerda que la afirmación es falsa. Comprender este hecho es vital para dominar la base teórica de este módulo."
+        "explanation": "Un curl de bíceps es un ejercicio de cadena cinemática abierta."
       },
       {
         "type": "multiple_choice",
@@ -1587,7 +1587,7 @@
         ],
         "correctAnswerId": "B",
         "xp": 10,
-        "explanation": "La respuesta correcta es \"Halterófilos\". Esta es la opción más precisa según los fundamentos fisiológicos del temario."
+        "explanation": "La coordinación intermuscular es fundamental para realizar un gesto deportivo complejo en cadena cerrada."
       }
     ]
   },
@@ -1601,7 +1601,7 @@
         "question": "Los pacientes coronarios nunca deben realizar entrenamiento con pesas.",
         "correctAnswer": false,
         "xp": 10,
-        "explanation": "Recuerda que la afirmación es falsa. Comprender este hecho es vital para dominar la base teórica de este módulo."
+        "explanation": "La carga máxima isométrica sucede cuando la velocidad de acortamiento es exactamente cero (sin movimiento)."
       },
       {
         "type": "multiple_choice",
@@ -1618,7 +1618,7 @@
         ],
         "correctAnswerId": "B",
         "xp": 10,
-        "explanation": "La respuesta correcta es \"30-50%\". Esta es la opción más precisa según los fundamentos fisiológicos del temario."
+        "explanation": "La ecuación de Hill dice que a mayor velocidad, menor será la fuerza desarrollada."
       },
       {
         "type": "match_pairs",
@@ -1638,7 +1638,7 @@
           }
         ],
         "xp": 15,
-        "explanation": "Unir correctamente estos conceptos te ayuda a estructurar mentalmente las diferencias y relaciones clave entre ellos."
+        "explanation": "Una palanca de tercer género (la más común en el cuerpo) sitúa la potencia entre el fulcro y la resistencia, ganando velocidad a costa de fuerza."
       },
       {
         "type": "text_input",
@@ -1649,7 +1649,7 @@
           "aeróbicos"
         ],
         "xp": 20,
-        "explanation": "El término exacto que define este proceso o concepto es \"Aeróbico\". Es un vocabulario técnico que debes memorizar."
+        "explanation": "El brazo de palanca se mide como la distancia perpendicular desde el fulcro a la línea de acción de la fuerza."
       },
       {
         "type": "fill_in_blanks_cards",
@@ -1665,14 +1665,14 @@
           "aeróbicos"
         ],
         "xp": 15,
-        "explanation": "Cada palabra clave tiene su lugar específico. Recordar el orden correcto consolida tu comprensión de la oración completa."
+        "explanation": "Al inicio del 'press de banca', la ventaja mecánica es muy baja por la posición de las palancas articulares."
       },
       {
         "type": "true_false",
         "question": "La muerte súbita durante el ejercicio es altísima si se controla la intensidad.",
         "correctAnswer": false,
         "xp": 10,
-        "explanation": "Recuerda que la afirmación es falsa. Comprender este hecho es vital para dominar la base teórica de este módulo."
+        "explanation": "Falso. El peso levantado es menor a mayor velocidad, como demostró Vivian Hill."
       },
       {
         "type": "multiple_choice",
@@ -1689,7 +1689,7 @@
         ],
         "correctAnswerId": "B",
         "xp": 10,
-        "explanation": "La respuesta correcta es \"Estar asistido por un adulto\". Esta es la opción más precisa según los fundamentos fisiológicos del temario."
+        "explanation": "La transferencia de energía se ve perfecta en ejercicios poliarticulares, pero los aislamientos evitan esta transferencia."
       }
     ]
   },
@@ -1703,7 +1703,7 @@
         "question": "En la nomenclatura '3x6', el primer número indica las repeticiones y el segundo las series.",
         "correctAnswer": false,
         "xp": 10,
-        "explanation": "Recuerda que la afirmación es falsa. Comprender este hecho es vital para dominar la base teórica de este módulo."
+        "explanation": "La fatiga del SNC se presenta primero limitando la activación muscular máxima (EMGi disminuye)."
       },
       {
         "type": "multiple_choice",
@@ -1720,7 +1720,7 @@
         ],
         "correctAnswerId": "B",
         "xp": 10,
-        "explanation": "La respuesta correcta es \"La cantidad de series y repeticiones\". Esta es la opción más precisa según los fundamentos fisiológicos del temario."
+        "explanation": "Para recuperar ATP-CP en su máxima expresión se requieren al menos 3 a 5 minutos de pausa."
       },
       {
         "type": "match_pairs",
@@ -1740,7 +1740,7 @@
           }
         ],
         "xp": 15,
-        "explanation": "Unir correctamente estos conceptos te ayuda a estructurar mentalmente las diferencias y relaciones clave entre ellos."
+        "explanation": "Si un músculo cruza la cadera y la rodilla, se acorta en una articulación mientras se estira en la otra (Paradoja de Lombard)."
       },
       {
         "type": "text_input",
@@ -1750,7 +1750,7 @@
           "rm"
         ],
         "xp": 20,
-        "explanation": "El término exacto que define este proceso o concepto es \"RM\". Es un vocabulario técnico que debes memorizar."
+        "explanation": "Los isquiosurales ayudan a la extensión de cadera durante la subida de una sentadilla."
       },
       {
         "type": "fill_in_blanks_cards",
@@ -1766,14 +1766,14 @@
           "fuerza máxima"
         ],
         "xp": 15,
-        "explanation": "Cada palabra clave tiene su lugar específico. Recordar el orden correcto consolida tu comprensión de la oración completa."
+        "explanation": "Falso. La biomecánica moderna requiere un modelo integrado de cadenas musculares, no músculos aislados."
       },
       {
         "type": "true_false",
         "question": "El principio de especificidad indica que el entrenamiento debe ser tan similar como sea posible al gesto deportivo.",
         "correctAnswer": true,
         "xp": 10,
-        "explanation": "Recuerda que la afirmación es verdadera. Comprender este hecho es vital para dominar la base teórica de este módulo."
+        "explanation": "Las 'rutinas culturistas' utilizan recuperaciones incompletas (1 min) para favorecer el estrés metabólico y la hipertrofia."
       },
       {
         "type": "multiple_choice",
@@ -1790,7 +1790,7 @@
         ],
         "correctAnswerId": "B",
         "xp": 10,
-        "explanation": "La respuesta correcta es \"Fuera de temporada (Off-season)\". Esta es la opción más precisa según los fundamentos fisiológicos del temario."
+        "explanation": "La 'Periodización' significa dividir el año en fases específicas para pico de rendimiento."
       }
     ]
   },
@@ -1804,7 +1804,7 @@
         "question": "Las pesas libres, como barras y mancuernas, son consideradas cargas gravitacionales directas.",
         "correctAnswer": true,
         "xp": 10,
-        "explanation": "Recuerda que la afirmación es verdadera. Comprender este hecho es vital para dominar la base teórica de este módulo."
+        "explanation": "La dinamometría estática mide la fuerza desarrollada empujando un objeto fijo (isometría)."
       },
       {
         "type": "multiple_choice",
@@ -1821,7 +1821,7 @@
         ],
         "correctAnswerId": "B",
         "xp": 10,
-        "explanation": "La respuesta correcta es \"Indirecta simple\". Esta es la opción más precisa según los fundamentos fisiológicos del temario."
+        "explanation": "La evaluación de 1RM es la dinamometría dinámica isotónica por excelencia."
       },
       {
         "type": "match_pairs",
@@ -1841,7 +1841,7 @@
           }
         ],
         "xp": 15,
-        "explanation": "Unir correctamente estos conceptos te ayuda a estructurar mentalmente las diferencias y relaciones clave entre ellos."
+        "explanation": "La mioglobina es la encargada del primer aporte aeróbico, incluso antes del umbral, cediendo su O2 interno."
       },
       {
         "type": "text_input",
@@ -1851,7 +1851,7 @@
           "estabilizadores"
         ],
         "xp": 20,
-        "explanation": "El término exacto que define este proceso o concepto es \"Estabilizadores\". Es un vocabulario técnico que debes memorizar."
+        "explanation": "Para que un test de laboratorio tenga validez en el campo, debe mantener el Principio de Especificidad anatómica."
       },
       {
         "type": "fill_in_blanks_cards",
@@ -1867,14 +1867,14 @@
           "fitness"
         ],
         "xp": 15,
-        "explanation": "Cada palabra clave tiene su lugar específico. Recordar el orden correcto consolida tu comprensión de la oración completa."
+        "explanation": "Falso. No existe una fórmula matemática universal de repeticiones, pero oscilan entre 7 y 12 para masa muscular."
       },
       {
         "type": "true_false",
         "question": "En los ejercicios con poleas clásicas (isotónicas), la resistencia en el cable disminuye dependiendo de la articulación.",
         "correctAnswer": false,
         "xp": 10,
-        "explanation": "Recuerda que la afirmación es falsa. Comprender este hecho es vital para dominar la base teórica de este módulo."
+        "explanation": "La electromiografía de superficie permite evaluar el nivel y secuencia temporal de la activación nerviosa del músculo."
       },
       {
         "type": "multiple_choice",
@@ -1891,7 +1891,7 @@
         ],
         "correctAnswerId": "B",
         "xp": 10,
-        "explanation": "La respuesta correcta es \"Prácticamente nula\". Esta es la opción más precisa según los fundamentos fisiológicos del temario."
+        "explanation": "La tensión muscular se expresa mediante Sigma (σ) y mide la fuerza aplicada en cierta área transversal."
       }
     ]
   },
@@ -1905,7 +1905,7 @@
         "question": "La máxima tensión de un músculo se logra en la máxima elongación fisiológica (antes de acortarse).",
         "correctAnswer": true,
         "xp": 10,
-        "explanation": "Recuerda que la afirmación es verdadera. Comprender este hecho es vital para dominar la base teórica de este módulo."
+        "explanation": "La máxima tensión de un músculo se logra invariablemente en su máxima elongación fisiológica por la precarga elástica."
       },
       {
         "type": "multiple_choice",
@@ -1922,7 +1922,7 @@
         ],
         "correctAnswerId": "B",
         "xp": 10,
-        "explanation": "La respuesta correcta es \"Disminuye\". Esta es la opción más precisa según los fundamentos fisiológicos del temario."
+        "explanation": "Falso. Al aumentar la carga (peso), la velocidad siempre disminuye según la ecuación hiperbólica de Hill."
       },
       {
         "type": "match_pairs",
@@ -1942,7 +1942,7 @@
           }
         ],
         "xp": 15,
-        "explanation": "Unir correctamente estos conceptos te ayuda a estructurar mentalmente las diferencias y relaciones clave entre ellos."
+        "explanation": "La fase concéntrica a baja carga permite altísima velocidad, mientras la isometría tiene velocidad nula."
       },
       {
         "type": "text_input",
@@ -1952,7 +1952,7 @@
           "variable"
         ],
         "xp": 20,
-        "explanation": "El término exacto que define este proceso o concepto es \"Variable\". Es un vocabulario técnico que debes memorizar."
+        "explanation": "A medida que cambia el brazo de palanca durante el movimiento, la tensión real que genera el músculo va variando constantemente."
       },
       {
         "type": "fill_in_blanks_cards",
@@ -1968,14 +1968,14 @@
           "6,8 kg/cm2"
         ],
         "xp": 15,
-        "explanation": "Cada palabra clave tiene su lugar específico. Recordar el orden correcto consolida tu comprensión de la oración completa."
+        "explanation": "El músculo esquelético humano puede generar desde 6.8 kg/cm2 (bíceps) hasta 20 kg/cm2 (masetero)."
       },
       {
         "type": "true_false",
         "question": "El acortamiento máximo fisiológico promedio de un músculo está en torno al 33%.",
         "correctAnswer": true,
         "xp": 10,
-        "explanation": "Recuerda que la afirmación es verdadera. Comprender este hecho es vital para dominar la base teórica de este módulo."
+        "explanation": "El límite anatómico del acortamiento de los sarcómeros se da en promedio al alcanzar el 33%."
       },
       {
         "type": "multiple_choice",
@@ -1992,7 +1992,7 @@
         ],
         "correctAnswerId": "A",
         "xp": 10,
-        "explanation": "La respuesta correcta es \"Huso muscular\". Esta es la opción más precisa según los fundamentos fisiológicos del temario."
+        "explanation": "Los elementos viscoelásticos paralelos y en serie acumulan energía que se libera al contraer inmediatamente después de estirar."
       }
     ]
   },
@@ -2006,7 +2006,7 @@
         "question": "Todo movimiento del cuerpo humano en el espacio se produce en función de rotaciones articulares.",
         "correctAnswer": true,
         "xp": 10,
-        "explanation": "Recuerda que la afirmación es verdadera. Comprender este hecho es vital para dominar la base teórica de este módulo."
+        "explanation": "El movimiento se debe exclusivamente al torque generado alrededor del eje de las articulaciones (rotaciones)."
       },
       {
         "type": "multiple_choice",
@@ -2023,7 +2023,7 @@
         ],
         "correctAnswerId": "B",
         "xp": 10,
-        "explanation": "La respuesta correcta es \"Biarticular\". Esta es la opción más precisa según los fundamentos fisiológicos del temario."
+        "explanation": "El músculo biarticular transfiere la energía de una zona a la otra de forma altamente económica y eficiente."
       },
       {
         "type": "match_pairs",
@@ -2043,7 +2043,7 @@
           }
         ],
         "xp": 15,
-        "explanation": "Unir correctamente estos conceptos te ayuda a estructurar mentalmente las diferencias y relaciones clave entre ellos."
+        "explanation": "El recto femoral flexiona la cadera pero simultáneamente actúa extendiendo la rodilla."
       },
       {
         "type": "text_input",
@@ -2053,7 +2053,7 @@
           "lombard"
         ],
         "xp": 20,
-        "explanation": "El término exacto que define este proceso o concepto es \"Lombard\". Es un vocabulario técnico que debes memorizar."
+        "explanation": "La 'paradoja de Lombard' explica cómo extensores y flexores antagónicos colaboran al estar anclados en palancas de distinta longitud."
       },
       {
         "type": "fill_in_blanks_cards",
@@ -2069,14 +2069,14 @@
           "cadenas cinemáticas"
         ],
         "xp": 15,
-        "explanation": "Cada palabra clave tiene su lugar específico. Recordar el orden correcto consolida tu comprensión de la oración completa."
+        "explanation": "Los músculos biarticulares proporcionan un gran ahorro de energía al transferir fuerza de extremo a extremo."
       },
       {
         "type": "true_false",
         "question": "El brazo de palanca de los isquiosurales es más grande en la rodilla que en la cadera.",
         "correctAnswer": false,
         "xp": 10,
-        "explanation": "Recuerda que la afirmación es falsa. Comprender este hecho es vital para dominar la base teórica de este módulo."
+        "explanation": "La mayor longitud de inserción de los isquiosurales en la rodilla aumenta su momento o ventaja mecánica en esa articulación."
       },
       {
         "type": "multiple_choice",
@@ -2093,7 +2093,7 @@
         ],
         "correctAnswerId": "B",
         "xp": 10,
-        "explanation": "La respuesta correcta es \"Alargan en la otra\". Esta es la opción más precisa según los fundamentos fisiológicos del temario."
+        "explanation": "Falso. Existe hasta un 5% de cambio de longitud por elasticidad, permitiendo el efecto 'acción de correa'."
       }
     ]
   },
@@ -2107,7 +2107,7 @@
         "question": "El 'tonelaje' se calcula multiplicando el peso movido por las repeticiones totales realizadas.",
         "correctAnswer": true,
         "xp": 10,
-        "explanation": "Recuerda que la afirmación es verdadera. Comprender este hecho es vital para dominar la base teórica de este módulo."
+        "explanation": "Tonelaje = Series x Repeticiones x Peso (kg). Es útil para medir el estrés global de la sesión."
       },
       {
         "type": "multiple_choice",
@@ -2128,7 +2128,7 @@
         ],
         "correctAnswerId": "B",
         "xp": 10,
-        "explanation": "La respuesta correcta es \"Densidad\". Esta es la opción más precisa según los fundamentos fisiológicos del temario."
+        "explanation": "Densidad. Indica cuán compacta fue la sesión y su orientación metabólica."
       },
       {
         "type": "match_pairs",
@@ -2148,7 +2148,7 @@
           }
         ],
         "xp": 15,
-        "explanation": "Unir correctamente estos conceptos te ayuda a estructurar mentalmente las diferencias y relaciones clave entre ellos."
+        "explanation": "Frecuencia es el número de estímulos semanales, Intensidad el % del RM y Volumen el número de repeticiones."
       },
       {
         "type": "text_input",
@@ -2158,7 +2158,7 @@
           "peso medio"
         ],
         "xp": 20,
-        "explanation": "El término exacto que define este proceso o concepto es \"Peso medio\". Es un vocabulario técnico que debes memorizar."
+        "explanation": "El peso promedio movido (Pm) se define matemáticamente como T/V (Tonelaje / Volumen)."
       },
       {
         "type": "fill_in_blanks_cards",
@@ -2174,14 +2174,14 @@
           "15 RM"
         ],
         "xp": 15,
-        "explanation": "Cada palabra clave tiene su lugar específico. Recordar el orden correcto consolida tu comprensión de la oración completa."
+        "explanation": "El 100% de la carga es 1RM; el 70% ronda las 15 RM según protocolos clásicos."
       },
       {
         "type": "true_false",
         "question": "El volumen en musculación hace referencia exclusivamente a los kilos de las mancuernas.",
         "correctAnswer": false,
         "xp": 10,
-        "explanation": "Recuerda que la afirmación es falsa. Comprender este hecho es vital para dominar la base teórica de este módulo."
+        "explanation": "Falso. El volumen se refiere puramente a la cantidad (Series y Repeticiones), no a los kilos totales (que es el tonelaje)."
       },
       {
         "type": "multiple_choice",
@@ -2198,7 +2198,7 @@
         ],
         "correctAnswerId": "B",
         "xp": 10,
-        "explanation": "La respuesta correcta es \"De mayor a menor\". Esta es la opción más precisa según los fundamentos fisiológicos del temario."
+        "explanation": "Una pirámide descendente inicia cerca del máximo (100%) y va restando peso mientras suma repeticiones."
       }
     ]
   },
@@ -2212,7 +2212,7 @@
         "question": "El Principio de Alternancia exige intercalar pausas de trabajo y descanso para optimizar la mejora biológica.",
         "correctAnswer": true,
         "xp": 10,
-        "explanation": "Recuerda que la afirmación es verdadera. Comprender este hecho es vital para dominar la base teórica de este módulo."
+        "explanation": "El Principio de Alternancia postula que, sin descanso, el cuerpo solo suma fatiga y nunca sobrecompensa."
       },
       {
         "type": "multiple_choice",
@@ -2229,7 +2229,7 @@
         ],
         "correctAnswerId": "B",
         "xp": 10,
-        "explanation": "La respuesta correcta es \"Sobrecompensación\". Esta es la opción más precisa según los fundamentos fisiológicos del temario."
+        "explanation": "La sobrecompensación eleva el rendimiento por encima del estado basal como mecanismo de defensa del organismo."
       },
       {
         "type": "match_pairs",
@@ -2249,7 +2249,7 @@
           }
         ],
         "xp": 15,
-        "explanation": "Unir correctamente estos conceptos te ayuda a estructurar mentalmente las diferencias y relaciones clave entre ellos."
+        "explanation": "El ATP se recupera en minutos; el glucógeno muscular puede demorar entre 24 y 48 horas."
       },
       {
         "type": "text_input",
@@ -2260,7 +2260,7 @@
           "Principio de sobrecarga"
         ],
         "xp": 20,
-        "explanation": "El término exacto que define este proceso o concepto es \"Sobrecarga\". Es un vocabulario técnico que debes memorizar."
+        "explanation": "El Principio de Sobrecarga."
       },
       {
         "type": "fill_in_blanks_cards",
@@ -2276,14 +2276,14 @@
           "potencia"
         ],
         "xp": 15,
-        "explanation": "Cada palabra clave tiene su lugar específico. Recordar el orden correcto consolida tu comprensión de la oración completa."
+        "explanation": "Tiempo y Potencia son inversamente proporcionales; más poder explosivo demanda que la acción dure poquísimo."
       },
       {
         "type": "true_false",
         "question": "La reposición de depósitos de mioglobina (O2) en el músculo requiere 48 horas.",
         "correctAnswer": false,
         "xp": 10,
-        "explanation": "Recuerda que la afirmación es falsa. Comprender este hecho es vital para dominar la base teórica de este módulo."
+        "explanation": "Falso. La reserva de mioglobina (O2 muscular) se recupera en pocos segundos, es la fuente más rápida tras los fosfatos."
       },
       {
         "type": "multiple_choice",
@@ -2300,7 +2300,7 @@
         ],
         "correctAnswerId": "B",
         "xp": 10,
-        "explanation": "La respuesta correcta es \"4-5 horas\". Esta es la opción más precisa según los fundamentos fisiológicos del temario."
+        "explanation": "En los primeros minutos y horas postejercicio se abren 'ventanas metabólicas' que logran rellenar hasta un 80% del glucógeno velozmente."
       }
     ]
   },
@@ -2314,7 +2314,7 @@
         "question": "El Método de Intensidades Máximas I busca producir una enorme hipertrofia muscular.",
         "correctAnswer": false,
         "xp": 10,
-        "explanation": "Recuerda que la afirmación es falsa. Comprender este hecho es vital para dominar la base teórica de este módulo."
+        "explanation": "Falso. Intensidades del 90-100% estimulan principalmente la conexión neuronal, no dan gran hipertrofia."
       },
       {
         "type": "multiple_choice",
@@ -2331,7 +2331,7 @@
         ],
         "correctAnswerId": "A",
         "xp": 10,
-        "explanation": "La respuesta correcta es \"1 a 3\". Esta es la opción más precisa según los fundamentos fisiológicos del temario."
+        "explanation": "Al trabajar a una exigencia del 95% de 1RM, es fisiológicamente imposible superar las 3 repeticiones."
       },
       {
         "type": "match_pairs",
@@ -2351,7 +2351,7 @@
           }
         ],
         "xp": 15,
-        "explanation": "Unir correctamente estos conceptos te ayuda a estructurar mentalmente las diferencias y relaciones clave entre ellos."
+        "explanation": "El Método de Repeticiones I usa 80-85%, mientras que las Intensidades Máximas alcanzan 90-100%."
       },
       {
         "type": "text_input",
@@ -2364,7 +2364,7 @@
           "maxima posible"
         ],
         "xp": 20,
-        "explanation": "El término exacto que define este proceso o concepto es \"Máxima\". Es un vocabulario técnico que debes memorizar."
+        "explanation": "El intento mental debe ser el de mover la barra a la 'Máxima' velocidad, aunque físicamente se mueva lenta por el enorme peso."
       },
       {
         "type": "fill_in_blanks_cards",
@@ -2380,14 +2380,14 @@
           "coordinación intramuscular"
         ],
         "xp": 15,
-        "explanation": "Cada palabra clave tiene su lugar específico. Recordar el orden correcto consolida tu comprensión de la oración completa."
+        "explanation": "Las cargas altísimas remueven la inhibición de protección del aparato de Golgi y reclutan casi el 100% de fibras."
       },
       {
         "type": "true_false",
         "question": "El Método de Intensidades Máximas es idóneo y seguro para principiantes en su primera semana.",
         "correctAnswer": false,
         "xp": 10,
-        "explanation": "Recuerda que la afirmación es falsa. Comprender este hecho es vital para dominar la base teórica de este módulo."
+        "explanation": "Falso. Cargas máximas son exclusivas de atletas experimentados con técnica y tejido conectivo adaptado."
       },
       {
         "type": "multiple_choice",
@@ -2404,7 +2404,7 @@
         ],
         "correctAnswerId": "B",
         "xp": 10,
-        "explanation": "La respuesta correcta es \"3 minutos\". Esta es la opción más precisa según los fundamentos fisiológicos del temario."
+        "explanation": "3 minutos garantizan la total regeneración del ATP-CP para enfrentar otro estrés máximo sin fatiga láctica."
       }
     ]
   },
@@ -2418,7 +2418,7 @@
         "question": "El Método de Repeticiones II (70-80%) produce una hipertrofia muscular alta.",
         "correctAnswer": true,
         "xp": 10,
-        "explanation": "Recuerda que la afirmación es verdadera. Comprender este hecho es vital para dominar la base teórica de este módulo."
+        "explanation": "Correcto. El método clásico de hipertrofia exige cargas medias y repeticiones de entre 6 y 12 para máximo estrés metabólico."
       },
       {
         "type": "multiple_choice",
@@ -2435,7 +2435,7 @@
         ],
         "correctAnswerId": "B",
         "xp": 10,
-        "explanation": "La respuesta correcta es \"5-7\". Esta es la opción más precisa según los fundamentos fisiológicos del temario."
+        "explanation": "5 a 7 repeticiones proveen un excelente estímulo mixto para ganar fuerza máxima y algo de hipertrofia."
       },
       {
         "type": "match_pairs",
@@ -2455,7 +2455,7 @@
           }
         ],
         "xp": 15,
-        "explanation": "Unir correctamente estos conceptos te ayuda a estructurar mentalmente las diferencias y relaciones clave entre ellos."
+        "explanation": "Para volumen, series de 6 a 12 con cargas del 70-80% promueven microtraumas e isquemia, detonando el crecimiento."
       },
       {
         "type": "text_input",
@@ -2466,7 +2466,7 @@
           "45 seg"
         ],
         "xp": 20,
-        "explanation": "El término exacto que define este proceso o concepto es \"45 segundos\". Es un vocabulario técnico que debes memorizar."
+        "explanation": "45 segundos a 1 minuto; esto evita que el lactato baje completamente, sosteniendo el estrés químico sobre la célula."
       },
       {
         "type": "fill_in_blanks_cards",
@@ -2482,14 +2482,14 @@
           "reclutadas y agotadas"
         ],
         "xp": 15,
-        "explanation": "Cada palabra clave tiene su lugar específico. Recordar el orden correcto consolida tu comprensión de la oración completa."
+        "explanation": "El 75% es el 'sweet spot' porque agota gran cantidad de unidades motoras rápidas y medias simultáneamente."
       },
       {
         "type": "true_false",
         "question": "En los métodos de repeticiones, la tensión muscular máxima dentro de la serie se logra desde la primera repetición.",
         "correctAnswer": false,
         "xp": 10,
-        "explanation": "Recuerda que la afirmación es falsa. Comprender este hecho es vital para dominar la base teórica de este módulo."
+        "explanation": "La isquemia (corte de riego sanguíneo) durante la serie acumula metabolitos que son el mayor disparador de la hipertrofia."
       },
       {
         "type": "multiple_choice",
@@ -2506,7 +2506,7 @@
         ],
         "correctAnswerId": "B",
         "xp": 10,
-        "explanation": "La respuesta correcta es \"Específicos con avanzados\". Esta es la opción más precisa según los fundamentos fisiológicos del temario."
+        "explanation": "Entrenar al fallo y usar 'ayudas' somete al tejido a su máxima tensión, induciendo destrucción de puentes cruzados."
       }
     ]
   },
@@ -2520,7 +2520,7 @@
         "question": "Para orientar un plan hacia la resistencia muscular, es necesario trabajar con cargas submaximales entre el 50% y el 70%.",
         "correctAnswer": true,
         "xp": 10,
-        "explanation": "Recuerda que la afirmación es verdadera. Comprender este hecho es vital para dominar la base teórica de este módulo."
+        "explanation": "Las cargas submaximales (50-70%) permiten sostener el esfuerzo para crear resistencia local en la fibra muscular."
       },
       {
         "type": "multiple_choice",
@@ -2537,7 +2537,7 @@
         ],
         "correctAnswerId": "B",
         "xp": 10,
-        "explanation": "La respuesta correcta es \"15 a 25\". Esta es la opción más precisa según los fundamentos fisiológicos del temario."
+        "explanation": "Series de 15 hasta 25 repeticiones cambian la matriz energética hacia la glucólisis anaeróbica láctica."
       },
       {
         "type": "match_pairs",
@@ -2557,7 +2557,7 @@
           }
         ],
         "xp": 15,
-        "explanation": "Unir correctamente estos conceptos te ayuda a estructurar mentalmente las diferencias y relaciones clave entre ellos."
+        "explanation": "Fuerza Pura: 85-100%, Hipertrofia: 70-85%, Fuerza-Resistencia: 50-70%."
       },
       {
         "type": "text_input",
@@ -2569,7 +2569,7 @@
           "fuerza maxima"
         ],
         "xp": 20,
-        "explanation": "El término exacto que define este proceso o concepto es \"Capacidad\". Es un vocabulario técnico que debes memorizar."
+        "explanation": "Tener una RM mayor implica que al usar 50 kg, ese peso será un porcentaje menor de tu máximo, cansándote menos."
       },
       {
         "type": "fill_in_blanks_cards",
@@ -2585,14 +2585,14 @@
           "estimulación"
         ],
         "xp": 15,
-        "explanation": "Cada palabra clave tiene su lugar específico. Recordar el orden correcto consolida tu comprensión de la oración completa."
+        "explanation": "La carga mínima (alrededor de 30-40% 1RM) no estimula el desarrollo salvo en fase estricta de rehabilitación."
       },
       {
         "type": "true_false",
         "question": "Aún en rutinas de pura resistencia muscular de 15 repeticiones, el atleta logrará un aumento residual de fuerza.",
         "correctAnswer": true,
         "xp": 10,
-        "explanation": "Recuerda que la afirmación es verdadera. Comprender este hecho es vital para dominar la base teórica de este módulo."
+        "explanation": "Falso. Múltiples estudios ratifican que los protocolos de 15 RM incrementan también la fuerza base y la irrigación capilar."
       },
       {
         "type": "multiple_choice",
@@ -2609,7 +2609,7 @@
         ],
         "correctAnswerId": "B",
         "xp": 10,
-        "explanation": "La respuesta correcta es \"Glucólisis anaeróbica\". Esta es la opción más precisa según los fundamentos fisiológicos del temario."
+        "explanation": "La vía Glucolítica Anaeróbica domina entre los 30 segundos y 2 minutos de esfuerzo intenso continuo."
       }
     ]
   },
@@ -2623,7 +2623,7 @@
         "question": "La potencia muscular es el resultado de conjugar la fuerza y la flexibilidad.",
         "correctAnswer": false,
         "xp": 10,
-        "explanation": "Recuerda que la afirmación es falsa. Comprender este hecho es vital para dominar la base teórica de este módulo."
+        "explanation": "Falso. La potencia es producto directo de la conjugación de Fuerza y Velocidad (W/t)."
       },
       {
         "type": "multiple_choice",
@@ -2640,7 +2640,7 @@
         ],
         "correctAnswerId": "B",
         "xp": 10,
-        "explanation": "La respuesta correcta es \"Aumento la potencia\". Esta es la opción más precisa según los fundamentos fisiológicos del temario."
+        "explanation": "Al disminuir el tiempo, el divisor en P = W/t se hace menor, ergo, la potencia explota al máximo."
       },
       {
         "type": "match_pairs",
@@ -2660,7 +2660,7 @@
           }
         ],
         "xp": 15,
-        "explanation": "Unir correctamente estos conceptos te ayuda a estructurar mentalmente las diferencias y relaciones clave entre ellos."
+        "explanation": "La 'cargada de potencia' o 'clean' es paradigmática para producir potencia pico altísima."
       },
       {
         "type": "text_input",
@@ -2674,7 +2674,7 @@
           "envion"
         ],
         "xp": 20,
-        "explanation": "El término exacto que define este proceso o concepto es \"Cargada\". Es un vocabulario técnico que debes memorizar."
+        "explanation": "Las cargadas al pecho y arranques implican fuerzas masivas desplazadas en menos de un segundo."
       },
       {
         "type": "fill_in_blanks_cards",
@@ -2690,14 +2690,14 @@
           "menos"
         ],
         "xp": 15,
-        "explanation": "Cada palabra clave tiene su lugar específico. Recordar el orden correcto consolida tu comprensión de la oración completa."
+        "explanation": "En programas de alta potencia se realizan pocos ejercicios (1 a 3), escasas repeticiones y amplios descansos."
       },
       {
         "type": "true_false",
         "question": "La 'Cargada al pecho' cumple a la perfección la ley de Hill porque todas las articulaciones actúan exactamente al mismo tiempo.",
         "correctAnswer": false,
         "xp": 10,
-        "explanation": "Recuerda que la afirmación es falsa. Comprender este hecho es vital para dominar la base teórica de este módulo."
+        "explanation": "Falso. En la cargada la fuerza se propaga temporalmente; una articulación activa antes que la siguiente (impulsos sucesivos)."
       },
       {
         "type": "multiple_choice",
@@ -2714,7 +2714,7 @@
         ],
         "correctAnswerId": "B",
         "xp": 10,
-        "explanation": "La respuesta correcta es \"Se propaga temporalmente desde las piernas al tronco y brazos\". Esta es la opción más precisa según los fundamentos fisiológicos del temario."
+        "explanation": "La mayor velocidad siempre resulta en el menor tiempo de contacto articular posible para ejercer fuerza."
       }
     ]
   },
@@ -2728,7 +2728,7 @@
         "question": "Los sinergistas son músculos que ayudan a los protagonistas con un rol de menor jerarquía.",
         "correctAnswer": true,
         "xp": 10,
-        "explanation": "Recuerda que la afirmación es verdadera. Comprender este hecho es vital para dominar la base teórica de este módulo."
+        "explanation": "Correcto. Los sinergistas apoyan al músculo agonista estabilizando o guiando la dirección de la fuerza."
       },
       {
         "type": "multiple_choice",
@@ -2745,7 +2745,7 @@
         ],
         "correctAnswerId": "B",
         "xp": 10,
-        "explanation": "La respuesta correcta es \"Antagonista\". Esta es la opción más precisa según los fundamentos fisiológicos del temario."
+        "explanation": "El antagonista (ej. tríceps al flexionar el codo). Su relajación es vital para evitar el freno del movimiento."
       },
       {
         "type": "match_pairs",
@@ -2765,7 +2765,7 @@
           }
         ],
         "xp": 15,
-        "explanation": "Unir correctamente estos conceptos te ayuda a estructurar mentalmente las diferencias y relaciones clave entre ellos."
+        "explanation": "El bíceps braquial es protagonista y el tríceps su estricto antagonista."
       },
       {
         "type": "text_input",
@@ -2775,7 +2775,7 @@
           "neutralizadores"
         ],
         "xp": 20,
-        "explanation": "El término exacto que define este proceso o concepto es \"Neutralizadores\". Es un vocabulario técnico que debes memorizar."
+        "explanation": "Neutralizadores."
       },
       {
         "type": "fill_in_blanks_cards",
@@ -2791,14 +2791,14 @@
           "hombro"
         ],
         "xp": 15,
-        "explanation": "Cada palabra clave tiene su lugar específico. Recordar el orden correcto consolida tu comprensión de la oración completa."
+        "explanation": "En el hombro, estabilizan la articulación escápulo-humeral para que el bíceps actúe firme desde su origen."
       },
       {
         "type": "true_false",
         "question": "El trabajo dinámico no influye para nada en el tipo de reclutamiento de las fibras.",
         "correctAnswer": false,
         "xp": 10,
-        "explanation": "Recuerda que la afirmación es falsa. Comprender este hecho es vital para dominar la base teórica de este módulo."
+        "explanation": "Falso. La técnica concéntrica vs excéntrica varía drásticamente qué tipo de fibra y cuántas se reclutan (las rápidas sufren más en excéntrico)."
       },
       {
         "type": "multiple_choice",
@@ -2815,7 +2815,7 @@
         ],
         "correctAnswerId": "B",
         "xp": 10,
-        "explanation": "La respuesta correcta es \"Elástico en serie\". Esta es la opción más precisa según los fundamentos fisiológicos del temario."
+        "explanation": "El tendón, como componente elástico (K2), almacena fuerzas enormes, protegiendo a las miofibrillas de desgarros."
       }
     ]
   },
@@ -2829,7 +2829,7 @@
         "question": "Un recorrido completo de la carga asegura pre-estiramiento y una mayor tensión inicial.",
         "correctAnswer": true,
         "xp": 10,
-        "explanation": "Recuerda que la afirmación es verdadera. Comprender este hecho es vital para dominar la base teórica de este módulo."
+        "explanation": "Al estirar el músculo previo a la fase positiva, el tejido elástico devuelve energía de forma violenta."
       },
       {
         "type": "multiple_choice",
@@ -2846,7 +2846,7 @@
         ],
         "correctAnswerId": "B",
         "xp": 10,
-        "explanation": "La respuesta correcta es \"Tiempo de ejecución\". Esta es la opción más precisa según los fundamentos fisiológicos del temario."
+        "explanation": "Para mejorar la potencia real, debes aumentar el peso y bajar el tiempo de ejecución (mayor velocidad)."
       },
       {
         "type": "match_pairs",
@@ -2866,7 +2866,7 @@
           }
         ],
         "xp": 15,
-        "explanation": "Unir correctamente estos conceptos te ayuda a estructurar mentalmente las diferencias y relaciones clave entre ellos."
+        "explanation": "La máxima potencia busca velocidad; la máxima fuerza hipertrófica requiere control y máximo recorrido."
       },
       {
         "type": "text_input",
@@ -2877,7 +2877,7 @@
           "la rodilla"
         ],
         "xp": 20,
-        "explanation": "El término exacto que define este proceso o concepto es \"Rodilla\". Es un vocabulario técnico que debes memorizar."
+        "explanation": "En la rodilla, el cuádriceps tiene un brazo de palanca más largo, lo cual le permite dominar sobre los isquiosurales al extender la pierna."
       },
       {
         "type": "fill_in_blanks_cards",
@@ -2893,14 +2893,14 @@
           "trayectoria"
         ],
         "xp": 15,
-        "explanation": "Cada palabra clave tiene su lugar específico. Recordar el orden correcto consolida tu comprensión de la oración completa."
+        "explanation": "Peso movido, Espacio recorrido y el Tiempo total de ejecución (para hallar Nm)."
       },
       {
         "type": "true_false",
         "question": "Reducir el recorrido de una repetición a la mitad es la mejor técnica para aumentar la potencia desarrollada.",
         "correctAnswer": false,
         "xp": 10,
-        "explanation": "Recuerda que la afirmación es falsa. Comprender este hecho es vital para dominar la base teórica de este módulo."
+        "explanation": "Falso. Acortar el movimiento solo limita el trabajo mecánico final y el estiramiento fisiológico del músculo."
       },
       {
         "type": "multiple_choice",
@@ -2917,7 +2917,7 @@
         ],
         "correctAnswerId": "B",
         "xp": 10,
-        "explanation": "La respuesta correcta es \"Hipertrofia y fuerza combinadas\". Esta es la opción más precisa según los fundamentos fisiológicos del temario."
+        "explanation": "DeLorme probó que la hipertrofia es condición 'sine qua non' para recuperar la estabilidad mecánica de una articulación dañada."
       }
     ]
   },
@@ -2931,7 +2931,7 @@
         "question": "La periodización es la estructura programada del plan de entrenamiento en un periodo prolongado.",
         "correctAnswer": true,
         "xp": 10,
-        "explanation": "Recuerda que la afirmación es verdadera. Comprender este hecho es vital para dominar la base teórica de este módulo."
+        "explanation": "Correcto. La periodización permite estructurar picos de carga para que el cuerpo sobrecompense sin caer en sobreentrenamiento."
       },
       {
         "type": "multiple_choice",
@@ -2948,7 +2948,7 @@
         ],
         "correctAnswerId": "A",
         "xp": 10,
-        "explanation": "La respuesta correcta es \"De mantenimiento mínimo\". Esta es la opción más precisa según los fundamentos fisiológicos del temario."
+        "explanation": "Falso. En Temporada, el volumen general de pesas se reduce al mínimo mantenimiento para privilegiar la táctica deportiva."
       },
       {
         "type": "match_pairs",
@@ -2968,7 +2968,7 @@
           }
         ],
         "xp": 15,
-        "explanation": "Unir correctamente estos conceptos te ayuda a estructurar mentalmente las diferencias y relaciones clave entre ellos."
+        "explanation": "Fuera de temporada: descanso activo. Pretemporada: fuerza base. Temporada: técnica y mantenimiento."
       },
       {
         "type": "text_input",
@@ -2978,7 +2978,7 @@
           "pretemporada"
         ],
         "xp": 20,
-        "explanation": "El término exacto que define este proceso o concepto es \"Pretemporada\". Es un vocabulario técnico que debes memorizar."
+        "explanation": "Al final de la pretemporada (antes de arrancar las competencias), la fuerza y condición base llegan a su clímax."
       },
       {
         "type": "fill_in_blanks_cards",
@@ -2994,14 +2994,14 @@
           "repeticiones"
         ],
         "xp": 15,
-        "explanation": "Cada palabra clave tiene su lugar específico. Recordar el orden correcto consolida tu comprensión de la oración completa."
+        "explanation": "El entrenador debe rever todo el plan de variables de carga (intensidad, volumen o densidad) y modificarlas."
       },
       {
         "type": "true_false",
         "question": "Los tests de fuerza máxima (1 RM) son 100% seguros y obligatorios en todas las sesiones para novatos.",
         "correctAnswer": false,
         "xp": 10,
-        "explanation": "Recuerda que la afirmación es falsa. Comprender este hecho es vital para dominar la base teórica de este módulo."
+        "explanation": "Falso. Jamás deben aplicarse máximos reales a un inexperto. El riesgo articular y tendinoso es demasiado alto."
       },
       {
         "type": "multiple_choice",
@@ -3018,7 +3018,7 @@
         ],
         "correctAnswerId": "B",
         "xp": 10,
-        "explanation": "La respuesta correcta es \"Método en Pirámide\". Esta es la opción más precisa según los fundamentos fisiológicos del temario."
+        "explanation": "El 'Método escalonado' incrementa gradualmente la estimulación del sistema nervioso para prepararlo al 1RM."
       }
     ]
   },
@@ -3032,7 +3032,7 @@
         "question": "La hiperplasia sugiere que el crecimiento muscular puede implicar la formación de nuevas fibras, no solo engrosarlas.",
         "correctAnswer": true,
         "xp": 10,
-        "explanation": "Recuerda que la afirmación es verdadera. Comprender este hecho es vital para dominar la base teórica de este módulo."
+        "explanation": "La hiperplasia implica división y creación de nuevas fibras musculares. Está científicamente en gran debate humano."
       },
       {
         "type": "multiple_choice",
@@ -3049,7 +3049,7 @@
         ],
         "correctAnswerId": "A",
         "xp": 10,
-        "explanation": "La respuesta correcta es \"Aumenta la fuerza y la resistencia cardiovascular\". Esta es la opción más precisa según los fundamentos fisiológicos del temario."
+        "explanation": "El circuito de pesas sin pausas largas promueve enormes beneficios vasculares, a veces mejor que trotar, previniendo HTA."
       },
       {
         "type": "match_pairs",
@@ -3069,7 +3069,7 @@
           }
         ],
         "xp": 15,
-        "explanation": "Unir correctamente estos conceptos te ayuda a estructurar mentalmente las diferencias y relaciones clave entre ellos."
+        "explanation": "1 a 5 reps es óptimo para el fisicoculturista halterófilo (Fuerza). 8 a 12 para el culturismo (Hipertrofia)."
       },
       {
         "type": "text_input",
@@ -3079,7 +3079,7 @@
           "atpasa"
         ],
         "xp": 20,
-        "explanation": "El término exacto que define este proceso o concepto es \"ATPasa\". Es un vocabulario técnico que debes memorizar."
+        "explanation": "La ATPasa se encuentra en las cabezas de la miosina y es activada por el calcio."
       },
       {
         "type": "fill_in_blanks_cards",
@@ -3095,14 +3095,14 @@
           "sobrecarga"
         ],
         "xp": 15,
-        "explanation": "Cada palabra clave tiene su lugar específico. Recordar el orden correcto consolida tu comprensión de la oración completa."
+        "explanation": "Especificidad, Variedad y Alternancia (o sobrecarga progresiva)."
       },
       {
         "type": "true_false",
         "question": "La biomecánica moderna nos enseña que es imposible entrenar sin aislar músculos monoarticulares en máquinas.",
         "correctAnswer": false,
         "xp": 10,
-        "explanation": "Recuerda que la afirmación es falsa. Comprender este hecho es vital para dominar la base teórica de este módulo."
+        "explanation": "Falso. Aislar un músculo por completo es un concepto comercial de las máquinas. Biomecánicamente, la cadena actúa junta."
       },
       {
         "type": "multiple_choice",
@@ -3123,7 +3123,7 @@
         ],
         "correctAnswerId": "B",
         "xp": 10,
-        "explanation": "La respuesta correcta es \"Superior\". Esta es la opción más precisa según los fundamentos fisiológicos del temario."
+        "explanation": "Es el momento perfecto anatómica y energéticamente para volver a aplicar un nuevo estímulo y seguir creciendo."
       }
     ]
   },
@@ -3137,7 +3137,7 @@
         "question": "Si tu cliente es un principiante total, la mejor forma de evaluar su fuerza es calculando su 1 RM (Repetición Máxima) el primer día.",
         "correctAnswer": false,
         "xp": 10,
-        "explanation": "Recuerda que la afirmación es falsa. Comprender este hecho es vital para dominar la base teórica de este módulo."
+        "explanation": "Calcular un rango de RM indirecto, como 10 RM a la falla técnica, para luego inferir matemáticamente su carga 100%."
       },
       {
         "type": "multiple_choice",
@@ -3158,7 +3158,7 @@
         ],
         "correctAnswerId": "B",
         "xp": 10,
-        "explanation": "La respuesta correcta es \"6 a 12 repeticiones al 75%\". Esta es la opción más precisa según los fundamentos fisiológicos del temario."
+        "explanation": "El Método de Repeticiones I o II (70-85% 1RM), para series de entre 8 y 12 repeticiones a fin de forzar hipertrofia."
       },
       {
         "type": "match_pairs",
@@ -3178,7 +3178,7 @@
           }
         ],
         "xp": 15,
-        "explanation": "Unir correctamente estos conceptos te ayuda a estructurar mentalmente las diferencias y relaciones clave entre ellos."
+        "explanation": "El cliente novato necesita estímulos suaves; el atleta avanzado soporta y necesita Intensidad Máxima y fallo controlado."
       },
       {
         "type": "text_input",
@@ -3189,7 +3189,7 @@
           "3 minutos"
         ],
         "xp": 20,
-        "explanation": "El término exacto que define este proceso o concepto es \"3\". Es un vocabulario técnico que debes memorizar."
+        "explanation": "Tú necesitas de 3 a 5 minutos, ya que reponer la fosfocreatina y estabilizar el SNC lleva exactamente ese lapso."
       },
       {
         "type": "fill_in_blanks_cards",
@@ -3205,14 +3205,14 @@
           "intensidad"
         ],
         "xp": 15,
-        "explanation": "Cada palabra clave tiene su lugar específico. Recordar el orden correcto consolida tu comprensión de la oración completa."
+        "explanation": "El Volumen (repeticiones y series) y la Intensidad (% de esfuerzo), para evitar que su cuerpo siga en 'homeostasis' cómoda."
       },
       {
         "type": "true_false",
         "question": "Si tu cliente realiza un entrenamiento puramente isométrico empujando una pared, el cálculo de su trabajo mecánico (W = F x d) es mayor a cero.",
         "correctAnswer": false,
         "xp": 10,
-        "explanation": "Recuerda que la afirmación es falsa. Comprender este hecho es vital para dominar la base teórica de este módulo."
+        "explanation": "Es un caso claro de contracción 'Isométrica', pues existe altísima tensión neural y fibrilar sin cambio de longitud."
       },
       {
         "type": "multiple_choice",
@@ -3233,7 +3233,7 @@
         ],
         "correctAnswerId": "B",
         "xp": 10,
-        "explanation": "La respuesta correcta es \"Umbral ventilatorio\". Esta es la opción más precisa según los fundamentos fisiológicos del temario."
+        "explanation": "La ventilación crece de manera exponencial al dispararse el VT2 (Umbral anaeróbico), ya que el CO2 debe ser expulsado violentamente."
       }
     ]
   }
