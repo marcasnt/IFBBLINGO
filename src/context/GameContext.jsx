@@ -71,6 +71,15 @@ export const GameProvider = ({ children }) => {
     setIsHintActive(false);
   };
 
+  const [hasSeenWelcome, setHasSeenWelcome] = useState(() => {
+    return localStorage.getItem('ifbblingo_hasSeenWelcome') === 'true';
+  });
+
+  const acceptWelcome = () => {
+    setHasSeenWelcome(true);
+    localStorage.setItem('ifbblingo_hasSeenWelcome', 'true');
+  };
+
   const gainExp = (amount) => {
     setExp(e => e + amount);
   };
@@ -116,7 +125,8 @@ export const GameProvider = ({ children }) => {
       currentLevelId, setCurrentLevelId,
       gameState, setGameState,
       startLesson, startPractice, finishLesson, backToMap,
-      isHintActive, buyHint, clearHint
+      isHintActive, buyHint, clearHint,
+      hasSeenWelcome, acceptWelcome
     }}>
       {children}
     </GameContext.Provider>

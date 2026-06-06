@@ -3,10 +3,15 @@ import TopBar from './components/TopBar';
 import Map from './components/Map';
 import Lesson from './components/Lesson';
 import Results from './components/Results';
+import WelcomeScreen from './components/WelcomeScreen';
 import './index.css';
 
 function GameContent() {
-  const { gameState } = useGame();
+  const { gameState, hasSeenWelcome } = useGame();
+
+  if (!hasSeenWelcome) {
+    return <WelcomeScreen />;
+  }
 
   return (
     <>
