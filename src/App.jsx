@@ -10,9 +10,9 @@ function GameContent() {
 
   return (
     <>
-      {gameState === 'map' && <TopBar />}
+      {['map', 'lesson', 'practice'].includes(gameState) && <TopBar />}
       {gameState === 'map' && <Map />}
-      {gameState === 'lesson' && <Lesson />}
+      {(gameState === 'lesson' || gameState === 'practice') && <Lesson />}
       {gameState === 'results' && <Results />}
     </>
   );
