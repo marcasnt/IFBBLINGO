@@ -6,7 +6,7 @@ export default function HeartsModal({ onClose }) {
   const { lives, exp, buyHeart, earnHeart, startPractice } = useGame();
   
   // Timer state for the penalty box
-  const [timeRemaining, setTimeRemaining] = useState(300); // 5 minutes = 300 seconds
+  const [timeRemaining, setTimeRemaining] = useState(120); // 2 minutes = 120 seconds
   const [isWaiting, setIsWaiting] = useState(false);
 
   useEffect(() => {
@@ -18,7 +18,7 @@ export default function HeartsModal({ onClose }) {
     } else if (isWaiting && timeRemaining === 0) {
       earnHeart();
       setIsWaiting(false);
-      setTimeRemaining(300);
+      setTimeRemaining(120);
     }
     return () => clearInterval(interval);
   }, [isWaiting, timeRemaining, earnHeart]);
@@ -42,7 +42,7 @@ export default function HeartsModal({ onClose }) {
     return `${m.toString().padStart(2, '0')}:${s.toString().padStart(2, '0')}`;
   };
 
-  const progressPercent = ((300 - timeRemaining) / 300) * 100;
+  const progressPercent = ((120 - timeRemaining) / 120) * 100;
 
   return (
     <div style={{
@@ -99,7 +99,7 @@ export default function HeartsModal({ onClose }) {
                     <span style={{ color: 'var(--color-blue)', fontWeight: 'bold' }}>{formatTime(timeRemaining)}</span>
                   ) : (
                     <button className="btn btn-outline" onClick={handleWait} style={{ padding: '8px 16px', width: 'auto' }}>
-                      Iniciar (5 min)
+                      Iniciar (2 min)
                     </button>
                   )}
                 </div>
