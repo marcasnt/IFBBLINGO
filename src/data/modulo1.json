@@ -114,7 +114,8 @@
         "type": "true_false",
         "question": "La molécula principal que almacena energía en el organismo es el ATP.",
         "correctAnswer": true,
-        "xp": 10
+        "xp": 10,
+        "explanation": "Recuerda que la afirmación es verdadera. Comprender este hecho es vital para dominar la base teórica de este módulo."
       },
       {
         "type": "multiple_choice",
@@ -134,7 +135,8 @@
           }
         ],
         "correctAnswerId": "A",
-        "xp": 10
+        "xp": 10,
+        "explanation": "La respuesta correcta es \"ATPasa\". Esta es la opción más precisa según los fundamentos fisiológicos del temario."
       },
       {
         "type": "match_pairs",
@@ -153,7 +155,8 @@
             "right": "Principal moneda energética"
           }
         ],
-        "xp": 15
+        "xp": 15,
+        "explanation": "Unir correctamente estos conceptos te ayuda a estructurar mentalmente las diferencias y relaciones clave entre ellos."
       },
       {
         "type": "text_input",
@@ -165,7 +168,8 @@
           "o2",
           "oxigeno"
         ],
-        "xp": 20
+        "xp": 20,
+        "explanation": "El término exacto que define este proceso o concepto es \"Oxígeno\". Es un vocabulario técnico que debes memorizar."
       },
       {
         "type": "fill_in_blanks_cards",
@@ -180,13 +184,15 @@
           "simultánea",
           "duración"
         ],
-        "xp": 15
+        "xp": 15,
+        "explanation": "Cada palabra clave tiene su lugar específico. Recordar el orden correcto consolida tu comprensión de la oración completa."
       },
       {
         "type": "true_false",
         "question": "El inicio de cualquier ejercicio es fundamentalmente aeróbico.",
         "correctAnswer": false,
-        "xp": 10
+        "xp": 10,
+        "explanation": "Recuerda que la afirmación es falsa. Comprender este hecho es vital para dominar la base teórica de este módulo."
       },
       {
         "type": "multiple_choice",
@@ -206,7 +212,8 @@
           }
         ],
         "correctAnswerId": "B",
-        "xp": 10
+        "xp": 10,
+        "explanation": "La respuesta correcta es \"Fosfocreatina\". Esta es la opción más precisa según los fundamentos fisiológicos del temario."
       }
     ]
   },
@@ -219,7 +226,8 @@
         "type": "true_false",
         "question": "La vía anaeróbica aláctica provoca una gran acumulación de ácido láctico.",
         "correctAnswer": false,
-        "xp": 10
+        "xp": 10,
+        "explanation": "Recuerda que la afirmación es falsa. Comprender este hecho es vital para dominar la base teórica de este módulo."
       },
       {
         "type": "multiple_choice",
@@ -239,7 +247,8 @@
           }
         ],
         "correctAnswerId": "A",
-        "xp": 10
+        "xp": 10,
+        "explanation": "La respuesta correcta es \"Dos\". Esta es la opción más precisa según los fundamentos fisiológicos del temario."
       },
       {
         "type": "match_pairs",
@@ -258,7 +267,8 @@
             "right": "Toxina que disminuye el pH celular"
           }
         ],
-        "xp": 15
+        "xp": 15,
+        "explanation": "Unir correctamente estos conceptos te ayuda a estructurar mentalmente las diferencias y relaciones clave entre ellos."
       },
       {
         "type": "text_input",
@@ -270,7 +280,8 @@
           "disminución del pH",
           "pH"
         ],
-        "xp": 20
+        "xp": 20,
+        "explanation": "El término exacto que define este proceso o concepto es \"Ácido láctico\". Es un vocabulario técnico que debes memorizar."
       },
       {
         "type": "fill_in_blanks_cards",
@@ -285,13 +296,15 @@
           "oxígeno",
           "económico"
         ],
-        "xp": 15
+        "xp": 15,
+        "explanation": "Cada palabra clave tiene su lugar específico. Recordar el orden correcto consolida tu comprensión de la oración completa."
       },
       {
         "type": "true_false",
         "question": "Desde el punto de vista del O2, resulta más 'barata' la energía obtenida de grasas que de hidratos de carbono.",
         "correctAnswer": false,
-        "xp": 10
+        "xp": 10,
+        "explanation": "Recuerda que la afirmación es falsa. Comprender este hecho es vital para dominar la base teórica de este módulo."
       },
       {
         "type": "multiple_choice",
@@ -311,7 +324,8 @@
           }
         ],
         "correctAnswerId": "B",
-        "xp": 10
+        "xp": 10,
+        "explanation": "La respuesta correcta es \"Mitocondria\". Esta es la opción más precisa según los fundamentos fisiológicos del temario."
       }
     ]
   },
@@ -324,7 +338,8 @@
         "type": "true_false",
         "question": "La fuerza es capaz de modificar el estado de reposo de un cuerpo o producirle una deformación.",
         "correctAnswer": true,
-        "xp": 10
+        "xp": 10,
+        "explanation": "Recuerda que la afirmación es verdadera. Comprender este hecho es vital para dominar la base teórica de este módulo."
       },
       {
         "type": "multiple_choice",
@@ -344,7 +359,8 @@
           }
         ],
         "correctAnswerId": "B",
-        "xp": 10
+        "xp": 10,
+        "explanation": "La respuesta correcta es \"Potencia\". Esta es la opción más precisa según los fundamentos fisiológicos del temario."
       },
       {
         "type": "match_pairs",
@@ -363,7 +379,8 @@
             "right": "Capacidad de recuperar la forma original"
           }
         ],
-        "xp": 15
+        "xp": 15,
+        "explanation": "Unir correctamente estos conceptos te ayuda a estructurar mentalmente las diferencias y relaciones clave entre ellos."
       },
       {
         "type": "text_input",
@@ -372,7 +389,8 @@
           "Elasticidad",
           "elasticidad"
         ],
-        "xp": 20
+        "xp": 20,
+        "explanation": "El término exacto que define este proceso o concepto es \"Elasticidad\". Es un vocabulario técnico que debes memorizar."
       },
       {
         "type": "fill_in_blanks_cards",
@@ -387,13 +405,15 @@
           "número",
           "ángulo"
         ],
-        "xp": 15
+        "xp": 15,
+        "explanation": "Cada palabra clave tiene su lugar específico. Recordar el orden correcto consolida tu comprensión de la oración completa."
       },
       {
         "type": "true_false",
         "question": "Los aparatos isocinéticos mantienen una distancia constante, haciendo que fuerza y momento sean prácticamente paralelos.",
         "correctAnswer": true,
-        "xp": 10
+        "xp": 10,
+        "explanation": "Recuerda que la afirmación es verdadera. Comprender este hecho es vital para dominar la base teórica de este módulo."
       },
       {
         "type": "multiple_choice",
@@ -413,7 +433,8 @@
           }
         ],
         "correctAnswerId": "B",
-        "xp": 10
+        "xp": 10,
+        "explanation": "La respuesta correcta es \"Por debajo del 50%\". Esta es la opción más precisa según los fundamentos fisiológicos del temario."
       }
     ]
   },
@@ -426,7 +447,8 @@
         "type": "true_false",
         "question": "El músculo transforma energía química en mecánica con una eficiencia del 100%.",
         "correctAnswer": false,
-        "xp": 10
+        "xp": 10,
+        "explanation": "Recuerda que la afirmación es falsa. Comprender este hecho es vital para dominar la base teórica de este módulo."
       },
       {
         "type": "multiple_choice",
@@ -446,7 +468,8 @@
           }
         ],
         "correctAnswerId": "B",
-        "xp": 10
+        "xp": 10,
+        "explanation": "La respuesta correcta es \"Sarcómero\". Esta es la opción más precisa según los fundamentos fisiológicos del temario."
       },
       {
         "type": "match_pairs",
@@ -465,7 +488,8 @@
             "right": "Unidad funcional básica de contracción"
           }
         ],
-        "xp": 15
+        "xp": 15,
+        "explanation": "Unir correctamente estos conceptos te ayuda a estructurar mentalmente las diferencias y relaciones clave entre ellos."
       },
       {
         "type": "text_input",
@@ -476,7 +500,8 @@
           "Miosina",
           "miosina"
         ],
-        "xp": 20
+        "xp": 20,
+        "explanation": "El término exacto que define este proceso o concepto es \"Actina\". Es un vocabulario técnico que debes memorizar."
       },
       {
         "type": "fill_in_blanks_cards",
@@ -491,13 +516,15 @@
           "elasticidad",
           "lesiones"
         ],
-        "xp": 15
+        "xp": 15,
+        "explanation": "Cada palabra clave tiene su lugar específico. Recordar el orden correcto consolida tu comprensión de la oración completa."
       },
       {
         "type": "true_false",
         "question": "Una contracción muscular involucra una acción aislada de un solo músculo sin importar sus antagonistas.",
         "correctAnswer": false,
-        "xp": 10
+        "xp": 10,
+        "explanation": "Recuerda que la afirmación es falsa. Comprender este hecho es vital para dominar la base teórica de este módulo."
       },
       {
         "type": "multiple_choice",
@@ -513,7 +540,8 @@
           }
         ],
         "correctAnswerId": "B",
-        "xp": 10
+        "xp": 10,
+        "explanation": "La respuesta correcta es \"Grandes y multinucleadas\". Esta es la opción más precisa según los fundamentos fisiológicos del temario."
       }
     ]
   },
@@ -526,7 +554,8 @@
         "type": "true_false",
         "question": "Las dendritas de la neurona son responsables de su interacción con otras células nerviosas.",
         "correctAnswer": true,
-        "xp": 10
+        "xp": 10,
+        "explanation": "Recuerda que la afirmación es verdadera. Comprender este hecho es vital para dominar la base teórica de este módulo."
       },
       {
         "type": "multiple_choice",
@@ -546,7 +575,8 @@
           }
         ],
         "correctAnswerId": "B",
-        "xp": 10
+        "xp": 10,
+        "explanation": "La respuesta correcta es \"120 m/s\". Esta es la opción más precisa según los fundamentos fisiológicos del temario."
       },
       {
         "type": "match_pairs",
@@ -565,7 +595,8 @@
             "right": "Pasa información mediante sinapsis"
           }
         ],
-        "xp": 15
+        "xp": 15,
+        "explanation": "Unir correctamente estos conceptos te ayuda a estructurar mentalmente las diferencias y relaciones clave entre ellos."
       },
       {
         "type": "text_input",
@@ -575,7 +606,8 @@
           "neurona",
           "la neurona"
         ],
-        "xp": 20
+        "xp": 20,
+        "explanation": "El término exacto que define este proceso o concepto es \"Neurona\". Es un vocabulario técnico que debes memorizar."
       },
       {
         "type": "fill_in_blanks_cards",
@@ -590,13 +622,15 @@
           "corteza cerebral",
           "médula"
         ],
-        "xp": 15
+        "xp": 15,
+        "explanation": "Cada palabra clave tiene su lugar específico. Recordar el orden correcto consolida tu comprensión de la oración completa."
       },
       {
         "type": "true_false",
         "question": "La neurona solo puede responder a estímulos químicos y nunca a eléctricos.",
         "correctAnswer": false,
-        "xp": 10
+        "xp": 10,
+        "explanation": "Recuerda que la afirmación es falsa. Comprender este hecho es vital para dominar la base teórica de este módulo."
       },
       {
         "type": "multiple_choice",
@@ -616,7 +650,8 @@
           }
         ],
         "correctAnswerId": "A",
-        "xp": 10
+        "xp": 10,
+        "explanation": "La respuesta correcta es \"Sinapsis\". Esta es la opción más precisa según los fundamentos fisiológicos del temario."
       }
     ]
   },
@@ -629,7 +664,8 @@
         "type": "true_false",
         "question": "En la contracción isométrica existe un gran trabajo mecánico.",
         "correctAnswer": false,
-        "xp": 10
+        "xp": 10,
+        "explanation": "Recuerda que la afirmación es falsa. Comprender este hecho es vital para dominar la base teórica de este módulo."
       },
       {
         "type": "multiple_choice",
@@ -649,7 +685,8 @@
           }
         ],
         "correctAnswerId": "A",
-        "xp": 10
+        "xp": 10,
+        "explanation": "La respuesta correcta es \"Concéntrica\". Esta es la opción más precisa según los fundamentos fisiológicos del temario."
       },
       {
         "type": "match_pairs",
@@ -668,7 +705,8 @@
             "right": "El trabajo mecánico es igual a cero"
           }
         ],
-        "xp": 15
+        "xp": 15,
+        "explanation": "Unir correctamente estos conceptos te ayuda a estructurar mentalmente las diferencias y relaciones clave entre ellos."
       },
       {
         "type": "text_input",
@@ -678,7 +716,8 @@
           "anisometrica",
           "isotónica"
         ],
-        "xp": 20
+        "xp": 20,
+        "explanation": "El término exacto que define este proceso o concepto es \"Anisométrica\". Es un vocabulario técnico que debes memorizar."
       },
       {
         "type": "fill_in_blanks_cards",
@@ -693,13 +732,15 @@
           "excéntrica",
           "freno"
         ],
-        "xp": 15
+        "xp": 15,
+        "explanation": "Cada palabra clave tiene su lugar específico. Recordar el orden correcto consolida tu comprensión de la oración completa."
       },
       {
         "type": "true_false",
         "question": "La contracción isocinética se caracteriza por realizarse a una velocidad angular constante.",
         "correctAnswer": true,
-        "xp": 10
+        "xp": 10,
+        "explanation": "Recuerda que la afirmación es verdadera. Comprender este hecho es vital para dominar la base teórica de este módulo."
       },
       {
         "type": "multiple_choice",
@@ -715,7 +756,8 @@
           }
         ],
         "correctAnswerId": "B",
-        "xp": 10
+        "xp": 10,
+        "explanation": "La respuesta correcta es \"Resistencia o tensión constante\". Esta es la opción más precisa según los fundamentos fisiológicos del temario."
       }
     ]
   },
@@ -728,7 +770,8 @@
         "type": "true_false",
         "question": "La dinamometría isométrica mide la fuerza a lo largo de todo el movimiento.",
         "correctAnswer": false,
-        "xp": 10
+        "xp": 10,
+        "explanation": "Recuerda que la afirmación es falsa. Comprender este hecho es vital para dominar la base teórica de este módulo."
       },
       {
         "type": "multiple_choice",
@@ -744,7 +787,8 @@
           }
         ],
         "correctAnswerId": "B",
-        "xp": 10
+        "xp": 10,
+        "explanation": "La respuesta correcta es \"Máxima Repetición (carga máxima para 1 repetición)\". Esta es la opción más precisa según los fundamentos fisiológicos del temario."
       },
       {
         "type": "match_pairs",
@@ -763,7 +807,8 @@
             "right": "Mide fuerza a una velocidad fija y controlada"
           }
         ],
-        "xp": 15
+        "xp": 15,
+        "explanation": "Unir correctamente estos conceptos te ayuda a estructurar mentalmente las diferencias y relaciones clave entre ellos."
       },
       {
         "type": "text_input",
@@ -773,7 +818,8 @@
           "75",
           "75 por ciento"
         ],
-        "xp": 20
+        "xp": 20,
+        "explanation": "El término exacto que define este proceso o concepto es \"75%\". Es un vocabulario técnico que debes memorizar."
       },
       {
         "type": "fill_in_blanks_cards",
@@ -788,13 +834,15 @@
           "activación",
           "fibras"
         ],
-        "xp": 15
+        "xp": 15,
+        "explanation": "Cada palabra clave tiene su lugar específico. Recordar el orden correcto consolida tu comprensión de la oración completa."
       },
       {
         "type": "true_false",
         "question": "Las máquinas isocinéticas ajustan automáticamente la resistencia para mantener la velocidad constante.",
         "correctAnswer": true,
-        "xp": 10
+        "xp": 10,
+        "explanation": "Recuerda que la afirmación es verdadera. Comprender este hecho es vital para dominar la base teórica de este módulo."
       },
       {
         "type": "multiple_choice",
@@ -810,7 +858,8 @@
           }
         ],
         "correctAnswerId": "B",
-        "xp": 10
+        "xp": 10,
+        "explanation": "La respuesta correcta es \"El elemento elástico del músculo\". Esta es la opción más precisa según los fundamentos fisiológicos del temario."
       }
     ]
   },
@@ -823,7 +872,8 @@
         "type": "true_false",
         "question": "La hipertrofia muscular aparece antes que las adaptaciones neurales al iniciar un entrenamiento.",
         "correctAnswer": false,
-        "xp": 10
+        "xp": 10,
+        "explanation": "Recuerda que la afirmación es falsa. Comprender este hecho es vital para dominar la base teórica de este módulo."
       },
       {
         "type": "multiple_choice",
@@ -839,7 +889,8 @@
           }
         ],
         "correctAnswerId": "B",
-        "xp": 10
+        "xp": 10,
+        "explanation": "La respuesta correcta es \"Adaptación neural\". Esta es la opción más precisa según los fundamentos fisiológicos del temario."
       },
       {
         "type": "match_pairs",
@@ -858,7 +909,8 @@
             "right": "Aumento del tamaño de las fibras (Hipertrofia)"
           }
         ],
-        "xp": 15
+        "xp": 15,
+        "explanation": "Unir correctamente estos conceptos te ayuda a estructurar mentalmente las diferencias y relaciones clave entre ellos."
       },
       {
         "type": "text_input",
@@ -868,7 +920,8 @@
           "sobrecarga",
           "el principio de sobrecarga"
         ],
-        "xp": 20
+        "xp": 20,
+        "explanation": "El término exacto que define este proceso o concepto es \"Principio de sobrecarga\". Es un vocabulario técnico que debes memorizar."
       },
       {
         "type": "fill_in_blanks_cards",
@@ -883,13 +936,15 @@
           "poca",
           "activación"
         ],
-        "xp": 15
+        "xp": 15,
+        "explanation": "Cada palabra clave tiene su lugar específico. Recordar el orden correcto consolida tu comprensión de la oración completa."
       },
       {
         "type": "true_false",
         "question": "Disminuir la inhibición de los músculos antagonistas es una forma de mejorar la fuerza.",
         "correctAnswer": true,
-        "xp": 10
+        "xp": 10,
+        "explanation": "Recuerda que la afirmación es verdadera. Comprender este hecho es vital para dominar la base teórica de este módulo."
       },
       {
         "type": "multiple_choice",
@@ -905,7 +960,8 @@
           }
         ],
         "correctAnswerId": "B",
-        "xp": 10
+        "xp": 10,
+        "explanation": "La respuesta correcta es \"80 y 100%\". Esta es la opción más precisa según los fundamentos fisiológicos del temario."
       }
     ]
   },
@@ -918,7 +974,8 @@
         "type": "true_false",
         "question": "El análisis funcional estudia el tipo de contracción que desarrolla cada músculo durante el movimiento.",
         "correctAnswer": true,
-        "xp": 10
+        "xp": 10,
+        "explanation": "Recuerda que la afirmación es verdadera. Comprender este hecho es vital para dominar la base teórica de este módulo."
       },
       {
         "type": "multiple_choice",
@@ -934,7 +991,8 @@
           }
         ],
         "correctAnswerId": "B",
-        "xp": 10
+        "xp": 10,
+        "explanation": "La respuesta correcta es \"Arcos de movilidad de las articulaciones\". Esta es la opción más precisa según los fundamentos fisiológicos del temario."
       },
       {
         "type": "match_pairs",
@@ -953,7 +1011,8 @@
             "right": "Evalúa los tipos de contracción de cada músculo"
           }
         ],
-        "xp": 15
+        "xp": 15,
+        "explanation": "Unir correctamente estos conceptos te ayuda a estructurar mentalmente las diferencias y relaciones clave entre ellos."
       },
       {
         "type": "text_input",
@@ -962,7 +1021,8 @@
           "Cadena cinemática",
           "cadena cinematica"
         ],
-        "xp": 20
+        "xp": 20,
+        "explanation": "El término exacto que define este proceso o concepto es \"Cadena cinemática\". Es un vocabulario técnico que debes memorizar."
       },
       {
         "type": "fill_in_blanks_cards",
@@ -977,13 +1037,15 @@
           "no es la misma",
           "ángulos"
         ],
-        "xp": 15
+        "xp": 15,
+        "explanation": "Cada palabra clave tiene su lugar específico. Recordar el orden correcto consolida tu comprensión de la oración completa."
       },
       {
         "type": "true_false",
         "question": "El análisis biomecánico completo ignora las estructuras óseas y de tejido conectivo.",
         "correctAnswer": false,
-        "xp": 10
+        "xp": 10,
+        "explanation": "Recuerda que la afirmación es falsa. Comprender este hecho es vital para dominar la base teórica de este módulo."
       },
       {
         "type": "multiple_choice",
@@ -1003,7 +1065,8 @@
           }
         ],
         "correctAnswerId": "B",
-        "xp": 10
+        "xp": 10,
+        "explanation": "La respuesta correcta es \"Es una contracción fisiológica con tensión variable\". Esta es la opción más precisa según los fundamentos fisiológicos del temario."
       }
     ]
   },
@@ -1016,7 +1079,8 @@
         "type": "true_false",
         "question": "La ergometría es un test de esfuerzo realizado bajo condiciones controladas en laboratorio.",
         "correctAnswer": true,
-        "xp": 10
+        "xp": 10,
+        "explanation": "Recuerda que la afirmación es verdadera. Comprender este hecho es vital para dominar la base teórica de este módulo."
       },
       {
         "type": "multiple_choice",
@@ -1032,7 +1096,8 @@
           }
         ],
         "correctAnswerId": "B",
-        "xp": 10
+        "xp": 10,
+        "explanation": "La respuesta correcta es \"Cicloergómetro\". Esta es la opción más precisa según los fundamentos fisiológicos del temario."
       },
       {
         "type": "match_pairs",
@@ -1051,7 +1116,8 @@
             "right": "Prueba de esfuerzo controlada y monitorizada"
           }
         ],
-        "xp": 15
+        "xp": 15,
+        "explanation": "Unir correctamente estos conceptos te ayuda a estructurar mentalmente las diferencias y relaciones clave entre ellos."
       },
       {
         "type": "text_input",
@@ -1060,7 +1126,8 @@
           "Economía de carrera",
           "economia de carrera"
         ],
-        "xp": 20
+        "xp": 20,
+        "explanation": "El término exacto que define este proceso o concepto es \"Economía de carrera\". Es un vocabulario técnico que debes memorizar."
       },
       {
         "type": "fill_in_blanks_cards",
@@ -1075,13 +1142,15 @@
           "similitud",
           "transferencia"
         ],
-        "xp": 15
+        "xp": 15,
+        "explanation": "Cada palabra clave tiene su lugar específico. Recordar el orden correcto consolida tu comprensión de la oración completa."
       },
       {
         "type": "true_false",
         "question": "El tapiz rodante permite alterar tanto la velocidad como la pendiente durante el test.",
         "correctAnswer": true,
-        "xp": 10
+        "xp": 10,
+        "explanation": "Recuerda que la afirmación es verdadera. Comprender este hecho es vital para dominar la base teórica de este módulo."
       },
       {
         "type": "multiple_choice",
@@ -1097,7 +1166,8 @@
           }
         ],
         "correctAnswerId": "B",
-        "xp": 10
+        "xp": 10,
+        "explanation": "La respuesta correcta es \"Continuos\". Esta es la opción más precisa según los fundamentos fisiológicos del temario."
       }
     ]
   },
@@ -1110,7 +1180,8 @@
         "type": "true_false",
         "question": "El VO2 máximo aumenta de forma indefinida a lo largo de toda la vida deportiva del atleta de élite.",
         "correctAnswer": false,
-        "xp": 10
+        "xp": 10,
+        "explanation": "Recuerda que la afirmación es falsa. Comprender este hecho es vital para dominar la base teórica de este módulo."
       },
       {
         "type": "multiple_choice",
@@ -1126,7 +1197,8 @@
           }
         ],
         "correctAnswerId": "A",
-        "xp": 10
+        "xp": 10,
+        "explanation": "La respuesta correcta es \"Gasto cardíaco\". Esta es la opción más precisa según los fundamentos fisiológicos del temario."
       },
       {
         "type": "match_pairs",
@@ -1145,7 +1217,8 @@
             "right": "Volumen de Oxígeno Consumido"
           }
         ],
-        "xp": 15
+        "xp": 15,
+        "explanation": "Unir correctamente estos conceptos te ayuda a estructurar mentalmente las diferencias y relaciones clave entre ellos."
       },
       {
         "type": "text_input",
@@ -1155,7 +1228,8 @@
           "ml/kg/min",
           "ml/kg*min"
         ],
-        "xp": 20
+        "xp": 20,
+        "explanation": "El término exacto que define este proceso o concepto es \"ml/kg.min\". Es un vocabulario técnico que debes memorizar."
       },
       {
         "type": "fill_in_blanks_cards",
@@ -1170,13 +1244,15 @@
           "lineal",
           "máximo"
         ],
-        "xp": 15
+        "xp": 15,
+        "explanation": "Cada palabra clave tiene su lugar específico. Recordar el orden correcto consolida tu comprensión de la oración completa."
       },
       {
         "type": "true_false",
         "question": "El factor periférico del VO2 hace referencia a la capacidad del músculo para extraer el oxígeno de la sangre.",
         "correctAnswer": true,
-        "xp": 10
+        "xp": 10,
+        "explanation": "Recuerda que la afirmación es verdadera. Comprender este hecho es vital para dominar la base teórica de este módulo."
       },
       {
         "type": "multiple_choice",
@@ -1196,7 +1272,8 @@
           }
         ],
         "correctAnswerId": "B",
-        "xp": 10
+        "xp": 10,
+        "explanation": "La respuesta correcta es \"Genéticos\". Esta es la opción más precisa según los fundamentos fisiológicos del temario."
       }
     ]
   },
@@ -1209,7 +1286,8 @@
         "type": "true_false",
         "question": "La Frecuencia Cardíaca (FC) sube de manera casi lineal respecto al aumento del consumo de oxígeno (VO2).",
         "correctAnswer": true,
-        "xp": 10
+        "xp": 10,
+        "explanation": "Recuerda que la afirmación es verdadera. Comprender este hecho es vital para dominar la base teórica de este módulo."
       },
       {
         "type": "multiple_choice",
@@ -1229,7 +1307,8 @@
           }
         ],
         "correctAnswerId": "B",
-        "xp": 10
+        "xp": 10,
+        "explanation": "La respuesta correcta es \"Menor\". Esta es la opción más precisa según los fundamentos fisiológicos del temario."
       },
       {
         "type": "match_pairs",
@@ -1248,7 +1327,8 @@
             "right": "Lactato aumentando continuamente hasta la fatiga"
           }
         ],
-        "xp": 15
+        "xp": 15,
+        "explanation": "Unir correctamente estos conceptos te ayuda a estructurar mentalmente las diferencias y relaciones clave entre ellos."
       },
       {
         "type": "text_input",
@@ -1259,7 +1339,8 @@
           "Ácido pirúvico",
           "acido piruvico"
         ],
-        "xp": 20
+        "xp": 20,
+        "explanation": "El término exacto que define este proceso o concepto es \"Glucosa\". Es un vocabulario técnico que debes memorizar."
       },
       {
         "type": "fill_in_blanks_cards",
@@ -1274,13 +1355,15 @@
           "Conconi",
           "poca"
         ],
-        "xp": 15
+        "xp": 15,
+        "explanation": "Cada palabra clave tiene su lugar específico. Recordar el orden correcto consolida tu comprensión de la oración completa."
       },
       {
         "type": "true_false",
         "question": "El lactato medido en sangre refleja de manera exacta e inmediata todo lo que ocurre dentro del músculo.",
         "correctAnswer": false,
-        "xp": 10
+        "xp": 10,
+        "explanation": "Recuerda que la afirmación es falsa. Comprender este hecho es vital para dominar la base teórica de este módulo."
       },
       {
         "type": "multiple_choice",
@@ -1296,7 +1379,8 @@
           }
         ],
         "correctAnswerId": "B",
-        "xp": 10
+        "xp": 10,
+        "explanation": "La respuesta correcta es \"Las fibras tipo I\". Esta es la opción más precisa según los fundamentos fisiológicos del temario."
       }
     ]
   },
@@ -1309,7 +1393,8 @@
         "type": "true_false",
         "question": "El umbral anaeróbico indica el momento en que se empieza a acumular lactato en la sangre de manera abrupta.",
         "correctAnswer": true,
-        "xp": 10
+        "xp": 10,
+        "explanation": "Recuerda que la afirmación es verdadera. Comprender este hecho es vital para dominar la base teórica de este módulo."
       },
       {
         "type": "multiple_choice",
@@ -1325,7 +1410,8 @@
           }
         ],
         "correctAnswerId": "A",
-        "xp": 10
+        "xp": 10,
+        "explanation": "La respuesta correcta es \"Aumento del equivalente ventilatorio para el O2\". Esta es la opción más precisa según los fundamentos fisiológicos del temario."
       },
       {
         "type": "match_pairs",
@@ -1344,7 +1430,8 @@
             "right": "Neutraliza el ácido generando más CO2"
           }
         ],
-        "xp": 15
+        "xp": 15,
+        "explanation": "Unir correctamente estos conceptos te ayuda a estructurar mentalmente las diferencias y relaciones clave entre ellos."
       },
       {
         "type": "text_input",
@@ -1353,7 +1440,8 @@
           "Bicarbonato",
           "bicarbonato"
         ],
-        "xp": 20
+        "xp": 20,
+        "explanation": "El término exacto que define este proceso o concepto es \"Bicarbonato\". Es un vocabulario técnico que debes memorizar."
       },
       {
         "type": "fill_in_blanks_cards",
@@ -1368,13 +1456,15 @@
           "máximo estado estable",
           "III"
         ],
-        "xp": 15
+        "xp": 15,
+        "explanation": "Cada palabra clave tiene su lugar específico. Recordar el orden correcto consolida tu comprensión de la oración completa."
       },
       {
         "type": "true_false",
         "question": "El estado nutricional previo no afecta la curva del lactato durante un test.",
         "correctAnswer": false,
-        "xp": 10
+        "xp": 10,
+        "explanation": "Recuerda que la afirmación es falsa. Comprender este hecho es vital para dominar la base teórica de este módulo."
       },
       {
         "type": "multiple_choice",
@@ -1390,7 +1480,8 @@
           }
         ],
         "correctAnswerId": "B",
-        "xp": 10
+        "xp": 10,
+        "explanation": "La respuesta correcta es \"Precisa\". Esta es la opción más precisa según los fundamentos fisiológicos del temario."
       }
     ]
   },
@@ -1403,7 +1494,8 @@
         "type": "true_false",
         "question": "La fuerza es una herramienta que previene la osteoporosis al aplicar estrés mecánico en los huesos.",
         "correctAnswer": true,
-        "xp": 10
+        "xp": 10,
+        "explanation": "Recuerda que la afirmación es verdadera. Comprender este hecho es vital para dominar la base teórica de este módulo."
       },
       {
         "type": "multiple_choice",
@@ -1419,7 +1511,8 @@
           }
         ],
         "correctAnswerId": "B",
-        "xp": 10
+        "xp": 10,
+        "explanation": "La respuesta correcta es \"Aumenta significativamente la fuerza\". Esta es la opción más precisa según los fundamentos fisiológicos del temario."
       },
       {
         "type": "match_pairs",
@@ -1438,7 +1531,8 @@
             "right": "Pérdida peligrosa de densidad ósea"
           }
         ],
-        "xp": 15
+        "xp": 15,
+        "explanation": "Unir correctamente estos conceptos te ayuda a estructurar mentalmente las diferencias y relaciones clave entre ellos."
       },
       {
         "type": "text_input",
@@ -1448,7 +1542,8 @@
           "social",
           "sociales"
         ],
-        "xp": 20
+        "xp": 20,
+        "explanation": "El término exacto que define este proceso o concepto es \"Social\". Es un vocabulario técnico que debes memorizar."
       },
       {
         "type": "fill_in_blanks_cards",
@@ -1463,13 +1558,15 @@
           "envejecimiento",
           "fuerza"
         ],
-        "xp": 15
+        "xp": 15,
+        "explanation": "Cada palabra clave tiene su lugar específico. Recordar el orden correcto consolida tu comprensión de la oración completa."
       },
       {
         "type": "true_false",
         "question": "El ACSM en 1998 advirtió sobre el peligro de hacer series de 8-10 repeticiones en adultos mayores.",
         "correctAnswer": false,
-        "xp": 10
+        "xp": 10,
+        "explanation": "Recuerda que la afirmación es falsa. Comprender este hecho es vital para dominar la base teórica de este módulo."
       },
       {
         "type": "multiple_choice",
@@ -1489,7 +1586,8 @@
           }
         ],
         "correctAnswerId": "B",
-        "xp": 10
+        "xp": 10,
+        "explanation": "La respuesta correcta es \"Halterófilos\". Esta es la opción más precisa según los fundamentos fisiológicos del temario."
       }
     ]
   },
@@ -1502,7 +1600,8 @@
         "type": "true_false",
         "question": "Los pacientes coronarios nunca deben realizar entrenamiento con pesas.",
         "correctAnswer": false,
-        "xp": 10
+        "xp": 10,
+        "explanation": "Recuerda que la afirmación es falsa. Comprender este hecho es vital para dominar la base teórica de este módulo."
       },
       {
         "type": "multiple_choice",
@@ -1518,7 +1617,8 @@
           }
         ],
         "correctAnswerId": "B",
-        "xp": 10
+        "xp": 10,
+        "explanation": "La respuesta correcta es \"30-50%\". Esta es la opción más precisa según los fundamentos fisiológicos del temario."
       },
       {
         "type": "match_pairs",
@@ -1537,7 +1637,8 @@
             "right": "Incidencia extremadamente baja en población sana"
           }
         ],
-        "xp": 15
+        "xp": 15,
+        "explanation": "Unir correctamente estos conceptos te ayuda a estructurar mentalmente las diferencias y relaciones clave entre ellos."
       },
       {
         "type": "text_input",
@@ -1547,7 +1648,8 @@
           "aerobico",
           "aeróbicos"
         ],
-        "xp": 20
+        "xp": 20,
+        "explanation": "El término exacto que define este proceso o concepto es \"Aeróbico\". Es un vocabulario técnico que debes memorizar."
       },
       {
         "type": "fill_in_blanks_cards",
@@ -1562,13 +1664,15 @@
           "menos",
           "aeróbicos"
         ],
-        "xp": 15
+        "xp": 15,
+        "explanation": "Cada palabra clave tiene su lugar específico. Recordar el orden correcto consolida tu comprensión de la oración completa."
       },
       {
         "type": "true_false",
         "question": "La muerte súbita durante el ejercicio es altísima si se controla la intensidad.",
         "correctAnswer": false,
-        "xp": 10
+        "xp": 10,
+        "explanation": "Recuerda que la afirmación es falsa. Comprender este hecho es vital para dominar la base teórica de este módulo."
       },
       {
         "type": "multiple_choice",
@@ -1584,7 +1688,8 @@
           }
         ],
         "correctAnswerId": "B",
-        "xp": 10
+        "xp": 10,
+        "explanation": "La respuesta correcta es \"Estar asistido por un adulto\". Esta es la opción más precisa según los fundamentos fisiológicos del temario."
       }
     ]
   },
@@ -1597,7 +1702,8 @@
         "type": "true_false",
         "question": "En la nomenclatura '3x6', el primer número indica las repeticiones y el segundo las series.",
         "correctAnswer": false,
-        "xp": 10
+        "xp": 10,
+        "explanation": "Recuerda que la afirmación es falsa. Comprender este hecho es vital para dominar la base teórica de este módulo."
       },
       {
         "type": "multiple_choice",
@@ -1613,7 +1719,8 @@
           }
         ],
         "correctAnswerId": "B",
-        "xp": 10
+        "xp": 10,
+        "explanation": "La respuesta correcta es \"La cantidad de series y repeticiones\". Esta es la opción más precisa según los fundamentos fisiológicos del temario."
       },
       {
         "type": "match_pairs",
@@ -1632,7 +1739,8 @@
             "right": "Suma total de series por repeticiones"
           }
         ],
-        "xp": 15
+        "xp": 15,
+        "explanation": "Unir correctamente estos conceptos te ayuda a estructurar mentalmente las diferencias y relaciones clave entre ellos."
       },
       {
         "type": "text_input",
@@ -1641,7 +1749,8 @@
           "RM",
           "rm"
         ],
-        "xp": 20
+        "xp": 20,
+        "explanation": "El término exacto que define este proceso o concepto es \"RM\". Es un vocabulario técnico que debes memorizar."
       },
       {
         "type": "fill_in_blanks_cards",
@@ -1656,13 +1765,15 @@
           "simultáneamente",
           "fuerza máxima"
         ],
-        "xp": 15
+        "xp": 15,
+        "explanation": "Cada palabra clave tiene su lugar específico. Recordar el orden correcto consolida tu comprensión de la oración completa."
       },
       {
         "type": "true_false",
         "question": "El principio de especificidad indica que el entrenamiento debe ser tan similar como sea posible al gesto deportivo.",
         "correctAnswer": true,
-        "xp": 10
+        "xp": 10,
+        "explanation": "Recuerda que la afirmación es verdadera. Comprender este hecho es vital para dominar la base teórica de este módulo."
       },
       {
         "type": "multiple_choice",
@@ -1678,7 +1789,8 @@
           }
         ],
         "correctAnswerId": "B",
-        "xp": 10
+        "xp": 10,
+        "explanation": "La respuesta correcta es \"Fuera de temporada (Off-season)\". Esta es la opción más precisa según los fundamentos fisiológicos del temario."
       }
     ]
   },
@@ -1691,7 +1803,8 @@
         "type": "true_false",
         "question": "Las pesas libres, como barras y mancuernas, son consideradas cargas gravitacionales directas.",
         "correctAnswer": true,
-        "xp": 10
+        "xp": 10,
+        "explanation": "Recuerda que la afirmación es verdadera. Comprender este hecho es vital para dominar la base teórica de este módulo."
       },
       {
         "type": "multiple_choice",
@@ -1707,7 +1820,8 @@
           }
         ],
         "correctAnswerId": "B",
-        "xp": 10
+        "xp": 10,
+        "explanation": "La respuesta correcta es \"Indirecta simple\". Esta es la opción más precisa según los fundamentos fisiológicos del temario."
       },
       {
         "type": "match_pairs",
@@ -1726,7 +1840,8 @@
             "right": "Mancuernas y barras libres"
           }
         ],
-        "xp": 15
+        "xp": 15,
+        "explanation": "Unir correctamente estos conceptos te ayuda a estructurar mentalmente las diferencias y relaciones clave entre ellos."
       },
       {
         "type": "text_input",
@@ -1735,7 +1850,8 @@
           "Estabilizadores",
           "estabilizadores"
         ],
-        "xp": 20
+        "xp": 20,
+        "explanation": "El término exacto que define este proceso o concepto es \"Estabilizadores\". Es un vocabulario técnico que debes memorizar."
       },
       {
         "type": "fill_in_blanks_cards",
@@ -1750,13 +1866,15 @@
           "éxito",
           "fitness"
         ],
-        "xp": 15
+        "xp": 15,
+        "explanation": "Cada palabra clave tiene su lugar específico. Recordar el orden correcto consolida tu comprensión de la oración completa."
       },
       {
         "type": "true_false",
         "question": "En los ejercicios con poleas clásicas (isotónicas), la resistencia en el cable disminuye dependiendo de la articulación.",
         "correctAnswer": false,
-        "xp": 10
+        "xp": 10,
+        "explanation": "Recuerda que la afirmación es falsa. Comprender este hecho es vital para dominar la base teórica de este módulo."
       },
       {
         "type": "multiple_choice",
@@ -1772,7 +1890,8 @@
           }
         ],
         "correctAnswerId": "B",
-        "xp": 10
+        "xp": 10,
+        "explanation": "La respuesta correcta es \"Prácticamente nula\". Esta es la opción más precisa según los fundamentos fisiológicos del temario."
       }
     ]
   },
@@ -1785,7 +1904,8 @@
         "type": "true_false",
         "question": "La máxima tensión de un músculo se logra en la máxima elongación fisiológica (antes de acortarse).",
         "correctAnswer": true,
-        "xp": 10
+        "xp": 10,
+        "explanation": "Recuerda que la afirmación es verdadera. Comprender este hecho es vital para dominar la base teórica de este módulo."
       },
       {
         "type": "multiple_choice",
@@ -1801,7 +1921,8 @@
           }
         ],
         "correctAnswerId": "B",
-        "xp": 10
+        "xp": 10,
+        "explanation": "La respuesta correcta es \"Disminuye\". Esta es la opción más precisa según los fundamentos fisiológicos del temario."
       },
       {
         "type": "match_pairs",
@@ -1820,7 +1941,8 @@
             "right": "Carga inamovible, velocidad de ejecución igual a cero"
           }
         ],
-        "xp": 15
+        "xp": 15,
+        "explanation": "Unir correctamente estos conceptos te ayuda a estructurar mentalmente las diferencias y relaciones clave entre ellos."
       },
       {
         "type": "text_input",
@@ -1829,7 +1951,8 @@
           "Variable",
           "variable"
         ],
-        "xp": 20
+        "xp": 20,
+        "explanation": "El término exacto que define este proceso o concepto es \"Variable\". Es un vocabulario técnico que debes memorizar."
       },
       {
         "type": "fill_in_blanks_cards",
@@ -1844,13 +1967,15 @@
           "20 kg/cm2",
           "6,8 kg/cm2"
         ],
-        "xp": 15
+        "xp": 15,
+        "explanation": "Cada palabra clave tiene su lugar específico. Recordar el orden correcto consolida tu comprensión de la oración completa."
       },
       {
         "type": "true_false",
         "question": "El acortamiento máximo fisiológico promedio de un músculo está en torno al 33%.",
         "correctAnswer": true,
-        "xp": 10
+        "xp": 10,
+        "explanation": "Recuerda que la afirmación es verdadera. Comprender este hecho es vital para dominar la base teórica de este módulo."
       },
       {
         "type": "multiple_choice",
@@ -1866,7 +1991,8 @@
           }
         ],
         "correctAnswerId": "A",
-        "xp": 10
+        "xp": 10,
+        "explanation": "La respuesta correcta es \"Huso muscular\". Esta es la opción más precisa según los fundamentos fisiológicos del temario."
       }
     ]
   },
@@ -1879,7 +2005,8 @@
         "type": "true_false",
         "question": "Todo movimiento del cuerpo humano en el espacio se produce en función de rotaciones articulares.",
         "correctAnswer": true,
-        "xp": 10
+        "xp": 10,
+        "explanation": "Recuerda que la afirmación es verdadera. Comprender este hecho es vital para dominar la base teórica de este módulo."
       },
       {
         "type": "multiple_choice",
@@ -1895,7 +2022,8 @@
           }
         ],
         "correctAnswerId": "B",
-        "xp": 10
+        "xp": 10,
+        "explanation": "La respuesta correcta es \"Biarticular\". Esta es la opción más precisa según los fundamentos fisiológicos del temario."
       },
       {
         "type": "match_pairs",
@@ -1914,7 +2042,8 @@
             "right": "Extienden la cadera y a la vez flexionan la rodilla"
           }
         ],
-        "xp": 15
+        "xp": 15,
+        "explanation": "Unir correctamente estos conceptos te ayuda a estructurar mentalmente las diferencias y relaciones clave entre ellos."
       },
       {
         "type": "text_input",
@@ -1923,7 +2052,8 @@
           "Lombard",
           "lombard"
         ],
-        "xp": 20
+        "xp": 20,
+        "explanation": "El término exacto que define este proceso o concepto es \"Lombard\". Es un vocabulario técnico que debes memorizar."
       },
       {
         "type": "fill_in_blanks_cards",
@@ -1938,13 +2068,15 @@
           "ahorro energético",
           "cadenas cinemáticas"
         ],
-        "xp": 15
+        "xp": 15,
+        "explanation": "Cada palabra clave tiene su lugar específico. Recordar el orden correcto consolida tu comprensión de la oración completa."
       },
       {
         "type": "true_false",
         "question": "El brazo de palanca de los isquiosurales es más grande en la rodilla que en la cadera.",
         "correctAnswer": false,
-        "xp": 10
+        "xp": 10,
+        "explanation": "Recuerda que la afirmación es falsa. Comprender este hecho es vital para dominar la base teórica de este módulo."
       },
       {
         "type": "multiple_choice",
@@ -1960,7 +2092,8 @@
           }
         ],
         "correctAnswerId": "B",
-        "xp": 10
+        "xp": 10,
+        "explanation": "La respuesta correcta es \"Alargan en la otra\". Esta es la opción más precisa según los fundamentos fisiológicos del temario."
       }
     ]
   },
@@ -1973,7 +2106,8 @@
         "type": "true_false",
         "question": "El 'tonelaje' se calcula multiplicando el peso movido por las repeticiones totales realizadas.",
         "correctAnswer": true,
-        "xp": 10
+        "xp": 10,
+        "explanation": "Recuerda que la afirmación es verdadera. Comprender este hecho es vital para dominar la base teórica de este módulo."
       },
       {
         "type": "multiple_choice",
@@ -1993,7 +2127,8 @@
           }
         ],
         "correctAnswerId": "B",
-        "xp": 10
+        "xp": 10,
+        "explanation": "La respuesta correcta es \"Densidad\". Esta es la opción más precisa según los fundamentos fisiológicos del temario."
       },
       {
         "type": "match_pairs",
@@ -2012,7 +2147,8 @@
             "right": "Suma total de Series por Repeticiones"
           }
         ],
-        "xp": 15
+        "xp": 15,
+        "explanation": "Unir correctamente estos conceptos te ayuda a estructurar mentalmente las diferencias y relaciones clave entre ellos."
       },
       {
         "type": "text_input",
@@ -2021,7 +2157,8 @@
           "Peso medio",
           "peso medio"
         ],
-        "xp": 20
+        "xp": 20,
+        "explanation": "El término exacto que define este proceso o concepto es \"Peso medio\". Es un vocabulario técnico que debes memorizar."
       },
       {
         "type": "fill_in_blanks_cards",
@@ -2036,13 +2173,15 @@
           "1 RM",
           "15 RM"
         ],
-        "xp": 15
+        "xp": 15,
+        "explanation": "Cada palabra clave tiene su lugar específico. Recordar el orden correcto consolida tu comprensión de la oración completa."
       },
       {
         "type": "true_false",
         "question": "El volumen en musculación hace referencia exclusivamente a los kilos de las mancuernas.",
         "correctAnswer": false,
-        "xp": 10
+        "xp": 10,
+        "explanation": "Recuerda que la afirmación es falsa. Comprender este hecho es vital para dominar la base teórica de este módulo."
       },
       {
         "type": "multiple_choice",
@@ -2058,7 +2197,8 @@
           }
         ],
         "correctAnswerId": "B",
-        "xp": 10
+        "xp": 10,
+        "explanation": "La respuesta correcta es \"De mayor a menor\". Esta es la opción más precisa según los fundamentos fisiológicos del temario."
       }
     ]
   },
@@ -2071,7 +2211,8 @@
         "type": "true_false",
         "question": "El Principio de Alternancia exige intercalar pausas de trabajo y descanso para optimizar la mejora biológica.",
         "correctAnswer": true,
-        "xp": 10
+        "xp": 10,
+        "explanation": "Recuerda que la afirmación es verdadera. Comprender este hecho es vital para dominar la base teórica de este módulo."
       },
       {
         "type": "multiple_choice",
@@ -2087,7 +2228,8 @@
           }
         ],
         "correctAnswerId": "B",
-        "xp": 10
+        "xp": 10,
+        "explanation": "La respuesta correcta es \"Sobrecompensación\". Esta es la opción más precisa según los fundamentos fisiológicos del temario."
       },
       {
         "type": "match_pairs",
@@ -2106,7 +2248,8 @@
             "right": "Se repone rápido, en 1 a 2 minutos"
           }
         ],
-        "xp": 15
+        "xp": 15,
+        "explanation": "Unir correctamente estos conceptos te ayuda a estructurar mentalmente las diferencias y relaciones clave entre ellos."
       },
       {
         "type": "text_input",
@@ -2116,7 +2259,8 @@
           "sobrecarga",
           "Principio de sobrecarga"
         ],
-        "xp": 20
+        "xp": 20,
+        "explanation": "El término exacto que define este proceso o concepto es \"Sobrecarga\". Es un vocabulario técnico que debes memorizar."
       },
       {
         "type": "fill_in_blanks_cards",
@@ -2131,13 +2275,15 @@
           "inversamente",
           "potencia"
         ],
-        "xp": 15
+        "xp": 15,
+        "explanation": "Cada palabra clave tiene su lugar específico. Recordar el orden correcto consolida tu comprensión de la oración completa."
       },
       {
         "type": "true_false",
         "question": "La reposición de depósitos de mioglobina (O2) en el músculo requiere 48 horas.",
         "correctAnswer": false,
-        "xp": 10
+        "xp": 10,
+        "explanation": "Recuerda que la afirmación es falsa. Comprender este hecho es vital para dominar la base teórica de este módulo."
       },
       {
         "type": "multiple_choice",
@@ -2153,7 +2299,8 @@
           }
         ],
         "correctAnswerId": "B",
-        "xp": 10
+        "xp": 10,
+        "explanation": "La respuesta correcta es \"4-5 horas\". Esta es la opción más precisa según los fundamentos fisiológicos del temario."
       }
     ]
   },
@@ -2166,7 +2313,8 @@
         "type": "true_false",
         "question": "El Método de Intensidades Máximas I busca producir una enorme hipertrofia muscular.",
         "correctAnswer": false,
-        "xp": 10
+        "xp": 10,
+        "explanation": "Recuerda que la afirmación es falsa. Comprender este hecho es vital para dominar la base teórica de este módulo."
       },
       {
         "type": "multiple_choice",
@@ -2182,7 +2330,8 @@
           }
         ],
         "correctAnswerId": "A",
-        "xp": 10
+        "xp": 10,
+        "explanation": "La respuesta correcta es \"1 a 3\". Esta es la opción más precisa según los fundamentos fisiológicos del temario."
       },
       {
         "type": "match_pairs",
@@ -2201,7 +2350,8 @@
             "right": "Cargas del 70 al 80% (Hipertrofia)"
           }
         ],
-        "xp": 15
+        "xp": 15,
+        "explanation": "Unir correctamente estos conceptos te ayuda a estructurar mentalmente las diferencias y relaciones clave entre ellos."
       },
       {
         "type": "text_input",
@@ -2213,7 +2363,8 @@
           "explosiva",
           "maxima posible"
         ],
-        "xp": 20
+        "xp": 20,
+        "explanation": "El término exacto que define este proceso o concepto es \"Máxima\". Es un vocabulario técnico que debes memorizar."
       },
       {
         "type": "fill_in_blanks_cards",
@@ -2228,13 +2379,15 @@
           "inhibición",
           "coordinación intramuscular"
         ],
-        "xp": 15
+        "xp": 15,
+        "explanation": "Cada palabra clave tiene su lugar específico. Recordar el orden correcto consolida tu comprensión de la oración completa."
       },
       {
         "type": "true_false",
         "question": "El Método de Intensidades Máximas es idóneo y seguro para principiantes en su primera semana.",
         "correctAnswer": false,
-        "xp": 10
+        "xp": 10,
+        "explanation": "Recuerda que la afirmación es falsa. Comprender este hecho es vital para dominar la base teórica de este módulo."
       },
       {
         "type": "multiple_choice",
@@ -2250,7 +2403,8 @@
           }
         ],
         "correctAnswerId": "B",
-        "xp": 10
+        "xp": 10,
+        "explanation": "La respuesta correcta es \"3 minutos\". Esta es la opción más precisa según los fundamentos fisiológicos del temario."
       }
     ]
   },
@@ -2263,7 +2417,8 @@
         "type": "true_false",
         "question": "El Método de Repeticiones II (70-80%) produce una hipertrofia muscular alta.",
         "correctAnswer": true,
-        "xp": 10
+        "xp": 10,
+        "explanation": "Recuerda que la afirmación es verdadera. Comprender este hecho es vital para dominar la base teórica de este módulo."
       },
       {
         "type": "multiple_choice",
@@ -2279,7 +2434,8 @@
           }
         ],
         "correctAnswerId": "B",
-        "xp": 10
+        "xp": 10,
+        "explanation": "La respuesta correcta es \"5-7\". Esta es la opción más precisa según los fundamentos fisiológicos del temario."
       },
       {
         "type": "match_pairs",
@@ -2298,7 +2454,8 @@
             "right": "Aproximadamente 45 segundos entre series"
           }
         ],
-        "xp": 15
+        "xp": 15,
+        "explanation": "Unir correctamente estos conceptos te ayuda a estructurar mentalmente las diferencias y relaciones clave entre ellos."
       },
       {
         "type": "text_input",
@@ -2308,7 +2465,8 @@
           "45",
           "45 seg"
         ],
-        "xp": 20
+        "xp": 20,
+        "explanation": "El término exacto que define este proceso o concepto es \"45 segundos\". Es un vocabulario técnico que debes memorizar."
       },
       {
         "type": "fill_in_blanks_cards",
@@ -2323,13 +2481,15 @@
           "mayor",
           "reclutadas y agotadas"
         ],
-        "xp": 15
+        "xp": 15,
+        "explanation": "Cada palabra clave tiene su lugar específico. Recordar el orden correcto consolida tu comprensión de la oración completa."
       },
       {
         "type": "true_false",
         "question": "En los métodos de repeticiones, la tensión muscular máxima dentro de la serie se logra desde la primera repetición.",
         "correctAnswer": false,
-        "xp": 10
+        "xp": 10,
+        "explanation": "Recuerda que la afirmación es falsa. Comprender este hecho es vital para dominar la base teórica de este módulo."
       },
       {
         "type": "multiple_choice",
@@ -2345,7 +2505,8 @@
           }
         ],
         "correctAnswerId": "B",
-        "xp": 10
+        "xp": 10,
+        "explanation": "La respuesta correcta es \"Específicos con avanzados\". Esta es la opción más precisa según los fundamentos fisiológicos del temario."
       }
     ]
   },
@@ -2358,7 +2519,8 @@
         "type": "true_false",
         "question": "Para orientar un plan hacia la resistencia muscular, es necesario trabajar con cargas submaximales entre el 50% y el 70%.",
         "correctAnswer": true,
-        "xp": 10
+        "xp": 10,
+        "explanation": "Recuerda que la afirmación es verdadera. Comprender este hecho es vital para dominar la base teórica de este módulo."
       },
       {
         "type": "multiple_choice",
@@ -2374,7 +2536,8 @@
           }
         ],
         "correctAnswerId": "B",
-        "xp": 10
+        "xp": 10,
+        "explanation": "La respuesta correcta es \"15 a 25\". Esta es la opción más precisa según los fundamentos fisiológicos del temario."
       },
       {
         "type": "match_pairs",
@@ -2393,7 +2556,8 @@
             "right": "Desarrollo de la Fuerza-Resistencia"
           }
         ],
-        "xp": 15
+        "xp": 15,
+        "explanation": "Unir correctamente estos conceptos te ayuda a estructurar mentalmente las diferencias y relaciones clave entre ellos."
       },
       {
         "type": "text_input",
@@ -2404,7 +2568,8 @@
           "Fuerza máxima",
           "fuerza maxima"
         ],
-        "xp": 20
+        "xp": 20,
+        "explanation": "El término exacto que define este proceso o concepto es \"Capacidad\". Es un vocabulario técnico que debes memorizar."
       },
       {
         "type": "fill_in_blanks_cards",
@@ -2419,13 +2584,15 @@
           "descargado",
           "estimulación"
         ],
-        "xp": 15
+        "xp": 15,
+        "explanation": "Cada palabra clave tiene su lugar específico. Recordar el orden correcto consolida tu comprensión de la oración completa."
       },
       {
         "type": "true_false",
         "question": "Aún en rutinas de pura resistencia muscular de 15 repeticiones, el atleta logrará un aumento residual de fuerza.",
         "correctAnswer": true,
-        "xp": 10
+        "xp": 10,
+        "explanation": "Recuerda que la afirmación es verdadera. Comprender este hecho es vital para dominar la base teórica de este módulo."
       },
       {
         "type": "multiple_choice",
@@ -2441,7 +2608,8 @@
           }
         ],
         "correctAnswerId": "B",
-        "xp": 10
+        "xp": 10,
+        "explanation": "La respuesta correcta es \"Glucólisis anaeróbica\". Esta es la opción más precisa según los fundamentos fisiológicos del temario."
       }
     ]
   },
@@ -2454,7 +2622,8 @@
         "type": "true_false",
         "question": "La potencia muscular es el resultado de conjugar la fuerza y la flexibilidad.",
         "correctAnswer": false,
-        "xp": 10
+        "xp": 10,
+        "explanation": "Recuerda que la afirmación es falsa. Comprender este hecho es vital para dominar la base teórica de este módulo."
       },
       {
         "type": "multiple_choice",
@@ -2470,7 +2639,8 @@
           }
         ],
         "correctAnswerId": "B",
-        "xp": 10
+        "xp": 10,
+        "explanation": "La respuesta correcta es \"Aumento la potencia\". Esta es la opción más precisa según los fundamentos fisiológicos del temario."
       },
       {
         "type": "match_pairs",
@@ -2489,7 +2659,8 @@
             "right": "Generan potencia mecánica de nivel medio-bajo"
           }
         ],
-        "xp": 15
+        "xp": 15,
+        "explanation": "Unir correctamente estos conceptos te ayuda a estructurar mentalmente las diferencias y relaciones clave entre ellos."
       },
       {
         "type": "text_input",
@@ -2502,7 +2673,8 @@
           "Envión",
           "envion"
         ],
-        "xp": 20
+        "xp": 20,
+        "explanation": "El término exacto que define este proceso o concepto es \"Cargada\". Es un vocabulario técnico que debes memorizar."
       },
       {
         "type": "fill_in_blanks_cards",
@@ -2517,13 +2689,15 @@
           "pocos",
           "menos"
         ],
-        "xp": 15
+        "xp": 15,
+        "explanation": "Cada palabra clave tiene su lugar específico. Recordar el orden correcto consolida tu comprensión de la oración completa."
       },
       {
         "type": "true_false",
         "question": "La 'Cargada al pecho' cumple a la perfección la ley de Hill porque todas las articulaciones actúan exactamente al mismo tiempo.",
         "correctAnswer": false,
-        "xp": 10
+        "xp": 10,
+        "explanation": "Recuerda que la afirmación es falsa. Comprender este hecho es vital para dominar la base teórica de este módulo."
       },
       {
         "type": "multiple_choice",
@@ -2539,7 +2713,8 @@
           }
         ],
         "correctAnswerId": "B",
-        "xp": 10
+        "xp": 10,
+        "explanation": "La respuesta correcta es \"Se propaga temporalmente desde las piernas al tronco y brazos\". Esta es la opción más precisa según los fundamentos fisiológicos del temario."
       }
     ]
   },
@@ -2552,7 +2727,8 @@
         "type": "true_false",
         "question": "Los sinergistas son músculos que ayudan a los protagonistas con un rol de menor jerarquía.",
         "correctAnswer": true,
-        "xp": 10
+        "xp": 10,
+        "explanation": "Recuerda que la afirmación es verdadera. Comprender este hecho es vital para dominar la base teórica de este módulo."
       },
       {
         "type": "multiple_choice",
@@ -2568,7 +2744,8 @@
           }
         ],
         "correctAnswerId": "B",
-        "xp": 10
+        "xp": 10,
+        "explanation": "La respuesta correcta es \"Antagonista\". Esta es la opción más precisa según los fundamentos fisiológicos del temario."
       },
       {
         "type": "match_pairs",
@@ -2587,7 +2764,8 @@
             "right": "Actúa como Estabilizador para evitar balanceo"
           }
         ],
-        "xp": 15
+        "xp": 15,
+        "explanation": "Unir correctamente estos conceptos te ayuda a estructurar mentalmente las diferencias y relaciones clave entre ellos."
       },
       {
         "type": "text_input",
@@ -2596,7 +2774,8 @@
           "Neutralizadores",
           "neutralizadores"
         ],
-        "xp": 20
+        "xp": 20,
+        "explanation": "El término exacto que define este proceso o concepto es \"Neutralizadores\". Es un vocabulario técnico que debes memorizar."
       },
       {
         "type": "fill_in_blanks_cards",
@@ -2611,13 +2790,15 @@
           "estabilizadores",
           "hombro"
         ],
-        "xp": 15
+        "xp": 15,
+        "explanation": "Cada palabra clave tiene su lugar específico. Recordar el orden correcto consolida tu comprensión de la oración completa."
       },
       {
         "type": "true_false",
         "question": "El trabajo dinámico no influye para nada en el tipo de reclutamiento de las fibras.",
         "correctAnswer": false,
-        "xp": 10
+        "xp": 10,
+        "explanation": "Recuerda que la afirmación es falsa. Comprender este hecho es vital para dominar la base teórica de este módulo."
       },
       {
         "type": "multiple_choice",
@@ -2633,7 +2814,8 @@
           }
         ],
         "correctAnswerId": "B",
-        "xp": 10
+        "xp": 10,
+        "explanation": "La respuesta correcta es \"Elástico en serie\". Esta es la opción más precisa según los fundamentos fisiológicos del temario."
       }
     ]
   },
@@ -2646,7 +2828,8 @@
         "type": "true_false",
         "question": "Un recorrido completo de la carga asegura pre-estiramiento y una mayor tensión inicial.",
         "correctAnswer": true,
-        "xp": 10
+        "xp": 10,
+        "explanation": "Recuerda que la afirmación es verdadera. Comprender este hecho es vital para dominar la base teórica de este módulo."
       },
       {
         "type": "multiple_choice",
@@ -2662,7 +2845,8 @@
           }
         ],
         "correctAnswerId": "B",
-        "xp": 10
+        "xp": 10,
+        "explanation": "La respuesta correcta es \"Tiempo de ejecución\". Esta es la opción más precisa según los fundamentos fisiológicos del temario."
       },
       {
         "type": "match_pairs",
@@ -2681,7 +2865,8 @@
             "right": "Ejecutarla controlada o explosiva según el método"
           }
         ],
-        "xp": 15
+        "xp": 15,
+        "explanation": "Unir correctamente estos conceptos te ayuda a estructurar mentalmente las diferencias y relaciones clave entre ellos."
       },
       {
         "type": "text_input",
@@ -2691,7 +2876,8 @@
           "rodilla",
           "la rodilla"
         ],
-        "xp": 20
+        "xp": 20,
+        "explanation": "El término exacto que define este proceso o concepto es \"Rodilla\". Es un vocabulario técnico que debes memorizar."
       },
       {
         "type": "fill_in_blanks_cards",
@@ -2706,13 +2892,15 @@
           "peso movido",
           "trayectoria"
         ],
-        "xp": 15
+        "xp": 15,
+        "explanation": "Cada palabra clave tiene su lugar específico. Recordar el orden correcto consolida tu comprensión de la oración completa."
       },
       {
         "type": "true_false",
         "question": "Reducir el recorrido de una repetición a la mitad es la mejor técnica para aumentar la potencia desarrollada.",
         "correctAnswer": false,
-        "xp": 10
+        "xp": 10,
+        "explanation": "Recuerda que la afirmación es falsa. Comprender este hecho es vital para dominar la base teórica de este módulo."
       },
       {
         "type": "multiple_choice",
@@ -2728,7 +2916,8 @@
           }
         ],
         "correctAnswerId": "B",
-        "xp": 10
+        "xp": 10,
+        "explanation": "La respuesta correcta es \"Hipertrofia y fuerza combinadas\". Esta es la opción más precisa según los fundamentos fisiológicos del temario."
       }
     ]
   },
@@ -2741,7 +2930,8 @@
         "type": "true_false",
         "question": "La periodización es la estructura programada del plan de entrenamiento en un periodo prolongado.",
         "correctAnswer": true,
-        "xp": 10
+        "xp": 10,
+        "explanation": "Recuerda que la afirmación es verdadera. Comprender este hecho es vital para dominar la base teórica de este módulo."
       },
       {
         "type": "multiple_choice",
@@ -2757,7 +2947,8 @@
           }
         ],
         "correctAnswerId": "A",
-        "xp": 10
+        "xp": 10,
+        "explanation": "La respuesta correcta es \"De mantenimiento mínimo\". Esta es la opción más precisa según los fundamentos fisiológicos del temario."
       },
       {
         "type": "match_pairs",
@@ -2776,7 +2967,8 @@
             "right": "Rutinas de mantenimiento del nivel ganado"
           }
         ],
-        "xp": 15
+        "xp": 15,
+        "explanation": "Unir correctamente estos conceptos te ayuda a estructurar mentalmente las diferencias y relaciones clave entre ellos."
       },
       {
         "type": "text_input",
@@ -2785,7 +2977,8 @@
           "Pretemporada",
           "pretemporada"
         ],
-        "xp": 20
+        "xp": 20,
+        "explanation": "El término exacto que define este proceso o concepto es \"Pretemporada\". Es un vocabulario técnico que debes memorizar."
       },
       {
         "type": "fill_in_blanks_cards",
@@ -2800,13 +2993,15 @@
           "revisar",
           "repeticiones"
         ],
-        "xp": 15
+        "xp": 15,
+        "explanation": "Cada palabra clave tiene su lugar específico. Recordar el orden correcto consolida tu comprensión de la oración completa."
       },
       {
         "type": "true_false",
         "question": "Los tests de fuerza máxima (1 RM) son 100% seguros y obligatorios en todas las sesiones para novatos.",
         "correctAnswer": false,
-        "xp": 10
+        "xp": 10,
+        "explanation": "Recuerda que la afirmación es falsa. Comprender este hecho es vital para dominar la base teórica de este módulo."
       },
       {
         "type": "multiple_choice",
@@ -2822,7 +3017,8 @@
           }
         ],
         "correctAnswerId": "B",
-        "xp": 10
+        "xp": 10,
+        "explanation": "La respuesta correcta es \"Método en Pirámide\". Esta es la opción más precisa según los fundamentos fisiológicos del temario."
       }
     ]
   },
@@ -2835,7 +3031,8 @@
         "type": "true_false",
         "question": "La hiperplasia sugiere que el crecimiento muscular puede implicar la formación de nuevas fibras, no solo engrosarlas.",
         "correctAnswer": true,
-        "xp": 10
+        "xp": 10,
+        "explanation": "Recuerda que la afirmación es verdadera. Comprender este hecho es vital para dominar la base teórica de este módulo."
       },
       {
         "type": "multiple_choice",
@@ -2851,7 +3048,8 @@
           }
         ],
         "correctAnswerId": "A",
-        "xp": 10
+        "xp": 10,
+        "explanation": "La respuesta correcta es \"Aumenta la fuerza y la resistencia cardiovascular\". Esta es la opción más precisa según los fundamentos fisiológicos del temario."
       },
       {
         "type": "match_pairs",
@@ -2870,7 +3068,8 @@
             "right": "Rango ideal entre 15 a 25 RM"
           }
         ],
-        "xp": 15
+        "xp": 15,
+        "explanation": "Unir correctamente estos conceptos te ayuda a estructurar mentalmente las diferencias y relaciones clave entre ellos."
       },
       {
         "type": "text_input",
@@ -2879,7 +3078,8 @@
           "ATPasa",
           "atpasa"
         ],
-        "xp": 20
+        "xp": 20,
+        "explanation": "El término exacto que define este proceso o concepto es \"ATPasa\". Es un vocabulario técnico que debes memorizar."
       },
       {
         "type": "fill_in_blanks_cards",
@@ -2894,13 +3094,15 @@
           "especificidad",
           "sobrecarga"
         ],
-        "xp": 15
+        "xp": 15,
+        "explanation": "Cada palabra clave tiene su lugar específico. Recordar el orden correcto consolida tu comprensión de la oración completa."
       },
       {
         "type": "true_false",
         "question": "La biomecánica moderna nos enseña que es imposible entrenar sin aislar músculos monoarticulares en máquinas.",
         "correctAnswer": false,
-        "xp": 10
+        "xp": 10,
+        "explanation": "Recuerda que la afirmación es falsa. Comprender este hecho es vital para dominar la base teórica de este módulo."
       },
       {
         "type": "multiple_choice",
@@ -2920,7 +3122,8 @@
           }
         ],
         "correctAnswerId": "B",
-        "xp": 10
+        "xp": 10,
+        "explanation": "La respuesta correcta es \"Superior\". Esta es la opción más precisa según los fundamentos fisiológicos del temario."
       }
     ]
   },
@@ -2933,7 +3136,8 @@
         "type": "true_false",
         "question": "Si tu cliente es un principiante total, la mejor forma de evaluar su fuerza es calculando su 1 RM (Repetición Máxima) el primer día.",
         "correctAnswer": false,
-        "xp": 10
+        "xp": 10,
+        "explanation": "Recuerda que la afirmación es falsa. Comprender este hecho es vital para dominar la base teórica de este módulo."
       },
       {
         "type": "multiple_choice",
@@ -2953,7 +3157,8 @@
           }
         ],
         "correctAnswerId": "B",
-        "xp": 10
+        "xp": 10,
+        "explanation": "La respuesta correcta es \"6 a 12 repeticiones al 75%\". Esta es la opción más precisa según los fundamentos fisiológicos del temario."
       },
       {
         "type": "match_pairs",
@@ -2972,7 +3177,8 @@
             "right": "Adaptación Anatómica con cargas submaximales (50-60%)"
           }
         ],
-        "xp": 15
+        "xp": 15,
+        "explanation": "Unir correctamente estos conceptos te ayuda a estructurar mentalmente las diferencias y relaciones clave entre ellos."
       },
       {
         "type": "text_input",
@@ -2982,7 +3188,8 @@
           "tres",
           "3 minutos"
         ],
-        "xp": 20
+        "xp": 20,
+        "explanation": "El término exacto que define este proceso o concepto es \"3\". Es un vocabulario técnico que debes memorizar."
       },
       {
         "type": "fill_in_blanks_cards",
@@ -2997,13 +3204,15 @@
           "volumen",
           "intensidad"
         ],
-        "xp": 15
+        "xp": 15,
+        "explanation": "Cada palabra clave tiene su lugar específico. Recordar el orden correcto consolida tu comprensión de la oración completa."
       },
       {
         "type": "true_false",
         "question": "Si tu cliente realiza un entrenamiento puramente isométrico empujando una pared, el cálculo de su trabajo mecánico (W = F x d) es mayor a cero.",
         "correctAnswer": false,
-        "xp": 10
+        "xp": 10,
+        "explanation": "Recuerda que la afirmación es falsa. Comprender este hecho es vital para dominar la base teórica de este módulo."
       },
       {
         "type": "multiple_choice",
@@ -3023,7 +3232,8 @@
           }
         ],
         "correctAnswerId": "B",
-        "xp": 10
+        "xp": 10,
+        "explanation": "La respuesta correcta es \"Umbral ventilatorio\". Esta es la opción más precisa según los fundamentos fisiológicos del temario."
       }
     ]
   }
