@@ -18,10 +18,15 @@ export default function Lesson() {
   const [selectedRight, setSelectedRight] = useState(null);
   const [shuffledRightPairs, setShuffledRightPairs] = useState([]);
 
+  const [textInput, setTextInput] = useState('');
+  // For FILL_IN_BLANKS_CARDS type
+  const [blankAnswers, setBlankAnswers] = useState([]); // Array of strings placed in the blanks
+  const [availableOptions, setAvailableOptions] = useState([]); // Array of options available
+
   useEffect(() => {
-    const level = moduleData.levels.find(l => l.id === currentLevelId);
-    if (level) {
-      setQuestions(level.questions);
+    const levelIndex = currentLevelId - 1;
+    if (levelIndex >= 0 && levelIndex < moduleData.length) {
+      setQuestions(moduleData[levelIndex].exercises);
     }
   }, [currentLevelId]);
 
@@ -33,12 +38,20 @@ export default function Lesson() {
     }
   }, [selectedLeft, selectedRight]);
 
+  const isMatchingComplete = () => {
+    if (currentQ.type !== 'match_pairs') return false;
+    return matchingPairs.length === currentQ.pairs.length;
+  };
+
   useEffect(() => {
     if (questions.length > 0) {
       const currentQ = questions[currentIndex];
-      if (currentQ.type === 'MATCHING') {
+      if (currentQ.type === 'match_pairs') {
         const rightItems = currentQ.pairs.map((p, idx) => ({ right: p.right, originalIdx: idx }));
         setShuffledRightPairs(rightItems.sort(() => Math.random() - 0.5));
+      } else if (currentQ.type === 'fill_in_blanks_cards') {
+        setBlankAnswers(new Array(currentQ.correctAnswers.length).fill(null));
+        setAvailableOptions([...currentQ.options].sort(() => Math.random() - 0.5));
       }
     }
   }, [currentIndex, questions]);
@@ -47,11 +60,6 @@ export default function Lesson() {
 
   const currentQ = questions[currentIndex];
   const progress = ((currentIndex) / questions.length) * 100;
-
-  const isMatchingComplete = () => {
-    if (currentQ.type !== 'MATCHING') return false;
-    return matchingPairs.length === currentQ.pairs.length;
-  };
 
   const checkMatching = () => {
     // Check if all pairs are correct
@@ -72,18 +80,33 @@ export default function Lesson() {
     if (status === 'playing') {
       let isCorrect = false;
 
-      if (currentQ.type === 'MATCHING') {
+      if (currentQ.type === 'match_pairs') {
         if (!isMatchingComplete()) return;
         isCorrect = checkMatching();
-      } else {
+      } else if (currentQ.type === 'multiple_choice') {
         if (selectedOption === null) return;
-        isCorrect = selectedOption === currentQ.correctAnswerIndex;
+        // In the new json, selectedOption is an index, but correct is an ID 'A', 'B'. 
+        // We will map selectedOption to the actual option object.
+        const selectedId = currentQ.options[selectedOption].id;
+        isCorrect = selectedId === currentQ.correctAnswerId;
+      } else if (currentQ.type === 'true_false') {
+        if (selectedOption === null) return;
+        // Opcion 0 is True, 1 is False
+        const selectedBool = selectedOption === 0;
+        isCorrect = selectedBool === currentQ.correctAnswer;
+      } else if (currentQ.type === 'text_input') {
+        if (!textInput.trim()) return;
+        isCorrect = currentQ.correctAnswers.map(a => a.toLowerCase().trim()).includes(textInput.toLowerCase().trim());
+      } else if (currentQ.type === 'fill_in_blanks_cards') {
+        if (blankAnswers.includes(null)) return;
+        // Compare each filled answer with correct answer
+        isCorrect = blankAnswers.every((ans, idx) => ans === currentQ.correctAnswers[idx]);
       }
       
       if (isCorrect) {
         setStatus('correct');
         setMascotState('happy');
-        gainExp(10);
+        gainExp(currentQ.xp || 10);
       } else {
         setStatus('incorrect');
         setMascotState('sad');
@@ -102,6 +125,9 @@ export default function Lesson() {
         setMatchingPairs([]);
         setSelectedLeft(null);
         setSelectedRight(null);
+        setTextInput('');
+        setBlankAnswers([]);
+        setAvailableOptions([]);
         setStatus('playing');
         setMascotState('thinking');
       } else {
@@ -122,7 +148,13 @@ export default function Lesson() {
     }
   };
 
-  const canCheck = currentQ.type === 'MATCHING' ? isMatchingComplete() : selectedOption !== null;
+  const checkCanCheck = () => {
+    if (currentQ.type === 'match_pairs') return isMatchingComplete();
+    if (currentQ.type === 'text_input') return textInput.trim().length > 0;
+    if (currentQ.type === 'fill_in_blanks_cards') return !blankAnswers.includes(null);
+    return selectedOption !== null;
+  };
+  const canCheck = checkCanCheck();
 
   return (
     <div style={{ display: 'flex', flexDirection: 'column', height: '100dvh', overflow: 'hidden' }}>
@@ -151,7 +183,7 @@ export default function Lesson() {
 
         {/* Options Area */}
         <div style={{ display: 'flex', flexDirection: 'column', gap: '16px', flexShrink: 0 }}>
-          {currentQ.type === 'MATCHING' && (
+          {currentQ.type === 'match_pairs' && (
             <div style={{ display: 'flex', justifyContent: 'space-between', gap: '16px' }}>
               <div style={{ display: 'flex', flexDirection: 'column', gap: '8px', flex: 1 }}>
                 {currentQ.pairs.map((p, idx) => {
@@ -188,26 +220,105 @@ export default function Lesson() {
             </div>
           )}
 
-          {currentQ.type !== 'MATCHING' && currentQ.options.map((opt, idx) => {
+          {currentQ.type === 'true_false' && ['Verdadero', 'Falso'].map((opt, idx) => {
             let extraClass = '';
             if (status !== 'playing') {
-              if (idx === currentQ.correctAnswerIndex) extraClass = 'selected'; 
-              if (idx === selectedOption && idx !== currentQ.correctAnswerIndex) extraClass = 'btn-danger'; 
+              const isCorrectOpt = (idx === 0) === currentQ.correctAnswer;
+              if (isCorrectOpt) extraClass = 'selected';
+              if (idx === selectedOption && !isCorrectOpt) extraClass = 'btn-danger';
             } else {
               if (idx === selectedOption) extraClass = 'selected';
             }
-
             return (
-              <button 
-                key={idx}
-                className={`btn btn-outline ${extraClass}`}
-                onClick={() => status === 'playing' && setSelectedOption(idx)}
-                disabled={status !== 'playing'}
-              >
+              <button key={idx} className={`btn btn-outline ${extraClass}`} onClick={() => status === 'playing' && setSelectedOption(idx)} disabled={status !== 'playing'}>
                 {opt}
               </button>
             );
           })}
+
+          {currentQ.type === 'multiple_choice' && currentQ.options.map((opt, idx) => {
+            let extraClass = '';
+            if (status !== 'playing') {
+              if (opt.id === currentQ.correctAnswerId) extraClass = 'selected'; 
+              if (idx === selectedOption && opt.id !== currentQ.correctAnswerId) extraClass = 'btn-danger'; 
+            } else {
+              if (idx === selectedOption) extraClass = 'selected';
+            }
+            return (
+              <button key={idx} className={`btn btn-outline ${extraClass}`} onClick={() => status === 'playing' && setSelectedOption(idx)} disabled={status !== 'playing'}>
+                {opt.text}
+              </button>
+            );
+          })}
+
+          {currentQ.type === 'text_input' && (
+            <input 
+              type="text" 
+              className="input-field" 
+              placeholder="Escribe tu respuesta aquí..." 
+              value={textInput} 
+              onChange={e => setTextInput(e.target.value)} 
+              disabled={status !== 'playing'} 
+              autoFocus
+            />
+          )}
+
+          {currentQ.type === 'fill_in_blanks_cards' && (
+            <div style={{ display: 'flex', flexDirection: 'column', gap: '24px' }}>
+              <div style={{ fontSize: '1.2rem', lineHeight: '2' }}>
+                {(() => {
+                  let parts = currentQ.text.split(/(\{\d+\})/g);
+                  return parts.map((part, i) => {
+                    const match = part.match(/\{(\d+)\}/);
+                    if (match) {
+                      const blankIdx = parseInt(match[1], 10);
+                      const filledText = blankAnswers[blankIdx];
+                      return (
+                        <span 
+                          key={i} 
+                          className={`blank-slot ${filledText ? 'filled' : ''}`} 
+                          onClick={() => {
+                            if (status === 'playing' && filledText) {
+                              const newBlanks = [...blankAnswers];
+                              newBlanks[blankIdx] = null;
+                              setBlankAnswers(newBlanks);
+                            }
+                          }}
+                        >
+                          {filledText || "________"}
+                        </span>
+                      );
+                    }
+                    return <span key={i}>{part}</span>;
+                  });
+                })()}
+              </div>
+
+              <div style={{ display: 'flex', flexWrap: 'wrap', gap: '12px' }}>
+                {availableOptions.map((opt, i) => {
+                  const isUsed = blankAnswers.includes(opt);
+                  return (
+                    <button 
+                      key={i} 
+                      className={`word-card ${isUsed ? 'used' : ''}`}
+                      onClick={() => {
+                        if (status !== 'playing' || isUsed) return;
+                        const emptyIdx = blankAnswers.indexOf(null);
+                        if (emptyIdx !== -1) {
+                          const newBlanks = [...blankAnswers];
+                          newBlanks[emptyIdx] = opt;
+                          setBlankAnswers(newBlanks);
+                        }
+                      }}
+                      disabled={isUsed || status !== 'playing'}
+                    >
+                      {opt}
+                    </button>
+                  );
+                })}
+              </div>
+            </div>
+          )}
         </div>
       </div>
 

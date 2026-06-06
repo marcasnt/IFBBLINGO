@@ -8,19 +8,20 @@ export default function Map() {
 
   return (
     <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', padding: '24px', paddingBottom: '100px' }}>
-      <h1 style={{ marginBottom: '24px', textAlign: 'center' }}>{moduleData.moduleTitle}</h1>
+      <h1 style={{ marginBottom: '24px', textAlign: 'center' }}>Módulo I: Fisiología</h1>
       
       <div style={{ marginBottom: '32px' }}>
         <Mascot state="idle" />
       </div>
 
       <div style={{ display: 'flex', flexDirection: 'column', gap: '32px', width: '100%', alignItems: 'center' }}>
-        {moduleData.levels.map((level, index) => {
+        {moduleData.map((level, index) => {
+          const id = index + 1;
           const offset = Math.sin(index) * 50; 
-          const isLocked = level.id > unlockedLevelId;
+          const isLocked = id > unlockedLevelId;
           
           return (
-            <div key={level.id} style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', transform: `translateX(${offset}px)` }}>
+            <div key={level.lessonId} style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', transform: `translateX(${offset}px)` }}>
               <div 
                 className={`btn flex-center ${isLocked ? 'btn-disabled' : 'btn-secondary pulse'}`} 
                 style={{ 
@@ -32,7 +33,7 @@ export default function Map() {
                   boxShadow: `0 6px 0 ${isLocked ? 'var(--color-gray-shadow)' : 'var(--color-secondary-shadow)'}`,
                   cursor: isLocked ? 'not-allowed' : 'pointer'
                 }}
-                onClick={() => !isLocked && startLesson(level.id)}
+                onClick={() => !isLocked && startLesson(id)}
               >
                 {isLocked ? <Lock size={32} color="#afafaf" /> : <Dumbbell size={32} />}
               </div>

@@ -1,1505 +1,1943 @@
-{
-  "moduleTitle": "Módulo I: Fisiología y Biomecánica (Versión Profunda)",
-  "levels": [
-    {
-      "id": 1,
-      "title": "Conceptos Básicos y ATP",
-      "questions": [
-        {
-          "type": "MULTIPLE_CHOICE",
-          "question": "¿Qué ciencia estudia el funcionamiento de los sistemas biológicos en actividad física?",
-          "options": [
-            "Kinesiología",
-            "Fisiología del ejercicio",
-            "Biomecánica",
-            "Ergometría"
-          ],
-          "correctAnswerIndex": 1
-        },
-        {
-          "type": "TRUE_FALSE",
-          "question": "El organismo busca mantener un 'equilibrio interno' ante estímulos externos repetidos.",
-          "options": [
-            "Verdadero",
-            "Falso"
-          ],
-          "correctAnswerIndex": 0
-        },
-        {
-          "type": "MULTIPLE_CHOICE",
-          "question": "¿Cuál es la moneda energética fundamental que maneja el organismo?",
-          "options": [
-            "Glucógeno",
-            "ATP",
-            "Fosfocreatina",
-            "Ácido Láctico"
-          ],
-          "correctAnswerIndex": 1
-        },
-        {
-          "type": "TRUE_FALSE",
-          "question": "Los factores genéticos de respuesta a un estímulo son fácilmente modificables con entrenamiento.",
-          "options": [
-            "Verdadero",
-            "Falso"
-          ],
-          "correctAnswerIndex": 1
-        },
-        {
-          "type": "MATCHING",
-          "question": "Une los conceptos básicos:",
-          "pairs": [
-            {
-              "left": "ATP",
-              "right": "Adenosin Trifosfato"
-            },
-            {
-              "left": "Entrenamiento",
-              "right": "Estímulo crónico"
-            },
-            {
-              "left": "Adaptación",
-              "right": "Respuesta a largo plazo"
-            }
-          ]
-        },
-        {
-          "type": "MULTIPLE_CHOICE",
-          "question": "¿Qué enzima es necesaria para liberar la energía de los enlaces del ATP?",
-          "options": [
-            "Lactato deshidrogenasa",
-            "ATPasa",
-            "Glucógeno sintasa",
-            "Creatinquinasa"
-          ],
-          "correctAnswerIndex": 1
-        }
-      ]
-    },
-    {
-      "id": 2,
-      "title": "Sistemas Anaeróbicos",
-      "questions": [
-        {
-          "type": "MULTIPLE_CHOICE",
-          "question": "¿Qué sistema se utiliza predominantemente en el 'arranque' de cualquier ejercicio?",
-          "options": [
-            "Aeróbico",
-            "Fosfatos de alta energía",
-            "Glucólisis láctica",
-            "Oxidación de grasas"
-          ],
-          "correctAnswerIndex": 1
-        },
-        {
-          "type": "TRUE_FALSE",
-          "question": "El sistema anaeróbico aláctico provoca una gran acumulación de ácido láctico.",
-          "options": [
-            "Verdadero",
-            "Falso"
-          ],
-          "correctAnswerIndex": 1
-        },
-        {
-          "type": "MULTIPLE_CHOICE",
-          "question": "¿Cuántas moléculas de ATP produce anaeróbicamente una molécula de glucosa?",
-          "options": [
-            "2",
-            "6",
-            "36",
-            "38"
-          ],
-          "correctAnswerIndex": 0
-        },
-        {
-          "type": "TRUE_FALSE",
-          "question": "La limitación práctica de la glucólisis anaeróbica es el efecto tóxico por disminución del pH.",
-          "options": [
-            "Verdadero",
-            "Falso"
-          ],
-          "correctAnswerIndex": 0
-        },
-        {
-          "type": "MATCHING",
-          "question": "Une el sistema con su característica:",
-          "pairs": [
-            {
-              "left": "Anaeróbico Aláctico",
-              "right": "Usa Fosfocreatina (CP)"
-            },
-            {
-              "left": "Anaeróbico Láctico",
-              "right": "Usa glucosa sin oxígeno"
-            },
-            {
-              "left": "Aláctico",
-              "right": "Es la fuente más rápida y potente"
-            }
-          ]
-        },
-        {
-          "type": "MULTIPLE_CHOICE",
-          "question": "¿Por qué hay un retraso en la puesta en marcha del sistema aeróbico al inicio del ejercicio?",
-          "options": [
-            "Falta de glucosa",
-            "Retraso en el transporte de O2 al músculo",
-            "Inhibición neural",
-            "Agotamiento de ATP"
-          ],
-          "correctAnswerIndex": 1
-        }
-      ]
-    },
-    {
-      "id": 3,
-      "title": "Sistema Aeróbico",
-      "questions": [
-        {
-          "type": "MULTIPLE_CHOICE",
-          "question": "¿Qué sistema permite 'quemar' los alimentos hasta convertirlos en CO2 y agua?",
-          "options": [
-            "Fosfágenos",
-            "Aeróbico",
-            "Glucólisis anaeróbica",
-            "Aláctico"
-          ],
-          "correctAnswerIndex": 1
-        },
-        {
-          "type": "TRUE_FALSE",
-          "question": "Desde el punto de vista del O2 consumido, es más 'barata' la energía de los hidratos de carbono que de las grasas.",
-          "options": [
-            "Verdadero",
-            "Falso"
-          ],
-          "correctAnswerIndex": 0
-        },
-        {
-          "type": "MULTIPLE_CHOICE",
-          "question": "¿Qué orgánulo celular actúa como la 'factoría' donde se produce la combustión aeróbica?",
-          "options": [
-            "Ribosoma",
-            "Núcleo",
-            "Retículo sarcoplásmico",
-            "Mitocondria"
-          ],
-          "correctAnswerIndex": 3
-        },
-        {
-          "type": "TRUE_FALSE",
-          "question": "Los sistemas energéticos actúan de forma aislada, uno empieza cuando el otro termina.",
-          "options": [
-            "Verdadero",
-            "Falso"
-          ],
-          "correctAnswerIndex": 1
-        },
-        {
-          "type": "MATCHING",
-          "question": "Empareja sobre oxidación:",
-          "pairs": [
-            {
-              "left": "Oxidación Glucosa",
-              "right": "Aprox. 6 moléculas ATP por O2"
-            },
-            {
-              "left": "Oxidación Grasas",
-              "right": "Beta-oxidación"
-            },
-            {
-              "left": "Proteínas",
-              "right": "Obtención de energía menor"
-            }
-          ]
-        },
-        {
-          "type": "MULTIPLE_CHOICE",
-          "question": "La utilización aeróbica de la glucosa es más económica. ¿Cuántas veces más ATP produce frente a la anaeróbica?",
-          "options": [
-            "Igual",
-            "Aprox. 18 veces más",
-            "El doble",
-            "Aprox. 5 veces más"
-          ],
-          "correctAnswerIndex": 1
-        }
-      ]
-    },
-    {
-      "id": 4,
-      "title": "Conceptos de Fuerza y Trabajo",
-      "questions": [
-        {
-          "type": "MULTIPLE_CHOICE",
-          "question": "Es la causa capaz de producir o modificar el estado de reposo o movimiento de un cuerpo:",
-          "options": [
-            "Trabajo",
-            "Potencia",
-            "Fuerza",
-            "Momento"
-          ],
-          "correctAnswerIndex": 2
-        },
-        {
-          "type": "TRUE_FALSE",
-          "question": "El Trabajo (W) se define como Fuerza por Desplazamiento (W = F x d).",
-          "options": [
-            "Verdadero",
-            "Falso"
-          ],
-          "correctAnswerIndex": 0
-        },
-        {
-          "type": "MULTIPLE_CHOICE",
-          "question": "¿Cómo se define la Potencia (P)?",
-          "options": [
-            "Fuerza x Masa",
-            "Trabajo efectuado en la unidad de tiempo",
-            "Fuerza estática",
-            "Capacidad de elasticidad"
-          ],
-          "correctAnswerIndex": 1
-        },
-        {
-          "type": "TRUE_FALSE",
-          "question": "La máxima potencia muscular se alcanza siempre a la máxima velocidad posible.",
-          "options": [
-            "Verdadero",
-            "Falso"
-          ],
-          "correctAnswerIndex": 1
-        },
-        {
-          "type": "MATCHING",
-          "question": "Fórmulas y Conceptos:",
-          "pairs": [
-            {
-              "left": "W (Trabajo)",
-              "right": "F x d"
-            },
-            {
-              "left": "P (Potencia)",
-              "right": "W / t (o F x v)"
-            },
-            {
-              "left": "Momento (Torque)",
-              "right": "Fuerza x Distancia al eje"
-            }
-          ]
-        },
-        {
-          "type": "MULTIPLE_CHOICE",
-          "question": "¿Qué capacidad permite al músculo recuperar su forma original tras una deformación?",
-          "options": [
-            "Excitabilidad",
-            "Contractilidad",
-            "Elasticidad",
-            "Hipertrofia"
-          ],
-          "correctAnswerIndex": 2
-        }
-      ]
-    },
-    {
-      "id": 5,
-      "title": "Tipos de Contracción I",
-      "questions": [
-        {
-          "type": "MULTIPLE_CHOICE",
-          "question": "¿Cómo se llama la contracción donde no hay desplazamiento y el trabajo mecánico es cero?",
-          "options": [
-            "Isotónica",
-            "Concéntrica",
-            "Isométrica",
-            "Isocinética"
-          ],
-          "correctAnswerIndex": 2
-        },
-        {
-          "type": "TRUE_FALSE",
-          "question": "En la contracción excéntrica, el trabajo producido se considera negativo.",
-          "options": [
-            "Verdadero",
-            "Falso"
-          ],
-          "correctAnswerIndex": 0
-        },
-        {
-          "type": "MULTIPLE_CHOICE",
-          "question": "¿Qué ocurre en una contracción concéntrica?",
-          "options": [
-            "El músculo produce movimiento y trabajo positivo",
-            "El músculo frena el movimiento",
-            "No hay movimiento",
-            "La velocidad es constante"
-          ],
-          "correctAnswerIndex": 0
-        },
-        {
-          "type": "TRUE_FALSE",
-          "question": "La contracción isotónica mantiene una tensión constante durante todo el recorrido en ejercicios reales.",
-          "options": [
-            "Verdadero",
-            "Falso"
-          ],
-          "correctAnswerIndex": 1
-        },
-        {
-          "type": "MATCHING",
-          "question": "Tipos de Contracción:",
-          "pairs": [
-            {
-              "left": "Isométrica",
-              "right": "Sin desplazamiento"
-            },
-            {
-              "left": "Concéntrica",
-              "right": "Vence la carga"
-            },
-            {
-              "left": "Excéntrica",
-              "right": "Frena la carga"
-            }
-          ]
-        },
-        {
-          "type": "MULTIPLE_CHOICE",
-          "question": "Etimológicamente, ¿qué significa 'isométrico'?",
-          "options": [
-            "Igual tensión",
-            "Igual medida",
-            "Igual velocidad",
-            "Igual fuerza"
-          ],
-          "correctAnswerIndex": 1
-        }
-      ]
-    },
-    {
-      "id": 6,
-      "title": "Tipos de Contracción II",
-      "questions": [
-        {
-          "type": "MULTIPLE_CHOICE",
-          "question": "¿Qué tipo de contracción se realiza a velocidad angular o de giro constante?",
-          "options": [
-            "Auxotónica",
-            "Isotónica",
-            "Isocinética",
-            "Isométrica"
-          ],
-          "correctAnswerIndex": 2
-        },
-        {
-          "type": "TRUE_FALSE",
-          "question": "El término 'Auxotónica' se refiere a una contracción con tensión variable, típica en deportes.",
-          "options": [
-            "Verdadero",
-            "Falso"
-          ],
-          "correctAnswerIndex": 0
-        },
-        {
-          "type": "MULTIPLE_CHOICE",
-          "question": "En un equipo isocinético, ¿qué máquina regula la resistencia?",
-          "options": [
-            "Poleas simples",
-            "Pesos libres",
-            "Servomecanismos hidráulicos",
-            "Bandas elásticas"
-          ],
-          "correctAnswerIndex": 2
-        },
-        {
-          "type": "TRUE_FALSE",
-          "question": "Los músculos antagonistas trabajan 'a favor' del movimiento.",
-          "options": [
-            "Verdadero",
-            "Falso"
-          ],
-          "correctAnswerIndex": 1
-        },
-        {
-          "type": "MATCHING",
-          "question": "Roles musculares:",
-          "pairs": [
-            {
-              "left": "Agonistas",
-              "right": "Responsables del movimiento"
-            },
-            {
-              "left": "Antagonistas",
-              "right": "Se oponen al movimiento"
-            },
-            {
-              "left": "Estabilizadores",
-              "right": "Fijan articulaciones vecinas"
-            }
-          ]
-        },
-        {
-          "type": "MULTIPLE_CHOICE",
-          "question": "¿Qué músculos evitan movimientos indeseados cuando un músculo tiene doble función?",
-          "options": [
-            "Agonistas",
-            "Sinergistas",
-            "Neutralizadores",
-            "Fijadores"
-          ],
-          "correctAnswerIndex": 2
-        }
-      ]
-    },
-    {
-      "id": 7,
-      "title": "La Neurona",
-      "questions": [
-        {
-          "type": "MULTIPLE_CHOICE",
-          "question": "¿Cuál es la célula principal del tejido nervioso responsable de dar la 'orden' de contracción?",
-          "options": [
-            "Célula de Schwann",
-            "Neurona",
-            "Miofibrilla",
-            "Sarcómero"
-          ],
-          "correctAnswerIndex": 1
-        },
-        {
-          "type": "TRUE_FALSE",
-          "question": "Las dendritas son prolongaciones que envían impulsos lejos del cuerpo celular.",
-          "options": [
-            "Verdadero",
-            "Falso"
-          ],
-          "correctAnswerIndex": 1
-        },
-        {
-          "type": "MULTIPLE_CHOICE",
-          "question": "Los impulsos eléctricos de las células nerviosas se denominan...",
-          "options": [
-            "Tétanos",
-            "Sinapsis",
-            "Potenciales de acción",
-            "Acetilcolina"
-          ],
-          "correctAnswerIndex": 2
-        },
-        {
-          "type": "TRUE_FALSE",
-          "question": "Las motoneuronas del asta anterior tienen axones muy largos que pueden llegar hasta el pie.",
-          "options": [
-            "Verdadero",
-            "Falso"
-          ],
-          "correctAnswerIndex": 0
-        },
-        {
-          "type": "MATCHING",
-          "question": "Características de la neurona:",
-          "pairs": [
-            {
-              "left": "Excitabilidad",
-              "right": "Responder a estímulos"
-            },
-            {
-              "left": "Conducción",
-              "right": "Transmitir corriente por el axón"
-            },
-            {
-              "left": "Transmisión (Sinapsis)",
-              "right": "Comunicación entre células"
-            }
-          ]
-        },
-        {
-          "type": "MULTIPLE_CHOICE",
-          "question": "¿De dónde parten las 'órdenes' conscientes para el movimiento voluntario?",
-          "options": [
-            "Médula espinal",
-            "Corteza cerebral",
-            "Nervio periférico",
-            "Huso muscular"
-          ],
-          "correctAnswerIndex": 1
-        }
-      ]
-    },
-    {
-      "id": 8,
-      "title": "El Músculo y el Sarcómero",
-      "questions": [
-        {
-          "type": "MULTIPLE_CHOICE",
-          "question": "¿Cuál es la unidad elemental de contracción dentro de la miofibrilla?",
-          "options": [
-            "Axón",
-            "Túbulo T",
-            "Sarcómero",
-            "Sarcolema"
-          ],
-          "correctAnswerIndex": 2
-        },
-        {
-          "type": "TRUE_FALSE",
-          "question": "Las células musculares son multinucleadas.",
-          "options": [
-            "Verdadero",
-            "Falso"
-          ],
-          "correctAnswerIndex": 0
-        },
-        {
-          "type": "MULTIPLE_CHOICE",
-          "question": "La contracción se produce por el deslizamiento de...",
-          "options": [
-            "Fibras lentas sobre rápidas",
-            "Sarcoplasma",
-            "Líneas Z",
-            "Filamentos delgados sobre gruesos"
-          ],
-          "correctAnswerIndex": 3
-        },
-        {
-          "type": "TRUE_FALSE",
-          "question": "El acoplamiento excitación-contracción requiere el consumo de energía y la presencia de calcio.",
-          "options": [
-            "Verdadero",
-            "Falso"
-          ],
-          "correctAnswerIndex": 0
-        },
-        {
-          "type": "MATCHING",
-          "question": "Tipos de fibras:",
-          "pairs": [
-            {
-              "left": "Tipo I",
-              "right": "Lentas o Rojas"
-            },
-            {
-              "left": "Tipo II",
-              "right": "Rápidas o Blancas"
-            },
-            {
-              "left": "Intermedias",
-              "right": "Espectro entre ambas"
-            }
-          ]
-        },
-        {
-          "type": "MULTIPLE_CHOICE",
-          "question": "¿Qué estructura NO forma parte de la célula muscular?",
-          "options": [
-            "Retículo sarcoplásmico",
-            "Túbulos T",
-            "Mielina",
-            "Membrana celular"
-          ],
-          "correctAnswerIndex": 2
-        }
-      ]
-    },
-    {
-      "id": 9,
-      "title": "Adaptaciones Neurales",
-      "questions": [
-        {
-          "type": "MULTIPLE_CHOICE",
-          "question": "Las mejoras iniciales de fuerza en principiantes se deben principalmente a...",
-          "options": [
-            "Hipertrofia",
-            "Adaptaciones neurales",
-            "Cambio de tipo de fibra",
-            "Aumento de grasa"
-          ],
-          "correctAnswerIndex": 1
-        },
-        {
-          "type": "TRUE_FALSE",
-          "question": "La hipertrofia es un proceso más retrasado que la adaptación neural.",
-          "options": [
-            "Verdadero",
-            "Falso"
-          ],
-          "correctAnswerIndex": 0
-        },
-        {
-          "type": "MULTIPLE_CHOICE",
-          "question": "Un factor neural para mejorar la fuerza es la inhibición de...",
-          "options": [
-            "Músculos agonistas",
-            "Músculos principales",
-            "Músculos antagonistas",
-            "Sinergistas"
-          ],
-          "correctAnswerIndex": 2
-        },
-        {
-          "type": "TRUE_FALSE",
-          "question": "El entrenamiento pliométrico mejora el reflejo de contracción por estiramiento (huso neuromuscular).",
-          "options": [
-            "Verdadero",
-            "Falso"
-          ],
-          "correctAnswerIndex": 0
-        },
-        {
-          "type": "MATCHING",
-          "question": "Adaptaciones de fuerza:",
-          "pairs": [
-            {
-              "left": "Neural",
-              "right": "Mejora en reclutamiento de fibras"
-            },
-            {
-              "left": "Trófico",
-              "right": "Hipertrofia muscular"
-            },
-            {
-              "left": "Pliometría",
-              "right": "Reflejo de estiramiento"
-            }
-          ]
-        },
-        {
-          "type": "MULTIPLE_CHOICE",
-          "question": "Es posible que un individuo aumente su fuerza sin que aumente la circunferencia de su músculo. ¿A qué se debe?",
-          "options": [
-            "Aumento de EMGi (Neural)",
-            "Atrofia",
-            "Aumento de retención de líquidos",
-            "Hiperplasia"
-          ],
-          "correctAnswerIndex": 0
-        }
-      ]
-    },
-    {
-      "id": 10,
-      "title": "Valoración de la Fuerza",
-      "questions": [
-        {
-          "type": "MULTIPLE_CHOICE",
-          "question": "¿Cuál es el método directo de medida de fuerza?",
-          "options": [
-            "Electromiografía",
-            "Dinamometría",
-            "Test de Conconi",
-            "Antropometría"
-          ],
-          "correctAnswerIndex": 1
-        },
-        {
-          "type": "TRUE_FALSE",
-          "question": "1MR (Repetición Máxima) es la carga máxima que podemos levantar exactamente 10 veces.",
-          "options": [
-            "Verdadero",
-            "Falso"
-          ],
-          "correctAnswerIndex": 1
-        },
-        {
-          "type": "MULTIPLE_CHOICE",
-          "question": "¿Qué se valora al hacer un test de 10MR?",
-          "options": [
-            "Fuerza absoluta 100%",
-            "Aprox. 75% de la carga máxima",
-            "Potencia máxima",
-            "Velocidad angular"
-          ],
-          "correctAnswerIndex": 1
-        },
-        {
-          "type": "TRUE_FALSE",
-          "question": "La electromiografía de superficie (EMG) permite medir de manera no cruenta la actividad eléctrica muscular.",
-          "options": [
-            "Verdadero",
-            "Falso"
-          ],
-          "correctAnswerIndex": 0
-        },
-        {
-          "type": "MATCHING",
-          "question": "Pruebas:",
-          "pairs": [
-            {
-              "left": "1 MR",
-              "right": "Máxima repetición posible"
-            },
-            {
-              "left": "Dinamometría Estática",
-              "right": "Contracción Isométrica"
-            },
-            {
-              "left": "EMG",
-              "right": "Actividad eléctrica"
-            }
-          ]
-        },
-        {
-          "type": "MULTIPLE_CHOICE",
-          "question": "¿Qué desventaja tienen los tests isométricos (estáticos)?",
-          "options": [
-            "Miden a velocidad constante",
-            "No son transferibles a toda la actividad deportiva",
-            "Causan mucha fatiga",
-            "Son demasiado fáciles"
-          ],
-          "correctAnswerIndex": 1
-        }
-      ]
-    },
-    {
-      "id": 11,
-      "title": "Ergometría y VO2",
-      "questions": [
-        {
-          "type": "MULTIPLE_CHOICE",
-          "question": "¿Qué ergómetro es el más clásico y utilizado?",
-          "options": [
-            "Remoergómetro",
-            "Tapiz rodante (Treadmill)",
-            "Ergómetro de escalera",
-            "Piscina ergométrica"
-          ],
-          "correctAnswerIndex": 1
-        },
-        {
-          "type": "TRUE_FALSE",
-          "question": "El VO2max se considera el único indicador válido del estado de forma en atletas de élite de resistencia.",
-          "options": [
-            "Verdadero",
-            "Falso"
-          ],
-          "correctAnswerIndex": 1
-        },
-        {
-          "type": "MULTIPLE_CHOICE",
-          "question": "El VO2 se define 'desde fuera' restando el oxígeno que 'sale' del que 'entra'. ¿Qué variables se miden?",
-          "options": [
-            "Ventilación y fracciones de O2",
-            "Gasto cardiaco y frecuencia",
-            "Lactato y glucosa",
-            "Humedad y temperatura"
-          ],
-          "correctAnswerIndex": 0
-        },
-        {
-          "type": "TRUE_FALSE",
-          "question": "En un protocolo en rampa, la carga va aumentando linealmente.",
-          "options": [
-            "Verdadero",
-            "Falso"
-          ],
-          "correctAnswerIndex": 0
-        },
-        {
-          "type": "MATCHING",
-          "question": "Parámetros VO2:",
-          "pairs": [
-            {
-              "left": "VO2max",
-              "right": "Oxígeno máximo consumido"
-            },
-            {
-              "left": "Economía de carrera",
-              "right": "VO2 a nivel submáximo"
-            },
-            {
-              "left": "Gasto cardiaco (Q)",
-              "right": "Volumen / minuto en l/min"
-            }
-          ]
-        },
-        {
-          "type": "MULTIPLE_CHOICE",
-          "question": "¿Qué refleja la 'economía de carrera'?",
-          "options": [
-            "Velocidad máxima absoluta",
-            "Eficiencia global para transformar energía química en mecánica",
-            "Cantidad de lactato producido",
-            "Frecuencia cardiaca en reposo"
-          ],
-          "correctAnswerIndex": 1
-        }
-      ]
-    },
-    {
-      "id": 12,
-      "title": "Lactato y Umbrales",
-      "questions": [
-        {
-          "type": "MULTIPLE_CHOICE",
-          "question": "¿A partir de qué fase se observa una elevación desproporcionada de lactato y ventilación?",
-          "options": [
-            "Fase de Reposo",
-            "Primer umbral aeróbico",
-            "Umbral anaeróbico",
-            "Fase I"
-          ],
-          "correctAnswerIndex": 2
-        },
-        {
-          "type": "TRUE_FALSE",
-          "question": "El aumento de la ventilación en el umbral ventilatorio es para eliminar el exceso de O2.",
-          "options": [
-            "Verdadero",
-            "Falso"
-          ],
-          "correctAnswerIndex": 1
-        },
-        {
-          "type": "MULTIPLE_CHOICE",
-          "question": "¿Qué molécula tampona (neutraliza) el exceso de ácido láctico (H+)?",
-          "options": [
-            "Calcio",
-            "Bicarbonato",
-            "Creatina",
-            "Sodio"
-          ],
-          "correctAnswerIndex": 1
-        },
-        {
-          "type": "TRUE_FALSE",
-          "question": "El lactato sanguíneo es un reflejo exacto y sin variaciones del lactato muscular.",
-          "options": [
-            "Verdadero",
-            "Falso"
-          ],
-          "correctAnswerIndex": 1
-        },
-        {
-          "type": "MATCHING",
-          "question": "Fases y Umbrales:",
-          "pairs": [
-            {
-              "left": "Fase I",
-              "right": "Lactato nivel reposo"
-            },
-            {
-              "left": "Fase II",
-              "right": "Lactato en equilibrio"
-            },
-            {
-              "left": "Fase III",
-              "right": "Lactato aumenta continuamente"
-            }
-          ]
-        },
-        {
-          "type": "MULTIPLE_CHOICE",
-          "question": "¿Qué factor NO afecta la gráfica de acumulación de lactato?",
-          "options": [
-            "Proporción de Fibras I y II",
-            "Dieta previa",
-            "Tipo de protocolo",
-            "Color de piel"
-          ],
-          "correctAnswerIndex": 3
-        }
-      ]
-    },
-    {
-      "id": 13,
-      "title": "Salud y Ejercicio",
-      "questions": [
-        {
-          "type": "MULTIPLE_CHOICE",
-          "question": "En adultos mayores, el entrenamiento con pesas produce...",
-          "options": [
-            "Daño articular asegurado",
-            "Prevención de osteoporosis",
-            "Pérdida de masa muscular acelerada",
-            "Hipertensión severa"
-          ],
-          "correctAnswerIndex": 1
-        },
-        {
-          "type": "TRUE_FALSE",
-          "question": "Las recomendaciones post-1998 del ACSM incluyen el trabajo de pesas en mayores para evitar déficit proteico y muscular.",
-          "options": [
-            "Verdadero",
-            "Falso"
-          ],
-          "correctAnswerIndex": 0
-        },
-        {
-          "type": "MULTIPLE_CHOICE",
-          "question": "Para personas con hipertensión o coronarios, el circuito de pesas...",
-          "options": [
-            "Está absolutamente prohibido",
-            "Aumenta la isquemia",
-            "Puede mejorar la presión arterial diastólica",
-            "Causa hipertrofia cardiaca masiva"
-          ],
-          "correctAnswerIndex": 2
-        },
-        {
-          "type": "TRUE_FALSE",
-          "question": "El ejercicio de fuerza en niños prepúberes está demostrado que produce ganancias de fuerza y beneficios motores.",
-          "options": [
-            "Verdadero",
-            "Falso"
-          ],
-          "correctAnswerIndex": 0
-        },
-        {
-          "type": "MATCHING",
-          "question": "Beneficios de Salud:",
-          "pairs": [
-            {
-              "left": "Osteoporosis",
-              "right": "Mejora con densidad ósea"
-            },
-            {
-              "left": "Coronarios",
-              "right": "Mejor perfusión miocárdica"
-            },
-            {
-              "left": "Ancianos",
-              "right": "Frena sarcopenia"
-            }
-          ]
-        },
-        {
-          "type": "MULTIPLE_CHOICE",
-          "question": "¿Cómo es el riesgo de lesiones de pesas supervisado vs. fútbol americano?",
-          "options": [
-            "Mucho mayor",
-            "Más seguro (casi inexistente si supervisado)",
-            "Exactamente igual",
-            "Produce riesgo de muerte inminente"
-          ],
-          "correctAnswerIndex": 1
-        }
-      ]
-    },
-    {
-      "id": 14,
-      "title": "Principios en Musculación",
-      "questions": [
-        {
-          "type": "MULTIPLE_CHOICE",
-          "question": "¿Qué principio exige trabajar en gestos y demandas similares al deporte específico?",
-          "options": [
-            "Principio de Sobrecarga",
-            "Principio de Especificidad",
-            "Principio de Alternancia",
-            "Principio de Progresión"
-          ],
-          "correctAnswerIndex": 1
-        },
-        {
-          "type": "TRUE_FALSE",
-          "question": "El volumen del entrenamiento hace referencia alTonelaje total (peso).",
-          "options": [
-            "Verdadero",
-            "Falso"
-          ],
-          "correctAnswerIndex": 1
-        },
-        {
-          "type": "MULTIPLE_CHOICE",
-          "question": "Según el texto, una fórmula clásica para desarrollo de hipertrofia es...",
-          "options": [
-            "3x3",
-            "3x8 (o 4x10)",
-            "1x10",
-            "15x2"
-          ],
-          "correctAnswerIndex": 1
-        },
-        {
-          "type": "TRUE_FALSE",
-          "question": "El entrenamiento de fuerza máxima pura requiere repeticiones muy cortas (1-3) y cargas máximas.",
-          "options": [
-            "Verdadero",
-            "Falso"
-          ],
-          "correctAnswerIndex": 0
-        },
-        {
-          "type": "MATCHING",
-          "question": "Variables del Entrenamiento:",
-          "pairs": [
-            {
-              "left": "Volumen",
-              "right": "Cantidad de series/reps"
-            },
-            {
-              "left": "Repetición de Máximo (RM)",
-              "right": "Carga máxima para N reps"
-            },
-            {
-              "left": "Intensidad",
-              "right": "Porcentaje del 1RM"
-            }
-          ]
-        },
-        {
-          "type": "MULTIPLE_CHOICE",
-          "question": "¿Cuál es el objetivo principal de la periodización?",
-          "options": [
-            "Crear confusión muscular",
-            "Programar a lo largo del año las variables",
-            "Evitar el sudor",
-            "Entrenar siempre al 100%"
-          ],
-          "correctAnswerIndex": 1
-        }
-      ]
-    },
-    {
-      "id": 15,
-      "title": "Potencia y Trabajo (Fórmulas)",
-      "questions": [
-        {
-          "type": "MULTIPLE_CHOICE",
-          "question": "Realizar el mismo trabajo en la mitad de tiempo produce...",
-          "options": [
-            "Doble Trabajo",
-            "La misma Potencia",
-            "Doble Potencia",
-            "Cuádruple Fuerza"
-          ],
-          "correctAnswerIndex": 2
-        },
-        {
-          "type": "TRUE_FALSE",
-          "question": "Potencia (N) es igual a Fuerza (F) por Velocidad (V).",
-          "options": [
-            "Verdadero",
-            "Falso"
-          ],
-          "correctAnswerIndex": 0
-        },
-        {
-          "type": "MULTIPLE_CHOICE",
-          "question": "En biomecánica, para generar mayor potencia, si no varío la fuerza, debo...",
-          "options": [
-            "Disminuir el espacio",
-            "Aumentar el tiempo de ejecución",
-            "Aumentar la velocidad (disminuir tiempo)",
-            "No respirar"
-          ],
-          "correctAnswerIndex": 2
-        },
-        {
-          "type": "TRUE_FALSE",
-          "question": "Una carga indirecta simple es una polea donde la resistencia es constante e independiente del ángulo.",
-          "options": [
-            "Verdadero",
-            "Falso"
-          ],
-          "correctAnswerIndex": 0
-        },
-        {
-          "type": "MATCHING",
-          "question": "Máquinas y Resistencias:",
-          "pairs": [
-            {
-              "left": "Directa Simple",
-              "right": "Barra, mancuerna"
-            },
-            {
-              "left": "Indirecta Simple",
-              "right": "Polea"
-            },
-            {
-              "left": "Guiada Gravitacional",
-              "right": "Máquina Universal"
-            }
-          ]
-        },
-        {
-          "type": "MULTIPLE_CHOICE",
-          "question": "La ecuación simple de fuerza relacionada a la hipertrofia es F = K x S. ¿Qué representa la S?",
-          "options": [
-            "Sarcómeros por línea",
-            "Serie de repeticiones",
-            "Sección transversal del músculo",
-            "Sistema nervioso"
-          ],
-          "correctAnswerIndex": 2
-        }
-      ]
-    },
-    {
-      "id": 16,
-      "title": "Curva Tensión-Deformación",
-      "questions": [
-        {
-          "type": "MULTIPLE_CHOICE",
-          "question": "¿En qué punto se logra la máxima tensión muscular?",
-          "options": [
-            "En máximo acortamiento",
-            "A mitad de recorrido",
-            "En la máxima elongación fisiológica",
-            "Depende del clima"
-          ],
-          "correctAnswerIndex": 2
-        },
-        {
-          "type": "TRUE_FALSE",
-          "question": "La variación de tensión en el músculo a lo largo de su acortamiento es perfectamente lineal.",
-          "options": [
-            "Verdadero",
-            "Falso"
-          ],
-          "correctAnswerIndex": 1
-        },
-        {
-          "type": "MULTIPLE_CHOICE",
-          "question": "¿Cómo se denomina la deformación porcentual (acortamiento relativo)?",
-          "options": [
-            "Sigma (tensión)",
-            "Epsilon (deformación)",
-            "Kappa (fricción)",
-            "Alpha (área)"
-          ],
-          "correctAnswerIndex": 1
-        },
-        {
-          "type": "TRUE_FALSE",
-          "question": "Un clavo puntiagudo penetra fácilmente porque genera una gran tensión al aplicar fuerza en un área pequeñísima.",
-          "options": [
-            "Verdadero",
-            "Falso"
-          ],
-          "correctAnswerIndex": 0
-        },
-        {
-          "type": "MATCHING",
-          "question": "Curva Tensión:",
-          "pairs": [
-            {
-              "left": "Sigma",
-              "right": "Fuerza / Área (Tensión)"
-            },
-            {
-              "left": "Máxima Elongación",
-              "right": "Máxima Tensión generada"
-            },
-            {
-              "left": "Máximo acortamiento",
-              "right": "Tensión pobre"
-            }
-          ]
-        },
-        {
-          "type": "MULTIPLE_CHOICE",
-          "question": "¿Por qué trabajar pantorrillas sentado es menos efectivo para los gemelos?",
-          "options": [
-            "La rodilla flexionada acorta el gemelo (menor tensión inicial)",
-            "El sóleo se relaja",
-            "El tobillo se traba",
-            "El pie se cansa"
-          ],
-          "correctAnswerIndex": 0
-        }
-      ]
-    },
-    {
-      "id": 17,
-      "title": "Curva Fuerza-Velocidad",
-      "questions": [
-        {
-          "type": "MULTIPLE_CHOICE",
-          "question": "La ecuación que vincula fuerza y velocidad se denomina Ecuación de...",
-          "options": [
-            "Einstein",
-            "Newton",
-            "Hill",
-            "Lombard"
-          ],
-          "correctAnswerIndex": 2
-        },
-        {
-          "type": "TRUE_FALSE",
-          "question": "A medida que disminuimos el peso de la barra, somos capaces de moverla a mayor velocidad.",
-          "options": [
-            "Verdadero",
-            "Falso"
-          ],
-          "correctAnswerIndex": 0
-        },
-        {
-          "type": "MULTIPLE_CHOICE",
-          "question": "En un movimiento isométrico máximo, ¿cuál es la velocidad?",
-          "options": [
-            "Máxima",
-            "La mitad",
-            "Nula (cero)",
-            "Aleatoria"
-          ],
-          "correctAnswerIndex": 2
-        },
-        {
-          "type": "TRUE_FALSE",
-          "question": "En la fase excéntrica, al aumentar la carga, también aumenta la velocidad de estiramiento forzado.",
-          "options": [
-            "Verdadero",
-            "Falso"
-          ],
-          "correctAnswerIndex": 0
-        },
-        {
-          "type": "MATCHING",
-          "question": "Ley de Hill:",
-          "pairs": [
-            {
-              "left": "Carga alta",
-              "right": "Baja velocidad concéntrica"
-            },
-            {
-              "left": "Carga baja",
-              "right": "Alta velocidad concéntrica"
-            },
-            {
-              "left": "Velocidad cero",
-              "right": "Fuerza máxima isométrica"
-            }
-          ]
-        },
-        {
-          "type": "MULTIPLE_CHOICE",
-          "question": "En un 'press de banca', ¿existe transferencia temporal de fuerzas desde el hombro al codo?",
-          "options": [
-            "Sí, secuencial",
-            "No, ocurren casi simultáneamente (Ley de Hill)",
-            "Solo en excéntrica",
-            "Sí, como en halterofilia"
-          ],
-          "correctAnswerIndex": 1
-        }
-      ]
-    },
-    {
-      "id": 18,
-      "title": "Cadenas Cinemáticas",
-      "questions": [
-        {
-          "type": "MULTIPLE_CHOICE",
-          "question": "¿Qué conforman los segmentos óseos unidos por articulaciones?",
-          "options": [
-            "Cadenas de ADN",
-            "Cadenas Musculares",
-            "Cadenas Cinemáticas",
-            "Arcos de movimiento"
-          ],
-          "correctAnswerIndex": 2
-        },
-        {
-          "type": "TRUE_FALSE",
-          "question": "Todo movimiento humano se produce en función de rotaciones articulares.",
-          "options": [
-            "Verdadero",
-            "Falso"
-          ],
-          "correctAnswerIndex": 0
-        },
-        {
-          "type": "MULTIPLE_CHOICE",
-          "question": "¿Qué característica especial tienen los ejercicios como la 'Cargada al pecho'?",
-          "options": [
-            "Trabajan un solo músculo",
-            "Tienen transferencia secuencial (impulsos sucesivos)",
-            "No usan las piernas",
-            "Cumplen rígidamente la Ley de Hill"
-          ],
-          "correctAnswerIndex": 1
-        },
-        {
-          "type": "TRUE_FALSE",
-          "question": "Las máquinas de gimnasio comunes aislan músculos, rompiendo la cadena cinemática natural.",
-          "options": [
-            "Verdadero",
-            "Falso"
-          ],
-          "correctAnswerIndex": 0
-        },
-        {
-          "type": "MATCHING",
-          "question": "Clasificación de músculos:",
-          "pairs": [
-            {
-              "left": "Monoarticular",
-              "right": "Cruza 1 articulación"
-            },
-            {
-              "left": "Biarticular",
-              "right": "Cruza 2 articulaciones"
-            },
-            {
-              "left": "Poliarticular",
-              "right": "Cruza múltiples"
-            }
-          ]
-        },
-        {
-          "type": "MULTIPLE_CHOICE",
-          "question": "Un músculo que es flexor en una articulación y extensor en la otra vecina se considera...",
-          "options": [
-            "Estabilizador",
-            "Neutralizador",
-            "Biarticular complejo",
-            "Miofibrilar"
-          ],
-          "correctAnswerIndex": 2
-        }
-      ]
-    },
-    {
-      "id": 19,
-      "title": "La Paradoja de Lombard",
-      "questions": [
-        {
-          "type": "MULTIPLE_CHOICE",
-          "question": "En la fase concéntrica de la sentadilla, cadera y rodilla se...",
-          "options": [
-            "Flexionan",
-            "Extienden",
-            "Rotan internamente",
-            "Abducen"
-          ],
-          "correctAnswerIndex": 1
-        },
-        {
-          "type": "TRUE_FALSE",
-          "question": "El Recto Anterior y los Isquiosurales son ambos músculos biarticulares antagonistas entre sí.",
-          "options": [
-            "Verdadero",
-            "Falso"
-          ],
-          "correctAnswerIndex": 0
-        },
-        {
-          "type": "MULTIPLE_CHOICE",
-          "question": "¿Por qué en la sentadilla ambos grupos (recto e isquios) contribuyen a la extensión sin anularse por completo?",
-          "options": [
-            "Porque el cerebro apaga uno",
-            "Por la diferencia de longitud en sus brazos de palanca",
-            "Porque uno se vuelve tendón",
-            "Porque trabajan isométricamente"
-          ],
-          "correctAnswerIndex": 1
-        },
-        {
-          "type": "TRUE_FALSE",
-          "question": "En la cadera, el brazo de palanca de los isquiosurales es menor que el del recto anterior.",
-          "options": [
-            "Verdadero",
-            "Falso"
-          ],
-          "correctAnswerIndex": 1
-        },
-        {
-          "type": "MATCHING",
-          "question": "Brazos de palanca en Sentadilla:",
-          "pairs": [
-            {
-              "left": "Cadera",
-              "right": "Ganan Isquiosurales (Extensión)"
-            },
-            {
-              "left": "Rodilla",
-              "right": "Gana Recto Anterior (Extensión)"
-            },
-            {
-              "left": "Isquiosurales",
-              "right": "Transfieren energía a la rodilla"
-            }
-          ]
-        },
-        {
-          "type": "MULTIPLE_CHOICE",
-          "question": "Aproximadamente, ¿qué porcentaje de cambio de longitud sufren estos músculos biarticulares en una sentadilla?",
-          "options": [
-            "50%",
-            "20%",
-            "4-5% (Acción de correa)",
-            "80%"
-          ],
-          "correctAnswerIndex": 2
-        }
-      ]
-    },
-    {
-      "id": 20,
-      "title": "Programación y Rangos de Carga",
-      "questions": [
-        {
-          "type": "MULTIPLE_CHOICE",
-          "question": "Para entrenar la Fuerza Pura, ¿en qué rango de RM se suele trabajar?",
-          "options": [
-            "1 a 6 RM",
-            "10 a 15 RM",
-            "15 a 25 RM",
-            "50 RM"
-          ],
-          "correctAnswerIndex": 0
-        },
-        {
-          "type": "TRUE_FALSE",
-          "question": "Para buscar Hipertrofia predominante, las cargas ideales rondan entre el 70% y el 85% de 1RM.",
-          "options": [
-            "Verdadero",
-            "Falso"
-          ],
-          "correctAnswerIndex": 0
-        },
-        {
-          "type": "MULTIPLE_CHOICE",
-          "question": "La capacidad de liberar fuerza en el menor tiempo posible se llama...",
-          "options": [
-            "Hipertrofia",
-            "Fuerza-Resistencia",
-            "Potencia",
-            "Capacidad Aeróbica"
-          ],
-          "correctAnswerIndex": 2
-        },
-        {
-          "type": "TRUE_FALSE",
-          "question": "En un método de Pirámide descendente, las repeticiones bajan a medida que el peso sube (o viceversa).",
-          "options": [
-            "Verdadero",
-            "Falso"
-          ],
-          "correctAnswerIndex": 0
-        },
-        {
-          "type": "MATCHING",
-          "question": "Rangos según Objetivo:",
-          "pairs": [
-            {
-              "left": "85-100% RM",
-              "right": "Fuerza Máxima (Neural)"
-            },
-            {
-              "left": "70-85% RM",
-              "right": "Hipertrofia"
-            },
-            {
-              "left": "< 60% RM",
-              "right": "Fuerza-Resistencia"
-            }
-          ]
-        },
-        {
-          "type": "MULTIPLE_CHOICE",
-          "question": "Al concluir un entrenamiento, hay una fase de fatiga. Tras descansar, ¿cómo se llama la fase donde el nivel supera al inicial?",
-          "options": [
-            "Sobreentrenamiento",
-            "Adaptación pasiva",
-            "Supercompensación",
-            "Hiperplasia"
-          ],
-          "correctAnswerIndex": 2
-        }
-      ]
-    }
-  ]
-}
+[
+  {
+    "level": 1,
+    "lessonId": "L01_fisiologia_intro",
+    "title": "Introducción a la Fisiología",
+    "exercises": [
+      {
+        "type": "true_false",
+        "question": "La fisiología es la ciencia que estudia el funcionamiento de los sistemas biológicos.",
+        "correctAnswer": true,
+        "xp": 10
+      },
+      {
+        "type": "multiple_choice",
+        "question": "¿Qué busca mantener el organismo ante cambios continuos?",
+        "options": [
+          {"id": "A", "text": "Desgaste crónico"},
+          {"id": "B", "text": "Equilibrio interno"},
+          {"id": "C", "text": "Aumento de peso"}
+        ],
+        "correctAnswerId": "B",
+        "xp": 10
+      },
+      {
+        "type": "match_pairs",
+        "question": "Une el tipo de factor con su descripción.",
+        "pairs": [
+          {"left": "Factor Genético", "right": "No modificable inicialmente"},
+          {"left": "Factor Ambiental", "right": "Modificable mediante entrenamiento"},
+          {"left": "Respuesta Fisiológica", "right": "Mecanismo de equilibrio interno"}
+        ],
+        "xp": 15
+      },
+      {
+        "type": "text_input",
+        "question": "¿Cómo se llama el estímulo crónico que genera una respuesta a largo plazo en el organismo?",
+        "correctAnswers": ["Entrenamiento", "entrenamiento", "el entrenamiento"],
+        "xp": 20
+      },
+      {
+        "type": "fill_in_blanks_cards",
+        "text": "La fisiología del ejercicio analiza las {0} del organismo sometido a una {1}.",
+        "options": ["respuestas", "actividad física", "lesiones", "dieta"],
+        "correctAnswers": ["respuestas", "actividad física"],
+        "xp": 15
+      },
+      {
+        "type": "true_false",
+        "question": "El entrenamiento produce un tipo especial de respuesta a corto plazo llamada adaptación.",
+        "correctAnswer": false,
+        "xp": 10
+      },
+      {
+        "type": "multiple_choice",
+        "question": "Los parámetros obtenidos en los tests físicos deben ser ante todo:",
+        "options": [
+          {"id": "A", "text": "Subjetivos y generales"},
+          {"id": "B", "text": "Individuales y objetivos"}
+        ],
+        "correctAnswerId": "B",
+        "xp": 10
+      }
+    ]
+  },
+  {
+    "level": 1,
+    "lessonId": "L02_sistemas_energia",
+    "title": "Sistemas de Obtención de Energía",
+    "exercises": [
+      {
+        "type": "true_false",
+        "question": "La molécula principal que almacena energía en el organismo es el ATP.",
+        "correctAnswer": true,
+        "xp": 10
+      },
+      {
+        "type": "multiple_choice",
+        "question": "¿Qué enzima se necesita para liberar la energía del ATP?",
+        "options": [
+          {"id": "A", "text": "ATPasa"},
+          {"id": "B", "text": "Glucógeno"},
+          {"id": "C", "text": "Láctico"}
+        ],
+        "correctAnswerId": "A",
+        "xp": 10
+      },
+      {
+        "type": "match_pairs",
+        "question": "Une el sistema energético con su característica.",
+        "pairs": [
+          {"left": "Sistema Aeróbico", "right": "Precisa oxígeno para funcionar"},
+          {"left": "Sistema Anaeróbico", "right": "Produce energía sin oxígeno"},
+          {"left": "Molécula ATP", "right": "Principal moneda energética"}
+        ],
+        "xp": 15
+      },
+      {
+        "type": "text_input",
+        "question": "¿Qué elemento actúa como último aceptor de electrones en la combustión aeróbica?",
+        "correctAnswers": ["Oxígeno", "oxígeno", "O2", "o2", "oxigeno"],
+        "xp": 20
+      },
+      {
+        "type": "fill_in_blanks_cards",
+        "text": "Todos los sistemas energéticos actúan de forma {0} y solapada, dependiendo de la {1} e intensidad del estímulo.",
+        "options": ["aislada", "simultánea", "duración", "velocidad"],
+        "correctAnswers": ["simultánea", "duración"],
+        "xp": 15
+      },
+      {
+        "type": "true_false",
+        "question": "El inicio de cualquier ejercicio es fundamentalmente aeróbico.",
+        "correctAnswer": false,
+        "xp": 10
+      },
+      {
+        "type": "multiple_choice",
+        "question": "El sistema anaeróbico aláctico utiliza principalmente:",
+        "options": [
+          {"id": "A", "text": "Glucosa"},
+          {"id": "B", "text": "Fosfocreatina"},
+          {"id": "C", "text": "Lípidos"}
+        ],
+        "correctAnswerId": "B",
+        "xp": 10
+      }
+    ]
+  },
+  {
+    "level": 1,
+    "lessonId": "L03_vias_metabolicas",
+    "title": "Vías Anaeróbicas y Aeróbicas",
+    "exercises": [
+      {
+        "type": "true_false",
+        "question": "La vía anaeróbica aláctica provoca una gran acumulación de ácido láctico.",
+        "correctAnswer": false,
+        "xp": 10
+      },
+      {
+        "type": "multiple_choice",
+        "question": "¿Cuántas moléculas de ATP produce la vía anaeróbica por cada molécula de glucosa?",
+        "options": [
+          {"id": "A", "text": "Dos"},
+          {"id": "B", "text": "Diez"},
+          {"id": "C", "text": "Treinta y seis"}
+        ],
+        "correctAnswerId": "A",
+        "xp": 10
+      },
+      {
+        "type": "match_pairs",
+        "question": "Une el elemento con su proceso metabólico.",
+        "pairs": [
+          {"left": "Combustión Anaeróbica", "right": "Usa glucosa de forma rápida e incompleta"},
+          {"left": "Combustión Aeróbica", "right": "Oxida glucosa, grasas y aminoácidos"},
+          {"left": "Ácido Láctico", "right": "Toxina que disminuye el pH celular"}
+        ],
+        "xp": 15
+      },
+      {
+        "type": "text_input",
+        "question": "¿Qué factor tóxico limita en la práctica el uso continuo del sistema glucolítico anaeróbico?",
+        "correctAnswers": ["Ácido láctico", "acido lactico", "lactato", "disminución del pH", "pH"],
+        "xp": 20
+      },
+      {
+        "type": "fill_in_blanks_cards",
+        "text": "Contando con {0}, oxidar hidratos de carbono es unas 18 veces más {1} que utilizarlos anaeróbicamente.",
+        "options": ["oxígeno", "dióxido", "económico", "rápido"],
+        "correctAnswers": ["oxígeno", "económico"],
+        "xp": 15
+      },
+      {
+        "type": "true_false",
+        "question": "Desde el punto de vista del O2, resulta más 'barata' la energía obtenida de grasas que de hidratos de carbono.",
+        "correctAnswer": false,
+        "xp": 10
+      },
+      {
+        "type": "multiple_choice",
+        "question": "¿Dónde ocurre la 'combustión' aeróbica dentro de la célula?",
+        "options": [
+          {"id": "A", "text": "Núcleo"},
+          {"id": "B", "text": "Mitocondria"},
+          {"id": "C", "text": "Ribosoma"}
+        ],
+        "correctAnswerId": "B",
+        "xp": 10
+      }
+    ]
+  },
+  {
+    "level": 1,
+    "lessonId": "L04_conceptos_fuerza",
+    "title": "Conceptos Básicos de Fuerza",
+    "exercises": [
+      {
+        "type": "true_false",
+        "question": "La fuerza es capaz de modificar el estado de reposo de un cuerpo o producirle una deformación.",
+        "correctAnswer": true,
+        "xp": 10
+      },
+      {
+        "type": "multiple_choice",
+        "question": "¿Qué concepto físico incluye el factor tiempo (W/t)?",
+        "options": [
+          {"id": "A", "text": "Trabajo"},
+          {"id": "B", "text": "Potencia"},
+          {"id": "C", "text": "Torque"}
+        ],
+        "correctAnswerId": "B",
+        "xp": 10
+      },
+      {
+        "type": "match_pairs",
+        "question": "Relaciona el concepto físico con su definición.",
+        "pairs": [
+          {"left": "Trabajo mecánico", "right": "Fuerza x Distancia desplazada"},
+          {"left": "Potencia", "right": "Fuerza x Velocidad de ejecución"},
+          {"left": "Elasticidad", "right": "Capacidad de recuperar la forma original"}
+        ],
+        "xp": 15
+      },
+      {
+        "type": "text_input",
+        "question": "¿Cómo se llama a la capacidad de un cuerpo de recuperar su forma original tras una deformación?",
+        "correctAnswers": ["Elasticidad", "elasticidad"],
+        "xp": 20
+      },
+      {
+        "type": "fill_in_blanks_cards",
+        "text": "El trabajo de traslación es un {0} y depende del {1} en que se aplique la fuerza.",
+        "options": ["vector", "número", "tiempo", "ángulo"],
+        "correctAnswers": ["número", "ángulo"],
+        "xp": 15
+      },
+      {
+        "type": "true_false",
+        "question": "Los aparatos isocinéticos mantienen una distancia constante, haciendo que fuerza y momento sean prácticamente paralelos.",
+        "correctAnswer": true,
+        "xp": 10
+      },
+      {
+        "type": "multiple_choice",
+        "question": "En la potencia muscular, ¿en qué porcentaje suele aparecer la máxima potencia respecto a la velocidad máxima?",
+        "options": [
+          {"id": "A", "text": "100%"},
+          {"id": "B", "text": "Por debajo del 50%"},
+          {"id": "C", "text": "80%"}
+        ],
+        "correctAnswerId": "B",
+        "xp": 10
+      }
+    ]
+  },
+  {
+    "level": 1,
+    "lessonId": "L05_eficiencia_muscular",
+    "title": "Eficiencia y Estructura Muscular",
+    "exercises": [
+      {
+        "type": "true_false",
+        "question": "El músculo transforma energía química en mecánica con una eficiencia del 100%.",
+        "correctAnswer": false,
+        "xp": 10
+      },
+      {
+        "type": "multiple_choice",
+        "question": "¿Cuál es la unidad elemental de contracción de la fibra muscular?",
+        "options": [
+          {"id": "A", "text": "Neurona"},
+          {"id": "B", "text": "Sarcómero"},
+          {"id": "C", "text": "Axón"}
+        ],
+        "correctAnswerId": "B",
+        "xp": 10
+      },
+      {
+        "type": "match_pairs",
+        "question": "Une la estructura anatómica con su rol principal.",
+        "pairs": [
+          {"left": "Fibra muscular", "right": "Elemento contráctil interno"},
+          {"left": "Tendones y fascias", "right": "Elementos elásticos externos"},
+          {"left": "Sarcómero", "right": "Unidad funcional básica de contracción"}
+        ],
+        "xp": 15
+      },
+      {
+        "type": "text_input",
+        "question": "Nombra uno de los dos filamentos internos del sarcómero que se deslizan para producir el acortamiento.",
+        "correctAnswers": ["Actina", "actina", "Miosina", "miosina"],
+        "xp": 20
+      },
+      {
+        "type": "fill_in_blanks_cards",
+        "text": "La {0} es imprescindible para garantizar un movimiento fino y absorber traumatismos para prevenir {1}.",
+        "options": ["fuerza", "elasticidad", "crecimiento", "lesiones"],
+        "correctAnswers": ["elasticidad", "lesiones"],
+        "xp": 15
+      },
+      {
+        "type": "true_false",
+        "question": "Una contracción muscular involucra una acción aislada de un solo músculo sin importar sus antagonistas.",
+        "correctAnswer": false,
+        "xp": 10
+      },
+      {
+        "type": "multiple_choice",
+        "question": "Las células musculares estriadas son:",
+        "options": [
+          {"id": "A", "text": "Pequeñas y sin núcleo"},
+          {"id": "B", "text": "Grandes y multinucleadas"}
+        ],
+        "correctAnswerId": "B",
+        "xp": 10
+      }
+    ]
+  },
+  {
+    "level": 2,
+    "lessonId": "L06_neurona_nervioso",
+    "title": "La Neurona y el Sistema Nervioso",
+    "exercises": [
+      {
+        "type": "true_false",
+        "question": "Las dendritas de la neurona son responsables de su interacción con otras células nerviosas.",
+        "correctAnswer": true,
+        "xp": 10
+      },
+      {
+        "type": "multiple_choice",
+        "question": "¿A qué velocidad pueden conducir la información los axones de las motoneuronas?",
+        "options": [
+          {"id": "A", "text": "10 m/s"},
+          {"id": "B", "text": "120 m/s"},
+          {"id": "C", "text": "300 m/s"}
+        ],
+        "correctAnswerId": "B",
+        "xp": 10
+      },
+      {
+        "type": "match_pairs",
+        "question": "Une la característica de la neurona con su función.",
+        "pairs": [
+          {"left": "Excitabilidad", "right": "Responde a estímulos"},
+          {"left": "Integración", "right": "Procesa información en el soma"},
+          {"left": "Transmisión", "right": "Pasa información mediante sinapsis"}
+        ],
+        "xp": 15
+      },
+      {
+        "type": "text_input",
+        "question": "¿Qué nombre recibe la unidad celular elemental del sistema nervioso?",
+        "correctAnswers": ["Neurona", "neurona", "la neurona"],
+        "xp": 20
+      },
+      {
+        "type": "fill_in_blanks_cards",
+        "text": "Las órdenes de movimiento parten de la {0} y bajan hasta la {1} mediante la vía piramidal.",
+        "options": ["corteza cerebral", "piel", "médula", "sangre"],
+        "correctAnswers": ["corteza cerebral", "médula"],
+        "xp": 15
+      },
+      {
+        "type": "true_false",
+        "question": "La neurona solo puede responder a estímulos químicos y nunca a eléctricos.",
+        "correctAnswer": false,
+        "xp": 10
+      },
+      {
+        "type": "multiple_choice",
+        "question": "El mecanismo especializado para la comunicación entre neuronas se llama:",
+        "options": [
+          {"id": "A", "text": "Sinapsis"},
+          {"id": "B", "text": "Soma"},
+          {"id": "C", "text": "Sarcómero"}
+        ],
+        "correctAnswerId": "A",
+        "xp": 10
+      }
+    ]
+  },
+  {
+    "level": 2,
+    "lessonId": "L07_tipos_contraccion_1",
+    "title": "Tipos de Contracción Muscular",
+    "exercises": [
+      {
+        "type": "true_false",
+        "question": "En la contracción isométrica existe un gran trabajo mecánico.",
+        "correctAnswer": false,
+        "xp": 10
+      },
+      {
+        "type": "multiple_choice",
+        "question": "¿Cómo se llama la contracción donde el movimiento se produce en el mismo sentido que la fuerza muscular?",
+        "options": [
+          {"id": "A", "text": "Concéntrica"},
+          {"id": "B", "text": "Excéntrica"},
+          {"id": "C", "text": "Isométrica"}
+        ],
+        "correctAnswerId": "A",
+        "xp": 10
+      },
+      {
+        "type": "match_pairs",
+        "question": "Une el tipo de contracción con su resultado físico.",
+        "pairs": [
+          {"left": "Contracción Concéntrica", "right": "Genera trabajo positivo (vence la carga)"},
+          {"left": "Contracción Excéntrica", "right": "Genera trabajo negativo (frena la carga)"},
+          {"left": "Contracción Isométrica", "right": "El trabajo mecánico es igual a cero"}
+        ],
+        "xp": 15
+      },
+      {
+        "type": "text_input",
+        "question": "¿Qué término general se usa cuando una contracción *sí* produce desplazamiento?",
+        "correctAnswers": ["Anisométrica", "anisometrica", "isotónica"],
+        "xp": 20
+      },
+      {
+        "type": "fill_in_blanks_cards",
+        "text": "La contracción {0} ocurre cuando hay una fuerza externa mayor y el músculo actúa como un {1}.",
+        "options": ["excéntrica", "concéntrica", "freno", "motor"],
+        "correctAnswers": ["excéntrica", "freno"],
+        "xp": 15
+      },
+      {
+        "type": "true_false",
+        "question": "La contracción isocinética se caracteriza por realizarse a una velocidad angular constante.",
+        "correctAnswer": true,
+        "xp": 10
+      },
+      {
+        "type": "multiple_choice",
+        "question": "El término contracción isotónica, en la práctica con pesas, significa trabajar con:",
+        "options": [
+          {"id": "A", "text": "Velocidad constante"},
+          {"id": "B", "text": "Resistencia o tensión constante"}
+        ],
+        "correctAnswerId": "B",
+        "xp": 10
+      }
+    ]
+  },
+  {
+    "level": 2,
+    "lessonId": "L08_evaluacion_fuerza",
+    "title": "Evaluación de la Fuerza",
+    "exercises": [
+      {
+        "type": "true_false",
+        "question": "La dinamometría isométrica mide la fuerza a lo largo de todo el movimiento.",
+        "correctAnswer": false,
+        "xp": 10
+      },
+      {
+        "type": "multiple_choice",
+        "question": "¿Qué significa 1MR en los tests isotónicos?",
+        "options": [
+          {"id": "A", "text": "Un Movimiento Rápido"},
+          {"id": "B", "text": "Máxima Repetición (carga máxima para 1 repetición)"}
+        ],
+        "correctAnswerId": "B",
+        "xp": 10
+      },
+      {
+        "type": "match_pairs",
+        "question": "Une la técnica de evaluación con su método de medición.",
+        "pairs": [
+          {"left": "Test Cinemático", "right": "Usa imágenes para medir velocidades"},
+          {"left": "Electromiografía (EMG)", "right": "Mide la actividad eléctrica del músculo"},
+          {"left": "Test Isocinético", "right": "Mide fuerza a una velocidad fija y controlada"}
+        ],
+        "xp": 15
+      },
+      {
+        "type": "text_input",
+        "question": "¿A qué porcentaje de carga máxima equivale aproximadamente 10MR?",
+        "correctAnswers": ["75%", "75", "75 por ciento"],
+        "xp": 20
+      },
+      {
+        "type": "fill_in_blanks_cards",
+        "text": "El electromiograma integrado (EMGi) es un reflejo del grado de {0} o reclutamiento de {1} de un músculo.",
+        "options": ["fatiga", "activación", "tendones", "fibras"],
+        "correctAnswers": ["activación", "fibras"],
+        "xp": 15
+      },
+      {
+        "type": "true_false",
+        "question": "Las máquinas isocinéticas ajustan automáticamente la resistencia para mantener la velocidad constante.",
+        "correctAnswer": true,
+        "xp": 10
+      },
+      {
+        "type": "multiple_choice",
+        "question": "En la evaluación de la fuerza excéntrica en máquinas isocinéticas se valora especialmente:",
+        "options": [
+          {"id": "A", "text": "El elemento contráctil"},
+          {"id": "B", "text": "El elemento elástico del músculo"}
+        ],
+        "correctAnswerId": "B",
+        "xp": 10
+      }
+    ]
+  },
+  {
+    "level": 2,
+    "lessonId": "L09_adaptaciones_fuerza",
+    "title": "Adaptaciones al Entrenamiento",
+    "exercises": [
+      {
+        "type": "true_false",
+        "question": "La hipertrofia muscular aparece antes que las adaptaciones neurales al iniciar un entrenamiento.",
+        "correctAnswer": false,
+        "xp": 10
+      },
+      {
+        "type": "multiple_choice",
+        "question": "Las mejoras iniciales de fuerza en principiantes sin aumento de masa se deben a:",
+        "options": [
+          {"id": "A", "text": "Adaptación trófica (hipertrofia)"},
+          {"id": "B", "text": "Adaptación neural"}
+        ],
+        "correctAnswerId": "B",
+        "xp": 10
+      },
+      {
+        "type": "match_pairs",
+        "question": "Une el tipo de adaptación con su área de efecto.",
+        "pairs": [
+          {"left": "Coordinación Intramuscular", "right": "Mejora reclutamiento dentro de un mismo músculo"},
+          {"left": "Coordinación Intermuscular", "right": "Mejora acción entre agonistas y antagonistas"},
+          {"left": "Adaptación Trófica", "right": "Aumento del tamaño de las fibras (Hipertrofia)"}
+        ],
+        "xp": 15
+      },
+      {
+        "type": "text_input",
+        "question": "¿Qué principio de entrenamiento postula que trabajar contra una resistencia mayor a la normal aumenta la fuerza?",
+        "correctAnswers": ["Principio de sobrecarga", "sobrecarga", "el principio de sobrecarga"],
+        "xp": 20
+      },
+      {
+        "type": "fill_in_blanks_cards",
+        "text": "El entrenamiento explosivo conlleva {0} hipertrofia debido al corto periodo de {1}.",
+        "options": ["poca", "mucha", "activación", "descanso"],
+        "correctAnswers": ["poca", "activación"],
+        "xp": 15
+      },
+      {
+        "type": "true_false",
+        "question": "Disminuir la inhibición de los músculos antagonistas es una forma de mejorar la fuerza.",
+        "correctAnswer": true,
+        "xp": 10
+      },
+      {
+        "type": "multiple_choice",
+        "question": "En halterófilos, las cargas de entrenamiento para fuerza máxima se sitúan generalmente entre:",
+        "options": [
+          {"id": "A", "text": "40 y 60%"},
+          {"id": "B", "text": "80 y 100%"}
+        ],
+        "correctAnswerId": "B",
+        "xp": 10
+      }
+    ]
+  },
+  {
+    "level": 2,
+    "lessonId": "L10_analisis_gesto",
+    "title": "Análisis del Gesto Deportivo",
+    "exercises": [
+      {
+        "type": "true_false",
+        "question": "El análisis funcional estudia el tipo de contracción que desarrolla cada músculo durante el movimiento.",
+        "correctAnswer": true,
+        "xp": 10
+      },
+      {
+        "type": "multiple_choice",
+        "question": "¿Qué incluye el análisis anatómico?",
+        "options": [
+          {"id": "A", "text": "Descomposición vectorial"},
+          {"id": "B", "text": "Arcos de movilidad de las articulaciones"}
+        ],
+        "correctAnswerId": "B",
+        "xp": 10
+      },
+      {
+        "type": "match_pairs",
+        "question": "Une la fase del análisis deportivo con su enfoque.",
+        "pairs": [
+          {"left": "Análisis Anatómico", "right": "Identifica arcos articulares y músculos implicados"},
+          {"left": "Análisis Mecánico", "right": "Descompone fuerzas en vectores"},
+          {"left": "Análisis Funcional", "right": "Evalúa los tipos de contracción de cada músculo"}
+        ],
+        "xp": 15
+      },
+      {
+        "type": "text_input",
+        "question": "¿Qué nombre recibe la asociación de varios segmentos corporales rígidos unidos por articulaciones?",
+        "correctAnswers": ["Cadena cinemática", "cadena cinematica"],
+        "xp": 20
+      },
+      {
+        "type": "fill_in_blanks_cards",
+        "text": "La fuerza que desarrolla un músculo {0} en los distintos {1} y longitudes de su arco de movilidad.",
+        "options": ["es siempre la misma", "no es la misma", "colores", "ángulos"],
+        "correctAnswers": ["no es la misma", "ángulos"],
+        "xp": 15
+      },
+      {
+        "type": "true_false",
+        "question": "El análisis biomecánico completo ignora las estructuras óseas y de tejido conectivo.",
+        "correctAnswer": false,
+        "xp": 10
+      },
+      {
+        "type": "multiple_choice",
+        "question": "En la contracción auxotónica:",
+        "options": [
+          {"id": "A", "text": "La tensión es constante"},
+          {"id": "B", "text": "Es una contracción fisiológica con tensión variable"},
+          {"id": "C", "text": "No hay movimiento"}
+        ],
+        "correctAnswerId": "B",
+        "xp": 10
+      }
+    ]
+  },
+  {
+    "level": 3,
+    "lessonId": "L11_pruebas_ergometricas",
+    "title": "Pruebas Ergométricas",
+    "exercises": [
+      {
+        "type": "true_false",
+        "question": "La ergometría es un test de esfuerzo realizado bajo condiciones controladas en laboratorio.",
+        "correctAnswer": true,
+        "xp": 10
+      },
+      {
+        "type": "multiple_choice",
+        "question": "¿Cuál de los siguientes ergómetros clásicos permite controlar los vatios o la potencia?",
+        "options": [
+          {"id": "A", "text": "Tapiz rodante (Treadmill)"},
+          {"id": "B", "text": "Cicloergómetro"}
+        ],
+        "correctAnswerId": "B",
+        "xp": 10
+      },
+      {
+        "type": "match_pairs",
+        "question": "Une el tipo de protocolo ergométrico con su mecánica.",
+        "pairs": [
+          {"left": "Protocolo Incremental", "right": "La carga va aumentando con el tiempo"},
+          {"left": "Estado Estable", "right": "La carga se mantiene constante todo el test"},
+          {"left": "Ergometría de Laboratorio", "right": "Prueba de esfuerzo controlada y monitorizada"}
+        ],
+        "xp": 15
+      },
+      {
+        "type": "text_input",
+        "question": "¿Qué parámetro ventilatorio respiratorio clásico se considera el indicador de la eficiencia global del individuo en el test?",
+        "correctAnswers": ["Economía de carrera", "economia de carrera"],
+        "xp": 20
+      },
+      {
+        "type": "fill_in_blanks_cards",
+        "text": "Buscar la máxima {0} entre el ergómetro y la actividad real confiere una mayor {1} de los datos.",
+        "options": ["similitud", "diferencia", "transferencia", "pérdida"],
+        "correctAnswers": ["similitud", "transferencia"],
+        "xp": 15
+      },
+      {
+        "type": "true_false",
+        "question": "El tapiz rodante permite alterar tanto la velocidad como la pendiente durante el test.",
+        "correctAnswer": true,
+        "xp": 10
+      },
+      {
+        "type": "multiple_choice",
+        "question": "Los protocolos incrementales donde no hay paradas entre las distintas cargas se llaman:",
+        "options": [
+          {"id": "A", "text": "Discontinuos"},
+          {"id": "B", "text": "Continuos"}
+        ],
+        "correctAnswerId": "B",
+        "xp": 10
+      }
+    ]
+  },
+  {
+    "level": 3,
+    "lessonId": "L12_consumo_oxigeno",
+    "title": "Consumo de Oxígeno (VO2)",
+    "exercises": [
+      {
+        "type": "true_false",
+        "question": "El VO2 máximo aumenta de forma indefinida a lo largo de toda la vida deportiva del atleta de élite.",
+        "correctAnswer": false,
+        "xp": 10
+      },
+      {
+        "type": "multiple_choice",
+        "question": "¿Qué factor 'central' determina el VO2?",
+        "options": [
+          {"id": "A", "text": "Gasto cardíaco"},
+          {"id": "B", "text": "Tipos de fibras musculares"}
+        ],
+        "correctAnswerId": "A",
+        "xp": 10
+      },
+      {
+        "type": "match_pairs",
+        "question": "Une las siglas con su significado fisiológico.",
+        "pairs": [
+          {"left": "FC", "right": "Frecuencia Cardíaca"},
+          {"left": "Q", "right": "Gasto Cardíaco"},
+          {"left": "VO2", "right": "Volumen de Oxígeno Consumido"}
+        ],
+        "xp": 15
+      },
+      {
+        "type": "text_input",
+        "question": "¿Cómo se expresa usualmente el VO2 para poder hacer comparaciones entre individuos de distinto tamaño?",
+        "correctAnswers": ["ml/kg.min", "ml/kg/min", "ml/kg*min"],
+        "xp": 20
+      },
+      {
+        "type": "fill_in_blanks_cards",
+        "text": "El VO2 varía de forma casi {0} con la carga de trabajo antes de estabilizarse cerca del {1}.",
+        "options": ["lineal", "exponencial", "máximo", "mínimo"],
+        "correctAnswers": ["lineal", "máximo"],
+        "xp": 15
+      },
+      {
+        "type": "true_false",
+        "question": "El factor periférico del VO2 hace referencia a la capacidad del músculo para extraer el oxígeno de la sangre.",
+        "correctAnswer": true,
+        "xp": 10
+      },
+      {
+        "type": "multiple_choice",
+        "question": "El VO2max está condicionado en gran medida por factores:",
+        "options": [
+          {"id": "A", "text": "Nutricionales"},
+          {"id": "B", "text": "Genéticos"},
+          {"id": "C", "text": "Ambientales"}
+        ],
+        "correctAnswerId": "B",
+        "xp": 10
+      }
+    ]
+  },
+  {
+    "level": 3,
+    "lessonId": "L13_fc_lactato",
+    "title": "Frecuencia Cardíaca y Lactato",
+    "exercises": [
+      {
+        "type": "true_false",
+        "question": "La Frecuencia Cardíaca (FC) sube de manera casi lineal respecto al aumento del consumo de oxígeno (VO2).",
+        "correctAnswer": true,
+        "xp": 10
+      },
+      {
+        "type": "multiple_choice",
+        "question": "Una persona entrenada, frente a una no entrenada, para un mismo VO2 presentará una FC:",
+        "options": [
+          {"id": "A", "text": "Mayor"},
+          {"id": "B", "text": "Menor"},
+          {"id": "C", "text": "Igual"}
+        ],
+        "correctAnswerId": "B",
+        "xp": 10
+      },
+      {
+        "type": "match_pairs",
+        "question": "Une la fase del ácido láctico con su comportamiento en esfuerzo.",
+        "pairs": [
+          {"left": "Fase I Láctica", "right": "Niveles de lactato base, reposo aeróbico"},
+          {"left": "Fase II Láctica", "right": "Lactato aumentado pero en equilibrio (aclaramiento)"},
+          {"left": "Fase III Láctica", "right": "Lactato aumentando continuamente hasta la fatiga"}
+        ],
+        "xp": 15
+      },
+      {
+        "type": "text_input",
+        "question": "¿A partir de qué molécula se produce el lactato en la glucólisis anaeróbica?",
+        "correctAnswers": ["Glucosa", "glucosa", "Ácido pirúvico", "acido piruvico"],
+        "xp": 20
+      },
+      {
+        "type": "fill_in_blanks_cards",
+        "text": "El test de {0} intenta detectar los umbrales usando la deflexión de la FC, pero tiene {1} base científica comprobada.",
+        "options": ["Conconi", "Cooper", "mucha", "poca"],
+        "correctAnswers": ["Conconi", "poca"],
+        "xp": 15
+      },
+      {
+        "type": "true_false",
+        "question": "El lactato medido en sangre refleja de manera exacta e inmediata todo lo que ocurre dentro del músculo.",
+        "correctAnswer": false,
+        "xp": 10
+      },
+      {
+        "type": "multiple_choice",
+        "question": "El lactato que produce el ácido láctico es compensado o 'aclarado' principalmente por:",
+        "options": [
+          {"id": "A", "text": "Las fibras tipo II"},
+          {"id": "B", "text": "Las fibras tipo I"}
+        ],
+        "correctAnswerId": "B",
+        "xp": 10
+      }
+    ]
+  },
+  {
+    "level": 3,
+    "lessonId": "L14_umbrales_aerobicos",
+    "title": "Umbrales Aeróbico y Anaeróbico",
+    "exercises": [
+      {
+        "type": "true_false",
+        "question": "El umbral anaeróbico indica el momento en que se empieza a acumular lactato en la sangre de manera abrupta.",
+        "correctAnswer": true,
+        "xp": 10
+      },
+      {
+        "type": "multiple_choice",
+        "question": "¿Qué parámetro se usa como criterio principal para detectar el umbral aeróbico (VT1)?",
+        "options": [
+          {"id": "A", "text": "Aumento del equivalente ventilatorio para el O2"},
+          {"id": "B", "text": "Descenso de la FC"}
+        ],
+        "correctAnswerId": "A",
+        "xp": 10
+      },
+      {
+        "type": "match_pairs",
+        "question": "Une el método o concepto con su función en la medición.",
+        "pairs": [
+          {"left": "Medición Sanguínea", "right": "Detecta los umbrales lácticos exactos"},
+          {"left": "Ergoespirometría", "right": "Detecta los umbrales ventilatorios por gases"},
+          {"left": "Bicarbonato (Tampón)", "right": "Neutraliza el ácido generando más CO2"}
+        ],
+        "xp": 15
+      },
+      {
+        "type": "text_input",
+        "question": "¿Qué mecanismo utiliza el cuerpo para tamponar el exceso de ácido, generando un aumento en la ventilación (CO2)?",
+        "correctAnswers": ["Bicarbonato", "bicarbonato"],
+        "xp": 20
+      },
+      {
+        "type": "fill_in_blanks_cards",
+        "text": "El segundo umbral marca el fin del {0} del lactato y el paso a la fase {1}.",
+        "options": ["máximo estado estable", "inicio", "III", "I"],
+        "correctAnswers": ["máximo estado estable", "III"],
+        "xp": 15
+      },
+      {
+        "type": "true_false",
+        "question": "El estado nutricional previo no afecta la curva del lactato durante un test.",
+        "correctAnswer": false,
+        "xp": 10
+      },
+      {
+        "type": "multiple_choice",
+        "question": "El control ergoespirométrico 'respiración a respiración' otorga una detección de umbrales más:",
+        "options": [
+          {"id": "A", "text": "Lenta"},
+          {"id": "B", "text": "Precisa"}
+        ],
+        "correctAnswerId": "B",
+        "xp": 10
+      }
+    ]
+  },
+  {
+    "level": 4,
+    "lessonId": "L15_beneficios_entrenamiento",
+    "title": "Beneficios del Entrenamiento",
+    "exercises": [
+      {
+        "type": "true_false",
+        "question": "La fuerza es una herramienta que previene la osteoporosis al aplicar estrés mecánico en los huesos.",
+        "correctAnswer": true,
+        "xp": 10
+      },
+      {
+        "type": "multiple_choice",
+        "question": "¿Qué efecto comprobado tiene el entrenamiento con pesas en personas de más de 80 años?",
+        "options": [
+          {"id": "A", "text": "No produce cambios"},
+          {"id": "B", "text": "Aumenta significativamente la fuerza"}
+        ],
+        "correctAnswerId": "B",
+        "xp": 10
+      },
+      {
+        "type": "match_pairs",
+        "question": "Une la patología con su descripción.",
+        "pairs": [
+          {"left": "Cardiopatía isquémica", "right": "Enfermedad grave del corazón"},
+          {"left": "Artrosis", "right": "Desgaste del cartílago articular"},
+          {"left": "Osteoporosis", "right": "Pérdida peligrosa de densidad ósea"}
+        ],
+        "xp": 15
+      },
+      {
+        "type": "text_input",
+        "question": "Además de físicos y biológicos, el entrenamiento produce beneficios en los ámbitos psicológico y...",
+        "correctAnswers": ["Social", "social", "sociales"],
+        "xp": 20
+      },
+      {
+        "type": "fill_in_blanks_cards",
+        "text": "La pérdida de fuerza asociada al {0} no es del todo inevitable y puede frenarse con entrenamiento de {1}.",
+        "options": ["envejecimiento", "crecimiento", "fuerza", "flexibilidad"],
+        "correctAnswers": ["envejecimiento", "fuerza"],
+        "xp": 15
+      },
+      {
+        "type": "true_false",
+        "question": "El ACSM en 1998 advirtió sobre el peligro de hacer series de 8-10 repeticiones en adultos mayores.",
+        "correctAnswer": false,
+        "xp": 10
+      },
+      {
+        "type": "multiple_choice",
+        "question": "¿Qué población deportiva tiene la mayor densidad ósea registrada?",
+        "options": [
+          {"id": "A", "text": "Nadadores"},
+          {"id": "B", "text": "Halterófilos"},
+          {"id": "C", "text": "Ciclistas"}
+        ],
+        "correctAnswerId": "B",
+        "xp": 10
+      }
+    ]
+  },
+  {
+    "level": 4,
+    "lessonId": "L16_patologias_riesgos",
+    "title": "Ejercicio en Patologías y Riesgos",
+    "exercises": [
+      {
+        "type": "true_false",
+        "question": "Los pacientes coronarios nunca deben realizar entrenamiento con pesas.",
+        "correctAnswer": false,
+        "xp": 10
+      },
+      {
+        "type": "multiple_choice",
+        "question": "Para coronarios e hipertensos, ¿en qué porcentaje de cargas se recomiendan los circuitos?",
+        "options": [
+          {"id": "A", "text": "80-100%"},
+          {"id": "B", "text": "30-50%"}
+        ],
+        "correctAnswerId": "B",
+        "xp": 10
+      },
+      {
+        "type": "match_pairs",
+        "question": "Relaciona la actividad con su nivel de riesgo estadístico.",
+        "pairs": [
+          {"left": "Fútbol o Baloncesto", "right": "Deportes con alto riesgo de lesión articular"},
+          {"left": "Pesas Supervisadas", "right": "Riesgo de lesión casi inexistente"},
+          {"left": "Muerte Súbita Ejercicio", "right": "Incidencia extremadamente baja en población sana"}
+        ],
+        "xp": 15
+      },
+      {
+        "type": "text_input",
+        "question": "Antes de empezar un programa de circuito con pesas, los coronarios deben completar primero 2-3 meses de ejercicio...",
+        "correctAnswers": ["Aeróbico", "aerobico", "aeróbicos"],
+        "xp": 20
+      },
+      {
+        "type": "fill_in_blanks_cards",
+        "text": "El entrenamiento en circuito de pesas en coronarios produce {0} isquemia y arritmias que los ejercicios puramente {1} intensos.",
+        "options": ["menos", "más", "aeróbicos", "isométricos"],
+        "correctAnswers": ["menos", "aeróbicos"],
+        "xp": 15
+      },
+      {
+        "type": "true_false",
+        "question": "La muerte súbita durante el ejercicio es altísima si se controla la intensidad.",
+        "correctAnswer": false,
+        "xp": 10
+      },
+      {
+        "type": "multiple_choice",
+        "question": "¿Cuál es una directriz de seguridad fundamental en pesas para niños?",
+        "options": [
+          {"id": "A", "text": "Levantar sus cargas máximas"},
+          {"id": "B", "text": "Estar asistido por un adulto"}
+        ],
+        "correctAnswerId": "B",
+        "xp": 10
+      }
+    ]
+  },
+  {
+    "level": 4,
+    "lessonId": "L17_terminologia_sala",
+    "title": "Terminología de la Sala de Musculación",
+    "exercises": [
+      {
+        "type": "true_false",
+        "question": "En la nomenclatura '3x6', el primer número indica las repeticiones y el segundo las series.",
+        "correctAnswer": false,
+        "xp": 10
+      },
+      {
+        "type": "multiple_choice",
+        "question": "El 'Volumen' de entrenamiento, según este manual, se refiere básicamente a:",
+        "options": [
+          {"id": "A", "text": "El tonelaje movido"},
+          {"id": "B", "text": "La cantidad de series y repeticiones"}
+        ],
+        "correctAnswerId": "B",
+        "xp": 10
+      },
+      {
+        "type": "match_pairs",
+        "question": "Une el término con su definición técnica en el gimnasio.",
+        "pairs": [
+          {"left": "Repetición (Rep)", "right": "Movimiento único realizado sin descanso"},
+          {"left": "Serie (Set)", "right": "Conjunto de repeticiones continuas"},
+          {"left": "Volumen de Carga", "right": "Suma total de series por repeticiones"}
+        ],
+        "xp": 15
+      },
+      {
+        "type": "text_input",
+        "question": "¿Qué siglas indican la carga máxima que un atleta puede mover en un número dado de repeticiones?",
+        "correctAnswers": ["RM", "rm"],
+        "xp": 20
+      },
+      {
+        "type": "fill_in_blanks_cards",
+        "text": "No es posible magnificar {0} dos cualidades opuestas, como la {1} y la resistencia de maratón en una misma sesión.",
+        "options": ["simultáneamente", "aisladamente", "fuerza máxima", "flexibilidad"],
+        "correctAnswers": ["simultáneamente", "fuerza máxima"],
+        "xp": 15
+      },
+      {
+        "type": "true_false",
+        "question": "El principio de especificidad indica que el entrenamiento debe ser tan similar como sea posible al gesto deportivo.",
+        "correctAnswer": true,
+        "xp": 10
+      },
+      {
+        "type": "multiple_choice",
+        "question": "Las pausas de 'descanso activo' son ideales para la etapa de:",
+        "options": [
+          {"id": "A", "text": "Temporada"},
+          {"id": "B", "text": "Fuera de temporada (Off-season)"}
+        ],
+        "correctAnswerId": "B",
+        "xp": 10
+      }
+    ]
+  },
+  {
+    "level": 5,
+    "lessonId": "L18_cargas_maquinas",
+    "title": "Tipos de Cargas y Máquinas",
+    "exercises": [
+      {
+        "type": "true_false",
+        "question": "Las pesas libres, como barras y mancuernas, son consideradas cargas gravitacionales directas.",
+        "correctAnswer": true,
+        "xp": 10
+      },
+      {
+        "type": "multiple_choice",
+        "question": "Un sistema de poleas donde la gravedad puede reacomodarse a voluntad es una carga:",
+        "options": [
+          {"id": "A", "text": "Directa simple"},
+          {"id": "B", "text": "Indirecta simple"}
+        ],
+        "correctAnswerId": "B",
+        "xp": 10
+      },
+      {
+        "type": "match_pairs",
+        "question": "Une la categoría de la carga con su ejemplo en equipo.",
+        "pairs": [
+          {"left": "Carga No Gravitacional", "right": "Bandas elásticas o máquinas neumáticas"},
+          {"left": "Gravitacional Guiada", "right": "Máquina Hack o Prensa de Piernas"},
+          {"left": "Gravitacional Directa", "right": "Mancuernas y barras libres"}
+        ],
+        "xp": 15
+      },
+      {
+        "type": "text_input",
+        "question": "Las máquinas imponen un recorrido guiado, lo cual anula casi por completo el trabajo de los músculos...",
+        "correctAnswers": ["Estabilizadores", "estabilizadores"],
+        "xp": 20
+      },
+      {
+        "type": "fill_in_blanks_cards",
+        "text": "A diferencia del entrenamiento deportivo olímpico, las máquinas ocupan un lugar de {0} y seguridad en el {1} y para principiantes.",
+        "options": ["éxito", "fracaso", "fitness", "sedentarismo"],
+        "correctAnswers": ["éxito", "fitness"],
+        "xp": 15
+      },
+      {
+        "type": "true_false",
+        "question": "En los ejercicios con poleas clásicas (isotónicas), la resistencia en el cable disminuye dependiendo de la articulación.",
+        "correctAnswer": false,
+        "xp": 10
+      },
+      {
+        "type": "multiple_choice",
+        "question": "En la camilla clásica de cuádriceps, la tensión muscular al iniciar la extensión desde 90 grados es:",
+        "options": [
+          {"id": "A", "text": "Máxima"},
+          {"id": "B", "text": "Prácticamente nula"}
+        ],
+        "correctAnswerId": "B",
+        "xp": 10
+      }
+    ]
+  },
+  {
+    "level": 5,
+    "lessonId": "L19_tension_deformacion",
+    "title": "Curva de Hill y Tensión",
+    "exercises": [
+      {
+        "type": "true_false",
+        "question": "La máxima tensión de un músculo se logra en la máxima elongación fisiológica (antes de acortarse).",
+        "correctAnswer": true,
+        "xp": 10
+      },
+      {
+        "type": "multiple_choice",
+        "question": "La Ley de Hill (fuerza-velocidad) indica que en la fase concéntrica, al aumentar la carga, la velocidad máxima posible:",
+        "options": [
+          {"id": "A", "text": "Aumenta"},
+          {"id": "B", "text": "Disminuye"}
+        ],
+        "correctAnswerId": "B",
+        "xp": 10
+      },
+      {
+        "type": "match_pairs",
+        "question": "Une el tipo de movimiento con la Ley de Hill.",
+        "pairs": [
+          {"left": "Fase Concéntrica", "right": "A mayor carga movida, menor velocidad posible"},
+          {"left": "Fase Excéntrica", "right": "A mayor carga a frenar, mayor velocidad de caída"},
+          {"left": "Fase Isométrica", "right": "Carga inamovible, velocidad de ejecución igual a cero"}
+        ],
+        "xp": 15
+      },
+      {
+        "type": "text_input",
+        "question": "La tensión en un ejercicio con pesas ('isotónico') no es constante, sino siempre...",
+        "correctAnswers": ["Variable", "variable"],
+        "xp": 20
+      },
+      {
+        "type": "fill_in_blanks_cards",
+        "text": "Cada músculo tiene una curva de tensión característica; el masetero puede generar {0}, mientras que el bíceps genera {1}.",
+        "options": ["20 kg/cm2", "100 kg/cm2", "6,8 kg/cm2", "1 kg/cm2"],
+        "correctAnswers": ["20 kg/cm2", "6,8 kg/cm2"],
+        "xp": 15
+      },
+      {
+        "type": "true_false",
+        "question": "El acortamiento máximo fisiológico promedio de un músculo está en torno al 33%.",
+        "correctAnswer": true,
+        "xp": 10
+      },
+      {
+        "type": "multiple_choice",
+        "question": "Un pre-estiramiento justo antes de contraer genera mayor fuerza porque se activan el órgano tendinoso de Golgi y el:",
+        "options": [
+          {"id": "A", "text": "Huso muscular"},
+          {"id": "B", "text": "Ácido láctico"}
+        ],
+        "correctAnswerId": "A",
+        "xp": 10
+      }
+    ]
+  },
+  {
+    "level": 5,
+    "lessonId": "L20_biomecanica_articular",
+    "title": "Músculos Biarticulares",
+    "exercises": [
+      {
+        "type": "true_false",
+        "question": "Todo movimiento del cuerpo humano en el espacio se produce en función de rotaciones articulares.",
+        "correctAnswer": true,
+        "xp": 10
+      },
+      {
+        "type": "multiple_choice",
+        "question": "Un músculo que produce acción motora cruzando simultáneamente la cadera y la rodilla es:",
+        "options": [
+          {"id": "A", "text": "Monoarticular"},
+          {"id": "B", "text": "Biarticular"}
+        ],
+        "correctAnswerId": "B",
+        "xp": 10
+      },
+      {
+        "type": "match_pairs",
+        "question": "Une el músculo biarticular con sus dos funciones conjuntas.",
+        "pairs": [
+          {"left": "Músculo Sartorio", "right": "Actúa flexionando tanto la cadera como la rodilla"},
+          {"left": "Recto Femoral (Cuádriceps)", "right": "Flexiona la cadera y a la vez extiende la rodilla"},
+          {"left": "Isquiosurales", "right": "Extienden la cadera y a la vez flexionan la rodilla"}
+        ],
+        "xp": 15
+      },
+      {
+        "type": "text_input",
+        "question": "La 'paradoja' que explica por qué los isquiosurales y el cuádriceps pueden activarse a la vez en una sentadilla se llama Paradoja de...",
+        "correctAnswers": ["Lombard", "lombard"],
+        "xp": 20
+      },
+      {
+        "type": "fill_in_blanks_cards",
+        "text": "Los músculos biarticulares proporcionan un gran {0} debido a la transferencia de fuerzas a través de las {1}.",
+        "options": ["ahorro energético", "desgaste", "cadenas cinemáticas", "articulaciones"],
+        "correctAnswers": ["ahorro energético", "cadenas cinemáticas"],
+        "xp": 15
+      },
+      {
+        "type": "true_false",
+        "question": "El brazo de palanca de los isquiosurales es más grande en la rodilla que en la cadera.",
+        "correctAnswer": false,
+        "xp": 10
+      },
+      {
+        "type": "multiple_choice",
+        "question": "En la 'acción de correa', los músculos biarticulares casi no cambian de longitud (4-5%) porque se acortan en una articulación y se...",
+        "options": [
+          {"id": "A", "text": "Destruyen"},
+          {"id": "B", "text": "Alargan en la otra"}
+        ],
+        "correctAnswerId": "B",
+        "xp": 10
+      }
+    ]
+  },
+  {
+    "level": 6,
+    "lessonId": "L21_componentes_carga",
+    "title": "Componentes de la Carga de Entrenamiento",
+    "exercises": [
+      {
+        "type": "true_false",
+        "question": "El 'tonelaje' se calcula multiplicando el peso movido por las repeticiones totales realizadas.",
+        "correctAnswer": true,
+        "xp": 10
+      },
+      {
+        "type": "multiple_choice",
+        "question": "El cociente entre el tiempo de trabajo y el tiempo de descanso se llama:",
+        "options": [
+          {"id": "A", "text": "Volumen"},
+          {"id": "B", "text": "Densidad"},
+          {"id": "C", "text": "Intensidad"}
+        ],
+        "correctAnswerId": "B",
+        "xp": 10
+      },
+      {
+        "type": "match_pairs",
+        "question": "Une el parámetro de la carga con su medida u objetivo.",
+        "pairs": [
+          {"left": "Intensidad", "right": "Se mide según el Porcentaje de 1 RM"},
+          {"left": "Frecuencia", "right": "Cantidad de sesiones realizadas por semana"},
+          {"left": "Volumen Total", "right": "Suma total de Series por Repeticiones"}
+        ],
+        "xp": 15
+      },
+      {
+        "type": "text_input",
+        "question": "¿Qué parámetro determina el peso promedio movido (T/V)?",
+        "correctAnswers": ["Peso medio", "peso medio"],
+        "xp": 20
+      },
+      {
+        "type": "fill_in_blanks_cards",
+        "text": "Una intensidad del 100% equivale al peso exacto de {0}, mientras que una intensidad del 70% permite unas {1}.",
+        "options": ["1 RM", "10 RM", "15 RM", "100 RM"],
+        "correctAnswers": ["1 RM", "15 RM"],
+        "xp": 15
+      },
+      {
+        "type": "true_false",
+        "question": "El volumen en musculación hace referencia exclusivamente a los kilos de las mancuernas.",
+        "correctAnswer": false,
+        "xp": 10
+      },
+      {
+        "type": "multiple_choice",
+        "question": "En el entrenamiento de periodización 'Método pirámide descendente', los porcentajes de intensidad van:",
+        "options": [
+          {"id": "A", "text": "De menor a mayor"},
+          {"id": "B", "text": "De mayor a menor"}
+        ],
+        "correctAnswerId": "B",
+        "xp": 10
+      }
+    ]
+  },
+  {
+    "level": 6,
+    "lessonId": "L22_principios_recuperacion",
+    "title": "Principios y Tiempos de Recuperación",
+    "exercises": [
+      {
+        "type": "true_false",
+        "question": "El Principio de Alternancia exige intercalar pausas de trabajo y descanso para optimizar la mejora biológica.",
+        "correctAnswer": true,
+        "xp": 10
+      },
+      {
+        "type": "multiple_choice",
+        "question": "Tras la fatiga de un entrenamiento y un buen descanso, el nivel de eficiencia rebasa el nivel inicial. ¿Cómo se llama este proceso?",
+        "options": [
+          {"id": "A", "text": "Sobreentrenamiento"},
+          {"id": "B", "text": "Sobrecompensación"}
+        ],
+        "correctAnswerId": "B",
+        "xp": 10
+      },
+      {
+        "type": "match_pairs",
+        "question": "Une el sustrato celular con su tiempo de recuperación total estimado.",
+        "pairs": [
+          {"left": "Fosfágenos (ATP-PC)", "right": "Requiere de 2 a 3 minutos para reponerse"},
+          {"left": "Glucógeno Muscular", "right": "Requiere de 24 horas y buena dieta"},
+          {"left": "Mioglobina (Oxígeno intra)", "right": "Se repone rápido, en 1 a 2 minutos"}
+        ],
+        "xp": 15
+      },
+      {
+        "type": "text_input",
+        "question": "¿Qué principio asegura que el estímulo debe ser superior a lo habitual para forzar el crecimiento?",
+        "correctAnswers": ["Sobrecarga", "sobrecarga", "Principio de sobrecarga"],
+        "xp": 20
+      },
+      {
+        "type": "fill_in_blanks_cards",
+        "text": "El tiempo o duración de un esfuerzo (por ej., una serie pesada) es {0} proporcional a la {1} o intensidad generada.",
+        "options": ["inversamente", "directamente", "potencia", "flexibilidad"],
+        "correctAnswers": ["inversamente", "potencia"],
+        "xp": 15
+      },
+      {
+        "type": "true_false",
+        "question": "La reposición de depósitos de mioglobina (O2) en el músculo requiere 48 horas.",
+        "correctAnswer": false,
+        "xp": 10
+      },
+      {
+        "type": "multiple_choice",
+        "question": "Una recarga de hidratos 20 minutos después del entrenamiento intervalado genera un 80% de reposición de glucógeno en:",
+        "options": [
+          {"id": "A", "text": "1 hora"},
+          {"id": "B", "text": "4-5 horas"}
+        ],
+        "correctAnswerId": "B",
+        "xp": 10
+      }
+    ]
+  },
+  {
+    "level": 6,
+    "lessonId": "L23_metodos_fuerza_max",
+    "title": "Métodos de Fuerza Máxima",
+    "exercises": [
+      {
+        "type": "true_false",
+        "question": "El Método de Intensidades Máximas I busca producir una enorme hipertrofia muscular.",
+        "correctAnswer": false,
+        "xp": 10
+      },
+      {
+        "type": "multiple_choice",
+        "question": "En el Método de Intensidades Máximas I (90-100%), ¿cuántas repeticiones por serie se prescriben?",
+        "options": [
+          {"id": "A", "text": "1 a 3"},
+          {"id": "B", "text": "8 a 12"}
+        ],
+        "correctAnswerId": "A",
+        "xp": 10
+      },
+      {
+        "type": "match_pairs",
+        "question": "Une el método de entrenamiento con su rango de intensidad.",
+        "pairs": [
+          {"left": "Intensidades Máximas I", "right": "Cargas del 90 al 100% de 1RM"},
+          {"left": "Intensidades Máximas II", "right": "Cargas del 85 al 90% de 1RM"},
+          {"left": "Método Repeticiones II", "right": "Cargas del 70 al 80% (Hipertrofia)"}
+        ],
+        "xp": 15
+      },
+      {
+        "type": "text_input",
+        "question": "¿A qué velocidad de ejecución debe moverse la barra en los métodos de Fuerza Máxima si deseamos mayor reclutamiento motor?",
+        "correctAnswers": ["Máxima", "maxima", "Explosiva", "explosiva", "maxima posible"],
+        "xp": 20
+      },
+      {
+        "type": "fill_in_blanks_cards",
+        "text": "Entrenar con cargas máximas reduce la {0} del Sistema Nervioso Central y mejora la {1}.",
+        "options": ["inhibición", "activación", "coordinación intramuscular", "fatiga"],
+        "correctAnswers": ["inhibición", "coordinación intramuscular"],
+        "xp": 15
+      },
+      {
+        "type": "true_false",
+        "question": "El Método de Intensidades Máximas es idóneo y seguro para principiantes en su primera semana.",
+        "correctAnswer": false,
+        "xp": 10
+      },
+      {
+        "type": "multiple_choice",
+        "question": "El descanso ideal entre series en el Método de Intensidades Máximas I es de:",
+        "options": [
+          {"id": "A", "text": "30 segundos"},
+          {"id": "B", "text": "3 minutos"}
+        ],
+        "correctAnswerId": "B",
+        "xp": 10
+      }
+    ]
+  },
+  {
+    "level": 6,
+    "lessonId": "L24_metodos_hipertrofia",
+    "title": "Métodos de Hipertrofia",
+    "exercises": [
+      {
+        "type": "true_false",
+        "question": "El Método de Repeticiones II (70-80%) produce una hipertrofia muscular alta.",
+        "correctAnswer": true,
+        "xp": 10
+      },
+      {
+        "type": "multiple_choice",
+        "question": "En el Método de Repeticiones I (80-85%), ¿cuál es el rango de repeticiones recomendado?",
+        "options": [
+          {"id": "A", "text": "1-3"},
+          {"id": "B", "text": "5-7"}
+        ],
+        "correctAnswerId": "B",
+        "xp": 10
+      },
+      {
+        "type": "match_pairs",
+        "question": "Une el componente de la serie con su regla en hipertrofia clásica.",
+        "pairs": [
+          {"left": "Fase Concéntrica (Empuje)", "right": "Ejecución a velocidad Rápida"},
+          {"left": "Fase Excéntrica (Frenado)", "right": "Ejecución a velocidad Lenta y controlada"},
+          {"left": "Tiempo de Pausa (Descanso)", "right": "Aproximadamente 45 segundos entre series"}
+        ],
+        "xp": 15
+      },
+      {
+        "type": "text_input",
+        "question": "¿Cuál es la pausa sugerida en el Método de Repeticiones II (hipertrofia)?",
+        "correctAnswers": ["45 segundos", "45", "45 seg"],
+        "xp": 20
+      },
+      {
+        "type": "fill_in_blanks_cards",
+        "text": "Con cargas entre el 70% y el 80% existe una {0} amplitud de unidades motoras {1} favoreciendo el crecimiento.",
+        "options": ["mayor", "menor", "reclutadas y agotadas", "descansadas"],
+        "correctAnswers": ["mayor", "reclutadas y agotadas"],
+        "xp": 15
+      },
+      {
+        "type": "true_false",
+        "question": "En los métodos de repeticiones, la tensión muscular máxima dentro de la serie se logra desde la primera repetición.",
+        "correctAnswer": false,
+        "xp": 10
+      },
+      {
+        "type": "multiple_choice",
+        "question": "Hacer repeticiones adicionales 'con ayuda' de un compañero está enfocado a periodos:",
+        "options": [
+          {"id": "A", "text": "Básicos con principiantes"},
+          {"id": "B", "text": "Específicos con avanzados"}
+        ],
+        "correctAnswerId": "B",
+        "xp": 10
+      }
+    ]
+  },
+  {
+    "level": 6,
+    "lessonId": "L25_fuerza_resistencia",
+    "title": "Fuerza-Resistencia Muscular",
+    "exercises": [
+      {
+        "type": "true_false",
+        "question": "Para orientar un plan hacia la resistencia muscular, es necesario trabajar con cargas submaximales entre el 50% y el 70%.",
+        "correctAnswer": true,
+        "xp": 10
+      },
+      {
+        "type": "multiple_choice",
+        "question": "Al entrenar resistencia muscular, ¿cuántas repeticiones mínimas recomienda el cuadro base?",
+        "options": [
+          {"id": "A", "text": "6"},
+          {"id": "B", "text": "15 a 25"}
+        ],
+        "correctAnswerId": "B",
+        "xp": 10
+      },
+      {
+        "type": "match_pairs",
+        "question": "Une el porcentaje de intensidad con la cualidad principal que desarrolla.",
+        "pairs": [
+          {"left": "85% - 100% RM", "right": "Desarrollo de la Fuerza Máxima pura"},
+          {"left": "70% - 80% RM", "right": "Desarrollo de la Hipertrofia (Masa muscular)"},
+          {"left": "50% - 70% RM", "right": "Desarrollo de la Fuerza-Resistencia"}
+        ],
+        "xp": 15
+      },
+      {
+        "type": "text_input",
+        "question": "Un músculo fuerte tendrá de por sí mejor resistencia relativa porque usará una menor fracción de su...",
+        "correctAnswers": ["Capacidad", "capacidad", "Fuerza máxima", "fuerza maxima"],
+        "xp": 20
+      },
+      {
+        "type": "fill_in_blanks_cards",
+        "text": "Hacer múltiples repeticiones con el músculo totalmente {0} no es útil; la carga debe generar una {1} adecuada.",
+        "options": ["descargado", "cargado", "estimulación", "relajación"],
+        "correctAnswers": ["descargado", "estimulación"],
+        "xp": 15
+      },
+      {
+        "type": "true_false",
+        "question": "Aún en rutinas de pura resistencia muscular de 15 repeticiones, el atleta logrará un aumento residual de fuerza.",
+        "correctAnswer": true,
+        "xp": 10
+      },
+      {
+        "type": "multiple_choice",
+        "question": "¿Cuál es el principal sustrato usado en series de resistencia láctica que duren cerca de un minuto?",
+        "options": [
+          {"id": "A", "text": "PC (Fosfato)"},
+          {"id": "B", "text": "Glucólisis anaeróbica"}
+        ],
+        "correctAnswerId": "B",
+        "xp": 10
+      }
+    ]
+  },
+  {
+    "level": 7,
+    "lessonId": "L26_potencia_muscular",
+    "title": "La Potencia Muscular",
+    "exercises": [
+      {
+        "type": "true_false",
+        "question": "La potencia muscular es el resultado de conjugar la fuerza y la flexibilidad.",
+        "correctAnswer": false,
+        "xp": 10
+      },
+      {
+        "type": "multiple_choice",
+        "question": "En la ecuación de Potencia, si acorto el tiempo de ejecución moviendo el mismo peso:",
+        "options": [
+          {"id": "A", "text": "Disminuyo la potencia"},
+          {"id": "B", "text": "Aumento la potencia"}
+        ],
+        "correctAnswerId": "B",
+        "xp": 10
+      },
+      {
+        "type": "match_pairs",
+        "question": "Une la técnica o ejercicio con el nivel de potencia que demuestra.",
+        "pairs": [
+          {"left": "Levantamientos Olímpicos", "right": "Generan la máxima potencia deportiva"},
+          {"left": "Contracciones Isométricas", "right": "Generan potencia mecánica nula (cero velocidad)"},
+          {"left": "Rutinas Lentas de Hipertrofia", "right": "Generan potencia mecánica de nivel medio-bajo"}
+        ],
+        "xp": 15
+      },
+      {
+        "type": "text_input",
+        "question": "Nombra un ejercicio clásico de la halterofilia considerado excelente para potenciar el sistema.",
+        "correctAnswers": ["Cargada", "cargada", "Arranque", "arranque", "Envión", "envion"],
+        "xp": 20
+      },
+      {
+        "type": "fill_in_blanks_cards",
+        "text": "Un programa de potencia incluye {0} ejercicios, {1} repeticiones y recuperaciones más largas entre series.",
+        "options": ["pocos", "muchos", "menos", "más"],
+        "correctAnswers": ["pocos", "menos"],
+        "xp": 15
+      },
+      {
+        "type": "true_false",
+        "question": "La 'Cargada al pecho' cumple a la perfección la ley de Hill porque todas las articulaciones actúan exactamente al mismo tiempo.",
+        "correctAnswer": false,
+        "xp": 10
+      },
+      {
+        "type": "multiple_choice",
+        "question": "En una cadena cinemática poliarticular explosiva, la fuerza:",
+        "options": [
+          {"id": "A", "text": "Se concentra en el tendón"},
+          {"id": "B", "text": "Se propaga temporalmente desde las piernas al tronco y brazos"}
+        ],
+        "correctAnswerId": "B",
+        "xp": 10
+      }
+    ]
+  },
+  {
+    "level": 7,
+    "lessonId": "L27_funciones_complejas",
+    "title": "Funciones Musculares Complejas",
+    "exercises": [
+      {
+        "type": "true_false",
+        "question": "Los sinergistas son músculos que ayudan a los protagonistas con un rol de menor jerarquía.",
+        "correctAnswer": true,
+        "xp": 10
+      },
+      {
+        "type": "multiple_choice",
+        "question": "El músculo cuya acción se opone al movimiento deseado se llama:",
+        "options": [
+          {"id": "A", "text": "Sinergista"},
+          {"id": "B", "text": "Antagonista"}
+        ],
+        "correctAnswerId": "B",
+        "xp": 10
+      },
+      {
+        "type": "match_pairs",
+        "question": "Une el músculo con su función en el ejercicio 'Curl de bíceps'.",
+        "pairs": [
+          {"left": "Bíceps braquial", "right": "Actúa como Protagonista / Agonista"},
+          {"left": "Tríceps braquial", "right": "Actúa como el Antagonista al movimiento"},
+          {"left": "Deltoides (Hombro)", "right": "Actúa como Estabilizador para evitar balanceo"}
+        ],
+        "xp": 15
+      },
+      {
+        "type": "text_input",
+        "question": "¿Cómo se denominan los músculos que anulan una acción indeseada de un protagonista?",
+        "correctAnswers": ["Neutralizadores", "neutralizadores"],
+        "xp": 20
+      },
+      {
+        "type": "fill_in_blanks_cards",
+        "text": "En el ejercicio curl de bíceps, el deltoides y los periescapulares fungen como {0} de la articulación del {1}.",
+        "options": ["estabilizadores", "motores", "hombro", "codo"],
+        "correctAnswers": ["estabilizadores", "hombro"],
+        "xp": 15
+      },
+      {
+        "type": "true_false",
+        "question": "El trabajo dinámico no influye para nada en el tipo de reclutamiento de las fibras.",
+        "correctAnswer": false,
+        "xp": 10
+      },
+      {
+        "type": "multiple_choice",
+        "question": "El cuerpo de Maxwell (modelo de la estructura biológica) demuestra que el tendón funciona como un elemento:",
+        "options": [
+          {"id": "A", "text": "Contráctil activo"},
+          {"id": "B", "text": "Elástico en serie"}
+        ],
+        "correctAnswerId": "B",
+        "xp": 10
+      }
+    ]
+  },
+  {
+    "level": 7,
+    "lessonId": "L28_reglas_movimiento",
+    "title": "Reglas Prácticas del Movimiento",
+    "exercises": [
+      {
+        "type": "true_false",
+        "question": "Un recorrido completo de la carga asegura pre-estiramiento y una mayor tensión inicial.",
+        "correctAnswer": true,
+        "xp": 10
+      },
+      {
+        "type": "multiple_choice",
+        "question": "Para obtener potencia máxima según la biomecánica, se debe aumentar la carga y disminuir el:",
+        "options": [
+          {"id": "A", "text": "Rango de movimiento"},
+          {"id": "B", "text": "Tiempo de ejecución"}
+        ],
+        "correctAnswerId": "B",
+        "xp": 10
+      },
+      {
+        "type": "match_pairs",
+        "question": "Une la regla general de entrenamiento con su aplicación.",
+        "pairs": [
+          {"left": "Regla de la Carga", "right": "Fijarla basándose en el objetivo de hipertrofia o fuerza"},
+          {"left": "Regla de Trayectoria", "right": "Recorrer toda la amplitud articular y rango completo"},
+          {"left": "Regla de Velocidad", "right": "Ejecutarla controlada o explosiva según el método"}
+        ],
+        "xp": 15
+      },
+      {
+        "type": "text_input",
+        "question": "¿En qué articulación es vital que el 'brazo de palanca' del cuádriceps sea superior al de los isquiosurales durante la sentadilla?",
+        "correctAnswers": ["Rodilla", "rodilla", "la rodilla"],
+        "xp": 20
+      },
+      {
+        "type": "fill_in_blanks_cards",
+        "text": "Si evaluamos un press de banca desde 'la carga exterior', debemos medir el {0}, la {1} recorrida y el tiempo que tardamos.",
+        "options": ["peso movido", "pulso", "trayectoria", "edad"],
+        "correctAnswers": ["peso movido", "trayectoria"],
+        "xp": 15
+      },
+      {
+        "type": "true_false",
+        "question": "Reducir el recorrido de una repetición a la mitad es la mejor técnica para aumentar la potencia desarrollada.",
+        "correctAnswer": false,
+        "xp": 10
+      },
+      {
+        "type": "multiple_choice",
+        "question": "Según los Dres. DeLorme y Watkins, para recuperar verdaderamente la funcionalidad articular tras lesiones graves es necesario trabajar:",
+        "options": [
+          {"id": "A", "text": "Solo hipertrofia"},
+          {"id": "B", "text": "Hipertrofia y fuerza combinadas"}
+        ],
+        "correctAnswerId": "B",
+        "xp": 10
+      }
+    ]
+  },
+  {
+    "level": 7,
+    "lessonId": "L29_periodizacion_pruebas",
+    "title": "Periodización y Pruebas",
+    "exercises": [
+      {
+        "type": "true_false",
+        "question": "La periodización es la estructura programada del plan de entrenamiento en un periodo prolongado.",
+        "correctAnswer": true,
+        "xp": 10
+      },
+      {
+        "type": "multiple_choice",
+        "question": "Durante la 'Temporada' competitiva, el trabajo de fuerza en sala de musculación debe ser:",
+        "options": [
+          {"id": "A", "text": "De mantenimiento mínimo"},
+          {"id": "B", "text": "Máximo volumen culturista"}
+        ],
+        "correctAnswerId": "A",
+        "xp": 10
+      },
+      {
+        "type": "match_pairs",
+        "question": "Une la fase del ciclo anual con su objetivo de entrenamiento.",
+        "pairs": [
+          {"left": "Etapa Pretemporada", "right": "Lograr la mejor forma física específica del año"},
+          {"left": "Etapa Fuera de Temporada", "right": "Descanso activo y rutinas compensatorias"},
+          {"left": "Etapa de Temporada", "right": "Rutinas de mantenimiento del nivel ganado"}
+        ],
+        "xp": 15
+      },
+      {
+        "type": "text_input",
+        "question": "Al final de qué periodo del ciclo anual el atleta debería encontrarse en su máximo pico de condición física en el gimnasio?",
+        "correctAnswers": ["Pretemporada", "pretemporada"],
+        "xp": 20
+      },
+      {
+        "type": "fill_in_blanks_cards",
+        "text": "Si un atleta se estanca (meseta), el entrenador debe {0} todo el plan y ajustar la fórmula de series y {1}.",
+        "options": ["revisar", "ignorar", "repeticiones", "comidas"],
+        "correctAnswers": ["revisar", "repeticiones"],
+        "xp": 15
+      },
+      {
+        "type": "true_false",
+        "question": "Los tests de fuerza máxima (1 RM) son 100% seguros y obligatorios en todas las sesiones para novatos.",
+        "correctAnswer": false,
+        "xp": 10
+      },
+      {
+        "type": "multiple_choice",
+        "question": "La repetición de cargas usando variaciones como el 60%-70%-80%-90% en la misma sesión se conoce como:",
+        "options": [
+          {"id": "A", "text": "Método lineal"},
+          {"id": "B", "text": "Método en Pirámide"}
+        ],
+        "correctAnswerId": "B",
+        "xp": 10
+      }
+    ]
+  },
+  {
+    "level": 7,
+    "lessonId": "L30_evaluacion_final",
+    "title": "Evaluación Final del Módulo 1",
+    "exercises": [
+      {
+        "type": "true_false",
+        "question": "La hiperplasia sugiere que el crecimiento muscular puede implicar la formación de nuevas fibras, no solo engrosarlas.",
+        "correctAnswer": true,
+        "xp": 10
+      },
+      {
+        "type": "multiple_choice",
+        "question": "El entrenamiento en circuito cardiovascular para ancianos o coronarios, comparado con el sedentarismo:",
+        "options": [
+          {"id": "A", "text": "Aumenta la fuerza y la resistencia cardiovascular"},
+          {"id": "B", "text": "Es muy peligroso"}
+        ],
+        "correctAnswerId": "A",
+        "xp": 10
+      },
+      {
+        "type": "match_pairs",
+        "question": "Une el objetivo con su rango de repeticiones ideal.",
+        "pairs": [
+          {"left": "Hipertrofia (Masa Muscular)", "right": "Rango ideal entre 7 a 12 RM"},
+          {"left": "Fuerza Pura", "right": "Rango ideal entre 1 a 5 RM"},
+          {"left": "Fuerza-Resistencia Larga", "right": "Rango ideal entre 15 a 25 RM"}
+        ],
+        "xp": 15
+      },
+      {
+        "type": "text_input",
+        "question": "¿Qué enzima clave 'rompe' el enlace del ATP para liberar energía para el entrenamiento?",
+        "correctAnswers": ["ATPasa", "atpasa"],
+        "xp": 20
+      },
+      {
+        "type": "fill_in_blanks_cards",
+        "text": "Un correcto diseño de entrenamiento conjuga los principios de {0}, progresión de {1} y respeto por los tiempos de descanso.",
+        "options": ["especificidad", "caos", "sobrecarga", "estancamiento"],
+        "correctAnswers": ["especificidad", "sobrecarga"],
+        "xp": 15
+      },
+      {
+        "type": "true_false",
+        "question": "La biomecánica moderna nos enseña que es imposible entrenar sin aislar músculos monoarticulares en máquinas.",
+        "correctAnswer": false,
+        "xp": 10
+      },
+      {
+        "type": "multiple_choice",
+        "question": "En la cúspide de la supercompensación (Sobrecompensación Óptima), el rendimiento de la persona comparado a su estado antes de entrenar es:",
+        "options": [
+          {"id": "A", "text": "Igual"},
+          {"id": "B", "text": "Superior"},
+          {"id": "C", "text": "Inferior"}
+        ],
+        "correctAnswerId": "B",
+        "xp": 10
+      }
+    ]
+  },
+  {
+    "level": 8,
+    "lessonId": "L31_bonus_aplicacion",
+    "title": "Evaluando a tu Cliente (Bonus)",
+    "exercises": [
+      {
+        "type": "true_false",
+        "question": "Si tu cliente es un principiante total, la mejor forma de evaluar su fuerza es calculando su 1 RM (Repetición Máxima) el primer día.",
+        "correctAnswer": false,
+        "xp": 10
+      },
+      {
+        "type": "multiple_choice",
+        "question": "Tu cliente quiere ganar masa muscular (hipertrofia). ¿Qué protocolo de carga le asignas?",
+        "options": [
+          {"id": "A", "text": "1 a 5 repeticiones al 90%"},
+          {"id": "B", "text": "6 a 12 repeticiones al 75%"},
+          {"id": "C", "text": "25 repeticiones al 50%"}
+        ],
+        "correctAnswerId": "B",
+        "xp": 10
+      },
+      {
+        "type": "match_pairs",
+        "question": "Une el perfil del cliente con el método adecuado que le prescribirías.",
+        "pairs": [
+          {"left": "Paciente Hipertenso / Coronario", "right": "Circuito de pesas al 30-50% con pausas largas"},
+          {"left": "Atleta de Halterofilia / Potencia", "right": "Método de Intensidades Máximas al 90-100%"},
+          {"left": "Principiante Sedentario", "right": "Adaptación Anatómica con cargas submaximales (50-60%)"}
+        ],
+        "xp": 15
+      },
+      {
+        "type": "text_input",
+        "question": "Tu cliente hace series pesadas y se queda sin energía rápida. ¿Cuántos minutos mínimos de pausa le das para reponer la Fosfocreatina (PC)?",
+        "correctAnswers": ["3", "tres", "3 minutos"],
+        "xp": 20
+      },
+      {
+        "type": "fill_in_blanks_cards",
+        "text": "Si un cliente se estanca en su progreso, el entrenador debe evaluar el {0} y la {1} aplicados, respetando siempre el principio de sobrecarga.",
+        "options": ["volumen", "peso", "intensidad", "color"],
+        "correctAnswers": ["volumen", "intensidad"],
+        "xp": 15
+      },
+      {
+        "type": "true_false",
+        "question": "Si tu cliente realiza un entrenamiento puramente isométrico empujando una pared, el cálculo de su trabajo mecánico (W = F x d) es mayor a cero.",
+        "correctAnswer": false,
+        "xp": 10
+      },
+      {
+        "type": "multiple_choice",
+        "question": "Durante la evaluación en el tapiz rodante, notas que la ventilación de tu atleta aumenta desproporcionadamente. Acaba de cruzar su:",
+        "options": [
+          {"id": "A", "text": "VO2max"},
+          {"id": "B", "text": "Umbral ventilatorio"},
+          {"id": "C", "text": "Límite elástico"}
+        ],
+        "correctAnswerId": "B",
+        "xp": 10
+      }
+    ]
+  }
+]

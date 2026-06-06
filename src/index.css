@@ -124,3 +124,59 @@ body {
 .pulse {
   animation: pulse 2s infinite;
 }
+
+.input-field {
+  width: 100%;
+  padding: 16px;
+  border: 2px solid var(--color-gray);
+  border-radius: 16px;
+  font-size: 1.2rem;
+  font-family: 'Nunito', sans-serif;
+  outline: none;
+  transition: border-color 0.2s;
+}
+
+.input-field:focus {
+  border-color: var(--color-primary);
+}
+
+.blank-slot {
+  display: inline-block;
+  min-width: 80px;
+  padding: 0 8px;
+  text-align: center;
+  border-bottom: 2px solid var(--color-gray);
+  color: var(--color-gray);
+  margin: 0 4px;
+  cursor: pointer;
+}
+
+.blank-slot.filled {
+  border-bottom: 2px solid var(--color-primary);
+  color: var(--color-primary);
+  font-weight: bold;
+}
+
+.word-card {
+  padding: 12px 24px;
+  background-color: white;
+  border: 2px solid var(--color-gray);
+  border-radius: 16px;
+  font-size: 1.1rem;
+  font-weight: bold;
+  cursor: pointer;
+  box-shadow: 0 4px 0 var(--color-gray-shadow);
+  transition: transform 0.1s;
+}
+
+.word-card:active {
+  transform: translateY(4px);
+  box-shadow: none;
+}
+
+.word-card.used {
+  background-color: var(--color-gray);
+  color: transparent;
+  box-shadow: none;
+  cursor: default;
+}
