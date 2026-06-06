@@ -4,7 +4,7 @@ import moduleData from '../data/modulo1.json';
 import Mascot from './Mascot';
 
 export default function Lesson() {
-  const { currentLevelId, lives, loseLife, finishLesson, gainExp } = useGame();
+  const { currentLevelId, lives, loseLife, finishLesson, gainExp, gameState } = useGame();
   
   const [questions, setQuestions] = useState([]);
   const [currentIndex, setCurrentIndex] = useState(0);
@@ -24,11 +24,20 @@ export default function Lesson() {
   const [availableOptions, setAvailableOptions] = useState([]); // Array of options available
 
   useEffect(() => {
-    const levelIndex = currentLevelId - 1;
-    if (levelIndex >= 0 && levelIndex < moduleData.length) {
-      setQuestions(moduleData[levelIndex].exercises);
+    if (gameState === 'practice') {
+      let allExercises = [];
+      moduleData.forEach(lvl => {
+        allExercises = allExercises.concat(lvl.exercises);
+      });
+      const shuffled = allExercises.sort(() => Math.random() - 0.5);
+      setQuestions(shuffled.slice(0, 5));
+    } else {
+      const levelIndex = currentLevelId - 1;
+      if (levelIndex >= 0 && levelIndex < moduleData.length) {
+        setQuestions(moduleData[levelIndex].exercises);
+      }
     }
-  }, [currentLevelId]);
+  }, [currentLevelId, gameState]);
 
   useEffect(() => {
     if (selectedLeft !== null && selectedRight !== null) {
@@ -115,7 +124,7 @@ export default function Lesson() {
     } else {
       // Proceed to next
       if (lives === 0 && status === 'incorrect') {
-        finishLesson(false); // Fail
+        finishLesson(false, gameState === 'practice'); // Fail
         return;
       }
 
@@ -131,7 +140,7 @@ export default function Lesson() {
         setStatus('playing');
         setMascotState('thinking');
       } else {
-        finishLesson(true); // Success
+        finishLesson(true, gameState === 'practice'); // Success
       }
     }
   };

@@ -4,7 +4,7 @@ import moduleData from '../data/modulo1.json';
 import Mascot from './Mascot';
 
 export default function Map() {
-  const { startLesson, unlockedLevelId } = useGame();
+  const { startLesson, unlockedLevelId, lives } = useGame();
 
   return (
     <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', padding: '24px', paddingBottom: '100px' }}>
@@ -33,7 +33,14 @@ export default function Map() {
                   boxShadow: `0 6px 0 ${isLocked ? 'var(--color-gray-shadow)' : 'var(--color-secondary-shadow)'}`,
                   cursor: isLocked ? 'not-allowed' : 'pointer'
                 }}
-                onClick={() => !isLocked && startLesson(id)}
+                onClick={() => {
+                  if (isLocked) return;
+                  if (lives === 0) {
+                    alert('¡No tienes corazones! Toca el corazón en la barra superior para recargar vidas.');
+                    return;
+                  }
+                  startLesson(id);
+                }}
               >
                 {isLocked ? <Lock size={32} color="#afafaf" /> : <Dumbbell size={32} />}
               </div>
