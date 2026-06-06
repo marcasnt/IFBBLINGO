@@ -55,7 +55,7 @@ export default function HeartsModal({ onClose }) {
       zIndex: 100
     }}>
       <div className="fade-in" style={{
-        backgroundColor: 'white',
+        backgroundColor: 'var(--color-surface)',
         borderRadius: '24px',
         padding: '24px',
         width: '90%',

@@ -21,6 +21,12 @@ export const GameProvider = ({ children }) => {
   // Game states: 'map', 'lesson', 'results', 'practice'
   const [gameState, setGameState] = useState('map');
 
+  const [theme, setTheme] = useState(() => {
+    const saved = localStorage.getItem('ifbblingo_theme');
+    if (saved) return saved;
+    return window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light';
+  });
+
   const [unlockedLevelId, setUnlockedLevelId] = useState(() => {
     const saved = localStorage.getItem('ifbblingo_unlocked');
     return saved ? parseInt(saved) : 1;
@@ -28,6 +34,12 @@ export const GameProvider = ({ children }) => {
 
   useEffect(() => { localStorage.setItem('ifbblingo_lives', lives.toString()); }, [lives]);
   useEffect(() => { localStorage.setItem('ifbblingo_exp', exp.toString()); }, [exp]);
+  useEffect(() => { 
+    localStorage.setItem('ifbblingo_theme', theme);
+    document.body.setAttribute('data-theme', theme);
+  }, [theme]);
+
+  const toggleTheme = () => setTheme(t => t === 'light' ? 'dark' : 'light');
 
   const loseLife = () => {
     if (lives > 0) setLives(l => l - 1);
@@ -81,6 +93,7 @@ export const GameProvider = ({ children }) => {
 
   return (
     <GameContext.Provider value={{
+      theme, toggleTheme,
       lives, loseLife, earnHeart, buyHeart,
       exp, gainExp,
       streak, setStreak,

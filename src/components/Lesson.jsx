@@ -362,7 +362,7 @@ export default function Lesson() {
       <div style={{ 
         padding: '24px',
         paddingBottom: 'max(24px, env(safe-area-inset-bottom))',
-        backgroundColor: status === 'correct' ? '#d7ffb8' : status === 'incorrect' ? '#ffdfdf' : 'white',
+        backgroundColor: status === 'correct' ? 'var(--color-bg-correct)' : status === 'incorrect' ? 'var(--color-bg-incorrect)' : 'var(--color-surface)',
         borderTop: `2px solid ${status === 'correct' ? 'var(--color-primary)' : status === 'incorrect' ? 'var(--color-danger)' : 'var(--color-gray)'}`,
         flexShrink: 0
       }}>
