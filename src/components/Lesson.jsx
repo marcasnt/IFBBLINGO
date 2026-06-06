@@ -24,6 +24,14 @@ export default function Lesson() {
     }
   }, [currentLevelId]);
 
+  useEffect(() => {
+    if (selectedLeft !== null && selectedRight !== null) {
+      setMatchingPairs([...matchingPairs, [selectedLeft, selectedRight]]);
+      setSelectedLeft(null);
+      setSelectedRight(null);
+    }
+  }, [selectedLeft, selectedRight]);
+
   if (questions.length === 0) return <div>Cargando...</div>;
 
   const currentQ = questions[currentIndex];
@@ -106,14 +114,6 @@ export default function Lesson() {
       setSelectedRight(index);
     }
   };
-
-  useEffect(() => {
-    if (selectedLeft !== null && selectedRight !== null) {
-      setMatchingPairs([...matchingPairs, [selectedLeft, selectedRight]]);
-      setSelectedLeft(null);
-      setSelectedRight(null);
-    }
-  }, [selectedLeft, selectedRight]);
 
   const canCheck = currentQ.type === 'MATCHING' ? isMatchingComplete() : selectedOption !== null;
 
