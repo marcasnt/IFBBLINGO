@@ -16,6 +16,7 @@ export default function Lesson() {
   const [matchingPairs, setMatchingPairs] = useState([]); // Array of selected pairs [[leftIdx, rightIdx]]
   const [selectedLeft, setSelectedLeft] = useState(null);
   const [selectedRight, setSelectedRight] = useState(null);
+  const [shuffledRightPairs, setShuffledRightPairs] = useState([]);
 
   useEffect(() => {
     const level = moduleData.levels.find(l => l.id === currentLevelId);
@@ -32,6 +33,16 @@ export default function Lesson() {
     }
   }, [selectedLeft, selectedRight]);
 
+  useEffect(() => {
+    if (questions.length > 0) {
+      const currentQ = questions[currentIndex];
+      if (currentQ.type === 'MATCHING') {
+        const rightItems = currentQ.pairs.map((p, idx) => ({ right: p.right, originalIdx: idx }));
+        setShuffledRightPairs(rightItems.sort(() => Math.random() - 0.5));
+      }
+    }
+  }, [currentIndex, questions]);
+
   if (questions.length === 0) return <div>Cargando...</div>;
 
   const currentQ = questions[currentIndex];
@@ -47,11 +58,7 @@ export default function Lesson() {
     let isCorrect = true;
     for (let pair of matchingPairs) {
       const leftItem = currentQ.pairs[pair[0]].left;
-      const rightItem = currentQ.pairs[pair[1]].right;
-      // We know they match if they were in the same index originally, 
-      // but in our UI we just check if pair[0] === pair[1] because we didn't shuffle the indices, wait!
-      // Actually we need to shuffle right items for it to be a real game.
-      // Let's assume pairs are checked by checking if leftItem and rightItem belong to the same original pair.
+      const rightItem = shuffledRightPairs[pair[1]].right;
       const originalPair = currentQ.pairs.find(p => p.left === leftItem);
       if (originalPair.right !== rightItem) {
         isCorrect = false;
@@ -163,8 +170,7 @@ export default function Lesson() {
                 })}
               </div>
               <div style={{ display: 'flex', flexDirection: 'column', gap: '8px', flex: 1 }}>
-                {/* Normally we should shuffle right items, for simplicity we just map them, but in a real app we'd shuffle */}
-                {currentQ.pairs.map((p, idx) => {
+                {shuffledRightPairs.map((p, idx) => {
                   const isPaired = matchingPairs.some(pair => pair[1] === idx);
                   const isSelected = selectedRight === idx;
                   return (
