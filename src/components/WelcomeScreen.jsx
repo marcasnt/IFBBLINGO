@@ -1,8 +1,29 @@
 import { useGame } from '../context/GameContext';
 import Mascot from './Mascot';
+import { useState, useEffect } from 'react';
+import { Download } from 'lucide-react';
 
 export default function WelcomeScreen() {
   const { acceptWelcome } = useGame();
+  const [installPrompt, setInstallPrompt] = useState(null);
+
+  useEffect(() => {
+    const handleBeforeInstallPrompt = (e) => {
+      e.preventDefault();
+      setInstallPrompt(e);
+    };
+    window.addEventListener('beforeinstallprompt', handleBeforeInstallPrompt);
+    return () => window.removeEventListener('beforeinstallprompt', handleBeforeInstallPrompt);
+  }, []);
+
+  const handleInstallClick = async () => {
+    if (!installPrompt) return;
+    installPrompt.prompt();
+    const { outcome } = await installPrompt.userChoice;
+    if (outcome === 'accepted') {
+      setInstallPrompt(null);
+    }
+  };
 
   return (
     <div className="fade-in" style={{
@@ -41,8 +62,18 @@ export default function WelcomeScreen() {
         </p>
       </div>
 
+      {installPrompt && (
+        <button 
+          className="btn btn-secondary pulse" 
+          style={{ width: '100%', maxWidth: '400px', fontSize: '1.2rem', padding: '16px', marginBottom: '16px', display: 'flex', alignItems: 'center', justifyContent: 'center', gap: '8px' }}
+          onClick={handleInstallClick}
+        >
+          <Download size={24} /> Instalar IFBBLINGO
+        </button>
+      )}
+
       <button 
-        className="btn pulse" 
+        className="btn" 
         style={{ width: '100%', maxWidth: '400px', fontSize: '1.2rem', padding: '16px' }}
         onClick={acceptWelcome}
       >
