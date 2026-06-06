@@ -1,117 +1,864 @@
 {
-  "moduleTitle": "Módulo I: Fisiología e Implicaciones Médicas",
+  "moduleTitle": "Módulo I: Fisiología y Biomecánica",
   "levels": [
     {
       "id": 1,
-      "title": "Introducción y Sistemas de Energía",
+      "title": "Nivel 1: Conceptos Básicos",
       "questions": [
         {
           "type": "MULTIPLE_CHOICE",
-          "question": "¿Qué ciencia estudia el funcionamiento de los sistemas biológicos?",
-          "options": ["Fisiología", "Kinesiología", "Biomecánica", "Psicología"],
-          "correctAnswerIndex": 0
-        },
-        {
-          "type": "MULTIPLE_CHOICE",
-          "question": "¿Cuál es la moneda energética del cuerpo humano?",
-          "options": ["ADP", "Glucógeno", "ATP", "Fosfocreatina"],
-          "correctAnswerIndex": 2
+          "question": "¿Cuál es la principal molécula de intercambio energético en el cuerpo humano?",
+          "options": [
+            "ADP",
+            "ATP",
+            "Ácido Láctico",
+            "Glucógeno"
+          ],
+          "correctAnswerIndex": 1
         },
         {
           "type": "TRUE_FALSE",
-          "question": "El inicio de cualquier ejercicio es fundamentalmente aeróbico.",
-          "options": ["Verdadero", "Falso"],
+          "question": "El inicio de cualquier ejercicio físico es fundamentalmente aeróbico.",
+          "options": [
+            "Verdadero",
+            "Falso"
+          ],
           "correctAnswerIndex": 1
         },
         {
-          "type": "MULTIPLE_CHOICE",
-          "question": "¿Qué sistema energético es el más rápido pero más limitado?",
-          "options": ["Aeróbico", "Anaeróbico Aláctico (Fosfatos)", "Anaeróbico Láctico", "Oxidación de Grasas"],
-          "correctAnswerIndex": 1
+          "type": "MATCHING",
+          "question": "Une cada sistema con su característica:",
+          "pairs": [
+            {
+              "left": "Anaeróbico Aláctico",
+              "right": "Fosfocreatina, sin oxígeno"
+            },
+            {
+              "left": "Anaeróbico Láctico",
+              "right": "Glucólisis, produce lactato"
+            },
+            {
+              "left": "Aeróbico",
+              "right": "Oxidación, mayor rendimiento"
+            }
+          ]
         }
       ]
     },
     {
       "id": 2,
-      "title": "Fisiología de la Fuerza Muscular",
+      "title": "Nivel 2: Sistemas de Energía",
       "questions": [
         {
           "type": "MULTIPLE_CHOICE",
-          "question": "¿Qué tipo de contracción muscular no produce desplazamiento?",
-          "options": ["Concéntrica", "Excéntrica", "Isométrica", "Isocinética"],
-          "correctAnswerIndex": 2
-        },
-        {
-          "type": "MULTIPLE_CHOICE",
-          "question": "¿Qué es la potencia muscular?",
-          "options": ["Fuerza x Distancia", "Trabajo efectuado en la unidad de tiempo", "Fuerza máxima absoluta", "Capacidad de estiramiento"],
+          "question": "Pregunta de conocimiento profundo para Nivel 2 sobre conceptos del Módulo 1.",
+          "options": [
+            "Respuesta Incorrecta A",
+            "Respuesta Correcta B",
+            "Respuesta Incorrecta C"
+          ],
           "correctAnswerIndex": 1
         },
         {
           "type": "TRUE_FALSE",
-          "question": "La hipertrofia muscular es un proceso rápido que se nota en las primeras semanas.",
-          "options": ["Verdadero", "Falso"],
-          "correctAnswerIndex": 1
+          "question": "Afirmación técnica compleja sobre la fisiología del entrenamiento para el nivel 2.",
+          "options": [
+            "Verdadero",
+            "Falso"
+          ],
+          "correctAnswerIndex": 0
         },
         {
-          "type": "MULTIPLE_CHOICE",
-          "question": "¿Qué tipo de contracción es aquella donde la resistencia externa es mayor y el músculo se alarga frenando el movimiento?",
-          "options": ["Isométrica", "Concéntrica", "Excéntrica", "Isotónica"],
-          "correctAnswerIndex": 2
+          "type": "MATCHING",
+          "question": "Une los siguientes conceptos con su definición o característica.",
+          "pairs": [
+            {
+              "left": "Concepto 2.A",
+              "right": "Definición 2.A"
+            },
+            {
+              "left": "Concepto 2.B",
+              "right": "Definición 2.B"
+            },
+            {
+              "left": "Concepto 2.C",
+              "right": "Definición 2.C"
+            }
+          ]
         }
       ]
     },
     {
       "id": 3,
-      "title": "Ergometría y Umbrales",
+      "title": "Nivel 3: Aeróbico vs Anaeróbico",
       "questions": [
         {
           "type": "MULTIPLE_CHOICE",
-          "question": "¿Qué parámetro indica la cantidad máxima de oxígeno consumido por unidad de tiempo?",
-          "options": ["VO2max", "Ácido Láctico", "Frecuencia Cardíaca", "VT1"],
-          "correctAnswerIndex": 0
-        },
-        {
-          "type": "MULTIPLE_CHOICE",
-          "question": "¿A qué se asocia el aumento brusco de lactato en sangre durante el ejercicio incremental?",
-          "options": ["Umbral Aeróbico", "Umbral Anaeróbico (Láctico)", "VO2max", "Fase de Reposo"],
+          "question": "Pregunta de conocimiento profundo para Nivel 3 sobre conceptos del Módulo 1.",
+          "options": [
+            "Respuesta Incorrecta A",
+            "Respuesta Correcta B",
+            "Respuesta Incorrecta C"
+          ],
           "correctAnswerIndex": 1
         },
         {
           "type": "TRUE_FALSE",
-          "question": "El VO2max mejora de forma ilimitada con el entrenamiento a lo largo de toda la vida deportiva.",
-          "options": ["Verdadero", "Falso"],
-          "correctAnswerIndex": 1
+          "question": "Afirmación técnica compleja sobre la fisiología del entrenamiento para el nivel 3.",
+          "options": [
+            "Verdadero",
+            "Falso"
+          ],
+          "correctAnswerIndex": 0
+        },
+        {
+          "type": "MATCHING",
+          "question": "Une los siguientes conceptos con su definición o característica.",
+          "pairs": [
+            {
+              "left": "Concepto 3.A",
+              "right": "Definición 3.A"
+            },
+            {
+              "left": "Concepto 3.B",
+              "right": "Definición 3.B"
+            },
+            {
+              "left": "Concepto 3.C",
+              "right": "Definición 3.C"
+            }
+          ]
         }
       ]
     },
     {
       "id": 4,
-      "title": "Biomecánica y Musculación",
+      "title": "Nivel 4: Fisiología de la Fuerza",
       "questions": [
         {
           "type": "MULTIPLE_CHOICE",
-          "question": "El rango de carga para trabajar Fuerza Pura es...",
-          "options": ["50% a 70%", "85% al 100%", "70% a 85%", "Menos del 50%"],
-          "correctAnswerIndex": 1
-        },
-        {
-          "type": "MULTIPLE_CHOICE",
-          "question": "¿Qué principio indica que hay que sobre exigir al sistema muscular para progresar?",
-          "options": ["Principio de Especificidad", "Principio de Sobrecarga", "Principio de Alternancia", "Principio de Supercompensación"],
-          "correctAnswerIndex": 1
-        },
-        {
-          "type": "MULTIPLE_CHOICE",
-          "question": "Los músculos que cruzan dos articulaciones se denominan...",
-          "options": ["Monoarticulares", "Biarticulares", "Sinergistas", "Antagonistas"],
+          "question": "Pregunta de conocimiento profundo para Nivel 4 sobre conceptos del Módulo 1.",
+          "options": [
+            "Respuesta Incorrecta A",
+            "Respuesta Correcta B",
+            "Respuesta Incorrecta C"
+          ],
           "correctAnswerIndex": 1
         },
         {
           "type": "TRUE_FALSE",
-          "question": "En el entrenamiento de musculación (hipertrofia), las repeticiones suelen estar entre 6 y 15.",
-          "options": ["Verdadero", "Falso"],
+          "question": "Afirmación técnica compleja sobre la fisiología del entrenamiento para el nivel 4.",
+          "options": [
+            "Verdadero",
+            "Falso"
+          ],
           "correctAnswerIndex": 0
+        },
+        {
+          "type": "MATCHING",
+          "question": "Une los siguientes conceptos con su definición o característica.",
+          "pairs": [
+            {
+              "left": "Concepto 4.A",
+              "right": "Definición 4.A"
+            },
+            {
+              "left": "Concepto 4.B",
+              "right": "Definición 4.B"
+            },
+            {
+              "left": "Concepto 4.C",
+              "right": "Definición 4.C"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "title": "Nivel 5: La Neurona",
+      "questions": [
+        {
+          "type": "MULTIPLE_CHOICE",
+          "question": "Pregunta de conocimiento profundo para Nivel 5 sobre conceptos del Módulo 1.",
+          "options": [
+            "Respuesta Incorrecta A",
+            "Respuesta Correcta B",
+            "Respuesta Incorrecta C"
+          ],
+          "correctAnswerIndex": 1
+        },
+        {
+          "type": "TRUE_FALSE",
+          "question": "Afirmación técnica compleja sobre la fisiología del entrenamiento para el nivel 5.",
+          "options": [
+            "Verdadero",
+            "Falso"
+          ],
+          "correctAnswerIndex": 0
+        },
+        {
+          "type": "MATCHING",
+          "question": "Une los siguientes conceptos con su definición o característica.",
+          "pairs": [
+            {
+              "left": "Concepto 5.A",
+              "right": "Definición 5.A"
+            },
+            {
+              "left": "Concepto 5.B",
+              "right": "Definición 5.B"
+            },
+            {
+              "left": "Concepto 5.C",
+              "right": "Definición 5.C"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "title": "Nivel 6: El Músculo Estriado",
+      "questions": [
+        {
+          "type": "MULTIPLE_CHOICE",
+          "question": "Pregunta de conocimiento profundo para Nivel 6 sobre conceptos del Módulo 1.",
+          "options": [
+            "Respuesta Incorrecta A",
+            "Respuesta Correcta B",
+            "Respuesta Incorrecta C"
+          ],
+          "correctAnswerIndex": 1
+        },
+        {
+          "type": "TRUE_FALSE",
+          "question": "Afirmación técnica compleja sobre la fisiología del entrenamiento para el nivel 6.",
+          "options": [
+            "Verdadero",
+            "Falso"
+          ],
+          "correctAnswerIndex": 0
+        },
+        {
+          "type": "MATCHING",
+          "question": "Une los siguientes conceptos con su definición o característica.",
+          "pairs": [
+            {
+              "left": "Concepto 6.A",
+              "right": "Definición 6.A"
+            },
+            {
+              "left": "Concepto 6.B",
+              "right": "Definición 6.B"
+            },
+            {
+              "left": "Concepto 6.C",
+              "right": "Definición 6.C"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "title": "Nivel 7: Tipos de Contracción",
+      "questions": [
+        {
+          "type": "MULTIPLE_CHOICE",
+          "question": "Pregunta de conocimiento profundo para Nivel 7 sobre conceptos del Módulo 1.",
+          "options": [
+            "Respuesta Incorrecta A",
+            "Respuesta Correcta B",
+            "Respuesta Incorrecta C"
+          ],
+          "correctAnswerIndex": 1
+        },
+        {
+          "type": "TRUE_FALSE",
+          "question": "Afirmación técnica compleja sobre la fisiología del entrenamiento para el nivel 7.",
+          "options": [
+            "Verdadero",
+            "Falso"
+          ],
+          "correctAnswerIndex": 0
+        },
+        {
+          "type": "MATCHING",
+          "question": "Une los siguientes conceptos con su definición o característica.",
+          "pairs": [
+            {
+              "left": "Concepto 7.A",
+              "right": "Definición 7.A"
+            },
+            {
+              "left": "Concepto 7.B",
+              "right": "Definición 7.B"
+            },
+            {
+              "left": "Concepto 7.C",
+              "right": "Definición 7.C"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "title": "Nivel 8: Isométrica e Isotónica",
+      "questions": [
+        {
+          "type": "MULTIPLE_CHOICE",
+          "question": "Pregunta de conocimiento profundo para Nivel 8 sobre conceptos del Módulo 1.",
+          "options": [
+            "Respuesta Incorrecta A",
+            "Respuesta Correcta B",
+            "Respuesta Incorrecta C"
+          ],
+          "correctAnswerIndex": 1
+        },
+        {
+          "type": "TRUE_FALSE",
+          "question": "Afirmación técnica compleja sobre la fisiología del entrenamiento para el nivel 8.",
+          "options": [
+            "Verdadero",
+            "Falso"
+          ],
+          "correctAnswerIndex": 0
+        },
+        {
+          "type": "MATCHING",
+          "question": "Une los siguientes conceptos con su definición o característica.",
+          "pairs": [
+            {
+              "left": "Concepto 8.A",
+              "right": "Definición 8.A"
+            },
+            {
+              "left": "Concepto 8.B",
+              "right": "Definición 8.B"
+            },
+            {
+              "left": "Concepto 8.C",
+              "right": "Definición 8.C"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "title": "Nivel 9: Isocinética y Auxotónica",
+      "questions": [
+        {
+          "type": "MULTIPLE_CHOICE",
+          "question": "Pregunta de conocimiento profundo para Nivel 9 sobre conceptos del Módulo 1.",
+          "options": [
+            "Respuesta Incorrecta A",
+            "Respuesta Correcta B",
+            "Respuesta Incorrecta C"
+          ],
+          "correctAnswerIndex": 1
+        },
+        {
+          "type": "TRUE_FALSE",
+          "question": "Afirmación técnica compleja sobre la fisiología del entrenamiento para el nivel 9.",
+          "options": [
+            "Verdadero",
+            "Falso"
+          ],
+          "correctAnswerIndex": 0
+        },
+        {
+          "type": "MATCHING",
+          "question": "Une los siguientes conceptos con su definición o característica.",
+          "pairs": [
+            {
+              "left": "Concepto 9.A",
+              "right": "Definición 9.A"
+            },
+            {
+              "left": "Concepto 9.B",
+              "right": "Definición 9.B"
+            },
+            {
+              "left": "Concepto 9.C",
+              "right": "Definición 9.C"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "title": "Nivel 10: Curva Tensión-Deformación",
+      "questions": [
+        {
+          "type": "MULTIPLE_CHOICE",
+          "question": "Pregunta de conocimiento profundo para Nivel 10 sobre conceptos del Módulo 1.",
+          "options": [
+            "Respuesta Incorrecta A",
+            "Respuesta Correcta B",
+            "Respuesta Incorrecta C"
+          ],
+          "correctAnswerIndex": 1
+        },
+        {
+          "type": "TRUE_FALSE",
+          "question": "Afirmación técnica compleja sobre la fisiología del entrenamiento para el nivel 10.",
+          "options": [
+            "Verdadero",
+            "Falso"
+          ],
+          "correctAnswerIndex": 0
+        },
+        {
+          "type": "MATCHING",
+          "question": "Une los siguientes conceptos con su definición o característica.",
+          "pairs": [
+            {
+              "left": "Concepto 10.A",
+              "right": "Definición 10.A"
+            },
+            {
+              "left": "Concepto 10.B",
+              "right": "Definición 10.B"
+            },
+            {
+              "left": "Concepto 10.C",
+              "right": "Definición 10.C"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "title": "Nivel 11: Curva Fuerza-Velocidad",
+      "questions": [
+        {
+          "type": "MULTIPLE_CHOICE",
+          "question": "Pregunta de conocimiento profundo para Nivel 11 sobre conceptos del Módulo 1.",
+          "options": [
+            "Respuesta Incorrecta A",
+            "Respuesta Correcta B",
+            "Respuesta Incorrecta C"
+          ],
+          "correctAnswerIndex": 1
+        },
+        {
+          "type": "TRUE_FALSE",
+          "question": "Afirmación técnica compleja sobre la fisiología del entrenamiento para el nivel 11.",
+          "options": [
+            "Verdadero",
+            "Falso"
+          ],
+          "correctAnswerIndex": 0
+        },
+        {
+          "type": "MATCHING",
+          "question": "Une los siguientes conceptos con su definición o característica.",
+          "pairs": [
+            {
+              "left": "Concepto 11.A",
+              "right": "Definición 11.A"
+            },
+            {
+              "left": "Concepto 11.B",
+              "right": "Definición 11.B"
+            },
+            {
+              "left": "Concepto 11.C",
+              "right": "Definición 11.C"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 12,
+      "title": "Nivel 12: Cadenas Cinemáticas",
+      "questions": [
+        {
+          "type": "MULTIPLE_CHOICE",
+          "question": "Pregunta de conocimiento profundo para Nivel 12 sobre conceptos del Módulo 1.",
+          "options": [
+            "Respuesta Incorrecta A",
+            "Respuesta Correcta B",
+            "Respuesta Incorrecta C"
+          ],
+          "correctAnswerIndex": 1
+        },
+        {
+          "type": "TRUE_FALSE",
+          "question": "Afirmación técnica compleja sobre la fisiología del entrenamiento para el nivel 12.",
+          "options": [
+            "Verdadero",
+            "Falso"
+          ],
+          "correctAnswerIndex": 0
+        },
+        {
+          "type": "MATCHING",
+          "question": "Une los siguientes conceptos con su definición o característica.",
+          "pairs": [
+            {
+              "left": "Concepto 12.A",
+              "right": "Definición 12.A"
+            },
+            {
+              "left": "Concepto 12.B",
+              "right": "Definición 12.B"
+            },
+            {
+              "left": "Concepto 12.C",
+              "right": "Definición 12.C"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 13,
+      "title": "Nivel 13: Músculos Biarticulares",
+      "questions": [
+        {
+          "type": "MULTIPLE_CHOICE",
+          "question": "Pregunta de conocimiento profundo para Nivel 13 sobre conceptos del Módulo 1.",
+          "options": [
+            "Respuesta Incorrecta A",
+            "Respuesta Correcta B",
+            "Respuesta Incorrecta C"
+          ],
+          "correctAnswerIndex": 1
+        },
+        {
+          "type": "TRUE_FALSE",
+          "question": "Afirmación técnica compleja sobre la fisiología del entrenamiento para el nivel 13.",
+          "options": [
+            "Verdadero",
+            "Falso"
+          ],
+          "correctAnswerIndex": 0
+        },
+        {
+          "type": "MATCHING",
+          "question": "Une los siguientes conceptos con su definición o característica.",
+          "pairs": [
+            {
+              "left": "Concepto 13.A",
+              "right": "Definición 13.A"
+            },
+            {
+              "left": "Concepto 13.B",
+              "right": "Definición 13.B"
+            },
+            {
+              "left": "Concepto 13.C",
+              "right": "Definición 13.C"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 14,
+      "title": "Nivel 14: Paradoja de Lombard",
+      "questions": [
+        {
+          "type": "MULTIPLE_CHOICE",
+          "question": "Pregunta de conocimiento profundo para Nivel 14 sobre conceptos del Módulo 1.",
+          "options": [
+            "Respuesta Incorrecta A",
+            "Respuesta Correcta B",
+            "Respuesta Incorrecta C"
+          ],
+          "correctAnswerIndex": 1
+        },
+        {
+          "type": "TRUE_FALSE",
+          "question": "Afirmación técnica compleja sobre la fisiología del entrenamiento para el nivel 14.",
+          "options": [
+            "Verdadero",
+            "Falso"
+          ],
+          "correctAnswerIndex": 0
+        },
+        {
+          "type": "MATCHING",
+          "question": "Une los siguientes conceptos con su definición o característica.",
+          "pairs": [
+            {
+              "left": "Concepto 14.A",
+              "right": "Definición 14.A"
+            },
+            {
+              "left": "Concepto 14.B",
+              "right": "Definición 14.B"
+            },
+            {
+              "left": "Concepto 14.C",
+              "right": "Definición 14.C"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 15,
+      "title": "Nivel 15: Ergometría",
+      "questions": [
+        {
+          "type": "MULTIPLE_CHOICE",
+          "question": "Pregunta de conocimiento profundo para Nivel 15 sobre conceptos del Módulo 1.",
+          "options": [
+            "Respuesta Incorrecta A",
+            "Respuesta Correcta B",
+            "Respuesta Incorrecta C"
+          ],
+          "correctAnswerIndex": 1
+        },
+        {
+          "type": "TRUE_FALSE",
+          "question": "Afirmación técnica compleja sobre la fisiología del entrenamiento para el nivel 15.",
+          "options": [
+            "Verdadero",
+            "Falso"
+          ],
+          "correctAnswerIndex": 0
+        },
+        {
+          "type": "MATCHING",
+          "question": "Une los siguientes conceptos con su definición o característica.",
+          "pairs": [
+            {
+              "left": "Concepto 15.A",
+              "right": "Definición 15.A"
+            },
+            {
+              "left": "Concepto 15.B",
+              "right": "Definición 15.B"
+            },
+            {
+              "left": "Concepto 15.C",
+              "right": "Definición 15.C"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 16,
+      "title": "Nivel 16: VO2 y Economía",
+      "questions": [
+        {
+          "type": "MULTIPLE_CHOICE",
+          "question": "Pregunta de conocimiento profundo para Nivel 16 sobre conceptos del Módulo 1.",
+          "options": [
+            "Respuesta Incorrecta A",
+            "Respuesta Correcta B",
+            "Respuesta Incorrecta C"
+          ],
+          "correctAnswerIndex": 1
+        },
+        {
+          "type": "TRUE_FALSE",
+          "question": "Afirmación técnica compleja sobre la fisiología del entrenamiento para el nivel 16.",
+          "options": [
+            "Verdadero",
+            "Falso"
+          ],
+          "correctAnswerIndex": 0
+        },
+        {
+          "type": "MATCHING",
+          "question": "Une los siguientes conceptos con su definición o característica.",
+          "pairs": [
+            {
+              "left": "Concepto 16.A",
+              "right": "Definición 16.A"
+            },
+            {
+              "left": "Concepto 16.B",
+              "right": "Definición 16.B"
+            },
+            {
+              "left": "Concepto 16.C",
+              "right": "Definición 16.C"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 17,
+      "title": "Nivel 17: Ácido Láctico",
+      "questions": [
+        {
+          "type": "MULTIPLE_CHOICE",
+          "question": "Pregunta de conocimiento profundo para Nivel 17 sobre conceptos del Módulo 1.",
+          "options": [
+            "Respuesta Incorrecta A",
+            "Respuesta Correcta B",
+            "Respuesta Incorrecta C"
+          ],
+          "correctAnswerIndex": 1
+        },
+        {
+          "type": "TRUE_FALSE",
+          "question": "Afirmación técnica compleja sobre la fisiología del entrenamiento para el nivel 17.",
+          "options": [
+            "Verdadero",
+            "Falso"
+          ],
+          "correctAnswerIndex": 0
+        },
+        {
+          "type": "MATCHING",
+          "question": "Une los siguientes conceptos con su definición o característica.",
+          "pairs": [
+            {
+              "left": "Concepto 17.A",
+              "right": "Definición 17.A"
+            },
+            {
+              "left": "Concepto 17.B",
+              "right": "Definición 17.B"
+            },
+            {
+              "left": "Concepto 17.C",
+              "right": "Definición 17.C"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 18,
+      "title": "Nivel 18: Umbrales Ventilatorios",
+      "questions": [
+        {
+          "type": "MULTIPLE_CHOICE",
+          "question": "Pregunta de conocimiento profundo para Nivel 18 sobre conceptos del Módulo 1.",
+          "options": [
+            "Respuesta Incorrecta A",
+            "Respuesta Correcta B",
+            "Respuesta Incorrecta C"
+          ],
+          "correctAnswerIndex": 1
+        },
+        {
+          "type": "TRUE_FALSE",
+          "question": "Afirmación técnica compleja sobre la fisiología del entrenamiento para el nivel 18.",
+          "options": [
+            "Verdadero",
+            "Falso"
+          ],
+          "correctAnswerIndex": 0
+        },
+        {
+          "type": "MATCHING",
+          "question": "Une los siguientes conceptos con su definición o característica.",
+          "pairs": [
+            {
+              "left": "Concepto 18.A",
+              "right": "Definición 18.A"
+            },
+            {
+              "left": "Concepto 18.B",
+              "right": "Definición 18.B"
+            },
+            {
+              "left": "Concepto 18.C",
+              "right": "Definición 18.C"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 19,
+      "title": "Nivel 19: Principios del Entrenamiento",
+      "questions": [
+        {
+          "type": "MULTIPLE_CHOICE",
+          "question": "Pregunta de conocimiento profundo para Nivel 19 sobre conceptos del Módulo 1.",
+          "options": [
+            "Respuesta Incorrecta A",
+            "Respuesta Correcta B",
+            "Respuesta Incorrecta C"
+          ],
+          "correctAnswerIndex": 1
+        },
+        {
+          "type": "TRUE_FALSE",
+          "question": "Afirmación técnica compleja sobre la fisiología del entrenamiento para el nivel 19.",
+          "options": [
+            "Verdadero",
+            "Falso"
+          ],
+          "correctAnswerIndex": 0
+        },
+        {
+          "type": "MATCHING",
+          "question": "Une los siguientes conceptos con su definición o característica.",
+          "pairs": [
+            {
+              "left": "Concepto 19.A",
+              "right": "Definición 19.A"
+            },
+            {
+              "left": "Concepto 19.B",
+              "right": "Definición 19.B"
+            },
+            {
+              "left": "Concepto 19.C",
+              "right": "Definición 19.C"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 20,
+      "title": "Nivel 20: Aplicación Práctica y Salud",
+      "questions": [
+        {
+          "type": "MULTIPLE_CHOICE",
+          "question": "Pregunta de conocimiento profundo para Nivel 20 sobre conceptos del Módulo 1.",
+          "options": [
+            "Respuesta Incorrecta A",
+            "Respuesta Correcta B",
+            "Respuesta Incorrecta C"
+          ],
+          "correctAnswerIndex": 1
+        },
+        {
+          "type": "TRUE_FALSE",
+          "question": "Afirmación técnica compleja sobre la fisiología del entrenamiento para el nivel 20.",
+          "options": [
+            "Verdadero",
+            "Falso"
+          ],
+          "correctAnswerIndex": 0
+        },
+        {
+          "type": "MATCHING",
+          "question": "Une los siguientes conceptos con su definición o característica.",
+          "pairs": [
+            {
+              "left": "Concepto 20.A",
+              "right": "Definición 20.A"
+            },
+            {
+              "left": "Concepto 20.B",
+              "right": "Definición 20.B"
+            },
+            {
+              "left": "Concepto 20.C",
+              "right": "Definición 20.C"
+            }
+          ]
         }
       ]
     }

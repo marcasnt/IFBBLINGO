@@ -13,6 +13,11 @@ export const GameProvider = ({ children }) => {
   // Game states: 'map', 'lesson', 'results'
   const [gameState, setGameState] = useState('map');
 
+  const [unlockedLevelId, setUnlockedLevelId] = useState(() => {
+    const saved = localStorage.getItem('ifbblingo_unlocked');
+    return saved ? parseInt(saved) : 1;
+  });
+
   const loseLife = () => {
     if (lives > 0) setLives(l => l - 1);
   };
@@ -22,12 +27,19 @@ export const GameProvider = ({ children }) => {
   };
 
   const startLesson = (levelId) => {
-    setCurrentLevelId(levelId);
-    setGameState('lesson');
+    if (levelId <= unlockedLevelId) {
+      setCurrentLevelId(levelId);
+      setGameState('lesson');
+    }
   };
 
   const finishLesson = (success) => {
     if (success) {
+      if (currentLevelId === unlockedLevelId) {
+        const nextLevel = unlockedLevelId + 1;
+        setUnlockedLevelId(nextLevel);
+        localStorage.setItem('ifbblingo_unlocked', nextLevel.toString());
+      }
       setGameState('results');
     } else {
       setGameState('map');
@@ -41,6 +53,7 @@ export const GameProvider = ({ children }) => {
       lives, loseLife,
       exp, gainExp,
       streak, setStreak,
+      unlockedLevelId,
       currentLevelId, setCurrentLevelId,
       gameState, startLesson, finishLesson, backToMap
     }}>
