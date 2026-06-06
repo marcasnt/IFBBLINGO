@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700;800;900&display=swap');
+
+:root {
+  --color-bg: #ffffff;
+  --color-text: #3c3c3c;
+  --color-primary: #58cc02;
+  --color-primary-shadow: #58a700;
+  --color-secondary: #ce82ff;
+  --color-secondary-shadow: #a561cc;
+  --color-danger: #ff4b4b;
+  --color-danger-shadow: #ea2b2b;
+  --color-gray: #e5e5e5;
+  --color-gray-shadow: #c9c9c9;
+  --color-yellow: #ffc800;
+  --color-yellow-shadow: #e5b400;
+  --color-blue: #1cb0f6;
+  --color-blue-shadow: #1899d6;
+  
+  --font-main: 'Nunito', sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: var(--font-main);
+}
+
+body {
+  background-color: var(--color-bg);
+  color: var(--color-text);
+  overflow-x: hidden;
+  display: flex;
+  justify-content: center;
+}
+
+#root {
+  width: 100%;
+  max-width: 600px;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Button Styles */
+.btn {
+  background-color: var(--color-primary);
+  color: white;
+  border: none;
+  border-radius: 16px;
+  padding: 16px 24px;
+  font-size: 1.1rem;
+  font-weight: 800;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  cursor: pointer;
+  box-shadow: 0 4px 0 var(--color-primary-shadow);
+  transition: all 0.1s ease;
+  user-select: none;
+  width: 100%;
+}
+
+.btn:active {
+  transform: translateY(4px);
+  box-shadow: 0 0px 0 var(--color-primary-shadow);
+}
+
+.btn:disabled {
+  background-color: var(--color-gray);
+  box-shadow: 0 4px 0 var(--color-gray-shadow);
+  color: #afafaf;
+  cursor: not-allowed;
+}
+
+.btn-danger {
+  background-color: var(--color-danger);
+  box-shadow: 0 4px 0 var(--color-danger-shadow);
+}
+
+.btn-secondary {
+  background-color: var(--color-secondary);
+  box-shadow: 0 4px 0 var(--color-secondary-shadow);
+}
+
+.btn-outline {
+  background-color: white;
+  color: var(--color-text);
+  border: 2px solid var(--color-gray);
+  box-shadow: 0 4px 0 var(--color-gray);
+}
+.btn-outline:active {
+  transform: translateY(4px);
+  box-shadow: 0 0px 0 var(--color-gray);
+}
+.btn-outline.selected {
+  background-color: #ddf4ff;
+  border-color: var(--color-blue);
+  color: var(--color-blue);
+  box-shadow: 0 4px 0 var(--color-blue-shadow);
+}
+
+/* Utilities */
+.flex-center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.fade-in {
+  animation: fadeIn 0.3s ease-in-out;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(10px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+@keyframes pulse {
+  0% { transform: scale(1); }
+  50% { transform: scale(1.05); }
+  100% { transform: scale(1); }
+}
+
+.pulse {
+  animation: pulse 2s infinite;
+}

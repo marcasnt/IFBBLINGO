@@ -1,0 +1,119 @@
+{
+  "moduleTitle": "Módulo I: Fisiología e Implicaciones Médicas",
+  "levels": [
+    {
+      "id": 1,
+      "title": "Introducción y Sistemas de Energía",
+      "questions": [
+        {
+          "type": "MULTIPLE_CHOICE",
+          "question": "¿Qué ciencia estudia el funcionamiento de los sistemas biológicos?",
+          "options": ["Fisiología", "Kinesiología", "Biomecánica", "Psicología"],
+          "correctAnswerIndex": 0
+        },
+        {
+          "type": "MULTIPLE_CHOICE",
+          "question": "¿Cuál es la moneda energética del cuerpo humano?",
+          "options": ["ADP", "Glucógeno", "ATP", "Fosfocreatina"],
+          "correctAnswerIndex": 2
+        },
+        {
+          "type": "TRUE_FALSE",
+          "question": "El inicio de cualquier ejercicio es fundamentalmente aeróbico.",
+          "options": ["Verdadero", "Falso"],
+          "correctAnswerIndex": 1
+        },
+        {
+          "type": "MULTIPLE_CHOICE",
+          "question": "¿Qué sistema energético es el más rápido pero más limitado?",
+          "options": ["Aeróbico", "Anaeróbico Aláctico (Fosfatos)", "Anaeróbico Láctico", "Oxidación de Grasas"],
+          "correctAnswerIndex": 1
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Fisiología de la Fuerza Muscular",
+      "questions": [
+        {
+          "type": "MULTIPLE_CHOICE",
+          "question": "¿Qué tipo de contracción muscular no produce desplazamiento?",
+          "options": ["Concéntrica", "Excéntrica", "Isométrica", "Isocinética"],
+          "correctAnswerIndex": 2
+        },
+        {
+          "type": "MULTIPLE_CHOICE",
+          "question": "¿Qué es la potencia muscular?",
+          "options": ["Fuerza x Distancia", "Trabajo efectuado en la unidad de tiempo", "Fuerza máxima absoluta", "Capacidad de estiramiento"],
+          "correctAnswerIndex": 1
+        },
+        {
+          "type": "TRUE_FALSE",
+          "question": "La hipertrofia muscular es un proceso rápido que se nota en las primeras semanas.",
+          "options": ["Verdadero", "Falso"],
+          "correctAnswerIndex": 1
+        },
+        {
+          "type": "MULTIPLE_CHOICE",
+          "question": "¿Qué tipo de contracción es aquella donde la resistencia externa es mayor y el músculo se alarga frenando el movimiento?",
+          "options": ["Isométrica", "Concéntrica", "Excéntrica", "Isotónica"],
+          "correctAnswerIndex": 2
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Ergometría y Umbrales",
+      "questions": [
+        {
+          "type": "MULTIPLE_CHOICE",
+          "question": "¿Qué parámetro indica la cantidad máxima de oxígeno consumido por unidad de tiempo?",
+          "options": ["VO2max", "Ácido Láctico", "Frecuencia Cardíaca", "VT1"],
+          "correctAnswerIndex": 0
+        },
+        {
+          "type": "MULTIPLE_CHOICE",
+          "question": "¿A qué se asocia el aumento brusco de lactato en sangre durante el ejercicio incremental?",
+          "options": ["Umbral Aeróbico", "Umbral Anaeróbico (Láctico)", "VO2max", "Fase de Reposo"],
+          "correctAnswerIndex": 1
+        },
+        {
+          "type": "TRUE_FALSE",
+          "question": "El VO2max mejora de forma ilimitada con el entrenamiento a lo largo de toda la vida deportiva.",
+          "options": ["Verdadero", "Falso"],
+          "correctAnswerIndex": 1
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "title": "Biomecánica y Musculación",
+      "questions": [
+        {
+          "type": "MULTIPLE_CHOICE",
+          "question": "El rango de carga para trabajar Fuerza Pura es...",
+          "options": ["50% a 70%", "85% al 100%", "70% a 85%", "Menos del 50%"],
+          "correctAnswerIndex": 1
+        },
+        {
+          "type": "MULTIPLE_CHOICE",
+          "question": "¿Qué principio indica que hay que sobre exigir al sistema muscular para progresar?",
+          "options": ["Principio de Especificidad", "Principio de Sobrecarga", "Principio de Alternancia", "Principio de Supercompensación"],
+          "correctAnswerIndex": 1
+        },
+        {
+          "type": "MULTIPLE_CHOICE",
+          "question": "Los músculos que cruzan dos articulaciones se denominan...",
+          "options": ["Monoarticulares", "Biarticulares", "Sinergistas", "Antagonistas"],
+          "correctAnswerIndex": 1
+        },
+        {
+          "type": "TRUE_FALSE",
+          "question": "En el entrenamiento de musculación (hipertrofia), las repeticiones suelen estar entre 6 y 15.",
+          "options": ["Verdadero", "Falso"],
+          "correctAnswerIndex": 0
+        }
+      ]
+    }
+  ]
+}
