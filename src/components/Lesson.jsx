@@ -373,6 +373,11 @@ export default function Lesson() {
             })()}
           </h2>
         )}
+        {status === 'incorrect' && currentQ.explanation && (
+          <p style={{ color: 'var(--color-danger-shadow)', marginBottom: '16px', fontSize: '1rem', fontStyle: 'italic', lineHeight: '1.4' }}>
+            💡 {currentQ.explanation}
+          </p>
+        )}
         
         <button 
           className={`btn ${status === 'incorrect' ? 'btn-danger' : ''}`}
