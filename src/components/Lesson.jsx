@@ -196,8 +196,8 @@ export default function Lesson() {
         <div style={{ display: 'flex', alignItems: 'center', marginBottom: '24px', flexShrink: 0 }}>
           <Mascot state={mascotState} />
           <div style={{ 
-            backgroundColor: 'white', 
-            border: '2px solid var(--color-gray)', 
+            backgroundColor: 'var(--color-surface)', 
+            border: '2px solid var(--color-gray-shadow)', 
             borderRadius: '16px', 
             padding: '16px', 
             marginLeft: '16px',

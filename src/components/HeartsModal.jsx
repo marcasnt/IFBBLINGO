@@ -68,7 +68,7 @@ export default function HeartsModal({ onClose }) {
           style={{
             position: 'absolute', top: '16px', right: '16px',
             background: 'none', border: 'none', fontSize: '1.5rem', cursor: 'pointer',
-            color: 'var(--color-gray-shadow)'
+            color: 'var(--color-text)'
           }}
         >
           ✕

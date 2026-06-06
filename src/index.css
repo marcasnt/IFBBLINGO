@@ -151,16 +151,18 @@ body {
 .input-field {
   width: 100%;
   padding: 16px;
-  border: 2px solid var(--color-gray);
+  border: 2px solid var(--color-gray-shadow);
   border-radius: 16px;
   font-size: 1.2rem;
   font-family: 'Nunito', sans-serif;
   outline: none;
   transition: border-color 0.2s;
+  background-color: var(--color-surface);
+  color: var(--color-text);
 }
 
 .input-field:focus {
-  border-color: var(--color-primary);
+  border-color: var(--color-blue);
 }
 
 .word-card {
