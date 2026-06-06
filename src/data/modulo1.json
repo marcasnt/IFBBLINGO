@@ -1,24 +1,44 @@
 {
-  "moduleTitle": "Módulo I: Fisiología y Biomecánica",
+  "moduleTitle": "Módulo I: Fisiología y Biomecánica (Versión Profunda)",
   "levels": [
     {
       "id": 1,
-      "title": "Nivel 1: Conceptos Básicos",
+      "title": "Conceptos Básicos y ATP",
       "questions": [
         {
           "type": "MULTIPLE_CHOICE",
-          "question": "¿Cuál es la principal molécula de intercambio energético en el cuerpo humano?",
+          "question": "¿Qué ciencia estudia el funcionamiento de los sistemas biológicos en actividad física?",
           "options": [
-            "ADP",
-            "ATP",
-            "Ácido Láctico",
-            "Glucógeno"
+            "Kinesiología",
+            "Fisiología del ejercicio",
+            "Biomecánica",
+            "Ergometría"
           ],
           "correctAnswerIndex": 1
         },
         {
           "type": "TRUE_FALSE",
-          "question": "El inicio de cualquier ejercicio físico es fundamentalmente aeróbico.",
+          "question": "El organismo busca mantener un 'equilibrio interno' ante estímulos externos repetidos.",
+          "options": [
+            "Verdadero",
+            "Falso"
+          ],
+          "correctAnswerIndex": 0
+        },
+        {
+          "type": "MULTIPLE_CHOICE",
+          "question": "¿Cuál es la moneda energética fundamental que maneja el organismo?",
+          "options": [
+            "Glucógeno",
+            "ATP",
+            "Fosfocreatina",
+            "Ácido Láctico"
+          ],
+          "correctAnswerIndex": 1
+        },
+        {
+          "type": "TRUE_FALSE",
+          "question": "Los factores genéticos de respuesta a un estímulo son fácilmente modificables con entrenamiento.",
           "options": [
             "Verdadero",
             "Falso"
@@ -27,41 +47,73 @@
         },
         {
           "type": "MATCHING",
-          "question": "Une cada sistema con su característica:",
+          "question": "Une los conceptos básicos:",
           "pairs": [
             {
-              "left": "Anaeróbico Aláctico",
-              "right": "Fosfocreatina, sin oxígeno"
+              "left": "ATP",
+              "right": "Adenosin Trifosfato"
             },
             {
-              "left": "Anaeróbico Láctico",
-              "right": "Glucólisis, produce lactato"
+              "left": "Entrenamiento",
+              "right": "Estímulo crónico"
             },
             {
-              "left": "Aeróbico",
-              "right": "Oxidación, mayor rendimiento"
+              "left": "Adaptación",
+              "right": "Respuesta a largo plazo"
             }
           ]
+        },
+        {
+          "type": "MULTIPLE_CHOICE",
+          "question": "¿Qué enzima es necesaria para liberar la energía de los enlaces del ATP?",
+          "options": [
+            "Lactato deshidrogenasa",
+            "ATPasa",
+            "Glucógeno sintasa",
+            "Creatinquinasa"
+          ],
+          "correctAnswerIndex": 1
         }
       ]
     },
     {
       "id": 2,
-      "title": "Nivel 2: Sistemas de Energía",
+      "title": "Sistemas Anaeróbicos",
       "questions": [
         {
           "type": "MULTIPLE_CHOICE",
-          "question": "Pregunta de conocimiento profundo para Nivel 2 sobre conceptos del Módulo 1.",
+          "question": "¿Qué sistema se utiliza predominantemente en el 'arranque' de cualquier ejercicio?",
           "options": [
-            "Respuesta Incorrecta A",
-            "Respuesta Correcta B",
-            "Respuesta Incorrecta C"
+            "Aeróbico",
+            "Fosfatos de alta energía",
+            "Glucólisis láctica",
+            "Oxidación de grasas"
           ],
           "correctAnswerIndex": 1
         },
         {
           "type": "TRUE_FALSE",
-          "question": "Afirmación técnica compleja sobre la fisiología del entrenamiento para el nivel 2.",
+          "question": "El sistema anaeróbico aláctico provoca una gran acumulación de ácido láctico.",
+          "options": [
+            "Verdadero",
+            "Falso"
+          ],
+          "correctAnswerIndex": 1
+        },
+        {
+          "type": "MULTIPLE_CHOICE",
+          "question": "¿Cuántas moléculas de ATP produce anaeróbicamente una molécula de glucosa?",
+          "options": [
+            "2",
+            "6",
+            "36",
+            "38"
+          ],
+          "correctAnswerIndex": 0
+        },
+        {
+          "type": "TRUE_FALSE",
+          "question": "La limitación práctica de la glucólisis anaeróbica es el efecto tóxico por disminución del pH.",
           "options": [
             "Verdadero",
             "Falso"
@@ -70,41 +122,53 @@
         },
         {
           "type": "MATCHING",
-          "question": "Une los siguientes conceptos con su definición o característica.",
+          "question": "Une el sistema con su característica:",
           "pairs": [
             {
-              "left": "Concepto 2.A",
-              "right": "Definición 2.A"
+              "left": "Anaeróbico Aláctico",
+              "right": "Usa Fosfocreatina (CP)"
             },
             {
-              "left": "Concepto 2.B",
-              "right": "Definición 2.B"
+              "left": "Anaeróbico Láctico",
+              "right": "Usa glucosa sin oxígeno"
             },
             {
-              "left": "Concepto 2.C",
-              "right": "Definición 2.C"
+              "left": "Aláctico",
+              "right": "Es la fuente más rápida y potente"
             }
           ]
+        },
+        {
+          "type": "MULTIPLE_CHOICE",
+          "question": "¿Por qué hay un retraso en la puesta en marcha del sistema aeróbico al inicio del ejercicio?",
+          "options": [
+            "Falta de glucosa",
+            "Retraso en el transporte de O2 al músculo",
+            "Inhibición neural",
+            "Agotamiento de ATP"
+          ],
+          "correctAnswerIndex": 1
         }
       ]
     },
     {
       "id": 3,
-      "title": "Nivel 3: Aeróbico vs Anaeróbico",
+      "title": "Sistema Aeróbico",
       "questions": [
         {
           "type": "MULTIPLE_CHOICE",
-          "question": "Pregunta de conocimiento profundo para Nivel 3 sobre conceptos del Módulo 1.",
+          "question": "¿Qué sistema permite 'quemar' los alimentos hasta convertirlos en CO2 y agua?",
           "options": [
-            "Respuesta Incorrecta A",
-            "Respuesta Correcta B",
-            "Respuesta Incorrecta C"
+            "Fosfágenos",
+            "Aeróbico",
+            "Glucólisis anaeróbica",
+            "Aláctico"
           ],
           "correctAnswerIndex": 1
         },
         {
           "type": "TRUE_FALSE",
-          "question": "Afirmación técnica compleja sobre la fisiología del entrenamiento para el nivel 3.",
+          "question": "Desde el punto de vista del O2 consumido, es más 'barata' la energía de los hidratos de carbono que de las grasas.",
           "options": [
             "Verdadero",
             "Falso"
@@ -112,42 +176,74 @@
           "correctAnswerIndex": 0
         },
         {
+          "type": "MULTIPLE_CHOICE",
+          "question": "¿Qué orgánulo celular actúa como la 'factoría' donde se produce la combustión aeróbica?",
+          "options": [
+            "Ribosoma",
+            "Núcleo",
+            "Retículo sarcoplásmico",
+            "Mitocondria"
+          ],
+          "correctAnswerIndex": 3
+        },
+        {
+          "type": "TRUE_FALSE",
+          "question": "Los sistemas energéticos actúan de forma aislada, uno empieza cuando el otro termina.",
+          "options": [
+            "Verdadero",
+            "Falso"
+          ],
+          "correctAnswerIndex": 1
+        },
+        {
           "type": "MATCHING",
-          "question": "Une los siguientes conceptos con su definición o característica.",
+          "question": "Empareja sobre oxidación:",
           "pairs": [
             {
-              "left": "Concepto 3.A",
-              "right": "Definición 3.A"
+              "left": "Oxidación Glucosa",
+              "right": "Aprox. 6 moléculas ATP por O2"
             },
             {
-              "left": "Concepto 3.B",
-              "right": "Definición 3.B"
+              "left": "Oxidación Grasas",
+              "right": "Beta-oxidación"
             },
             {
-              "left": "Concepto 3.C",
-              "right": "Definición 3.C"
+              "left": "Proteínas",
+              "right": "Obtención de energía menor"
             }
           ]
+        },
+        {
+          "type": "MULTIPLE_CHOICE",
+          "question": "La utilización aeróbica de la glucosa es más económica. ¿Cuántas veces más ATP produce frente a la anaeróbica?",
+          "options": [
+            "Igual",
+            "Aprox. 18 veces más",
+            "El doble",
+            "Aprox. 5 veces más"
+          ],
+          "correctAnswerIndex": 1
         }
       ]
     },
     {
       "id": 4,
-      "title": "Nivel 4: Fisiología de la Fuerza",
+      "title": "Conceptos de Fuerza y Trabajo",
       "questions": [
         {
           "type": "MULTIPLE_CHOICE",
-          "question": "Pregunta de conocimiento profundo para Nivel 4 sobre conceptos del Módulo 1.",
+          "question": "Es la causa capaz de producir o modificar el estado de reposo o movimiento de un cuerpo:",
           "options": [
-            "Respuesta Incorrecta A",
-            "Respuesta Correcta B",
-            "Respuesta Incorrecta C"
+            "Trabajo",
+            "Potencia",
+            "Fuerza",
+            "Momento"
           ],
-          "correctAnswerIndex": 1
+          "correctAnswerIndex": 2
         },
         {
           "type": "TRUE_FALSE",
-          "question": "Afirmación técnica compleja sobre la fisiología del entrenamiento para el nivel 4.",
+          "question": "El Trabajo (W) se define como Fuerza por Desplazamiento (W = F x d).",
           "options": [
             "Verdadero",
             "Falso"
@@ -155,42 +251,74 @@
           "correctAnswerIndex": 0
         },
         {
+          "type": "MULTIPLE_CHOICE",
+          "question": "¿Cómo se define la Potencia (P)?",
+          "options": [
+            "Fuerza x Masa",
+            "Trabajo efectuado en la unidad de tiempo",
+            "Fuerza estática",
+            "Capacidad de elasticidad"
+          ],
+          "correctAnswerIndex": 1
+        },
+        {
+          "type": "TRUE_FALSE",
+          "question": "La máxima potencia muscular se alcanza siempre a la máxima velocidad posible.",
+          "options": [
+            "Verdadero",
+            "Falso"
+          ],
+          "correctAnswerIndex": 1
+        },
+        {
           "type": "MATCHING",
-          "question": "Une los siguientes conceptos con su definición o característica.",
+          "question": "Fórmulas y Conceptos:",
           "pairs": [
             {
-              "left": "Concepto 4.A",
-              "right": "Definición 4.A"
+              "left": "W (Trabajo)",
+              "right": "F x d"
             },
             {
-              "left": "Concepto 4.B",
-              "right": "Definición 4.B"
+              "left": "P (Potencia)",
+              "right": "W / t (o F x v)"
             },
             {
-              "left": "Concepto 4.C",
-              "right": "Definición 4.C"
+              "left": "Momento (Torque)",
+              "right": "Fuerza x Distancia al eje"
             }
           ]
+        },
+        {
+          "type": "MULTIPLE_CHOICE",
+          "question": "¿Qué capacidad permite al músculo recuperar su forma original tras una deformación?",
+          "options": [
+            "Excitabilidad",
+            "Contractilidad",
+            "Elasticidad",
+            "Hipertrofia"
+          ],
+          "correctAnswerIndex": 2
         }
       ]
     },
     {
       "id": 5,
-      "title": "Nivel 5: La Neurona",
+      "title": "Tipos de Contracción I",
       "questions": [
         {
           "type": "MULTIPLE_CHOICE",
-          "question": "Pregunta de conocimiento profundo para Nivel 5 sobre conceptos del Módulo 1.",
+          "question": "¿Cómo se llama la contracción donde no hay desplazamiento y el trabajo mecánico es cero?",
           "options": [
-            "Respuesta Incorrecta A",
-            "Respuesta Correcta B",
-            "Respuesta Incorrecta C"
+            "Isotónica",
+            "Concéntrica",
+            "Isométrica",
+            "Isocinética"
           ],
-          "correctAnswerIndex": 1
+          "correctAnswerIndex": 2
         },
         {
           "type": "TRUE_FALSE",
-          "question": "Afirmación técnica compleja sobre la fisiología del entrenamiento para el nivel 5.",
+          "question": "En la contracción excéntrica, el trabajo producido se considera negativo.",
           "options": [
             "Verdadero",
             "Falso"
@@ -198,42 +326,74 @@
           "correctAnswerIndex": 0
         },
         {
+          "type": "MULTIPLE_CHOICE",
+          "question": "¿Qué ocurre en una contracción concéntrica?",
+          "options": [
+            "El músculo produce movimiento y trabajo positivo",
+            "El músculo frena el movimiento",
+            "No hay movimiento",
+            "La velocidad es constante"
+          ],
+          "correctAnswerIndex": 0
+        },
+        {
+          "type": "TRUE_FALSE",
+          "question": "La contracción isotónica mantiene una tensión constante durante todo el recorrido en ejercicios reales.",
+          "options": [
+            "Verdadero",
+            "Falso"
+          ],
+          "correctAnswerIndex": 1
+        },
+        {
           "type": "MATCHING",
-          "question": "Une los siguientes conceptos con su definición o característica.",
+          "question": "Tipos de Contracción:",
           "pairs": [
             {
-              "left": "Concepto 5.A",
-              "right": "Definición 5.A"
+              "left": "Isométrica",
+              "right": "Sin desplazamiento"
             },
             {
-              "left": "Concepto 5.B",
-              "right": "Definición 5.B"
+              "left": "Concéntrica",
+              "right": "Vence la carga"
             },
             {
-              "left": "Concepto 5.C",
-              "right": "Definición 5.C"
+              "left": "Excéntrica",
+              "right": "Frena la carga"
             }
           ]
+        },
+        {
+          "type": "MULTIPLE_CHOICE",
+          "question": "Etimológicamente, ¿qué significa 'isométrico'?",
+          "options": [
+            "Igual tensión",
+            "Igual medida",
+            "Igual velocidad",
+            "Igual fuerza"
+          ],
+          "correctAnswerIndex": 1
         }
       ]
     },
     {
       "id": 6,
-      "title": "Nivel 6: El Músculo Estriado",
+      "title": "Tipos de Contracción II",
       "questions": [
         {
           "type": "MULTIPLE_CHOICE",
-          "question": "Pregunta de conocimiento profundo para Nivel 6 sobre conceptos del Módulo 1.",
+          "question": "¿Qué tipo de contracción se realiza a velocidad angular o de giro constante?",
           "options": [
-            "Respuesta Incorrecta A",
-            "Respuesta Correcta B",
-            "Respuesta Incorrecta C"
+            "Auxotónica",
+            "Isotónica",
+            "Isocinética",
+            "Isométrica"
           ],
-          "correctAnswerIndex": 1
+          "correctAnswerIndex": 2
         },
         {
           "type": "TRUE_FALSE",
-          "question": "Afirmación técnica compleja sobre la fisiología del entrenamiento para el nivel 6.",
+          "question": "El término 'Auxotónica' se refiere a una contracción con tensión variable, típica en deportes.",
           "options": [
             "Verdadero",
             "Falso"
@@ -241,42 +401,94 @@
           "correctAnswerIndex": 0
         },
         {
+          "type": "MULTIPLE_CHOICE",
+          "question": "En un equipo isocinético, ¿qué máquina regula la resistencia?",
+          "options": [
+            "Poleas simples",
+            "Pesos libres",
+            "Servomecanismos hidráulicos",
+            "Bandas elásticas"
+          ],
+          "correctAnswerIndex": 2
+        },
+        {
+          "type": "TRUE_FALSE",
+          "question": "Los músculos antagonistas trabajan 'a favor' del movimiento.",
+          "options": [
+            "Verdadero",
+            "Falso"
+          ],
+          "correctAnswerIndex": 1
+        },
+        {
           "type": "MATCHING",
-          "question": "Une los siguientes conceptos con su definición o característica.",
+          "question": "Roles musculares:",
           "pairs": [
             {
-              "left": "Concepto 6.A",
-              "right": "Definición 6.A"
+              "left": "Agonistas",
+              "right": "Responsables del movimiento"
             },
             {
-              "left": "Concepto 6.B",
-              "right": "Definición 6.B"
+              "left": "Antagonistas",
+              "right": "Se oponen al movimiento"
             },
             {
-              "left": "Concepto 6.C",
-              "right": "Definición 6.C"
+              "left": "Estabilizadores",
+              "right": "Fijan articulaciones vecinas"
             }
           ]
+        },
+        {
+          "type": "MULTIPLE_CHOICE",
+          "question": "¿Qué músculos evitan movimientos indeseados cuando un músculo tiene doble función?",
+          "options": [
+            "Agonistas",
+            "Sinergistas",
+            "Neutralizadores",
+            "Fijadores"
+          ],
+          "correctAnswerIndex": 2
         }
       ]
     },
     {
       "id": 7,
-      "title": "Nivel 7: Tipos de Contracción",
+      "title": "La Neurona",
       "questions": [
         {
           "type": "MULTIPLE_CHOICE",
-          "question": "Pregunta de conocimiento profundo para Nivel 7 sobre conceptos del Módulo 1.",
+          "question": "¿Cuál es la célula principal del tejido nervioso responsable de dar la 'orden' de contracción?",
           "options": [
-            "Respuesta Incorrecta A",
-            "Respuesta Correcta B",
-            "Respuesta Incorrecta C"
+            "Célula de Schwann",
+            "Neurona",
+            "Miofibrilla",
+            "Sarcómero"
           ],
           "correctAnswerIndex": 1
         },
         {
           "type": "TRUE_FALSE",
-          "question": "Afirmación técnica compleja sobre la fisiología del entrenamiento para el nivel 7.",
+          "question": "Las dendritas son prolongaciones que envían impulsos lejos del cuerpo celular.",
+          "options": [
+            "Verdadero",
+            "Falso"
+          ],
+          "correctAnswerIndex": 1
+        },
+        {
+          "type": "MULTIPLE_CHOICE",
+          "question": "Los impulsos eléctricos de las células nerviosas se denominan...",
+          "options": [
+            "Tétanos",
+            "Sinapsis",
+            "Potenciales de acción",
+            "Acetilcolina"
+          ],
+          "correctAnswerIndex": 2
+        },
+        {
+          "type": "TRUE_FALSE",
+          "question": "Las motoneuronas del asta anterior tienen axones muy largos que pueden llegar hasta el pie.",
           "options": [
             "Verdadero",
             "Falso"
@@ -285,41 +497,73 @@
         },
         {
           "type": "MATCHING",
-          "question": "Une los siguientes conceptos con su definición o característica.",
+          "question": "Características de la neurona:",
           "pairs": [
             {
-              "left": "Concepto 7.A",
-              "right": "Definición 7.A"
+              "left": "Excitabilidad",
+              "right": "Responder a estímulos"
             },
             {
-              "left": "Concepto 7.B",
-              "right": "Definición 7.B"
+              "left": "Conducción",
+              "right": "Transmitir corriente por el axón"
             },
             {
-              "left": "Concepto 7.C",
-              "right": "Definición 7.C"
+              "left": "Transmisión (Sinapsis)",
+              "right": "Comunicación entre células"
             }
           ]
+        },
+        {
+          "type": "MULTIPLE_CHOICE",
+          "question": "¿De dónde parten las 'órdenes' conscientes para el movimiento voluntario?",
+          "options": [
+            "Médula espinal",
+            "Corteza cerebral",
+            "Nervio periférico",
+            "Huso muscular"
+          ],
+          "correctAnswerIndex": 1
         }
       ]
     },
     {
       "id": 8,
-      "title": "Nivel 8: Isométrica e Isotónica",
+      "title": "El Músculo y el Sarcómero",
       "questions": [
         {
           "type": "MULTIPLE_CHOICE",
-          "question": "Pregunta de conocimiento profundo para Nivel 8 sobre conceptos del Módulo 1.",
+          "question": "¿Cuál es la unidad elemental de contracción dentro de la miofibrilla?",
           "options": [
-            "Respuesta Incorrecta A",
-            "Respuesta Correcta B",
-            "Respuesta Incorrecta C"
+            "Axón",
+            "Túbulo T",
+            "Sarcómero",
+            "Sarcolema"
           ],
-          "correctAnswerIndex": 1
+          "correctAnswerIndex": 2
         },
         {
           "type": "TRUE_FALSE",
-          "question": "Afirmación técnica compleja sobre la fisiología del entrenamiento para el nivel 8.",
+          "question": "Las células musculares son multinucleadas.",
+          "options": [
+            "Verdadero",
+            "Falso"
+          ],
+          "correctAnswerIndex": 0
+        },
+        {
+          "type": "MULTIPLE_CHOICE",
+          "question": "La contracción se produce por el deslizamiento de...",
+          "options": [
+            "Fibras lentas sobre rápidas",
+            "Sarcoplasma",
+            "Líneas Z",
+            "Filamentos delgados sobre gruesos"
+          ],
+          "correctAnswerIndex": 3
+        },
+        {
+          "type": "TRUE_FALSE",
+          "question": "El acoplamiento excitación-contracción requiere el consumo de energía y la presencia de calcio.",
           "options": [
             "Verdadero",
             "Falso"
@@ -328,41 +572,73 @@
         },
         {
           "type": "MATCHING",
-          "question": "Une los siguientes conceptos con su definición o característica.",
+          "question": "Tipos de fibras:",
           "pairs": [
             {
-              "left": "Concepto 8.A",
-              "right": "Definición 8.A"
+              "left": "Tipo I",
+              "right": "Lentas o Rojas"
             },
             {
-              "left": "Concepto 8.B",
-              "right": "Definición 8.B"
+              "left": "Tipo II",
+              "right": "Rápidas o Blancas"
             },
             {
-              "left": "Concepto 8.C",
-              "right": "Definición 8.C"
+              "left": "Intermedias",
+              "right": "Espectro entre ambas"
             }
           ]
+        },
+        {
+          "type": "MULTIPLE_CHOICE",
+          "question": "¿Qué estructura NO forma parte de la célula muscular?",
+          "options": [
+            "Retículo sarcoplásmico",
+            "Túbulos T",
+            "Mielina",
+            "Membrana celular"
+          ],
+          "correctAnswerIndex": 2
         }
       ]
     },
     {
       "id": 9,
-      "title": "Nivel 9: Isocinética y Auxotónica",
+      "title": "Adaptaciones Neurales",
       "questions": [
         {
           "type": "MULTIPLE_CHOICE",
-          "question": "Pregunta de conocimiento profundo para Nivel 9 sobre conceptos del Módulo 1.",
+          "question": "Las mejoras iniciales de fuerza en principiantes se deben principalmente a...",
           "options": [
-            "Respuesta Incorrecta A",
-            "Respuesta Correcta B",
-            "Respuesta Incorrecta C"
+            "Hipertrofia",
+            "Adaptaciones neurales",
+            "Cambio de tipo de fibra",
+            "Aumento de grasa"
           ],
           "correctAnswerIndex": 1
         },
         {
           "type": "TRUE_FALSE",
-          "question": "Afirmación técnica compleja sobre la fisiología del entrenamiento para el nivel 9.",
+          "question": "La hipertrofia es un proceso más retrasado que la adaptación neural.",
+          "options": [
+            "Verdadero",
+            "Falso"
+          ],
+          "correctAnswerIndex": 0
+        },
+        {
+          "type": "MULTIPLE_CHOICE",
+          "question": "Un factor neural para mejorar la fuerza es la inhibición de...",
+          "options": [
+            "Músculos agonistas",
+            "Músculos principales",
+            "Músculos antagonistas",
+            "Sinergistas"
+          ],
+          "correctAnswerIndex": 2
+        },
+        {
+          "type": "TRUE_FALSE",
+          "question": "El entrenamiento pliométrico mejora el reflejo de contracción por estiramiento (huso neuromuscular).",
           "options": [
             "Verdadero",
             "Falso"
@@ -371,41 +647,73 @@
         },
         {
           "type": "MATCHING",
-          "question": "Une los siguientes conceptos con su definición o característica.",
+          "question": "Adaptaciones de fuerza:",
           "pairs": [
             {
-              "left": "Concepto 9.A",
-              "right": "Definición 9.A"
+              "left": "Neural",
+              "right": "Mejora en reclutamiento de fibras"
             },
             {
-              "left": "Concepto 9.B",
-              "right": "Definición 9.B"
+              "left": "Trófico",
+              "right": "Hipertrofia muscular"
             },
             {
-              "left": "Concepto 9.C",
-              "right": "Definición 9.C"
+              "left": "Pliometría",
+              "right": "Reflejo de estiramiento"
             }
           ]
+        },
+        {
+          "type": "MULTIPLE_CHOICE",
+          "question": "Es posible que un individuo aumente su fuerza sin que aumente la circunferencia de su músculo. ¿A qué se debe?",
+          "options": [
+            "Aumento de EMGi (Neural)",
+            "Atrofia",
+            "Aumento de retención de líquidos",
+            "Hiperplasia"
+          ],
+          "correctAnswerIndex": 0
         }
       ]
     },
     {
       "id": 10,
-      "title": "Nivel 10: Curva Tensión-Deformación",
+      "title": "Valoración de la Fuerza",
       "questions": [
         {
           "type": "MULTIPLE_CHOICE",
-          "question": "Pregunta de conocimiento profundo para Nivel 10 sobre conceptos del Módulo 1.",
+          "question": "¿Cuál es el método directo de medida de fuerza?",
           "options": [
-            "Respuesta Incorrecta A",
-            "Respuesta Correcta B",
-            "Respuesta Incorrecta C"
+            "Electromiografía",
+            "Dinamometría",
+            "Test de Conconi",
+            "Antropometría"
           ],
           "correctAnswerIndex": 1
         },
         {
           "type": "TRUE_FALSE",
-          "question": "Afirmación técnica compleja sobre la fisiología del entrenamiento para el nivel 10.",
+          "question": "1MR (Repetición Máxima) es la carga máxima que podemos levantar exactamente 10 veces.",
+          "options": [
+            "Verdadero",
+            "Falso"
+          ],
+          "correctAnswerIndex": 1
+        },
+        {
+          "type": "MULTIPLE_CHOICE",
+          "question": "¿Qué se valora al hacer un test de 10MR?",
+          "options": [
+            "Fuerza absoluta 100%",
+            "Aprox. 75% de la carga máxima",
+            "Potencia máxima",
+            "Velocidad angular"
+          ],
+          "correctAnswerIndex": 1
+        },
+        {
+          "type": "TRUE_FALSE",
+          "question": "La electromiografía de superficie (EMG) permite medir de manera no cruenta la actividad eléctrica muscular.",
           "options": [
             "Verdadero",
             "Falso"
@@ -414,41 +722,73 @@
         },
         {
           "type": "MATCHING",
-          "question": "Une los siguientes conceptos con su definición o característica.",
+          "question": "Pruebas:",
           "pairs": [
             {
-              "left": "Concepto 10.A",
-              "right": "Definición 10.A"
+              "left": "1 MR",
+              "right": "Máxima repetición posible"
             },
             {
-              "left": "Concepto 10.B",
-              "right": "Definición 10.B"
+              "left": "Dinamometría Estática",
+              "right": "Contracción Isométrica"
             },
             {
-              "left": "Concepto 10.C",
-              "right": "Definición 10.C"
+              "left": "EMG",
+              "right": "Actividad eléctrica"
             }
           ]
+        },
+        {
+          "type": "MULTIPLE_CHOICE",
+          "question": "¿Qué desventaja tienen los tests isométricos (estáticos)?",
+          "options": [
+            "Miden a velocidad constante",
+            "No son transferibles a toda la actividad deportiva",
+            "Causan mucha fatiga",
+            "Son demasiado fáciles"
+          ],
+          "correctAnswerIndex": 1
         }
       ]
     },
     {
       "id": 11,
-      "title": "Nivel 11: Curva Fuerza-Velocidad",
+      "title": "Ergometría y VO2",
       "questions": [
         {
           "type": "MULTIPLE_CHOICE",
-          "question": "Pregunta de conocimiento profundo para Nivel 11 sobre conceptos del Módulo 1.",
+          "question": "¿Qué ergómetro es el más clásico y utilizado?",
           "options": [
-            "Respuesta Incorrecta A",
-            "Respuesta Correcta B",
-            "Respuesta Incorrecta C"
+            "Remoergómetro",
+            "Tapiz rodante (Treadmill)",
+            "Ergómetro de escalera",
+            "Piscina ergométrica"
           ],
           "correctAnswerIndex": 1
         },
         {
           "type": "TRUE_FALSE",
-          "question": "Afirmación técnica compleja sobre la fisiología del entrenamiento para el nivel 11.",
+          "question": "El VO2max se considera el único indicador válido del estado de forma en atletas de élite de resistencia.",
+          "options": [
+            "Verdadero",
+            "Falso"
+          ],
+          "correctAnswerIndex": 1
+        },
+        {
+          "type": "MULTIPLE_CHOICE",
+          "question": "El VO2 se define 'desde fuera' restando el oxígeno que 'sale' del que 'entra'. ¿Qué variables se miden?",
+          "options": [
+            "Ventilación y fracciones de O2",
+            "Gasto cardiaco y frecuencia",
+            "Lactato y glucosa",
+            "Humedad y temperatura"
+          ],
+          "correctAnswerIndex": 0
+        },
+        {
+          "type": "TRUE_FALSE",
+          "question": "En un protocolo en rampa, la carga va aumentando linealmente.",
           "options": [
             "Verdadero",
             "Falso"
@@ -457,84 +797,148 @@
         },
         {
           "type": "MATCHING",
-          "question": "Une los siguientes conceptos con su definición o característica.",
+          "question": "Parámetros VO2:",
           "pairs": [
             {
-              "left": "Concepto 11.A",
-              "right": "Definición 11.A"
+              "left": "VO2max",
+              "right": "Oxígeno máximo consumido"
             },
             {
-              "left": "Concepto 11.B",
-              "right": "Definición 11.B"
+              "left": "Economía de carrera",
+              "right": "VO2 a nivel submáximo"
             },
             {
-              "left": "Concepto 11.C",
-              "right": "Definición 11.C"
+              "left": "Gasto cardiaco (Q)",
+              "right": "Volumen / minuto en l/min"
             }
           ]
+        },
+        {
+          "type": "MULTIPLE_CHOICE",
+          "question": "¿Qué refleja la 'economía de carrera'?",
+          "options": [
+            "Velocidad máxima absoluta",
+            "Eficiencia global para transformar energía química en mecánica",
+            "Cantidad de lactato producido",
+            "Frecuencia cardiaca en reposo"
+          ],
+          "correctAnswerIndex": 1
         }
       ]
     },
     {
       "id": 12,
-      "title": "Nivel 12: Cadenas Cinemáticas",
+      "title": "Lactato y Umbrales",
       "questions": [
         {
           "type": "MULTIPLE_CHOICE",
-          "question": "Pregunta de conocimiento profundo para Nivel 12 sobre conceptos del Módulo 1.",
+          "question": "¿A partir de qué fase se observa una elevación desproporcionada de lactato y ventilación?",
           "options": [
-            "Respuesta Incorrecta A",
-            "Respuesta Correcta B",
-            "Respuesta Incorrecta C"
+            "Fase de Reposo",
+            "Primer umbral aeróbico",
+            "Umbral anaeróbico",
+            "Fase I"
+          ],
+          "correctAnswerIndex": 2
+        },
+        {
+          "type": "TRUE_FALSE",
+          "question": "El aumento de la ventilación en el umbral ventilatorio es para eliminar el exceso de O2.",
+          "options": [
+            "Verdadero",
+            "Falso"
+          ],
+          "correctAnswerIndex": 1
+        },
+        {
+          "type": "MULTIPLE_CHOICE",
+          "question": "¿Qué molécula tampona (neutraliza) el exceso de ácido láctico (H+)?",
+          "options": [
+            "Calcio",
+            "Bicarbonato",
+            "Creatina",
+            "Sodio"
           ],
           "correctAnswerIndex": 1
         },
         {
           "type": "TRUE_FALSE",
-          "question": "Afirmación técnica compleja sobre la fisiología del entrenamiento para el nivel 12.",
+          "question": "El lactato sanguíneo es un reflejo exacto y sin variaciones del lactato muscular.",
           "options": [
             "Verdadero",
             "Falso"
           ],
-          "correctAnswerIndex": 0
+          "correctAnswerIndex": 1
         },
         {
           "type": "MATCHING",
-          "question": "Une los siguientes conceptos con su definición o característica.",
+          "question": "Fases y Umbrales:",
           "pairs": [
             {
-              "left": "Concepto 12.A",
-              "right": "Definición 12.A"
+              "left": "Fase I",
+              "right": "Lactato nivel reposo"
             },
             {
-              "left": "Concepto 12.B",
-              "right": "Definición 12.B"
+              "left": "Fase II",
+              "right": "Lactato en equilibrio"
             },
             {
-              "left": "Concepto 12.C",
-              "right": "Definición 12.C"
+              "left": "Fase III",
+              "right": "Lactato aumenta continuamente"
             }
           ]
+        },
+        {
+          "type": "MULTIPLE_CHOICE",
+          "question": "¿Qué factor NO afecta la gráfica de acumulación de lactato?",
+          "options": [
+            "Proporción de Fibras I y II",
+            "Dieta previa",
+            "Tipo de protocolo",
+            "Color de piel"
+          ],
+          "correctAnswerIndex": 3
         }
       ]
     },
     {
       "id": 13,
-      "title": "Nivel 13: Músculos Biarticulares",
+      "title": "Salud y Ejercicio",
       "questions": [
         {
           "type": "MULTIPLE_CHOICE",
-          "question": "Pregunta de conocimiento profundo para Nivel 13 sobre conceptos del Módulo 1.",
+          "question": "En adultos mayores, el entrenamiento con pesas produce...",
           "options": [
-            "Respuesta Incorrecta A",
-            "Respuesta Correcta B",
-            "Respuesta Incorrecta C"
+            "Daño articular asegurado",
+            "Prevención de osteoporosis",
+            "Pérdida de masa muscular acelerada",
+            "Hipertensión severa"
           ],
           "correctAnswerIndex": 1
         },
         {
           "type": "TRUE_FALSE",
-          "question": "Afirmación técnica compleja sobre la fisiología del entrenamiento para el nivel 13.",
+          "question": "Las recomendaciones post-1998 del ACSM incluyen el trabajo de pesas en mayores para evitar déficit proteico y muscular.",
+          "options": [
+            "Verdadero",
+            "Falso"
+          ],
+          "correctAnswerIndex": 0
+        },
+        {
+          "type": "MULTIPLE_CHOICE",
+          "question": "Para personas con hipertensión o coronarios, el circuito de pesas...",
+          "options": [
+            "Está absolutamente prohibido",
+            "Aumenta la isquemia",
+            "Puede mejorar la presión arterial diastólica",
+            "Causa hipertrofia cardiaca masiva"
+          ],
+          "correctAnswerIndex": 2
+        },
+        {
+          "type": "TRUE_FALSE",
+          "question": "El ejercicio de fuerza en niños prepúberes está demostrado que produce ganancias de fuerza y beneficios motores.",
           "options": [
             "Verdadero",
             "Falso"
@@ -543,41 +947,73 @@
         },
         {
           "type": "MATCHING",
-          "question": "Une los siguientes conceptos con su definición o característica.",
+          "question": "Beneficios de Salud:",
           "pairs": [
             {
-              "left": "Concepto 13.A",
-              "right": "Definición 13.A"
+              "left": "Osteoporosis",
+              "right": "Mejora con densidad ósea"
             },
             {
-              "left": "Concepto 13.B",
-              "right": "Definición 13.B"
+              "left": "Coronarios",
+              "right": "Mejor perfusión miocárdica"
             },
             {
-              "left": "Concepto 13.C",
-              "right": "Definición 13.C"
+              "left": "Ancianos",
+              "right": "Frena sarcopenia"
             }
           ]
+        },
+        {
+          "type": "MULTIPLE_CHOICE",
+          "question": "¿Cómo es el riesgo de lesiones de pesas supervisado vs. fútbol americano?",
+          "options": [
+            "Mucho mayor",
+            "Más seguro (casi inexistente si supervisado)",
+            "Exactamente igual",
+            "Produce riesgo de muerte inminente"
+          ],
+          "correctAnswerIndex": 1
         }
       ]
     },
     {
       "id": 14,
-      "title": "Nivel 14: Paradoja de Lombard",
+      "title": "Principios en Musculación",
       "questions": [
         {
           "type": "MULTIPLE_CHOICE",
-          "question": "Pregunta de conocimiento profundo para Nivel 14 sobre conceptos del Módulo 1.",
+          "question": "¿Qué principio exige trabajar en gestos y demandas similares al deporte específico?",
           "options": [
-            "Respuesta Incorrecta A",
-            "Respuesta Correcta B",
-            "Respuesta Incorrecta C"
+            "Principio de Sobrecarga",
+            "Principio de Especificidad",
+            "Principio de Alternancia",
+            "Principio de Progresión"
           ],
           "correctAnswerIndex": 1
         },
         {
           "type": "TRUE_FALSE",
-          "question": "Afirmación técnica compleja sobre la fisiología del entrenamiento para el nivel 14.",
+          "question": "El volumen del entrenamiento hace referencia alTonelaje total (peso).",
+          "options": [
+            "Verdadero",
+            "Falso"
+          ],
+          "correctAnswerIndex": 1
+        },
+        {
+          "type": "MULTIPLE_CHOICE",
+          "question": "Según el texto, una fórmula clásica para desarrollo de hipertrofia es...",
+          "options": [
+            "3x3",
+            "3x8 (o 4x10)",
+            "1x10",
+            "15x2"
+          ],
+          "correctAnswerIndex": 1
+        },
+        {
+          "type": "TRUE_FALSE",
+          "question": "El entrenamiento de fuerza máxima pura requiere repeticiones muy cortas (1-3) y cargas máximas.",
           "options": [
             "Verdadero",
             "Falso"
@@ -586,41 +1022,73 @@
         },
         {
           "type": "MATCHING",
-          "question": "Une los siguientes conceptos con su definición o característica.",
+          "question": "Variables del Entrenamiento:",
           "pairs": [
             {
-              "left": "Concepto 14.A",
-              "right": "Definición 14.A"
+              "left": "Volumen",
+              "right": "Cantidad de series/reps"
             },
             {
-              "left": "Concepto 14.B",
-              "right": "Definición 14.B"
+              "left": "Repetición de Máximo (RM)",
+              "right": "Carga máxima para N reps"
             },
             {
-              "left": "Concepto 14.C",
-              "right": "Definición 14.C"
+              "left": "Intensidad",
+              "right": "Porcentaje del 1RM"
             }
           ]
+        },
+        {
+          "type": "MULTIPLE_CHOICE",
+          "question": "¿Cuál es el objetivo principal de la periodización?",
+          "options": [
+            "Crear confusión muscular",
+            "Programar a lo largo del año las variables",
+            "Evitar el sudor",
+            "Entrenar siempre al 100%"
+          ],
+          "correctAnswerIndex": 1
         }
       ]
     },
     {
       "id": 15,
-      "title": "Nivel 15: Ergometría",
+      "title": "Potencia y Trabajo (Fórmulas)",
       "questions": [
         {
           "type": "MULTIPLE_CHOICE",
-          "question": "Pregunta de conocimiento profundo para Nivel 15 sobre conceptos del Módulo 1.",
+          "question": "Realizar el mismo trabajo en la mitad de tiempo produce...",
           "options": [
-            "Respuesta Incorrecta A",
-            "Respuesta Correcta B",
-            "Respuesta Incorrecta C"
+            "Doble Trabajo",
+            "La misma Potencia",
+            "Doble Potencia",
+            "Cuádruple Fuerza"
           ],
-          "correctAnswerIndex": 1
+          "correctAnswerIndex": 2
         },
         {
           "type": "TRUE_FALSE",
-          "question": "Afirmación técnica compleja sobre la fisiología del entrenamiento para el nivel 15.",
+          "question": "Potencia (N) es igual a Fuerza (F) por Velocidad (V).",
+          "options": [
+            "Verdadero",
+            "Falso"
+          ],
+          "correctAnswerIndex": 0
+        },
+        {
+          "type": "MULTIPLE_CHOICE",
+          "question": "En biomecánica, para generar mayor potencia, si no varío la fuerza, debo...",
+          "options": [
+            "Disminuir el espacio",
+            "Aumentar el tiempo de ejecución",
+            "Aumentar la velocidad (disminuir tiempo)",
+            "No respirar"
+          ],
+          "correctAnswerIndex": 2
+        },
+        {
+          "type": "TRUE_FALSE",
+          "question": "Una carga indirecta simple es una polea donde la resistencia es constante e independiente del ángulo.",
           "options": [
             "Verdadero",
             "Falso"
@@ -629,41 +1097,73 @@
         },
         {
           "type": "MATCHING",
-          "question": "Une los siguientes conceptos con su definición o característica.",
+          "question": "Máquinas y Resistencias:",
           "pairs": [
             {
-              "left": "Concepto 15.A",
-              "right": "Definición 15.A"
+              "left": "Directa Simple",
+              "right": "Barra, mancuerna"
             },
             {
-              "left": "Concepto 15.B",
-              "right": "Definición 15.B"
+              "left": "Indirecta Simple",
+              "right": "Polea"
             },
             {
-              "left": "Concepto 15.C",
-              "right": "Definición 15.C"
+              "left": "Guiada Gravitacional",
+              "right": "Máquina Universal"
             }
           ]
+        },
+        {
+          "type": "MULTIPLE_CHOICE",
+          "question": "La ecuación simple de fuerza relacionada a la hipertrofia es F = K x S. ¿Qué representa la S?",
+          "options": [
+            "Sarcómeros por línea",
+            "Serie de repeticiones",
+            "Sección transversal del músculo",
+            "Sistema nervioso"
+          ],
+          "correctAnswerIndex": 2
         }
       ]
     },
     {
       "id": 16,
-      "title": "Nivel 16: VO2 y Economía",
+      "title": "Curva Tensión-Deformación",
       "questions": [
         {
           "type": "MULTIPLE_CHOICE",
-          "question": "Pregunta de conocimiento profundo para Nivel 16 sobre conceptos del Módulo 1.",
+          "question": "¿En qué punto se logra la máxima tensión muscular?",
           "options": [
-            "Respuesta Incorrecta A",
-            "Respuesta Correcta B",
-            "Respuesta Incorrecta C"
+            "En máximo acortamiento",
+            "A mitad de recorrido",
+            "En la máxima elongación fisiológica",
+            "Depende del clima"
+          ],
+          "correctAnswerIndex": 2
+        },
+        {
+          "type": "TRUE_FALSE",
+          "question": "La variación de tensión en el músculo a lo largo de su acortamiento es perfectamente lineal.",
+          "options": [
+            "Verdadero",
+            "Falso"
+          ],
+          "correctAnswerIndex": 1
+        },
+        {
+          "type": "MULTIPLE_CHOICE",
+          "question": "¿Cómo se denomina la deformación porcentual (acortamiento relativo)?",
+          "options": [
+            "Sigma (tensión)",
+            "Epsilon (deformación)",
+            "Kappa (fricción)",
+            "Alpha (área)"
           ],
           "correctAnswerIndex": 1
         },
         {
           "type": "TRUE_FALSE",
-          "question": "Afirmación técnica compleja sobre la fisiología del entrenamiento para el nivel 16.",
+          "question": "Un clavo puntiagudo penetra fácilmente porque genera una gran tensión al aplicar fuerza en un área pequeñísima.",
           "options": [
             "Verdadero",
             "Falso"
@@ -672,41 +1172,73 @@
         },
         {
           "type": "MATCHING",
-          "question": "Une los siguientes conceptos con su definición o característica.",
+          "question": "Curva Tensión:",
           "pairs": [
             {
-              "left": "Concepto 16.A",
-              "right": "Definición 16.A"
+              "left": "Sigma",
+              "right": "Fuerza / Área (Tensión)"
             },
             {
-              "left": "Concepto 16.B",
-              "right": "Definición 16.B"
+              "left": "Máxima Elongación",
+              "right": "Máxima Tensión generada"
             },
             {
-              "left": "Concepto 16.C",
-              "right": "Definición 16.C"
+              "left": "Máximo acortamiento",
+              "right": "Tensión pobre"
             }
           ]
+        },
+        {
+          "type": "MULTIPLE_CHOICE",
+          "question": "¿Por qué trabajar pantorrillas sentado es menos efectivo para los gemelos?",
+          "options": [
+            "La rodilla flexionada acorta el gemelo (menor tensión inicial)",
+            "El sóleo se relaja",
+            "El tobillo se traba",
+            "El pie se cansa"
+          ],
+          "correctAnswerIndex": 0
         }
       ]
     },
     {
       "id": 17,
-      "title": "Nivel 17: Ácido Láctico",
+      "title": "Curva Fuerza-Velocidad",
       "questions": [
         {
           "type": "MULTIPLE_CHOICE",
-          "question": "Pregunta de conocimiento profundo para Nivel 17 sobre conceptos del Módulo 1.",
+          "question": "La ecuación que vincula fuerza y velocidad se denomina Ecuación de...",
           "options": [
-            "Respuesta Incorrecta A",
-            "Respuesta Correcta B",
-            "Respuesta Incorrecta C"
+            "Einstein",
+            "Newton",
+            "Hill",
+            "Lombard"
           ],
-          "correctAnswerIndex": 1
+          "correctAnswerIndex": 2
         },
         {
           "type": "TRUE_FALSE",
-          "question": "Afirmación técnica compleja sobre la fisiología del entrenamiento para el nivel 17.",
+          "question": "A medida que disminuimos el peso de la barra, somos capaces de moverla a mayor velocidad.",
+          "options": [
+            "Verdadero",
+            "Falso"
+          ],
+          "correctAnswerIndex": 0
+        },
+        {
+          "type": "MULTIPLE_CHOICE",
+          "question": "En un movimiento isométrico máximo, ¿cuál es la velocidad?",
+          "options": [
+            "Máxima",
+            "La mitad",
+            "Nula (cero)",
+            "Aleatoria"
+          ],
+          "correctAnswerIndex": 2
+        },
+        {
+          "type": "TRUE_FALSE",
+          "question": "En la fase excéntrica, al aumentar la carga, también aumenta la velocidad de estiramiento forzado.",
           "options": [
             "Verdadero",
             "Falso"
@@ -715,41 +1247,73 @@
         },
         {
           "type": "MATCHING",
-          "question": "Une los siguientes conceptos con su definición o característica.",
+          "question": "Ley de Hill:",
           "pairs": [
             {
-              "left": "Concepto 17.A",
-              "right": "Definición 17.A"
+              "left": "Carga alta",
+              "right": "Baja velocidad concéntrica"
             },
             {
-              "left": "Concepto 17.B",
-              "right": "Definición 17.B"
+              "left": "Carga baja",
+              "right": "Alta velocidad concéntrica"
             },
             {
-              "left": "Concepto 17.C",
-              "right": "Definición 17.C"
+              "left": "Velocidad cero",
+              "right": "Fuerza máxima isométrica"
             }
           ]
+        },
+        {
+          "type": "MULTIPLE_CHOICE",
+          "question": "En un 'press de banca', ¿existe transferencia temporal de fuerzas desde el hombro al codo?",
+          "options": [
+            "Sí, secuencial",
+            "No, ocurren casi simultáneamente (Ley de Hill)",
+            "Solo en excéntrica",
+            "Sí, como en halterofilia"
+          ],
+          "correctAnswerIndex": 1
         }
       ]
     },
     {
       "id": 18,
-      "title": "Nivel 18: Umbrales Ventilatorios",
+      "title": "Cadenas Cinemáticas",
       "questions": [
         {
           "type": "MULTIPLE_CHOICE",
-          "question": "Pregunta de conocimiento profundo para Nivel 18 sobre conceptos del Módulo 1.",
+          "question": "¿Qué conforman los segmentos óseos unidos por articulaciones?",
           "options": [
-            "Respuesta Incorrecta A",
-            "Respuesta Correcta B",
-            "Respuesta Incorrecta C"
+            "Cadenas de ADN",
+            "Cadenas Musculares",
+            "Cadenas Cinemáticas",
+            "Arcos de movimiento"
+          ],
+          "correctAnswerIndex": 2
+        },
+        {
+          "type": "TRUE_FALSE",
+          "question": "Todo movimiento humano se produce en función de rotaciones articulares.",
+          "options": [
+            "Verdadero",
+            "Falso"
+          ],
+          "correctAnswerIndex": 0
+        },
+        {
+          "type": "MULTIPLE_CHOICE",
+          "question": "¿Qué característica especial tienen los ejercicios como la 'Cargada al pecho'?",
+          "options": [
+            "Trabajan un solo músculo",
+            "Tienen transferencia secuencial (impulsos sucesivos)",
+            "No usan las piernas",
+            "Cumplen rígidamente la Ley de Hill"
           ],
           "correctAnswerIndex": 1
         },
         {
           "type": "TRUE_FALSE",
-          "question": "Afirmación técnica compleja sobre la fisiología del entrenamiento para el nivel 18.",
+          "question": "Las máquinas de gimnasio comunes aislan músculos, rompiendo la cadena cinemática natural.",
           "options": [
             "Verdadero",
             "Falso"
@@ -758,41 +1322,53 @@
         },
         {
           "type": "MATCHING",
-          "question": "Une los siguientes conceptos con su definición o característica.",
+          "question": "Clasificación de músculos:",
           "pairs": [
             {
-              "left": "Concepto 18.A",
-              "right": "Definición 18.A"
+              "left": "Monoarticular",
+              "right": "Cruza 1 articulación"
             },
             {
-              "left": "Concepto 18.B",
-              "right": "Definición 18.B"
+              "left": "Biarticular",
+              "right": "Cruza 2 articulaciones"
             },
             {
-              "left": "Concepto 18.C",
-              "right": "Definición 18.C"
+              "left": "Poliarticular",
+              "right": "Cruza múltiples"
             }
           ]
+        },
+        {
+          "type": "MULTIPLE_CHOICE",
+          "question": "Un músculo que es flexor en una articulación y extensor en la otra vecina se considera...",
+          "options": [
+            "Estabilizador",
+            "Neutralizador",
+            "Biarticular complejo",
+            "Miofibrilar"
+          ],
+          "correctAnswerIndex": 2
         }
       ]
     },
     {
       "id": 19,
-      "title": "Nivel 19: Principios del Entrenamiento",
+      "title": "La Paradoja de Lombard",
       "questions": [
         {
           "type": "MULTIPLE_CHOICE",
-          "question": "Pregunta de conocimiento profundo para Nivel 19 sobre conceptos del Módulo 1.",
+          "question": "En la fase concéntrica de la sentadilla, cadera y rodilla se...",
           "options": [
-            "Respuesta Incorrecta A",
-            "Respuesta Correcta B",
-            "Respuesta Incorrecta C"
+            "Flexionan",
+            "Extienden",
+            "Rotan internamente",
+            "Abducen"
           ],
           "correctAnswerIndex": 1
         },
         {
           "type": "TRUE_FALSE",
-          "question": "Afirmación técnica compleja sobre la fisiología del entrenamiento para el nivel 19.",
+          "question": "El Recto Anterior y los Isquiosurales son ambos músculos biarticulares antagonistas entre sí.",
           "options": [
             "Verdadero",
             "Falso"
@@ -800,42 +1376,94 @@
           "correctAnswerIndex": 0
         },
         {
+          "type": "MULTIPLE_CHOICE",
+          "question": "¿Por qué en la sentadilla ambos grupos (recto e isquios) contribuyen a la extensión sin anularse por completo?",
+          "options": [
+            "Porque el cerebro apaga uno",
+            "Por la diferencia de longitud en sus brazos de palanca",
+            "Porque uno se vuelve tendón",
+            "Porque trabajan isométricamente"
+          ],
+          "correctAnswerIndex": 1
+        },
+        {
+          "type": "TRUE_FALSE",
+          "question": "En la cadera, el brazo de palanca de los isquiosurales es menor que el del recto anterior.",
+          "options": [
+            "Verdadero",
+            "Falso"
+          ],
+          "correctAnswerIndex": 1
+        },
+        {
           "type": "MATCHING",
-          "question": "Une los siguientes conceptos con su definición o característica.",
+          "question": "Brazos de palanca en Sentadilla:",
           "pairs": [
             {
-              "left": "Concepto 19.A",
-              "right": "Definición 19.A"
+              "left": "Cadera",
+              "right": "Ganan Isquiosurales (Extensión)"
             },
             {
-              "left": "Concepto 19.B",
-              "right": "Definición 19.B"
+              "left": "Rodilla",
+              "right": "Gana Recto Anterior (Extensión)"
             },
             {
-              "left": "Concepto 19.C",
-              "right": "Definición 19.C"
+              "left": "Isquiosurales",
+              "right": "Transfieren energía a la rodilla"
             }
           ]
+        },
+        {
+          "type": "MULTIPLE_CHOICE",
+          "question": "Aproximadamente, ¿qué porcentaje de cambio de longitud sufren estos músculos biarticulares en una sentadilla?",
+          "options": [
+            "50%",
+            "20%",
+            "4-5% (Acción de correa)",
+            "80%"
+          ],
+          "correctAnswerIndex": 2
         }
       ]
     },
     {
       "id": 20,
-      "title": "Nivel 20: Aplicación Práctica y Salud",
+      "title": "Programación y Rangos de Carga",
       "questions": [
         {
           "type": "MULTIPLE_CHOICE",
-          "question": "Pregunta de conocimiento profundo para Nivel 20 sobre conceptos del Módulo 1.",
+          "question": "Para entrenar la Fuerza Pura, ¿en qué rango de RM se suele trabajar?",
           "options": [
-            "Respuesta Incorrecta A",
-            "Respuesta Correcta B",
-            "Respuesta Incorrecta C"
+            "1 a 6 RM",
+            "10 a 15 RM",
+            "15 a 25 RM",
+            "50 RM"
           ],
-          "correctAnswerIndex": 1
+          "correctAnswerIndex": 0
         },
         {
           "type": "TRUE_FALSE",
-          "question": "Afirmación técnica compleja sobre la fisiología del entrenamiento para el nivel 20.",
+          "question": "Para buscar Hipertrofia predominante, las cargas ideales rondan entre el 70% y el 85% de 1RM.",
+          "options": [
+            "Verdadero",
+            "Falso"
+          ],
+          "correctAnswerIndex": 0
+        },
+        {
+          "type": "MULTIPLE_CHOICE",
+          "question": "La capacidad de liberar fuerza en el menor tiempo posible se llama...",
+          "options": [
+            "Hipertrofia",
+            "Fuerza-Resistencia",
+            "Potencia",
+            "Capacidad Aeróbica"
+          ],
+          "correctAnswerIndex": 2
+        },
+        {
+          "type": "TRUE_FALSE",
+          "question": "En un método de Pirámide descendente, las repeticiones bajan a medida que el peso sube (o viceversa).",
           "options": [
             "Verdadero",
             "Falso"
@@ -844,21 +1472,32 @@
         },
         {
           "type": "MATCHING",
-          "question": "Une los siguientes conceptos con su definición o característica.",
+          "question": "Rangos según Objetivo:",
           "pairs": [
             {
-              "left": "Concepto 20.A",
-              "right": "Definición 20.A"
+              "left": "85-100% RM",
+              "right": "Fuerza Máxima (Neural)"
             },
             {
-              "left": "Concepto 20.B",
-              "right": "Definición 20.B"
+              "left": "70-85% RM",
+              "right": "Hipertrofia"
             },
             {
-              "left": "Concepto 20.C",
-              "right": "Definición 20.C"
+              "left": "< 60% RM",
+              "right": "Fuerza-Resistencia"
             }
           ]
+        },
+        {
+          "type": "MULTIPLE_CHOICE",
+          "question": "Al concluir un entrenamiento, hay una fase de fatiga. Tras descansar, ¿cómo se llama la fase donde el nivel supera al inicial?",
+          "options": [
+            "Sobreentrenamiento",
+            "Adaptación pasiva",
+            "Supercompensación",
+            "Hiperplasia"
+          ],
+          "correctAnswerIndex": 2
         }
       ]
     }
