@@ -366,9 +366,9 @@ export default function Lesson() {
         borderTop: `2px solid ${status === 'correct' ? 'var(--color-primary)' : status === 'incorrect' ? 'var(--color-danger)' : 'var(--color-gray)'}`,
         flexShrink: 0
       }}>
-        {status === 'correct' && <h2 style={{ color: 'var(--color-primary-shadow)', marginBottom: '16px' }}>¡Excelente!</h2>}
+        {status === 'correct' && <h2 style={{ color: 'var(--color-text-correct)', marginBottom: '16px' }}>¡Excelente!</h2>}
         {status === 'incorrect' && (
-          <h2 style={{ color: 'var(--color-danger-shadow)', marginBottom: '16px', fontSize: '1.1rem' }}>
+          <h2 style={{ color: 'var(--color-text-incorrect)', marginBottom: '16px', fontSize: '1.1rem' }}>
             Incorrecto. La respuesta correcta era: {(() => {
               if (currentQ.type === 'match_pairs') return 'Las parejas de la lista.';
               if (currentQ.type === 'true_false') return currentQ.correctAnswer ? 'Verdadero' : 'Falso';
@@ -383,7 +383,7 @@ export default function Lesson() {
           </h2>
         )}
         {status === 'incorrect' && currentQ.explanation && (
-          <p style={{ color: 'var(--color-danger-shadow)', marginBottom: '16px', fontSize: '1rem', fontStyle: 'italic', lineHeight: '1.4' }}>
+          <p style={{ color: 'var(--color-text-incorrect)', marginBottom: '16px', fontSize: '1rem', fontStyle: 'italic', lineHeight: '1.4' }}>
             💡 {currentQ.explanation}
           </p>
         )}

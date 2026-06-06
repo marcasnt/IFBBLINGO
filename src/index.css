@@ -19,6 +19,10 @@
   
   --color-bg-correct: #d7ffb8;
   --color-bg-incorrect: #ffdfdf;
+  --color-text-correct: var(--color-primary-shadow);
+  --color-text-incorrect: var(--color-danger-shadow);
+  --color-locked-icon: #afafaf;
+  --color-locked-text: #afafaf;
   
   --font-main: 'Nunito', sans-serif;
 }
@@ -32,6 +36,10 @@
   
   --color-bg-correct: #203A12;
   --color-bg-incorrect: #3A1515;
+  --color-text-correct: var(--color-primary);
+  --color-text-incorrect: var(--color-danger);
+  --color-locked-icon: #5f7481;
+  --color-locked-text: #5f7481;
 }
 
 * {

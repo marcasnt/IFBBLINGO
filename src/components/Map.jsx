@@ -1,7 +1,9 @@
-import { Dumbbell, Lock } from 'lucide-react';
+import { Dumbbell, Lock, Star, Zap, Flame, Trophy, Heart, Activity, Target } from 'lucide-react';
 import { useGame } from '../context/GameContext';
 import moduleData from '../data/modulo1.json';
 import Mascot from './Mascot';
+
+const icons = [Dumbbell, Target, Star, Zap, Flame, Trophy, Heart, Activity];
 
 export default function Map() {
   const { startLesson, unlockedLevelId, lives } = useGame();
@@ -19,6 +21,7 @@ export default function Map() {
           const id = index + 1;
           const offset = Math.sin(index) * 50; 
           const isLocked = id > unlockedLevelId;
+          const IconComponent = icons[index % icons.length];
           
           return (
             <div key={level.lessonId} style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', transform: `translateX(${offset}px)` }}>
@@ -31,7 +34,8 @@ export default function Map() {
                   padding: 0,
                   backgroundColor: isLocked ? 'var(--color-gray)' : 'var(--color-secondary)',
                   boxShadow: `0 6px 0 ${isLocked ? 'var(--color-gray-shadow)' : 'var(--color-secondary-shadow)'}`,
-                  cursor: isLocked ? 'not-allowed' : 'pointer'
+                  cursor: isLocked ? 'not-allowed' : 'pointer',
+                  color: isLocked ? 'var(--color-locked-icon)' : 'white'
                 }}
                 onClick={() => {
                   if (isLocked) return;
@@ -42,14 +46,14 @@ export default function Map() {
                   startLesson(id);
                 }}
               >
-                {isLocked ? <Lock size={32} color="#afafaf" /> : <Dumbbell size={32} />}
+                {isLocked ? <Lock size={32} /> : <IconComponent size={32} />}
               </div>
               <span style={{ 
                 marginTop: '16px', 
                 fontWeight: 'bold', 
                 textAlign: 'center', 
                 maxWidth: '150px',
-                color: isLocked ? '#afafaf' : 'var(--color-text)'
+                color: isLocked ? 'var(--color-locked-text)' : 'var(--color-text)'
               }}>
                 {level.title}
               </span>
