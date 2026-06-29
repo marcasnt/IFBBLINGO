@@ -281,7 +281,7 @@
           "pH"
         ],
         "xp": 20,
-        "explanation": "La vía aeróbica es mucho más rentable, produciendo hasta un 1800% más energía que la anaeróbica."
+        "explanation": "El sistema anaeróbico aláctico usa la fosfocreatina (CP) para renovar el ATP sin producir ácido láctico."
       },
       {
         "type": "fill_in_blanks_cards",
@@ -297,14 +297,14 @@
           "económico"
         ],
         "xp": 15,
-        "explanation": "Los lípidos (grasas) solo pueden usarse como combustible mediante la vía aeróbica (beta-oxidación)."
+        "explanation": "El sistema aeróbico usa oxígeno, el anaeróbico produce energía sin él y el ATP es la moneda base."
       },
       {
         "type": "true_false",
         "question": "Desde el punto de vista del O2, resulta más 'barata' la energía obtenida de grasas que de hidratos de carbono.",
         "correctAnswer": false,
         "xp": 10,
-        "explanation": "Los sistemas de energía se solapan y no actúan de manera aislada."
+        "explanation": "El músculo transforma la energía química de los alimentos en energía mecánica con un 20-30% de eficiencia."
       },
       {
         "type": "multiple_choice",
@@ -325,7 +325,7 @@
         ],
         "correctAnswerId": "B",
         "xp": 10,
-        "explanation": "La acumulación de ácido láctico (disminución del pH) causa la fatiga y limita la glucólisis."
+        "explanation": "En la cadena oxidativa aeróbica, el oxígeno actúa como el último aceptor de electrones para formar H2O."
       }
     ]
   },
@@ -406,14 +406,14 @@
           "ángulo"
         ],
         "xp": 15,
-        "explanation": "El músculo transforma la energía química de los alimentos en energía mecánica con un 20-30% de eficiencia."
+        "explanation": "El sóleo es monoarticular, por lo que aísla el trabajo de pantorrillas cuando la rodilla está flexionada."
       },
       {
         "type": "true_false",
         "question": "Los aparatos isocinéticos mantienen una distancia constante, haciendo que fuerza y momento sean prácticamente paralelos.",
         "correctAnswer": true,
         "xp": 10,
-        "explanation": "La tensión muscular no es constante a lo largo del arco de movimiento."
+        "explanation": "El brazo de palanca se mide como la distancia perpendicular desde el fulcro a la línea de acción de la fuerza."
       },
       {
         "type": "multiple_choice",
@@ -434,7 +434,7 @@
         ],
         "correctAnswerId": "B",
         "xp": 10,
-        "explanation": "En la máxima elongación fisiológica se alcanza el punto de máxima tensión muscular."
+        "explanation": "El entrenamiento de potencia utiliza cargas relativamente altas pero enfatiza la máxima velocidad."
       }
     ]
   },
@@ -448,7 +448,7 @@
         "question": "El músculo transforma energía química en mecánica con una eficiencia del 100%.",
         "correctAnswer": false,
         "xp": 10,
-        "explanation": "Falso. Cada músculo tiene su propia curva de tensión característica."
+        "explanation": "Falso. El músculo esquelético convierte energía química en mecánica con una eficiencia del 20-30%; el resto se libera como calor corporal."
       },
       {
         "type": "multiple_choice",
@@ -469,7 +469,7 @@
         ],
         "correctAnswerId": "B",
         "xp": 10,
-        "explanation": "El sóleo es monoarticular, por lo que aísla el trabajo de pantorrillas cuando la rodilla está flexionada."
+        "explanation": "El sarcómero es la unidad funcional y estructural elemental de la miofibrilla muscular, delimitada entre dos líneas Z."
       },
       {
         "type": "match_pairs",
@@ -489,7 +489,7 @@
           }
         ],
         "xp": 15,
-        "explanation": "Para activar al máximo la masa gemelar, el ejercicio debe hacerse con las rodillas extendidas."
+        "explanation": "Las miofibrillas contienen los sarcómeros contráctiles, mientras que el tejido conectivo (fascia, tendones) transmite la fuerza de tracción al hueso."
       },
       {
         "type": "text_input",
@@ -501,7 +501,7 @@
           "miosina"
         ],
         "xp": 20,
-        "explanation": "Una palanca tiene un punto de apoyo, una potencia (fuerza) y una resistencia."
+        "explanation": "Los dos filamentos proteicos son la actina (filamento delgado) y la miosina (filamento grueso), que forman puentes cruzados."
       },
       {
         "type": "fill_in_blanks_cards",
@@ -517,14 +517,14 @@
           "lesiones"
         ],
         "xp": 15,
-        "explanation": "Los músculos biarticulares cruzan y actúan sobre dos articulaciones diferentes."
+        "explanation": "La elasticidad muscular permite amortiguar las fuerzas externas bruscas y devolver energía acumulada, previniendo microlesiones."
       },
       {
         "type": "true_false",
         "question": "Una contracción muscular involucra una acción aislada de un solo músculo sin importar sus antagonistas.",
         "correctAnswer": false,
         "xp": 10,
-        "explanation": "Un ejercicio poliarticular involucra dos o más articulaciones, como la sentadilla."
+        "explanation": "Falso. Todo movimiento coordinado requiere la co-activación de agonistas y la relajación recíproca y oportuna de antagonistas."
       },
       {
         "type": "multiple_choice",
@@ -541,7 +541,7 @@
         ],
         "correctAnswerId": "B",
         "xp": 10,
-        "explanation": "En una polea clásica (carga indirecta), la resistencia es constante e independiente del ángulo."
+        "explanation": "Las fibras musculares son multinucleadas y de gran longitud debido a la fusión de múltiples mioblastos durante el desarrollo embrionario."
       }
     ]
   },
@@ -555,7 +555,7 @@
         "question": "Las dendritas de la neurona son responsables de su interacción con otras células nerviosas.",
         "correctAnswer": true,
         "xp": 10,
-        "explanation": "Los protagonistas o agonistas son los principales responsables del movimiento."
+        "explanation": "Las dendritas reciben las señales sinápticas de otras células nerviosas y las conducen hacia el cuerpo o soma celular."
       },
       {
         "type": "multiple_choice",
@@ -576,7 +576,7 @@
         ],
         "correctAnswerId": "B",
         "xp": 10,
-        "explanation": "Los antagonistas se oponen al movimiento y deben relajarse para permitirlo."
+        "explanation": "Las fibras mielínicas motoras (alfa) conducen los impulsos nerviosos a velocidades muy altas, de hasta 120 metros por segundo."
       },
       {
         "type": "match_pairs",
@@ -596,7 +596,7 @@
           }
         ],
         "xp": 15,
-        "explanation": "Fijadores, neutralizadores y antagonistas."
+        "explanation": "Excitabilidad es la respuesta al estímulo; Conductibilidad es propagar el impulso; Transmisión es comunicarse con otra célula."
       },
       {
         "type": "text_input",
@@ -607,7 +607,7 @@
           "la neurona"
         ],
         "xp": 20,
-        "explanation": "Los neutralizadores anulan la acción secundaria indeseada de un músculo."
+        "explanation": "El término preciso es \"Neurona\". Memorizar esta terminología técnica es clave para un profesional."
       },
       {
         "type": "fill_in_blanks_cards",
@@ -623,14 +623,14 @@
           "médula"
         ],
         "xp": 15,
-        "explanation": "En un press de banca, el tríceps y el pectoral mayor actúan al unísono como agonistas/sinergistas."
+        "explanation": "Las órdenes de contracción voluntaria nacen en la corteza cerebral motora y descienden por la médula espinal por la vía piramidal."
       },
       {
         "type": "true_false",
         "question": "La neurona solo puede responder a estímulos químicos y nunca a eléctricos.",
         "correctAnswer": false,
         "xp": 10,
-        "explanation": "Al trabajar con pesos libres, la resistencia siempre va dirigida hacia abajo por la gravedad."
+        "explanation": "Falso. La membrana neuronal es excitable eléctricamente y responde propagando potenciales de acción ante despolarizaciones."
       },
       {
         "type": "multiple_choice",
@@ -651,7 +651,7 @@
         ],
         "correctAnswerId": "A",
         "xp": 10,
-        "explanation": "El músculo esquelético humano puede contraerse isométricamente o de forma dinámica (anisométrica)."
+        "explanation": "La sinapsis química o eléctrica permite el paso del neurotransmisor o corriente iónica a la siguiente célula."
       }
     ]
   },
@@ -665,7 +665,7 @@
         "question": "En la contracción isométrica existe un gran trabajo mecánico.",
         "correctAnswer": false,
         "xp": 10,
-        "explanation": "1RM es la carga máxima que se puede levantar en una sola repetición máxima."
+        "explanation": "El trabajo de resistencia muscular se realiza con cargas del 50-70% (más de 15 repeticiones)."
       },
       {
         "type": "multiple_choice",
@@ -686,7 +686,7 @@
         ],
         "correctAnswerId": "A",
         "xp": 10,
-        "explanation": "Falso. Es peligroso realizar pruebas de 1RM en principiantes sin técnica ni base."
+        "explanation": "La tensión muscular se expresa mediante Sigma (σ) y mide la fuerza aplicada en cierta área transversal."
       },
       {
         "type": "match_pairs",
@@ -706,7 +706,7 @@
           }
         ],
         "xp": 15,
-        "explanation": "La hipertrofia muscular suele requerir cargas del 70-85% (entre 6 y 15 repeticiones)."
+        "explanation": "La carga máxima isométrica sucede cuando la velocidad de acortamiento es exactamente cero (sin movimiento)."
       },
       {
         "type": "text_input",
@@ -717,7 +717,7 @@
           "isotónica"
         ],
         "xp": 20,
-        "explanation": "El trabajo de resistencia muscular se realiza con cargas del 50-70% (más de 15 repeticiones)."
+        "explanation": "El músculo esquelético humano puede contraerse isométricamente o de forma dinámica (anisométrica)."
       },
       {
         "type": "fill_in_blanks_cards",
@@ -733,14 +733,14 @@
           "freno"
         ],
         "xp": 15,
-        "explanation": "Las máquinas isocinéticas mantienen una velocidad constante independientemente de la fuerza aplicada."
+        "explanation": "La ecuación de Hill dice que a mayor velocidad, menor será la fuerza desarrollada."
       },
       {
         "type": "true_false",
         "question": "La contracción isocinética se caracteriza por realizarse a una velocidad angular constante.",
         "correctAnswer": true,
         "xp": 10,
-        "explanation": "El entrenamiento de potencia utiliza cargas relativamente altas pero enfatiza la máxima velocidad."
+        "explanation": "Falso. El peso levantado es menor a mayor velocidad, como demostró Vivian Hill."
       },
       {
         "type": "multiple_choice",
@@ -757,7 +757,7 @@
         ],
         "correctAnswerId": "B",
         "xp": 10,
-        "explanation": "El volumen de entrenamiento es la cantidad total (series x repeticiones)."
+        "explanation": "En una polea clásica (carga indirecta), la resistencia es constante e independiente del ángulo."
       }
     ]
   },
@@ -771,7 +771,7 @@
         "question": "La dinamometría isométrica mide la fuerza a lo largo de todo el movimiento.",
         "correctAnswer": false,
         "xp": 10,
-        "explanation": "La hipertrofia se manifiesta por el aumento del diámetro (y posiblemente el número) de las fibras musculares."
+        "explanation": "La dinamometría estática mide la fuerza desarrollada empujando un objeto fijo (isometría)."
       },
       {
         "type": "multiple_choice",
@@ -788,7 +788,7 @@
         ],
         "correctAnswerId": "B",
         "xp": 10,
-        "explanation": "Falso. Las primeras adaptaciones de fuerza (primeras semanas) son principalmente neurales (sincronización)."
+        "explanation": "1RM es la carga máxima que se puede levantar en una sola repetición máxima."
       },
       {
         "type": "match_pairs",
@@ -808,7 +808,7 @@
           }
         ],
         "xp": 15,
-        "explanation": "Al principio, la fuerza aumenta por la mejora en la activación de unidades motoras y el EMG."
+        "explanation": "Una palanca de tercer género (la más común en el cuerpo) sitúa la potencia entre el fulcro y la resistencia, ganando velocidad a costa de fuerza."
       },
       {
         "type": "text_input",
@@ -819,7 +819,7 @@
           "75 por ciento"
         ],
         "xp": 20,
-        "explanation": "La sincronización intramuscular mejora la eficiencia con la que las fibras musculares trabajan juntas."
+        "explanation": "La fatiga del SNC se presenta primero limitando la activación muscular máxima (EMGi disminuye)."
       },
       {
         "type": "fill_in_blanks_cards",
@@ -835,14 +835,14 @@
           "fibras"
         ],
         "xp": 15,
-        "explanation": "El calentamiento y el estiramiento son fundamentales antes del ejercicio de fuerza."
+        "explanation": "El reclutamiento de unidades motoras comienza con las fibras lentas y se van sumando las rápidas al aumentar la carga."
       },
       {
         "type": "true_false",
         "question": "Las máquinas isocinéticas ajustan automáticamente la resistencia para mantener la velocidad constante.",
         "correctAnswer": true,
         "xp": 10,
-        "explanation": "La carga habitual genera mesetas, por lo que el principio de sobrecarga exige incrementar el estímulo."
+        "explanation": "Las máquinas isocinéticas mantienen una velocidad constante independientemente de la fuerza aplicada."
       },
       {
         "type": "multiple_choice",
@@ -859,7 +859,7 @@
         ],
         "correctAnswerId": "B",
         "xp": 10,
-        "explanation": "Los levantadores olímpicos entrenan la fuerza máxima con muy pocas repeticiones (1-5) e intervalos largos."
+        "explanation": "Las máquinas isocinéticas mantienen una resistencia acomodada para igualar la velocidad angular en todo el rango."
       }
     ]
   },
@@ -873,7 +873,7 @@
         "question": "La hipertrofia muscular aparece antes que las adaptaciones neurales al iniciar un entrenamiento.",
         "correctAnswer": false,
         "xp": 10,
-        "explanation": "El entrenamiento de fuerza en niños (supervisado) mejora el rendimiento y proviene lesiones."
+        "explanation": "Falso. Las ganancias de fuerza iniciales en prepúberes se dan por adaptaciones neurales, no hipertrofia."
       },
       {
         "type": "multiple_choice",
@@ -890,7 +890,7 @@
         ],
         "correctAnswerId": "B",
         "xp": 10,
-        "explanation": "Falso. Las ganancias de fuerza iniciales en prepúberes se dan por adaptaciones neurales, no hipertrofia."
+        "explanation": "La hipertrofia muscular suele requerir cargas del 70-85% (entre 6 y 15 repeticiones)."
       },
       {
         "type": "match_pairs",
@@ -910,7 +910,7 @@
           }
         ],
         "xp": 15,
-        "explanation": "En ancianos, el entrenamiento de fuerza combate la osteoporosis y recupera la funcionalidad motora."
+        "explanation": "La hipertrofia se manifiesta por el aumento del diámetro (y posiblemente el número) de las fibras musculares."
       },
       {
         "type": "text_input",
@@ -921,7 +921,7 @@
           "el principio de sobrecarga"
         ],
         "xp": 20,
-        "explanation": "La ACSM recomienda circuitos de pesas con intensidades del 40-50% para adultos sanos y ancianos."
+        "explanation": "La carga habitual genera mesetas, por lo que el principio de sobrecarga exige incrementar el estímulo."
       },
       {
         "type": "fill_in_blanks_cards",
@@ -937,14 +937,14 @@
           "activación"
         ],
         "xp": 15,
-        "explanation": "Un beneficio comprobado del ejercicio en mayores es la autosuficiencia funcional y mejora de la autoestima."
+        "explanation": "Las 'rutinas culturistas' utilizan recuperaciones incompletas (1 min) para favorecer el estrés metabólico y la hipertrofia."
       },
       {
         "type": "true_false",
         "question": "Disminuir la inhibición de los músculos antagonistas es una forma de mejorar la fuerza.",
         "correctAnswer": true,
         "xp": 10,
-        "explanation": "El entrenamiento de fuerza ha probado ser seguro, a veces con menos riesgos que deportes aeróbicos intensos."
+        "explanation": "Todos los sistemas energéticos actúan de forma simultánea y solapada según la duración e intensidad."
       },
       {
         "type": "multiple_choice",
@@ -961,7 +961,7 @@
         ],
         "correctAnswerId": "B",
         "xp": 10,
-        "explanation": "En pacientes cardíacos, un circuito suave de pesas mejora la HTA y la PA diastólica sin daños."
+        "explanation": "Los levantadores olímpicos entrenan la fuerza máxima con muy pocas repeticiones (1-5) e intervalos largos."
       }
     ]
   },
@@ -975,7 +975,7 @@
         "question": "El análisis funcional estudia el tipo de contracción que desarrolla cada músculo durante el movimiento.",
         "correctAnswer": true,
         "xp": 10,
-        "explanation": "Falso. Si te limitas siempre a la misma carga, tu cuerpo se adapta y te estancas (principio de sobrecarga)."
+        "explanation": "Falso. Cada músculo tiene su propia curva de tensión característica."
       },
       {
         "type": "multiple_choice",
@@ -992,7 +992,7 @@
         ],
         "correctAnswerId": "B",
         "xp": 10,
-        "explanation": "El 'tonelaje' permite cuantificar el trabajo absoluto realizado (Series x Repeticiones x Peso)."
+        "explanation": "Los músculos biarticulares cruzan y actúan sobre dos articulaciones diferentes."
       },
       {
         "type": "match_pairs",
@@ -1012,7 +1012,7 @@
           }
         ],
         "xp": 15,
-        "explanation": "El principio de especificidad dicta que debes entrenar movimientos similares al gesto deportivo que buscas mejorar."
+        "explanation": "El análisis mecánico consiste en descomponer en movimientos simples el gesto deportivo general."
       },
       {
         "type": "text_input",
@@ -1022,7 +1022,7 @@
           "cadena cinematica"
         ],
         "xp": 20,
-        "explanation": "Periodización, Alternancia y Sobrecarga."
+        "explanation": "Una cadena cinemática cerrada (ej. sentadillas) mantiene fijo el segmento distal y requiere acción simultánea en varias articulaciones."
       },
       {
         "type": "fill_in_blanks_cards",
@@ -1038,14 +1038,14 @@
           "ángulos"
         ],
         "xp": 15,
-        "explanation": "En el método de 'Intensidades Máximas I' (90-100%) se debe descansar unos 3 minutos entre series."
+        "explanation": "Los neutralizadores anulan la acción secundaria indeseada de un músculo."
       },
       {
         "type": "true_false",
         "question": "El análisis biomecánico completo ignora las estructuras óseas y de tejido conectivo.",
         "correctAnswer": false,
         "xp": 10,
-        "explanation": "La sobrecompensación es la fase donde el cuerpo asimila el estrés y mejora su nivel inicial."
+        "explanation": "Para hallar el umbral ventilatorio VT1 de manera precisa en pruebas de laboratorio se usa la calorimetría indirecta (análisis de gases)."
       },
       {
         "type": "multiple_choice",
@@ -1066,7 +1066,7 @@
         ],
         "correctAnswerId": "B",
         "xp": 10,
-        "explanation": "Durante la 'temporada', el objetivo es mantener la fuerza ganada en la pretemporada con el mínimo volumen posible."
+        "explanation": "La tensión muscular no es constante a lo largo del arco de movimiento."
       }
     ]
   },
@@ -1080,7 +1080,7 @@
         "question": "La ergometría es un test de esfuerzo realizado bajo condiciones controladas en laboratorio.",
         "correctAnswer": true,
         "xp": 10,
-        "explanation": "El lactato se produce en la glucólisis anaeróbica como subproducto del piruvato."
+        "explanation": "Para que un test de laboratorio tenga validez en el campo, debe mantener el Principio de Especificidad anatómica."
       },
       {
         "type": "multiple_choice",
@@ -1097,7 +1097,7 @@
         ],
         "correctAnswerId": "B",
         "xp": 10,
-        "explanation": "Falso. El umbral láctico no es fijo; varía con el entrenamiento, dieta y fibras activadas."
+        "explanation": "La ergonomía deportiva usa el tapiz rodante y el cicloergómetro para estandarizar las mediciones del VO2."
       },
       {
         "type": "match_pairs",
@@ -1117,7 +1117,7 @@
           }
         ],
         "xp": 15,
-        "explanation": "VO2max es la máxima capacidad del organismo para captar, transportar y consumir oxígeno."
+        "explanation": "En levantamiento olímpico predomina absoluto reclutamiento de las fibras Tipo IIb por la altísima carga."
       },
       {
         "type": "text_input",
@@ -1127,7 +1127,7 @@
           "economia de carrera"
         ],
         "xp": 20,
-        "explanation": "Umbral aeróbico y umbral anaeróbico."
+        "explanation": "El término preciso es \"Economía de carrera\". Memorizar esta terminología técnica es clave para un profesional."
       },
       {
         "type": "fill_in_blanks_cards",
@@ -1143,14 +1143,14 @@
           "transferencia"
         ],
         "xp": 15,
-        "explanation": "La ergonomía deportiva usa el tapiz rodante y el cicloergómetro para estandarizar las mediciones del VO2."
+        "explanation": "La transferencia de energía se ve perfecta en ejercicios poliarticulares, pero los aislamientos evitan esta transferencia."
       },
       {
         "type": "true_false",
         "question": "El tapiz rodante permite alterar tanto la velocidad como la pendiente durante el test.",
         "correctAnswer": true,
         "xp": 10,
-        "explanation": "El ácido láctico puede ser reciclado por el hígado y los músculos lentos (fibras I) para dar más energía."
+        "explanation": "Las fibras Tipo IIa son un punto intermedio, usando tanto vía aeróbica como anaeróbica láctica."
       },
       {
         "type": "multiple_choice",
@@ -1167,7 +1167,7 @@
         ],
         "correctAnswerId": "B",
         "xp": 10,
-        "explanation": "Con el entrenamiento, el umbral láctico se desplaza hacia la derecha (mayor intensidad sin lactato)."
+        "explanation": "Las poleas son Cargas Indirectas Simples."
       }
     ]
   },
@@ -1181,7 +1181,7 @@
         "question": "El VO2 máximo aumenta de forma indefinida a lo largo de toda la vida deportiva del atleta de élite.",
         "correctAnswer": false,
         "xp": 10,
-        "explanation": "El primer umbral (VT1 o aeróbico) marca el punto donde comienza a subir el lactato por encima del reposo, pero aún se estabiliza."
+        "explanation": "Para activar al máximo la masa gemelar, el ejercicio debe hacerse con las rodillas extendidas."
       },
       {
         "type": "multiple_choice",
@@ -1198,7 +1198,7 @@
         ],
         "correctAnswerId": "A",
         "xp": 10,
-        "explanation": "El segundo umbral (VT2 o anaeróbico) indica una subida abrupta de ventilación para compensar la acumulación desmedida de ácido láctico."
+        "explanation": "La sincronización intramuscular mejora la eficiencia con la que las fibras musculares trabajan juntas."
       },
       {
         "type": "match_pairs",
@@ -1218,7 +1218,7 @@
           }
         ],
         "xp": 15,
-        "explanation": "Falso. El umbral es altamente individual y depende fuertemente de la especialidad, genética y entrenamiento."
+        "explanation": "Asociar estos términos consolida la base teórica y te permite comprender su aplicación práctica."
       },
       {
         "type": "text_input",
@@ -1229,7 +1229,7 @@
           "ml/kg*min"
         ],
         "xp": 20,
-        "explanation": "Para hallar el umbral ventilatorio VT1 de manera precisa en pruebas de laboratorio se usa la calorimetría indirecta (análisis de gases)."
+        "explanation": "El término preciso es \"ml/kg.min\". Memorizar esta terminología técnica es clave para un profesional."
       },
       {
         "type": "fill_in_blanks_cards",
@@ -1245,14 +1245,14 @@
           "máximo"
         ],
         "xp": 15,
-        "explanation": "Los equivalentes respiratorios VE/VO2 y VE/VCO2 son clave para detectar el punto de inflexión ventilatoria."
+        "explanation": "La mioglobina es la encargada del primer aporte aeróbico, incluso antes del umbral, cediendo su O2 interno."
       },
       {
         "type": "true_false",
         "question": "El factor periférico del VO2 hace referencia a la capacidad del músculo para extraer el oxígeno de la sangre.",
         "correctAnswer": true,
         "xp": 10,
-        "explanation": "Falso. Los umbrales no son fijos, son estados metabólicos dinámicos."
+        "explanation": "VO2max es la máxima capacidad del organismo para captar, transportar y consumir oxígeno."
       },
       {
         "type": "multiple_choice",
@@ -1273,7 +1273,7 @@
         ],
         "correctAnswerId": "B",
         "xp": 10,
-        "explanation": "Tener el VT1 muy bajo sugiere entrenar más ejercicios aeróbicos base de larga duración."
+        "explanation": "Las fibras Tipo IIb (blancas/rápidas) son puramente anaeróbicas, de gran diámetro y fuerza, pero se fatigan rápidamente."
       }
     ]
   },
@@ -1287,7 +1287,7 @@
         "question": "La Frecuencia Cardíaca (FC) sube de manera casi lineal respecto al aumento del consumo de oxígeno (VO2).",
         "correctAnswer": true,
         "xp": 10,
-        "explanation": "Las fibras Tipo I (rojas/lentas) tienen muchísima mioglobina y mitocondrias para sostener la vía aeróbica."
+        "explanation": "Los sistemas de energía se solapan y no actúan de manera aislada."
       },
       {
         "type": "multiple_choice",
@@ -1308,7 +1308,7 @@
         ],
         "correctAnswerId": "B",
         "xp": 10,
-        "explanation": "Las fibras Tipo IIb (blancas/rápidas) son puramente anaeróbicas, de gran diámetro y fuerza, pero se fatigan rápidamente."
+        "explanation": "En un press de banca, el tríceps y el pectoral mayor actúan al unísono como agonistas/sinergistas."
       },
       {
         "type": "match_pairs",
@@ -1328,7 +1328,7 @@
           }
         ],
         "xp": 15,
-        "explanation": "Las fibras Tipo IIa son un punto intermedio, usando tanto vía aeróbica como anaeróbica láctica."
+        "explanation": "La acumulación de ácido láctico (disminución del pH) causa la fatiga y limita la glucólisis."
       },
       {
         "type": "text_input",
@@ -1340,7 +1340,7 @@
           "acido piruvico"
         ],
         "xp": 20,
-        "explanation": "Falso. La dotación fibrilar (cantidad de rojas vs blancas) es un factor genético que el entrenamiento no cambia radicalmente, solo adapta."
+        "explanation": "El lactato se produce en la glucólisis anaeróbica como subproducto del piruvato."
       },
       {
         "type": "fill_in_blanks_cards",
@@ -1356,14 +1356,14 @@
           "poca"
         ],
         "xp": 15,
-        "explanation": "El reclutamiento de unidades motoras comienza con las fibras lentas y se van sumando las rápidas al aumentar la carga."
+        "explanation": "Los equivalentes respiratorios VE/VO2 y VE/VCO2 son clave para detectar el punto de inflexión ventilatoria."
       },
       {
         "type": "true_false",
         "question": "El lactato medido en sangre refleja de manera exacta e inmediata todo lo que ocurre dentro del músculo.",
         "correctAnswer": false,
         "xp": 10,
-        "explanation": "En levantamiento olímpico predomina absoluto reclutamiento de las fibras Tipo IIb por la altísima carga."
+        "explanation": "Con el entrenamiento, el umbral láctico se desplaza hacia la derecha (mayor intensidad sin lactato)."
       },
       {
         "type": "multiple_choice",
@@ -1380,7 +1380,7 @@
         ],
         "correctAnswerId": "B",
         "xp": 10,
-        "explanation": "Un atleta de maratón puede tener un 80% de fibras musculares Tipo I (lentas)."
+        "explanation": "El ácido láctico puede ser reciclado por el hígado y los músculos lentos (fibras I) para dar más energía."
       }
     ]
   },
@@ -1394,7 +1394,7 @@
         "question": "El umbral anaeróbico indica el momento en que se empieza a acumular lactato en la sangre de manera abrupta.",
         "correctAnswer": true,
         "xp": 10,
-        "explanation": "Las barras y mancuernas ejercen resistencia directa y pura de la gravedad."
+        "explanation": "El segundo umbral (VT2 o anaeróbico) indica una subida abrupta de ventilación para compensar la acumulación desmedida de ácido láctico."
       },
       {
         "type": "multiple_choice",
@@ -1411,7 +1411,7 @@
         ],
         "correctAnswerId": "A",
         "xp": 10,
-        "explanation": "Falso. En las poleas se puede aislar mucho mejor el grupo muscular al variar la dirección de la carga."
+        "explanation": "Umbral aeróbico y umbral anaeróbico."
       },
       {
         "type": "match_pairs",
@@ -1431,7 +1431,7 @@
           }
         ],
         "xp": 15,
-        "explanation": "Las poleas son Cargas Indirectas Simples."
+        "explanation": "En el método de 'Intensidades Máximas I' (90-100%) se debe descansar unos 3 minutos entre series."
       },
       {
         "type": "text_input",
@@ -1441,7 +1441,7 @@
           "bicarbonato"
         ],
         "xp": 20,
-        "explanation": "Las máquinas isocinéticas mantienen una resistencia acomodada para igualar la velocidad angular en todo el rango."
+        "explanation": "La sobrecompensación es la fase donde el cuerpo asimila el estrés y mejora su nivel inicial."
       },
       {
         "type": "fill_in_blanks_cards",
@@ -1457,14 +1457,14 @@
           "III"
         ],
         "xp": 15,
-        "explanation": "El peso de una mancuerna siempre tracciona perpendicularmente al suelo."
+        "explanation": "El primer umbral (VT1 o aeróbico) marca el punto donde comienza a subir el lactato por encima del reposo, pero aún se estabiliza."
       },
       {
         "type": "true_false",
         "question": "El estado nutricional previo no afecta la curva del lactato durante un test.",
         "correctAnswer": false,
         "xp": 10,
-        "explanation": "El trabajo de las máquinas universales o Nautilus guiadas anula gran parte del trabajo de los músculos estabilizadores."
+        "explanation": "Los isquiosurales ayudan a la extensión de cadera durante la subida de una sentadilla."
       },
       {
         "type": "multiple_choice",
@@ -1481,7 +1481,7 @@
         ],
         "correctAnswerId": "B",
         "xp": 10,
-        "explanation": "Para la salud articular de los ancianos o rehabilitación, las máquinas guiadas y poleas son ideales y muy seguras."
+        "explanation": "La respuesta correcta es: \"Precisa\". Es la respuesta fisiológica y teóricamente correcta."
       }
     ]
   },
@@ -1495,7 +1495,7 @@
         "question": "La fuerza es una herramienta que previene la osteoporosis al aplicar estrés mecánico en los huesos.",
         "correctAnswer": true,
         "xp": 10,
-        "explanation": "Una cadena cinemática abierta permite que el segmento distal (ej. mano o pie) se mueva libremente."
+        "explanation": "En ancianos, el entrenamiento de fuerza combate la osteoporosis y recupera la funcionalidad motora."
       },
       {
         "type": "multiple_choice",
@@ -1512,7 +1512,7 @@
         ],
         "correctAnswerId": "B",
         "xp": 10,
-        "explanation": "Una cadena cinemática cerrada (ej. sentadillas) mantiene fijo el segmento distal y requiere acción simultánea en varias articulaciones."
+        "explanation": "Una palanca tiene un punto de apoyo, una potencia (fuerza) y una resistencia."
       },
       {
         "type": "match_pairs",
@@ -1532,7 +1532,7 @@
           }
         ],
         "xp": 15,
-        "explanation": "Falso. La cadena cerrada reparte fuerzas entre más articulaciones siendo más funcional y menos lesiva."
+        "explanation": "Para la salud articular de los ancianos o rehabilitación, las máquinas guiadas y poleas son ideales y muy seguras."
       },
       {
         "type": "text_input",
@@ -1543,7 +1543,7 @@
           "sociales"
         ],
         "xp": 20,
-        "explanation": "El análisis mecánico consiste en descomponer en movimientos simples el gesto deportivo general."
+        "explanation": "El término preciso es \"Social\". Memorizar esta terminología técnica es clave para un profesional."
       },
       {
         "type": "fill_in_blanks_cards",
@@ -1559,14 +1559,14 @@
           "fuerza"
         ],
         "xp": 15,
-        "explanation": "En biomecánica, todos los movimientos se originan en rotaciones angulares de las articulaciones involucradas."
+        "explanation": "El entrenamiento de fuerza en niños (supervisado) mejora el rendimiento y proviene lesiones."
       },
       {
         "type": "true_false",
         "question": "El ACSM en 1998 advirtió sobre el peligro de hacer series de 8-10 repeticiones en adultos mayores.",
         "correctAnswer": false,
         "xp": 10,
-        "explanation": "Un curl de bíceps es un ejercicio de cadena cinemática abierta."
+        "explanation": "La ACSM recomienda circuitos de pesas con intensidades del 40-50% para adultos sanos y ancianos."
       },
       {
         "type": "multiple_choice",
@@ -1587,7 +1587,7 @@
         ],
         "correctAnswerId": "B",
         "xp": 10,
-        "explanation": "La coordinación intermuscular es fundamental para realizar un gesto deportivo complejo en cadena cerrada."
+        "explanation": "La respuesta correcta es: \"Halterófilos\". Es la respuesta fisiológica y teóricamente correcta."
       }
     ]
   },
@@ -1601,7 +1601,7 @@
         "question": "Los pacientes coronarios nunca deben realizar entrenamiento con pesas.",
         "correctAnswer": false,
         "xp": 10,
-        "explanation": "La carga máxima isométrica sucede cuando la velocidad de acortamiento es exactamente cero (sin movimiento)."
+        "explanation": "En pacientes cardíacos, un circuito suave de pesas mejora la HTA y la PA diastólica sin daños."
       },
       {
         "type": "multiple_choice",
@@ -1618,7 +1618,7 @@
         ],
         "correctAnswerId": "B",
         "xp": 10,
-        "explanation": "La ecuación de Hill dice que a mayor velocidad, menor será la fuerza desarrollada."
+        "explanation": "La respuesta correcta es: \"30-50%\". Es la respuesta fisiológica y teóricamente correcta."
       },
       {
         "type": "match_pairs",
@@ -1638,7 +1638,7 @@
           }
         ],
         "xp": 15,
-        "explanation": "Una palanca de tercer género (la más común en el cuerpo) sitúa la potencia entre el fulcro y la resistencia, ganando velocidad a costa de fuerza."
+        "explanation": "Un ejercicio poliarticular involucra dos o más articulaciones, como la sentadilla."
       },
       {
         "type": "text_input",
@@ -1649,7 +1649,7 @@
           "aeróbicos"
         ],
         "xp": 20,
-        "explanation": "El brazo de palanca se mide como la distancia perpendicular desde el fulcro a la línea de acción de la fuerza."
+        "explanation": "El calentamiento y el estiramiento son fundamentales antes del ejercicio de fuerza."
       },
       {
         "type": "fill_in_blanks_cards",
@@ -1665,14 +1665,14 @@
           "aeróbicos"
         ],
         "xp": 15,
-        "explanation": "Al inicio del 'press de banca', la ventaja mecánica es muy baja por la posición de las palancas articulares."
+        "explanation": "El entrenamiento de fuerza ha probado ser seguro, a veces con menos riesgos que deportes aeróbicos intensos."
       },
       {
         "type": "true_false",
         "question": "La muerte súbita durante el ejercicio es altísima si se controla la intensidad.",
         "correctAnswer": false,
         "xp": 10,
-        "explanation": "Falso. El peso levantado es menor a mayor velocidad, como demostró Vivian Hill."
+        "explanation": "Falso. El inicio de cualquier ejercicio es fundamentalmente anaeróbico debido al retraso en la vía aeróbica."
       },
       {
         "type": "multiple_choice",
@@ -1689,7 +1689,7 @@
         ],
         "correctAnswerId": "B",
         "xp": 10,
-        "explanation": "La transferencia de energía se ve perfecta en ejercicios poliarticulares, pero los aislamientos evitan esta transferencia."
+        "explanation": "La coordinación intermuscular es fundamental para realizar un gesto deportivo complejo en cadena cerrada."
       }
     ]
   },
@@ -1703,7 +1703,7 @@
         "question": "En la nomenclatura '3x6', el primer número indica las repeticiones y el segundo las series.",
         "correctAnswer": false,
         "xp": 10,
-        "explanation": "La fatiga del SNC se presenta primero limitando la activación muscular máxima (EMGi disminuye)."
+        "explanation": "Falso. No existe una fórmula matemática universal de repeticiones, pero oscilan entre 7 y 12 para masa muscular."
       },
       {
         "type": "multiple_choice",
@@ -1720,7 +1720,7 @@
         ],
         "correctAnswerId": "B",
         "xp": 10,
-        "explanation": "Para recuperar ATP-CP en su máxima expresión se requieren al menos 3 a 5 minutos de pausa."
+        "explanation": "El volumen de entrenamiento es la cantidad total (series x repeticiones)."
       },
       {
         "type": "match_pairs",
@@ -1740,7 +1740,7 @@
           }
         ],
         "xp": 15,
-        "explanation": "Si un músculo cruza la cadera y la rodilla, se acorta en una articulación mientras se estira en la otra (Paradoja de Lombard)."
+        "explanation": "El 'tonelaje' permite cuantificar el trabajo absoluto realizado (Series x Repeticiones x Peso)."
       },
       {
         "type": "text_input",
@@ -1750,7 +1750,7 @@
           "rm"
         ],
         "xp": 20,
-        "explanation": "Los isquiosurales ayudan a la extensión de cadera durante la subida de una sentadilla."
+        "explanation": "Un atleta de maratón puede tener un 80% de fibras musculares Tipo I (lentas)."
       },
       {
         "type": "fill_in_blanks_cards",
@@ -1766,14 +1766,14 @@
           "fuerza máxima"
         ],
         "xp": 15,
-        "explanation": "Falso. La biomecánica moderna requiere un modelo integrado de cadenas musculares, no músculos aislados."
+        "explanation": "Durante la 'temporada', el objetivo es mantener la fuerza ganada en la pretemporada con el mínimo volumen posible."
       },
       {
         "type": "true_false",
         "question": "El principio de especificidad indica que el entrenamiento debe ser tan similar como sea posible al gesto deportivo.",
         "correctAnswer": true,
         "xp": 10,
-        "explanation": "Las 'rutinas culturistas' utilizan recuperaciones incompletas (1 min) para favorecer el estrés metabólico y la hipertrofia."
+        "explanation": "El principio de especificidad dicta que debes entrenar movimientos similares al gesto deportivo que buscas mejorar."
       },
       {
         "type": "multiple_choice",
@@ -1790,7 +1790,7 @@
         ],
         "correctAnswerId": "B",
         "xp": 10,
-        "explanation": "La 'Periodización' significa dividir el año en fases específicas para pico de rendimiento."
+        "explanation": "La respuesta correcta es: \"Fuera de temporada (Off-season)\". Es la respuesta fisiológica y teóricamente correcta."
       }
     ]
   },
@@ -1804,7 +1804,7 @@
         "question": "Las pesas libres, como barras y mancuernas, son consideradas cargas gravitacionales directas.",
         "correctAnswer": true,
         "xp": 10,
-        "explanation": "La dinamometría estática mide la fuerza desarrollada empujando un objeto fijo (isometría)."
+        "explanation": "Al trabajar con pesos libres, la resistencia siempre va dirigida hacia abajo por la gravedad."
       },
       {
         "type": "multiple_choice",
@@ -1821,7 +1821,7 @@
         ],
         "correctAnswerId": "B",
         "xp": 10,
-        "explanation": "La evaluación de 1RM es la dinamometría dinámica isotónica por excelencia."
+        "explanation": "La respuesta correcta es: \"Indirecta simple\". Es la respuesta fisiológica y teóricamente correcta."
       },
       {
         "type": "match_pairs",
@@ -1841,7 +1841,7 @@
           }
         ],
         "xp": 15,
-        "explanation": "La mioglobina es la encargada del primer aporte aeróbico, incluso antes del umbral, cediendo su O2 interno."
+        "explanation": "Las barras y mancuernas ejercen resistencia directa y pura de la gravedad."
       },
       {
         "type": "text_input",
@@ -1851,7 +1851,7 @@
           "estabilizadores"
         ],
         "xp": 20,
-        "explanation": "Para que un test de laboratorio tenga validez en el campo, debe mantener el Principio de Especificidad anatómica."
+        "explanation": "El trabajo de las máquinas universales o Nautilus guiadas anula gran parte del trabajo de los músculos estabilizadores."
       },
       {
         "type": "fill_in_blanks_cards",
@@ -1867,14 +1867,14 @@
           "fitness"
         ],
         "xp": 15,
-        "explanation": "Falso. No existe una fórmula matemática universal de repeticiones, pero oscilan entre 7 y 12 para masa muscular."
+        "explanation": "Completar correctamente el enunciado demuestra un dominio integral del concepto biológico."
       },
       {
         "type": "true_false",
         "question": "En los ejercicios con poleas clásicas (isotónicas), la resistencia en el cable disminuye dependiendo de la articulación.",
         "correctAnswer": false,
         "xp": 10,
-        "explanation": "La electromiografía de superficie permite evaluar el nivel y secuencia temporal de la activación nerviosa del músculo."
+        "explanation": "Tener el VT1 muy bajo sugiere entrenar más ejercicios aeróbicos base de larga duración."
       },
       {
         "type": "multiple_choice",
@@ -1891,7 +1891,7 @@
         ],
         "correctAnswerId": "B",
         "xp": 10,
-        "explanation": "La tensión muscular se expresa mediante Sigma (σ) y mide la fuerza aplicada en cierta área transversal."
+        "explanation": "En la máxima delongación fisiológica se alcanza el punto de máxima tensión muscular."
       }
     ]
   },
