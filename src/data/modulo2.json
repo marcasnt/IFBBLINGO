@@ -1,0 +1,1408 @@
+[
+  {
+    "level": 1,
+    "lessonId": "L01_nutricion_anabolica_intro",
+    "title": "Nutrición Anabólica: Introducción",
+    "exercises": [
+      {
+        "type": "true_false",
+        "question": "La contracción muscular es un fenómeno que involucra únicamente el sistema muscular.",
+        "correctAnswer": false,
+        "xp": 10,
+        "explanation": "La contracción muscular interrelaciona el sistema nervioso, el muscular y el hormonal. El músculo recibe la orden a través del impulso nervioso en la placa neuromuscular."
+      },
+      {
+        "type": "multiple_choice",
+        "question": "¿Cómo se llama la zona donde el impulso nervioso llega al músculo para provocar su contracción?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Nodo de Ranvier"
+          },
+          {
+            "id": "B",
+            "text": "Placa neuromuscular"
+          },
+          {
+            "id": "C",
+            "text": "Hendidura sináptica cerebral"
+          }
+        ],
+        "correctAnswerId": "B",
+        "xp": 10,
+        "explanation": "El músculo recibe la orden del sistema nervioso a través del impulso nervioso en la llamada placa neuromuscular, cuya respuesta es la contracción muscular."
+      },
+      {
+        "type": "multiple_choice",
+        "question": "¿Qué hormona estimula la entrada de glucosa y aminoácidos a la célula muscular, favoreciendo el anabolismo?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Cortisol"
+          },
+          {
+            "id": "B",
+            "text": "Glucagón"
+          },
+          {
+            "id": "C",
+            "text": "Insulina"
+          }
+        ],
+        "correctAnswerId": "C",
+        "xp": 10,
+        "explanation": "La hormona insulina estimula la entrada de glucosa y aminoácidos en la célula muscular. A mayor concentración de estos nutrientes y mayor liberación de insulina, se aumenta el anabolismo muscular."
+      },
+      {
+        "type": "match_pairs",
+        "question": "Une cada concepto metabólico con su definición correcta.",
+        "pairs": [
+          {
+            "left": "Anabolismo",
+            "right": "Conversión de moléculas simples en tejido muscular"
+          },
+          {
+            "left": "Catabolismo",
+            "right": "Destrucción de tejidos y emisión de energía"
+          },
+          {
+            "left": "Nutrición Anabólica Natural",
+            "right": "Combinación de dieta adecuada y suplementos"
+          }
+        ],
+        "xp": 15,
+        "explanation": "El anabolismo construye tejidos a partir de nutrientes, el catabolismo los destruye liberando energía, y la nutrición anabólica natural combina dieta y suplementos para mantener un estado anabólico constante."
+      },
+      {
+        "type": "fill_in_blanks_cards",
+        "text": "La nutrición para lograr un estado anabólico natural es la combinación de {0} y {1}.",
+        "options": [
+          "alimentación",
+          "suplementos",
+          "ejercicio",
+          "descanso"
+        ],
+        "correctAnswers": [
+          "alimentación",
+          "suplementos"
+        ],
+        "xp": 15,
+        "explanation": "El estado anabólico natural se logra combinando una alimentación correcta con suplementos nutricionales adecuados, sin necesidad de recurrir a sustancias dopantes."
+      },
+      {
+        "type": "true_false",
+        "question": "Una nutrición anabólica natural correcta puede lograr un hipercrecimiento muscular más eficaz y duradero que el logrado mediante drogas.",
+        "correctAnswer": true,
+        "xp": 10,
+        "explanation": "Una nutrición adecuada favorece el hipercrecimiento anabólico natural, logrando resultados más eficaces y duraderos que los obtenidos mediante drogas, y sin riesgos para la salud."
+      }
+    ]
+  },
+  {
+    "level": 2,
+    "lessonId": "L02_composicion_calorica",
+    "title": "Composición Calórica de la Dieta",
+    "exercises": [
+      {
+        "type": "true_false",
+        "question": "Las proteínas y los carbohidratos aportan la misma cantidad de calorías por gramo.",
+        "correctAnswer": true,
+        "xp": 10,
+        "explanation": "Tanto las proteínas como los carbohidratos aportan 4 kcal por gramo. Las grasas, en cambio, aportan 9 kcal/g, el doble aproximadamente."
+      },
+      {
+        "type": "multiple_choice",
+        "question": "¿Cuántas kilocalorías aporta cada gramo de grasa?",
+        "options": [
+          {
+            "id": "A",
+            "text": "4 kcal/g"
+          },
+          {
+            "id": "B",
+            "text": "7 kcal/g"
+          },
+          {
+            "id": "C",
+            "text": "9 kcal/g"
+          }
+        ],
+        "correctAnswerId": "C",
+        "xp": 10,
+        "explanation": "La grasa aporta 9 kcal/g, frente a las 4 kcal/g de los carbohidratos y las proteínas. El problema de las grasas es que la energía se libera más lentamente y son susceptibles de acumularse como tejido adiposo."
+      },
+      {
+        "type": "multiple_choice",
+        "question": "¿Qué porcentaje de la dieta deportiva debe provenir de las proteínas?",
+        "options": [
+          {
+            "id": "A",
+            "text": "5-10%"
+          },
+          {
+            "id": "B",
+            "text": "20-30%"
+          },
+          {
+            "id": "C",
+            "text": "40-50%"
+          }
+        ],
+        "correctAnswerId": "B",
+        "xp": 10,
+        "explanation": "La dieta deportiva debe incorporar entre el 20-30% de la ingesta calórica a partir de proteínas de alto valor biológico, preferentemente de origen animal."
+      },
+      {
+        "type": "match_pairs",
+        "question": "Une cada macronutriente con su porcentaje correcto en la dieta deportiva.",
+        "pairs": [
+          {
+            "left": "Proteínas",
+            "right": "20-30%"
+          },
+          {
+            "left": "Carbohidratos",
+            "right": "50-60%"
+          },
+          {
+            "left": "Grasas",
+            "right": "15-25%"
+          }
+        ],
+        "xp": 15,
+        "explanation": "La distribución calórica ideal para un deportista es: 20-30% proteínas, 50-60% carbohidratos (compuestos preferentemente) y 15-25% grasas ricas en ácidos grasos esenciales."
+      },
+      {
+        "type": "multiple_choice",
+        "question": "¿Cuáles son las proteínas de más alto valor biológico?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Proteínas de la soja y el trigo"
+          },
+          {
+            "id": "B",
+            "text": "Proteínas de la leche y el huevo"
+          },
+          {
+            "id": "C",
+            "text": "Proteínas de la avena y el maíz"
+          }
+        ],
+        "correctAnswerId": "B",
+        "xp": 10,
+        "explanation": "Las proteínas de más alto valor biológico son las de la leche y las del huevo. Deben ser preferentemente de origen animal para asegurar todos los aminoácidos esenciales."
+      },
+      {
+        "type": "fill_in_blanks_cards",
+        "text": "Los carbohidratos deben aportar entre un {0}% del total calórico y deben ser fundamentalmente {1}.",
+        "options": [
+          "50-60",
+          "carbohidratos compuestos",
+          "20-30",
+          "azúcares simples"
+        ],
+        "correctAnswers": [
+          "50-60",
+          "carbohidratos compuestos"
+        ],
+        "xp": 15,
+        "explanation": "Los carbohidratos deben aportar el 50-60% de las calorías y ser fundamentalmente compuestos: arroz, patatas, pasta y cereales, que proporcionan energía sostenida."
+      }
+    ]
+  },
+  {
+    "level": 3,
+    "lessonId": "L03_distribucion_calorica",
+    "title": "Distribución de la Ingesta Calórica",
+    "exercises": [
+      {
+        "type": "true_false",
+        "question": "El modelo latino (desayuno escaso, cena abundante) es el modelo de alimentación ideal para deportistas.",
+        "correctAnswer": false,
+        "xp": 10,
+        "explanation": "Para la dieta del deportista ninguno de los dos modelos tradicionales es correcto. Un atleta debe realizar más comidas pero menos abundantes que las 3 comidas tradicionales."
+      },
+      {
+        "type": "multiple_choice",
+        "question": "¿Qué porcentaje de las calorías diarias debe aportar el desayuno de un deportista?",
+        "options": [
+          {
+            "id": "A",
+            "text": "10%"
+          },
+          {
+            "id": "B",
+            "text": "20%"
+          },
+          {
+            "id": "C",
+            "text": "30%"
+          }
+        ],
+        "correctAnswerId": "C",
+        "xp": 10,
+        "explanation": "El desayuno aporta el 30% de las calorías totales de la dieta diaria. Debe ser hiperproteico (huevos, leche, yogurt, cuajada, carne de pollo, atún, etc.)."
+      },
+      {
+        "type": "match_pairs",
+        "question": "Une cada momento del día con el porcentaje calórico correcto.",
+        "pairs": [
+          {
+            "left": "Desayuno",
+            "right": "30%"
+          },
+          {
+            "left": "Media mañana",
+            "right": "10%"
+          },
+          {
+            "left": "Comida principal",
+            "right": "30%"
+          },
+          {
+            "left": "Cena",
+            "right": "20%"
+          }
+        ],
+        "xp": 15,
+        "explanation": "La distribución racional es: 30% desayuno, 10% media mañana, 30% comida, 10% media tarde y 20% cena. Así se evitan las simas catabólicas entre comidas."
+      },
+      {
+        "type": "multiple_choice",
+        "question": "¿Cuántos gramos de fibra al día se recomienda para un deportista?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Menos de 10 g/día"
+          },
+          {
+            "id": "B",
+            "text": "30 g/día"
+          },
+          {
+            "id": "C",
+            "text": "80 g/día"
+          }
+        ],
+        "correctAnswerId": "B",
+        "xp": 10,
+        "explanation": "Se recomienda una ingesta de 30 g/día de fibra. Consumir en exceso puede provocar la formación de quelatos con vitaminas y minerales, eliminándolos por las heces."
+      },
+      {
+        "type": "fill_in_blanks_cards",
+        "text": "La cena debe aportar preferentemente proteínas de {0} y realizarse al menos {1} horas antes de acostarse.",
+        "options": [
+          "pescado",
+          "dos",
+          "carne roja",
+          "cuatro"
+        ],
+        "correctAnswers": [
+          "pescado",
+          "dos"
+        ],
+        "xp": 15,
+        "explanation": "La cena debe aportar proteínas del pescado y realizarse dos horas antes de acostarse, para que una buena digestión favorezca un sueño reparador."
+      },
+      {
+        "type": "true_false",
+        "question": "Los carbohidratos en la cena pueden estimular un aumento de hasta el 300% en la liberación nocturna de hormona de crecimiento.",
+        "correctAnswer": true,
+        "xp": 20,
+        "explanation": "Se ha observado un aumento de hasta el 300% en la liberación nocturna de hormona de crecimiento (somatotropina) en individuos que ingirieron carbohidratos durante la cena."
+      }
+    ]
+  },
+  {
+    "level": 4,
+    "lessonId": "L04_estado_metabolico",
+    "title": "Estado Metabólico: Anabolismo y Catabolismo",
+    "exercises": [
+      {
+        "type": "true_false",
+        "question": "Las simas catabólicas se producen únicamente durante el entrenamiento intenso.",
+        "correctAnswer": false,
+        "xp": 10,
+        "explanation": "Las simas catabólicas se producen generalmente entre comidas, durante el sueño y también tras el entrenamiento. Por eso es fundamental no pasar largos períodos sin comer."
+      },
+      {
+        "type": "multiple_choice",
+        "question": "¿Qué describe el término cima anabólica?",
+        "options": [
+          {
+            "id": "A",
+            "text": "El período de mayor catabolismo muscular del día"
+          },
+          {
+            "id": "B",
+            "text": "El momento álgido de una fase anabólica y óptimo para entrenar"
+          },
+          {
+            "id": "C",
+            "text": "La fase de destrucción de tejidos musculares"
+          }
+        ],
+        "correctAnswerId": "B",
+        "xp": 10,
+        "explanation": "La cima anabólica es el momento álgido de una fase anabólica, el momento óptimo de entrenamiento, cuando el organismo tiene mayor capacidad de construir tejido muscular."
+      },
+      {
+        "type": "match_pairs",
+        "question": "Une cada término metabólico con su definición.",
+        "pairs": [
+          {
+            "left": "Cima anabólica",
+            "right": "Momento óptimo de entrenamiento"
+          },
+          {
+            "left": "Sima catabólica",
+            "right": "Período entre comidas y tras entrenamiento"
+          },
+          {
+            "left": "Estado anabólico 24h",
+            "right": "Resultado de la nutrición anabólica correcta"
+          }
+        ],
+        "xp": 15,
+        "explanation": "La correcta nutrición mantiene al atleta en un estado anabólico constante durante 24 horas, evitando las simas catabólicas."
+      },
+      {
+        "type": "true_false",
+        "question": "Una dieta basada en tres comidas al día y sin suplementos es suficiente para un atleta de alto rendimiento.",
+        "correctAnswer": false,
+        "xp": 10,
+        "explanation": "Una dieta de tres comidas al día sin suplementos mantiene al individuo en un estado de catabolismo prolongado, con bajo rendimiento deportivo y escaso desarrollo muscular."
+      },
+      {
+        "type": "fill_in_blanks_cards",
+        "text": "La nutrición anabólica natural mantiene al individuo en un estado {0} constante, evitando las {1} catabólicas.",
+        "options": [
+          "anabólico",
+          "simas",
+          "catabólico",
+          "cimas"
+        ],
+        "correctAnswers": [
+          "anabólico",
+          "simas"
+        ],
+        "xp": 15,
+        "explanation": "La nutrición anabólica natural correcta permite mantener un estado anabólico constante durante 24 horas, evitando las simas catabólicas que reducen el rendimiento y el crecimiento muscular."
+      }
+    ]
+  },
+  {
+    "level": 5,
+    "lessonId": "L05_suplementacion_base",
+    "title": "Suplementación Base",
+    "exercises": [
+      {
+        "type": "true_false",
+        "question": "Los suplementos nutricionales pueden compensar completamente una dieta insuficiente.",
+        "correctAnswer": false,
+        "xp": 10,
+        "explanation": "Los suplementos son justamente eso: suplementos. No pueden compensar una dieta insuficiente. Una alimentación equilibrada es la base de cualquier programa nutricional."
+      },
+      {
+        "type": "multiple_choice",
+        "question": "¿Cuánto tiempo mínimo necesita el organismo para mostrar beneficios de un programa de suplementación?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Una semana"
+          },
+          {
+            "id": "B",
+            "text": "Un mínimo de un mes"
+          },
+          {
+            "id": "C",
+            "text": "Una sesión de entrenamiento"
+          }
+        ],
+        "correctAnswerId": "B",
+        "xp": 10,
+        "explanation": "La bioquímica del organismo va cambiando muy lentamente. Los resultados y beneficios de un programa de suplementación pueden llevar un mínimo de un mes."
+      },
+      {
+        "type": "multiple_choice",
+        "question": "¿Cuál es la dosis recomendada de aminoácidos hidrolizados como suplementación base?",
+        "options": [
+          {
+            "id": "A",
+            "text": "10-20 mg/kg/día"
+          },
+          {
+            "id": "B",
+            "text": "100-200 mg/kg/día"
+          },
+          {
+            "id": "C",
+            "text": "500-600 mg/kg/día"
+          }
+        ],
+        "correctAnswerId": "B",
+        "xp": 15,
+        "explanation": "La suplementación base incluye aminoácidos hidrolizados a una dosis de 100-200 mg/kg de peso/día, que refuerzan la capacidad de síntesis metabólica y proteica."
+      },
+      {
+        "type": "match_pairs",
+        "question": "Une cada componente de la suplementación base con su función.",
+        "pairs": [
+          {
+            "left": "Complejo vitamínico-mineral",
+            "right": "Prevenir carencias y cubrir RDO"
+          },
+          {
+            "left": "Aminoácidos hidrolizados",
+            "right": "Reforzar síntesis metabólica y proteica"
+          }
+        ],
+        "xp": 15,
+        "explanation": "La suplementación base consta de un complejo vitamínico-mineral para cubrir requerimientos diarios óptimos (RDO) y aminoácidos hidrolizados para apoyar la síntesis proteica."
+      },
+      {
+        "type": "fill_in_blanks_cards",
+        "text": "La suplementación es necesaria por la {0} de nutrientes en alimentos procesados y el {1} de necesidades metabólicas.",
+        "options": [
+          "eliminación",
+          "incremento",
+          "exceso",
+          "reducción"
+        ],
+        "correctAnswers": [
+          "eliminación",
+          "incremento"
+        ],
+        "xp": 15,
+        "explanation": "Los suplementos son necesarios porque el procesamiento de alimentos elimina nutrientes esenciales, y porque el entrenamiento regular incrementa las necesidades metabólicas."
+      },
+      {
+        "type": "true_false",
+        "question": "Las tablas de vitaminas y minerales elaboradas para la población sedentaria son adecuadas para atletas de alto rendimiento.",
+        "correctAnswer": false,
+        "xp": 10,
+        "explanation": "Las tablas comúnmente usadas son obsoletas e inadecuadas en nutrición deportiva, ya que no se realizaron con deportistas y sitúan al atleta en situaciones carenciales."
+      }
+    ]
+  },
+  {
+    "level": 6,
+    "lessonId": "L06_suplementacion_pre",
+    "title": "Suplementación Pre-Entrenamiento",
+    "exercises": [
+      {
+        "type": "multiple_choice",
+        "question": "¿Cuál es el objetivo principal de la suplementación ANTES del entrenamiento?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Reponer electrolitos perdidos durante el ejercicio"
+          },
+          {
+            "id": "B",
+            "text": "Optimizar energía disponible y prevenir catabolismo proteico"
+          },
+          {
+            "id": "C",
+            "text": "Aumentar la síntesis proteica post-entrenamiento"
+          }
+        ],
+        "correctAnswerId": "B",
+        "xp": 10,
+        "explanation": "La suplementación previa busca conseguir suficiente energía para cubrir los requerimientos del ejercicio y evitar el catabolismo proteico mediante aminoácidos ramificados o glutamina."
+      },
+      {
+        "type": "match_pairs",
+        "question": "Une cada suplemento pre-entrenamiento con su función principal.",
+        "pairs": [
+          {
+            "left": "L-Glutamina / BCAA's",
+            "right": "Previene catabolismo proteico"
+          },
+          {
+            "left": "Creatina",
+            "right": "Aumenta depósitos de ATP"
+          },
+          {
+            "left": "Cromo",
+            "right": "Mejora utilización natural de insulina"
+          },
+          {
+            "left": "Carnitina",
+            "right": "Metabolización de grasas"
+          }
+        ],
+        "xp": 15,
+        "explanation": "Cada suplemento pre-entrenamiento tiene una función específica: los BCAA's/Glutamina previenen el catabolismo, la Creatina aumenta la energía, el Cromo regula la insulina y la Carnitina metaboliza grasas."
+      },
+      {
+        "type": "true_false",
+        "question": "La dosis de carga de creatina es de 50 mg/kg/día durante los primeros 3 días.",
+        "correctAnswer": false,
+        "xp": 15,
+        "explanation": "La dosis de CARGA de creatina es de 200 mg/kg/día durante los 3 primeros días. Después se pasa a una dosis de mantenimiento de 50 mg/kg/día."
+      },
+      {
+        "type": "multiple_choice",
+        "question": "¿Cuál es la dosis recomendada de L-Glutamina antes de entrenar?",
+        "options": [
+          {
+            "id": "A",
+            "text": "10 mg/kg de peso/día"
+          },
+          {
+            "id": "B",
+            "text": "40 mg/kg de peso/día"
+          },
+          {
+            "id": "C",
+            "text": "200 mg/kg de peso/día"
+          }
+        ],
+        "correctAnswerId": "B",
+        "xp": 10,
+        "explanation": "La L-Glutamina se recomienda a 40 mg/kg de peso/día antes de entrenar. Es el aminoácido más abundante en el tejido muscular y previene el catabolismo muscular."
+      },
+      {
+        "type": "fill_in_blanks_cards",
+        "text": "Los BCAA's se recomiendan a {0} mg/kg de peso/día antes de entrenar, tomados junto a {1} mg de vitamina B6.",
+        "options": [
+          "100",
+          "50 a 100",
+          "200",
+          "10"
+        ],
+        "correctAnswers": [
+          "100",
+          "50 a 100"
+        ],
+        "xp": 15,
+        "explanation": "La dosis de BCAA's es de 100 mg/kg/día antes de entrenar. La vitamina B6 actúa como cofactor en las reacciones de conversión de aminoácidos, mejorando su efectividad."
+      }
+    ]
+  },
+  {
+    "level": 7,
+    "lessonId": "L07_suplementacion_post",
+    "title": "Suplementación Durante y Post-Entrenamiento",
+    "exercises": [
+      {
+        "type": "true_false",
+        "question": "Si un músculo se deshidrata un 3%, pierde un 10% de fuerza contráctil y un 8% de rapidez.",
+        "correctAnswer": true,
+        "xp": 15,
+        "explanation": "La deshidratación muscular tiene un impacto crítico en el rendimiento. Con solo un 3% de deshidratación, el músculo pierde un 10% de fuerza contráctil y un 8% de rapidez."
+      },
+      {
+        "type": "multiple_choice",
+        "question": "¿Cuántos mililitros de bebida de carbohidratos y electrolitos se recomienda tomar antes, durante y después del entrenamiento?",
+        "options": [
+          {
+            "id": "A",
+            "text": "50 ml en cada momento"
+          },
+          {
+            "id": "B",
+            "text": "200 ml en cada momento"
+          },
+          {
+            "id": "C",
+            "text": "500 ml en cada momento"
+          }
+        ],
+        "correctAnswerId": "B",
+        "xp": 10,
+        "explanation": "Se recomienda tomar 200 ml antes, 200 ml durante y 200 ml después de entrenar de bebida de carbohidratos y electrolitos. La dilución recomendada es del 10-20%."
+      },
+      {
+        "type": "multiple_choice",
+        "question": "¿Cuál es la dosis recomendada de proteína de suero post-entrenamiento?",
+        "options": [
+          {
+            "id": "A",
+            "text": "100 mg/kg de peso/día"
+          },
+          {
+            "id": "B",
+            "text": "500 mg/kg de peso/día"
+          },
+          {
+            "id": "C",
+            "text": "1000 mg/kg de peso/día"
+          }
+        ],
+        "correctAnswerId": "B",
+        "xp": 10,
+        "explanation": "La dosis recomendada de proteína de suero es de 500 mg/kg de peso/día, tomada 30 minutos después de entrenar. Favorece el crecimiento muscular a través del anabolismo natural."
+      },
+      {
+        "type": "match_pairs",
+        "question": "Une cada fase del entrenamiento con el suplemento prioritario.",
+        "pairs": [
+          {
+            "left": "Antes de entrenar",
+            "right": "BCAA's / Glutamina + Creatina"
+          },
+          {
+            "left": "Durante el entrenamiento",
+            "right": "Bebida de carbohidratos y electrolitos"
+          },
+          {
+            "left": "Después de entrenar",
+            "right": "Proteína de suero + Carbohidratos complejos"
+          }
+        ],
+        "xp": 15,
+        "explanation": "Cada fase requiere un tipo diferente de suplemento: antes se previene el catabolismo, durante se mantiene la hidratación y energía, y después se favorece la recuperación y el anabolismo."
+      },
+      {
+        "type": "fill_in_blanks_cards",
+        "text": "La recuperación posterior al entrenamiento se logra con {0} complejos, que evitan las famosas agujetas y la aparición de {1}.",
+        "options": [
+          "carbohidratos",
+          "fatiga",
+          "proteínas",
+          "lesiones"
+        ],
+        "correctAnswers": [
+          "carbohidratos",
+          "fatiga"
+        ],
+        "xp": 15,
+        "explanation": "Los carbohidratos complejos son fundamentales para la recuperación post-entrenamiento: previenen las agujetas y la fatiga, permitiendo realizar el próximo entrenamiento con máximo rendimiento."
+      }
+    ]
+  },
+  {
+    "level": 8,
+    "lessonId": "L08_dieta_subir_peso",
+    "title": "Dieta para Subir de Peso",
+    "exercises": [
+      {
+        "type": "true_false",
+        "question": "Para subir de peso muscular basta con comer en exceso sin importar el tipo de alimentos.",
+        "correctAnswer": false,
+        "xp": 10,
+        "explanation": "Comer sin control solo aumenta el panículo adiposo. El objetivo es aumentar la masa muscular magra sin incrementar la grasa, lo que requiere una dieta hiperproteica controlada y entrenamiento intenso."
+      },
+      {
+        "type": "multiple_choice",
+        "question": "¿Cuál es el metabolito del aminoácido leucina que disminuye la proteólisis e incrementa la síntesis proteica?",
+        "options": [
+          {
+            "id": "A",
+            "text": "L-Carnitina"
+          },
+          {
+            "id": "B",
+            "text": "HMB (hidroximetil butirato)"
+          },
+          {
+            "id": "C",
+            "text": "Creatina fosfato"
+          }
+        ],
+        "correctAnswerId": "B",
+        "xp": 20,
+        "explanation": "El HMB (beta-hidroxi-metilbutirato) es el metabolito esencial del aminoácido leucina. Disminuye la proteólisis e incrementa la síntesis proteica, con su correspondiente aumento de fuerza y masa muscular."
+      },
+      {
+        "type": "match_pairs",
+        "question": "Une cada base del aumento de masa muscular con su descripción.",
+        "pairs": [
+          {
+            "left": "Base Física",
+            "right": "Ejercicio físico intenso"
+          },
+          {
+            "left": "Base Metabólica",
+            "right": "Dieta hiperproteica y suplementos"
+          },
+          {
+            "left": "Base Fisiológica",
+            "right": "Disciplina en el programa"
+          }
+        ],
+        "xp": 15,
+        "explanation": "El aumento de masa muscular se logra combinando tres bases: la física (ejercicio intenso), la metabólica (dieta hipercalórica con suplementos) y la fisiológica (disciplina y constancia)."
+      },
+      {
+        "type": "true_false",
+        "question": "Las medidas antropométricas solo sirven para conocer el peso corporal total del atleta.",
+        "correctAnswer": false,
+        "xp": 10,
+        "explanation": "Las medidas antropométricas van más allá del peso: nos dan el porcentaje de grasa y el porcentaje muscular mediante la determinación de pliegues cutáneos, e identifican las zonas a trabajar."
+      },
+      {
+        "type": "fill_in_blanks_cards",
+        "text": "Para subir de peso muscular se necesita un mínimo de {0} comidas al día e incluir al menos {1} litro de leche en la alimentación diaria.",
+        "options": [
+          "cuatro",
+          "un",
+          "dos",
+          "tres"
+        ],
+        "correctAnswers": [
+          "cuatro",
+          "un"
+        ],
+        "xp": 15,
+        "explanation": "Las normas generales para ganar peso muscular incluyen un mínimo de cuatro comidas al día e incluir al menos un litro de leche (o sustitutivo en caso de intolerancia a la lactosa)."
+      }
+    ]
+  },
+  {
+    "level": 9,
+    "lessonId": "L09_dieta_bajar_peso",
+    "title": "Dieta para Bajar de Peso",
+    "exercises": [
+      {
+        "type": "multiple_choice",
+        "question": "¿Cuál es el rango de panículo adiposo óptimo para hombres atletas en período de competición?",
+        "options": [
+          {
+            "id": "A",
+            "text": "1-5%"
+          },
+          {
+            "id": "B",
+            "text": "6-10%"
+          },
+          {
+            "id": "C",
+            "text": "15-20%"
+          }
+        ],
+        "correctAnswerId": "B",
+        "xp": 15,
+        "explanation": "El panículo adiposo óptimo para varones oscila entre 6-10% en período de competición. Un exceso de grasa más allá de estos límites constituye un lastre para el alto rendimiento."
+      },
+      {
+        "type": "true_false",
+        "question": "La pérdida rápida de peso mediante dietas extremas es la mejor estrategia para un deportista.",
+        "correctAnswer": false,
+        "xp": 10,
+        "explanation": "La pérdida rápida de peso hace que el cuerpo pierda principalmente agua y músculo con mínima pérdida de grasa, dando un aspecto flácido. Al finalizar, el peso se recupera rápidamente con aumento de grasa."
+      },
+      {
+        "type": "multiple_choice",
+        "question": "¿Cuál es el rango de panículo adiposo óptimo para mujeres atletas fuera de competición?",
+        "options": [
+          {
+            "id": "A",
+            "text": "3-6%"
+          },
+          {
+            "id": "B",
+            "text": "8-14%"
+          },
+          {
+            "id": "C",
+            "text": "20-25%"
+          }
+        ],
+        "correctAnswerId": "B",
+        "xp": 15,
+        "explanation": "Para las mujeres, el panículo adiposo óptimo es de 8-14% en período fuera de competición. Mantener niveles dentro de estos rangos maximiza el rendimiento deportivo."
+      },
+      {
+        "type": "match_pairs",
+        "question": "Une cada regla básica de control de peso con su descripción.",
+        "pairs": [
+          {
+            "left": "Perder peso progresivamente",
+            "right": "Evitar pérdida de músculo"
+          },
+          {
+            "left": "Usar lipocalibres regularmente",
+            "right": "Controlar el panículo adiposo"
+          },
+          {
+            "left": "Aumentar ejercicio aeróbico",
+            "right": "Quemar grasa manteniendo músculo"
+          }
+        ],
+        "xp": 15,
+        "explanation": "Las reglas básicas del control de peso: pérdida progresiva, seguimiento con lipocalibres y aumento del ejercicio aeróbico para maximizar la quema de grasa sin perder músculo."
+      },
+      {
+        "type": "fill_in_blanks_cards",
+        "text": "La dieta para bajar de peso debe ser moderadamente {0} y baja en {1}, haciendo comidas más frecuentes y ligeras.",
+        "options": [
+          "hipocalórica",
+          "sodio",
+          "hipercalórica",
+          "proteínas"
+        ],
+        "correctAnswers": [
+          "hipocalórica",
+          "sodio"
+        ],
+        "xp": 15,
+        "explanation": "La dieta para control de peso debe ser moderadamente hipocalórica y baja en sodio, distribuida en comidas más frecuentes y ligeras a lo largo del día."
+      }
+    ]
+  },
+  {
+    "level": 10,
+    "lessonId": "L10_bcaas_caracteristicas",
+    "title": "BCAA's: Características y Funciones Básicas",
+    "exercises": [
+      {
+        "type": "true_false",
+        "question": "Los BCAA's son aminoácidos no esenciales que el organismo puede sintetizar por sí mismo.",
+        "correctAnswer": false,
+        "xp": 10,
+        "explanation": "Los BCAA's (Valina, Leucina e Isoleucina) son aminoácidos ESENCIALES. Como el organismo no puede sintetizarlos por sí mismo, deben consumirse obligatoriamente con la dieta."
+      },
+      {
+        "type": "multiple_choice",
+        "question": "¿Cuáles son los tres aminoácidos de cadena ramificada (BCAA's)?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Glutamina, Taurina e Inosina"
+          },
+          {
+            "id": "B",
+            "text": "Valina, Leucina e Isoleucina"
+          },
+          {
+            "id": "C",
+            "text": "Arginina, Ornitina y Lisina"
+          }
+        ],
+        "correctAnswerId": "B",
+        "xp": 10,
+        "explanation": "Los BCAA's son Valina, Leucina e Isoleucina. Son aminoácidos esenciales cuya estructura molecular contiene cadenas laterales ramificadas."
+      },
+      {
+        "type": "match_pairs",
+        "question": "Une cada BCAA con su función más característica.",
+        "pairs": [
+          {
+            "left": "Leucina",
+            "right": "Estimula la hormona de crecimiento y es anticatabólica"
+          },
+          {
+            "left": "Isoleucina",
+            "right": "Necesaria para la formación de hemoglobina"
+          },
+          {
+            "left": "Valina",
+            "right": "Mejora la coordinación muscular"
+          }
+        ],
+        "xp": 15,
+        "explanation": "Cada BCAA tiene funciones específicas: la Leucina es la más anticatabólica y estimula la GH; la Isoleucina es necesaria para la hemoglobina; la Valina mejora la coordinación."
+      },
+      {
+        "type": "true_false",
+        "question": "Los BCAA's son extremadamente hidrofóbicos y se encuentran siempre en el interior de las proteínas.",
+        "correctAnswer": true,
+        "xp": 10,
+        "explanation": "Los tres BCAA's son extremadamente hidrofóbicos (repelen el agua) y se encuentran siempre en el interior de las proteínas, protegidos del entorno acuoso celular."
+      },
+      {
+        "type": "fill_in_blanks_cards",
+        "text": "Los BCAA's son atrapados por el músculo que los absorbe en exceso, obligando a {0} los aminoácidos necesarios para la {1} muscular.",
+        "options": [
+          "sintetizar",
+          "construcción",
+          "eliminar",
+          "destrucción"
+        ],
+        "correctAnswers": [
+          "sintetizar",
+          "construcción"
+        ],
+        "xp": 15,
+        "explanation": "Los músculos tienen tanta afinidad por los BCAA's que los absorben en exceso, obligándoles a sintetizar el resto de aminoácidos necesarios para la construcción muscular."
+      },
+      {
+        "type": "text_input",
+        "question": "¿De qué alimento fue aislada por primera vez la Leucina en su forma impura en el año 1819?",
+        "correctAnswers": [
+          "queso",
+          "el queso",
+          "de queso"
+        ],
+        "xp": 20,
+        "explanation": "La leucina fue aislada a partir del queso en su forma impura en 1819, y a partir del músculo en su forma cristalina en 1920. Su nombre deriva del griego leukos (blanco)."
+      }
+    ]
+  },
+  {
+    "level": 11,
+    "lessonId": "L11_bcaas_aplicaciones",
+    "title": "BCAA's: Aplicaciones Deportivas",
+    "exercises": [
+      {
+        "type": "true_false",
+        "question": "Los BCAA's pueden aportar hasta el 10% de la energía total producida durante actividades de larga duración.",
+        "correctAnswer": true,
+        "xp": 15,
+        "explanation": "Los BCAA's pueden aportar hasta un 10% de la energía total producida durante las actividades de larga duración, sirviendo como sustrato energético alternativo cuando el glucógeno comienza a agotarse."
+      },
+      {
+        "type": "multiple_choice",
+        "question": "Según estudios con luchadores en dieta hipocalórica, ¿qué porcentaje de grasa corporal perdió el grupo con BCAA's?",
+        "options": [
+          {
+            "id": "A",
+            "text": "10% de grasa corporal"
+          },
+          {
+            "id": "B",
+            "text": "23.4% de grasa corporal"
+          },
+          {
+            "id": "C",
+            "text": "40% de grasa corporal"
+          }
+        ],
+        "correctAnswerId": "B",
+        "xp": 20,
+        "explanation": "El grupo de BCAA's mostró la mayor pérdida relativa de grasa (23.4%), demostrando que los BCAA's favorecen la pérdida de grasa en dietas hipocalóricas mientras mantienen la masa muscular."
+      },
+      {
+        "type": "multiple_choice",
+        "question": "¿Por qué los BCAA's no deben tomarse a la misma hora que el triptófano?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Porque se neutralizan mutuamente"
+          },
+          {
+            "id": "B",
+            "text": "Porque compiten por los mismos transportadores para cruzar la barrera hematoencefálica"
+          },
+          {
+            "id": "C",
+            "text": "Porque producen efectos sedantes combinados"
+          }
+        ],
+        "correctAnswerId": "B",
+        "xp": 15,
+        "explanation": "Los BCAA's y el triptófano compiten por los mismos transportadores para cruzar la barrera hematoencefálica. Si se toman juntos, los BCAA's en exceso bloquean la entrada del triptófano al cerebro."
+      },
+      {
+        "type": "fill_in_blanks_cards",
+        "text": "La relación entre los tres aminoácidos en un suplemento de BCAA's debe ser {0} (leucina) : {1} (isoleucina) : {2} (valina).",
+        "options": [
+          "3",
+          "1",
+          "2",
+          "5"
+        ],
+        "correctAnswers": [
+          "3",
+          "1",
+          "1"
+        ],
+        "xp": 15,
+        "explanation": "La proporción ideal en un suplemento de BCAA's es 3:1:1 (leucina:isoleucina:valina). Esta relación optimiza los efectos anticatabólicos y anabólicos."
+      },
+      {
+        "type": "match_pairs",
+        "question": "Une cada función de los BCAA's con su descripción.",
+        "pairs": [
+          {
+            "left": "Efecto anticatabólico",
+            "right": "Inhibe la descomposición de proteína muscular"
+          },
+          {
+            "left": "Ahorro de glucógeno",
+            "right": "Sirven como fuente energética alternativa"
+          },
+          {
+            "left": "Efecto vasodilatador",
+            "right": "Acción alfa-antagonista sobre receptores vasculares"
+          }
+        ],
+        "xp": 15,
+        "explanation": "Los BCAA's tienen múltiples efectos: son anticatabólicos, ahorran glucógeno muscular sirviendo como energía alternativa, y ejercen un efecto vasodilatador que mejora la perfusión muscular."
+      }
+    ]
+  },
+  {
+    "level": 12,
+    "lessonId": "L12_carnitina_historia",
+    "title": "L-Carnitina: Historia y Mecanismo",
+    "exercises": [
+      {
+        "type": "true_false",
+        "question": "La L-carnitina está considerada como un nutriente esencial que el organismo no puede sintetizar.",
+        "correctAnswer": false,
+        "xp": 10,
+        "explanation": "La L-carnitina NO está considerada como nutriente esencial, ya que puede sintetizarse en el organismo a partir de los aminoácidos lisina y metionina, con ayuda de vitamina C, hierro, niacina y vitamina B6."
+      },
+      {
+        "type": "multiple_choice",
+        "question": "¿A partir de qué aminoácidos se sintetiza la L-carnitina en el organismo?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Leucina y Valina"
+          },
+          {
+            "id": "B",
+            "text": "Lisina y Metionina"
+          },
+          {
+            "id": "C",
+            "text": "Glutamina y Taurina"
+          }
+        ],
+        "correctAnswerId": "B",
+        "xp": 15,
+        "explanation": "El organismo sintetiza carnitina a partir de los aminoácidos lisina y metionina, con la participación de vitamina C, hierro, niacina (B3) y piridoxina (B6) como cofactores."
+      },
+      {
+        "type": "multiple_choice",
+        "question": "¿De dónde deriva el nombre carnitina?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Del científico que la descubrió"
+          },
+          {
+            "id": "B",
+            "text": "Del latín carnis (carne), por hallarse en músculo"
+          },
+          {
+            "id": "C",
+            "text": "Del griego kardia (corazón)"
+          }
+        ],
+        "correctAnswerId": "B",
+        "xp": 10,
+        "explanation": "El nombre carnitina deriva del latín carnis (carne), porque fue descubierta en extracto de carne de musculatura de mamíferos en 1905 por los investigadores rusos Gulewitsch y Krimberg."
+      },
+      {
+        "type": "match_pairs",
+        "question": "Une el año con el hito histórico correspondiente de la L-carnitina.",
+        "pairs": [
+          {
+            "left": "1905",
+            "right": "Descubierta en extracto de carne por científicos rusos"
+          },
+          {
+            "left": "1952",
+            "right": "Identificada como componente nutricional (vitamina BT)"
+          },
+          {
+            "left": "1958",
+            "right": "Se descubre que incrementa el metabolismo de ácidos grasos"
+          }
+        ],
+        "xp": 15,
+        "explanation": "Historia de la L-carnitina: 1905 descubrimiento, 1952 reconocida como vitamina BT por Fraenkel, 1958 Fritz descubrió su rol en la beta-oxidación mitocondrial de ácidos grasos."
+      },
+      {
+        "type": "fill_in_blanks_cards",
+        "text": "La L-carnitina actúa como una {0} transportando los ácidos grasos hacia el interior de la {1} para su conversión en energía.",
+        "options": [
+          "lanzadera",
+          "mitocondria",
+          "hormona",
+          "célula entera"
+        ],
+        "correctAnswers": [
+          "lanzadera",
+          "mitocondria"
+        ],
+        "xp": 15,
+        "explanation": "La L-carnitina actúa como una lanzadera molecular: une los ácidos grasos y los transporta a través de la membrana interna de la mitocondria para que sean oxidados como combustible."
+      }
+    ]
+  },
+  {
+    "level": 13,
+    "lessonId": "L13_carnitina_aplicaciones",
+    "title": "L-Carnitina: Aplicaciones Deportivas",
+    "exercises": [
+      {
+        "type": "true_false",
+        "question": "La D-carnitina (dextrógira) tiene los mismos beneficios deportivos que la L-carnitina.",
+        "correctAnswer": false,
+        "xp": 15,
+        "explanation": "¡La D-carnitina es TÓXICA! Agota a la L-carnitina del organismo y no posee ninguno de sus beneficios. Solo la L-carnitina (levógira) es sintetizada por el organismo y tiene efectos beneficiosos."
+      },
+      {
+        "type": "multiple_choice",
+        "question": "¿En cuánto puede incrementar la L-carnitina el VO2 máximo del atleta?",
+        "options": [
+          {
+            "id": "A",
+            "text": "1-2%"
+          },
+          {
+            "id": "B",
+            "text": "6-11%"
+          },
+          {
+            "id": "C",
+            "text": "20-25%"
+          }
+        ],
+        "correctAnswerId": "B",
+        "xp": 15,
+        "explanation": "La L-carnitina puede incrementar el VO2 máximo entre un 6% y un 11%. También reduce la producción de ácido láctico y mejora el rendimiento en ejercicios submáximos y de alta intensidad."
+      },
+      {
+        "type": "multiple_choice",
+        "question": "¿Cuál es la dosis recomendada de L-carnitina como suplemento deportivo?",
+        "options": [
+          {
+            "id": "A",
+            "text": "1-5 mg/kg/día"
+          },
+          {
+            "id": "B",
+            "text": "15-30 mg/kg/día"
+          },
+          {
+            "id": "C",
+            "text": "100-200 mg/kg/día"
+          }
+        ],
+        "correctAnswerId": "B",
+        "xp": 10,
+        "explanation": "Las dosis recomendadas de L-carnitina son de 15 a 30 mg por kilogramo de peso corporal y día, tomada media hora antes del entrenamiento para máxima efectividad."
+      },
+      {
+        "type": "match_pairs",
+        "question": "Une cada efecto de la L-carnitina con su descripción deportiva.",
+        "pairs": [
+          {
+            "left": "Eleva VO2 máximo",
+            "right": "Mejora la capacidad aeróbica en 6-11%"
+          },
+          {
+            "left": "Reduce láctico",
+            "right": "Retrasa la aparición de fatiga muscular"
+          },
+          {
+            "left": "Estimula sistema inmune",
+            "right": "Menor tendencia a infecciones y microlesiones"
+          }
+        ],
+        "xp": 15,
+        "explanation": "La L-carnitina ofrece múltiples beneficios: mejora la capacidad aeróbica (VO2 max), reduce el ácido láctico y estimula el sistema inmune previniendo infecciones."
+      },
+      {
+        "type": "fill_in_blanks_cards",
+        "text": "La L-carnitina no debe tomarse junto a {0} dietética ya que podría arrastrarla y eliminarla con las {1}.",
+        "options": [
+          "fibra",
+          "heces",
+          "proteína",
+          "orina"
+        ],
+        "correctAnswers": [
+          "fibra",
+          "heces"
+        ],
+        "xp": 15,
+        "explanation": "La fibra dietética puede unirse a la L-carnitina e impedir su absorción, eliminándola con las heces. Por eso se recomienda tomar estos productos en horas diferentes."
+      }
+    ]
+  },
+  {
+    "level": 14,
+    "lessonId": "L14_taurina_inosina",
+    "title": "Taurina e Inosina",
+    "exercises": [
+      {
+        "type": "true_false",
+        "question": "La Taurina es el aminoácido más abundante en forma libre en el tejido muscular.",
+        "correctAnswer": false,
+        "xp": 10,
+        "explanation": "La Taurina es el SEGUNDO aminoácido más abundante en el tejido muscular. El primero es la Glutamina, que constituye el 60% de los aminoácidos libres en el músculo esquelético."
+      },
+      {
+        "type": "multiple_choice",
+        "question": "¿Cuál es la dosis diaria recomendada de Taurina como suplemento deportivo?",
+        "options": [
+          {
+            "id": "A",
+            "text": "100 mg/día"
+          },
+          {
+            "id": "B",
+            "text": "1500 mg/día (en 3 dosis de 500 mg)"
+          },
+          {
+            "id": "C",
+            "text": "5000 mg/día"
+          }
+        ],
+        "correctAnswerId": "B",
+        "xp": 10,
+        "explanation": "La dosis diaria recomendada de taurina es de 1500 mg, separadas en 3 dosis de 500 mg, tomadas preferentemente antes del entrenamiento."
+      },
+      {
+        "type": "true_false",
+        "question": "La Inosina fue utilizada primero con fines deportivos por los japoneses.",
+        "correctAnswer": false,
+        "xp": 15,
+        "explanation": "Fueron los SOVIÉTICOS quienes tomaron las evidencias terapéuticas desarrolladas por los japoneses y comenzaron a utilizar la Inosina con propósitos deportivos. El Dr. Hatfield la descubrió en Moscú en 1983."
+      },
+      {
+        "type": "match_pairs",
+        "question": "Une cada suplemento con su función clave.",
+        "pairs": [
+          {
+            "left": "Taurina",
+            "right": "Imitador de la insulina y anticatabólico"
+          },
+          {
+            "left": "Inosina",
+            "right": "Precursor del ATP y transportador de oxígeno"
+          }
+        ],
+        "xp": 15,
+        "explanation": "La Taurina actúa como imitador de la insulina y es anticatabólica. La Inosina es precursora del ATP y estimula la producción de 2,3-DPG para transportar oxígeno a los músculos."
+      },
+      {
+        "type": "fill_in_blanks_cards",
+        "text": "La Inosina estimula la producción de {0} (2,3-DPG), esencial para el transporte de moléculas de {1} desde los glóbulos rojos hasta las células musculares.",
+        "options": [
+          "2,3-difosfoglicerato",
+          "oxígeno",
+          "glucosa",
+          "ATP"
+        ],
+        "correctAnswers": [
+          "2,3-difosfoglicerato",
+          "oxígeno"
+        ],
+        "xp": 20,
+        "explanation": "La Inosina estimula la producción de 2,3-difosfoglicerato (2,3-DPG), esencial para el transporte de oxígeno desde los glóbulos rojos hacia las células musculares, mejorando la capacidad aeróbica."
+      },
+      {
+        "type": "multiple_choice",
+        "question": "¿Cuál es la dosis recomendada de Inosina para individuos promedio?",
+        "options": [
+          {
+            "id": "A",
+            "text": "5-10 mg/kg/día"
+          },
+          {
+            "id": "B",
+            "text": "25-30 mg/kg/día"
+          },
+          {
+            "id": "C",
+            "text": "100 mg/kg/día"
+          }
+        ],
+        "correctAnswerId": "B",
+        "xp": 10,
+        "explanation": "La dosis diaria recomendada de Inosina es de 25 a 30 mg/kg de peso corporal, tomados antes del entrenamiento. En atletas muy entrenados puede aumentarse hasta 40 mg/kg."
+      }
+    ]
+  },
+  {
+    "level": 15,
+    "lessonId": "L15_creatina_glutamina",
+    "title": "Creatina y Glutamina",
+    "exercises": [
+      {
+        "type": "multiple_choice",
+        "question": "¿Cuánto puede incrementarse la creatina total en músculo con suplementación?",
+        "options": [
+          {
+            "id": "A",
+            "text": "1-5%"
+          },
+          {
+            "id": "B",
+            "text": "10-40%"
+          },
+          {
+            "id": "C",
+            "text": "50-80%"
+          }
+        ],
+        "correctAnswerId": "B",
+        "xp": 15,
+        "explanation": "La suplementación con creatina puede incrementar la creatina total intramuscular entre un 10% y un 25%, y la fosfocreatina entre un 20% y un 40%, mejorando la disponibilidad de ATP durante el ejercicio intenso."
+      },
+      {
+        "type": "true_false",
+        "question": "La Glutamina constituye el 60% de los aminoácidos libres en el músculo esquelético.",
+        "correctAnswer": true,
+        "xp": 10,
+        "explanation": "La Glutamina es el aminoácido más abundante en el músculo esquelético, constituyendo el 60% de los depósitos de aminoácidos libres. Su nivel puede ser la variable más importante para la síntesis proteica óptima."
+      },
+      {
+        "type": "match_pairs",
+        "question": "Une cada tipo de creatina con su característica principal.",
+        "pairs": [
+          {
+            "left": "Monohidrato de creatina",
+            "right": "Más estudiada y efectiva, el estándar de oro"
+          },
+          {
+            "left": "Clorhidrato de creatina",
+            "right": "Mejor disolución, menor dosis necesaria"
+          },
+          {
+            "left": "Kre-Alkalyn",
+            "right": "No requiere fase de saturación inicial"
+          }
+        ],
+        "xp": 15,
+        "explanation": "El monohidrato es el más estudiado y efectivo; el clorhidrato se disuelve mejor y necesita menor cantidad; el Kre-Alkalyn no necesita fase de carga."
+      },
+      {
+        "type": "fill_in_blanks_cards",
+        "text": "La Glutamina actúa como aminoácido {0} favoreciendo la hidratación DENTRO de la célula, sin aumentar la retención de líquido {1} de la célula.",
+        "options": [
+          "prohidratación",
+          "fuera",
+          "deshidratante",
+          "dentro"
+        ],
+        "correctAnswers": [
+          "prohidratación",
+          "fuera"
+        ],
+        "xp": 15,
+        "explanation": "La Glutamina actúa como aminoácido prohidratación: aumenta el volumen de la célula muscular favoreciendo la hidratación intracelular, proceso conocido como voluminización celular."
+      },
+      {
+        "type": "true_false",
+        "question": "La Glutamina aumenta el volumen celular favoreciendo la hidratación FUERA de la célula.",
+        "correctAnswer": false,
+        "xp": 10,
+        "explanation": "La Glutamina favorece la hidratación DENTRO de la célula muscular (voluminización celular intracelular). La retención extracelular daría un aspecto flácido, totalmente indeseable para un deportista."
+      },
+      {
+        "type": "multiple_choice",
+        "question": "¿Cuántos tipos distintos de creatina existen actualmente en el mercado?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Solo 1 (el monohidrato)"
+          },
+          {
+            "id": "B",
+            "text": "Más de 9 tipos distintos"
+          },
+          {
+            "id": "C",
+            "text": "Exactamente 3 tipos"
+          }
+        ],
+        "correctAnswerId": "B",
+        "xp": 10,
+        "explanation": "Existen más de 9 tipos de creatina: monohidrato, clorhidrato, Kre-Alkalyn, malato, nitrato, quelato de magnesio, ethyl éster, citrato, piruvato, gluconato, AKG y multicomponentes."
+      }
+    ]
+  }
+]

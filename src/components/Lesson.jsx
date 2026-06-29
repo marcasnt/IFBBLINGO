@@ -1,7 +1,19 @@
 import { useState, useEffect } from 'react';
 import { useGame } from '../context/GameContext';
-import moduleData from '../data/modulo1.json';
+import modulo1Data from '../data/modulo1.json';
+import modulo2Data from '../data/modulo2.json';
 import Mascot from './Mascot';
+
+const MOD1_COUNT = modulo1Data.length;
+
+// Returns the lesson object for a given 1-based global levelId
+function getLevelData(levelId) {
+  if (levelId <= MOD1_COUNT) {
+    return modulo1Data[levelId - 1];
+  }
+  const mod2Index = levelId - MOD1_COUNT - 1;
+  return modulo2Data[mod2Index] || null;
+}
 
 export default function Lesson() {
   const { currentLevelId, lives, loseLife, finishLesson, gainExp, gameState, isHintActive, clearHint } = useGame();
@@ -26,15 +38,14 @@ export default function Lesson() {
   useEffect(() => {
     if (gameState === 'practice') {
       let allExercises = [];
-      moduleData.forEach(lvl => {
-        allExercises = allExercises.concat(lvl.exercises);
-      });
+      modulo1Data.forEach(lvl => { allExercises = allExercises.concat(lvl.exercises); });
+      modulo2Data.forEach(lvl => { allExercises = allExercises.concat(lvl.exercises); });
       const shuffled = allExercises.sort(() => Math.random() - 0.5);
       setQuestions(shuffled.slice(0, 5));
     } else {
-      const levelIndex = currentLevelId - 1;
-      if (levelIndex >= 0 && levelIndex < moduleData.length) {
-        setQuestions(moduleData[levelIndex].exercises);
+      const levelData = getLevelData(currentLevelId);
+      if (levelData) {
+        setQuestions(levelData.exercises);
       }
     }
   }, [currentLevelId, gameState]);
