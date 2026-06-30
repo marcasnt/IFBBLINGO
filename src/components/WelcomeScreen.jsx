@@ -1,16 +1,16 @@
-import { useGame } from '../context/GameContext';
-import Mascot from './Mascot';
 import { useState, useEffect } from 'react';
-import { Download } from 'lucide-react';
+import { Download, Sparkles } from 'lucide-react';
+import { useGame } from '../context/useGame';
+import Mascot from './Mascot';
 
 export default function WelcomeScreen() {
   const { acceptWelcome } = useGame();
   const [installPrompt, setInstallPrompt] = useState(null);
 
   useEffect(() => {
-    const handleBeforeInstallPrompt = (e) => {
-      e.preventDefault();
-      setInstallPrompt(e);
+    const handleBeforeInstallPrompt = (event) => {
+      event.preventDefault();
+      setInstallPrompt(event);
     };
     window.addEventListener('beforeinstallprompt', handleBeforeInstallPrompt);
     return () => window.removeEventListener('beforeinstallprompt', handleBeforeInstallPrompt);
@@ -20,9 +20,7 @@ export default function WelcomeScreen() {
     if (!installPrompt) return;
     installPrompt.prompt();
     const { outcome } = await installPrompt.userChoice;
-    if (outcome === 'accepted') {
-      setInstallPrompt(null);
-    }
+    if (outcome === 'accepted') setInstallPrompt(null);
   };
 
   return (
@@ -33,51 +31,48 @@ export default function WelcomeScreen() {
       justifyContent: 'center',
       minHeight: '100vh',
       padding: '24px',
-      backgroundColor: 'var(--color-bg)',
       color: 'var(--color-text)',
       textAlign: 'center'
     }}>
       <Mascot state="happy" />
-      
-      <h1 style={{ color: 'var(--color-primary)', marginTop: '32px', marginBottom: '16px', fontSize: '2.5rem' }}>
-        ¡Bienvenido a IFBBLINGO!
+
+      <h1 style={{ color: 'var(--color-primary)', marginTop: '28px', marginBottom: '12px', fontSize: '2.45rem', lineHeight: 1 }}>
+        IFBBLINGO
       </h1>
-      
+      <p style={{ color: 'var(--color-muted)', fontWeight: 900, marginBottom: '22px' }}>
+        Aprende fisiología, musculación y nutrición jugando.
+      </p>
+
       <div style={{
         backgroundColor: 'var(--color-surface)',
-        padding: '24px',
+        padding: '22px',
         borderRadius: '24px',
-        boxShadow: '0 8px 0 var(--color-gray-shadow)',
-        marginBottom: '40px',
-        maxWidth: '400px'
+        border: '2px solid var(--color-border)',
+        boxShadow: 'var(--shadow-soft)',
+        marginBottom: '28px',
+        maxWidth: '430px'
       }}>
-        <p style={{ fontSize: '1.2rem', marginBottom: '16px', lineHeight: '1.5' }}>
-          Para que tu progreso, vidas y experiencia se guarden de forma segura y permanente, te recomendamos encarecidamente:
+        <Sparkles size={28} color="var(--color-yellow)" style={{ marginBottom: '10px' }} />
+        <p style={{ fontSize: '1.08rem', fontWeight: 900, marginBottom: '12px', lineHeight: '1.35' }}>
+          Guarda tu progreso como una app real.
         </p>
-        <p style={{ fontSize: '1.2rem', fontWeight: 'bold', color: 'var(--color-yellow)', marginBottom: '16px' }}>
-          ¡Añadir esta aplicación a tu pantalla de inicio!
-        </p>
-        <p style={{ fontSize: '1rem', opacity: 0.8, lineHeight: '1.4' }}>
-          Si juegas desde el navegador y la añades después, podrías perder tu avance inicial debido a las políticas de tu teléfono. Al añadirla ahora, jugarás en pantalla completa como una app nativa.
+        <p style={{ fontSize: '0.98rem', color: 'var(--color-muted)', lineHeight: '1.45', fontWeight: 700 }}>
+          Instalar IFBBLINGO ayuda a conservar vidas, EXP y avance en pantalla completa, como una experiencia nativa.
         </p>
       </div>
 
       {installPrompt && (
-        <button 
-          className="btn btn-secondary pulse" 
-          style={{ width: '100%', maxWidth: '400px', fontSize: '1.2rem', padding: '16px', marginBottom: '16px', display: 'flex', alignItems: 'center', justifyContent: 'center', gap: '8px' }}
+        <button
+          className="btn btn-secondary pulse"
+          style={{ width: '100%', maxWidth: '430px', marginBottom: '14px', display: 'flex', alignItems: 'center', justifyContent: 'center', gap: '8px' }}
           onClick={handleInstallClick}
         >
-          <Download size={24} /> Instalar IFBBLINGO
+          <Download size={22} /> Instalar IFBBLINGO
         </button>
       )}
 
-      <button 
-        className="btn" 
-        style={{ width: '100%', maxWidth: '400px', fontSize: '1.2rem', padding: '16px' }}
-        onClick={acceptWelcome}
-      >
-        ¡Entendido, Empezar a Jugar!
+      <button className="btn" style={{ width: '100%', maxWidth: '430px' }} onClick={acceptWelcome}>
+        Empezar
       </button>
     </div>
   );

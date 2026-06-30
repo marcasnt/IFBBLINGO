@@ -1,8 +1,5 @@
-import { createContext, useContext, useState, useEffect } from 'react';
-
-const GameContext = createContext();
-
-export const useGame = () => useContext(GameContext);
+import { useState, useEffect } from 'react';
+import GameContext from './GameContextValue';
 
 export const GameProvider = ({ children }) => {
   const [lives, setLives] = useState(() => {

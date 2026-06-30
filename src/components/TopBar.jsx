@@ -1,75 +1,49 @@
 import { Heart, Zap, Flame, Moon, Sun, Lightbulb } from 'lucide-react';
-import { useGame } from '../context/GameContext';
 import { useState } from 'react';
+import { useGame } from '../context/useGame';
 import HeartsModal from './HeartsModal';
 
 export default function TopBar() {
   const { lives, exp, streak, theme, toggleTheme, gameState, buyHint } = useGame();
   const [showHearts, setShowHearts] = useState(false);
-
   const isCompact = gameState !== 'map';
 
   const handleHintClick = () => {
-    if (buyHint()) {
-      // Option handled
-    } else {
+    if (!buyHint()) {
       alert('Necesitas al menos 50 EXP para usar un comodín.');
     }
   };
 
   return (
     <>
-      <div style={{
-        display: 'flex',
-        justifyContent: 'space-between',
-        alignItems: 'center',
-        padding: isCompact ? '8px 16px' : '16px 24px',
-        backgroundColor: 'var(--color-surface)',
-        position: 'sticky',
-        top: 0,
-        zIndex: 10,
-        borderBottom: '2px solid var(--color-gray-shadow)',
-        transition: 'all 0.2s ease',
-        fontSize: isCompact ? '0.85rem' : '1rem'
-      }}>
-        {/* Theme Toggle */}
-        <div style={{ cursor: 'pointer', color: 'var(--color-text)' }} onClick={toggleTheme}>
-          {theme === 'dark' ? <Sun size={isCompact ? 20 : 24} /> : <Moon size={isCompact ? 20 : 24} />}
-        </div>
+      <div className="app-topbar" style={{ padding: isCompact ? '10px 14px' : undefined }}>
+        <button className="icon-pill flex-center" onClick={toggleTheme} aria-label="Cambiar tema" style={{ color: 'var(--color-text)' }}>
+          {theme === 'dark' ? <Sun size={isCompact ? 20 : 22} /> : <Moon size={isCompact ? 20 : 22} />}
+        </button>
 
-        <div className="flex-center pulse" style={{ color: 'var(--color-danger)', fontWeight: 800, cursor: 'pointer' }} onClick={() => setShowHearts(true)}>
-          <Heart fill="var(--color-danger)" size={isCompact ? 20 : 24} style={{ marginRight: '4px' }} />
+        <button className="stat-pill flex-center" onClick={() => setShowHearts(true)} style={{ color: 'var(--color-danger)' }}>
+          <Heart fill="var(--color-danger)" size={isCompact ? 20 : 22} style={{ marginRight: '5px' }} />
           {lives}
-        </div>
-        <div className="flex-center" style={{ color: 'var(--color-yellow)', fontWeight: 800 }}>
-          <Flame fill="var(--color-yellow)" size={isCompact ? 20 : 24} style={{ marginRight: '4px' }} />
+        </button>
+
+        <div className="stat-pill flex-center" style={{ color: 'var(--color-yellow)' }}>
+          <Flame fill="var(--color-yellow)" size={isCompact ? 20 : 22} style={{ marginRight: '5px' }} />
           {streak}
         </div>
-        <div className="flex-center" style={{ color: 'var(--color-blue)', fontWeight: 800 }}>
-          <Zap fill="var(--color-blue)" size={isCompact ? 20 : 24} style={{ marginRight: '4px' }} />
+
+        <div className="stat-pill flex-center" style={{ color: 'var(--color-blue)' }}>
+          <Zap fill="var(--color-blue)" size={isCompact ? 20 : 22} style={{ marginRight: '5px' }} />
           {exp}
         </div>
 
         {isCompact && (
-          <div 
-            className="flex-center" 
-            style={{ 
-              color: 'var(--color-secondary)', 
-              fontWeight: 800, 
-              cursor: 'pointer',
-              backgroundColor: 'var(--color-surface)',
-              borderRadius: '8px',
-              padding: '4px'
-            }} 
-            onClick={handleHintClick}
-            title="Usar comodín (-50 EXP)"
-          >
-            <Lightbulb size={isCompact ? 20 : 24} style={{ marginRight: '4px' }} />
+          <button className="stat-pill flex-center" onClick={handleHintClick} title="Usar comodín (-50 EXP)" style={{ color: 'var(--color-secondary)' }}>
+            <Lightbulb size={isCompact ? 20 : 22} style={{ marginRight: '5px' }} />
             50
-          </div>
+          </button>
         )}
       </div>
-      
+
       {showHearts && <HeartsModal onClose={() => setShowHearts(false)} />}
     </>
   );

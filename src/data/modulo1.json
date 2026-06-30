@@ -268,7 +268,7 @@
           }
         ],
         "xp": 15,
-        "explanation": "El oxígeno debe llegar desde el aire hasta la mitocondria para la combustión aeróbica."
+        "explanation": "La combustión anaeróbica usa glucosa de manera rápida e incompleta; la combustión aeróbica oxida nutrientes en presencia de oxígeno; y el ácido láctico se asocia con la caída del pH que limita el esfuerzo."
       },
       {
         "type": "text_input",
@@ -281,7 +281,7 @@
           "pH"
         ],
         "xp": 20,
-        "explanation": "El sistema anaeróbico aláctico usa la fosfocreatina (CP) para renovar el ATP sin producir ácido láctico."
+        "explanation": "El factor limitante es la acumulación de ácido láctico o lactato y la disminución del pH. Esa acidez dificulta mantener la glucólisis anaeróbica durante mucho tiempo."
       },
       {
         "type": "fill_in_blanks_cards",
@@ -297,14 +297,14 @@
           "económico"
         ],
         "xp": 15,
-        "explanation": "El sistema aeróbico usa oxígeno, el anaeróbico produce energía sin él y el ATP es la moneda base."
+        "explanation": "Con oxígeno disponible, la oxidación de hidratos de carbono es mucho más económica: obtiene mucha más energía que la vía anaeróbica por la misma glucosa."
       },
       {
         "type": "true_false",
         "question": "Desde el punto de vista del O2, resulta más 'barata' la energía obtenida de grasas que de hidratos de carbono.",
         "correctAnswer": false,
         "xp": 10,
-        "explanation": "El músculo transforma la energía química de los alimentos en energía mecánica con un 20-30% de eficiencia."
+        "explanation": "Es falso: para una misma cantidad de oxígeno, los hidratos de carbono son más económicos que las grasas. Por eso el organismo los usa con ventaja en esfuerzos intensos."
       },
       {
         "type": "multiple_choice",
@@ -325,7 +325,7 @@
         ],
         "correctAnswerId": "B",
         "xp": 10,
-        "explanation": "En la cadena oxidativa aeróbica, el oxígeno actúa como el último aceptor de electrones para formar H2O."
+        "explanation": "La combustión aeróbica ocurre principalmente en la mitocondria, donde los nutrientes se oxidan para producir ATP con la participación del oxígeno."
       }
     ]
   },
@@ -406,14 +406,14 @@
           "ángulo"
         ],
         "xp": 15,
-        "explanation": "El sóleo es monoarticular, por lo que aísla el trabajo de pantorrillas cuando la rodilla está flexionada."
+        "explanation": "El trabajo de traslación es una magnitud escalar o número, pero depende del ángulo con el que se aplica la fuerza respecto al desplazamiento."
       },
       {
         "type": "true_false",
         "question": "Los aparatos isocinéticos mantienen una distancia constante, haciendo que fuerza y momento sean prácticamente paralelos.",
         "correctAnswer": true,
         "xp": 10,
-        "explanation": "El brazo de palanca se mide como la distancia perpendicular desde el fulcro a la línea de acción de la fuerza."
+        "explanation": "En los aparatos isocinéticos la distancia o brazo de palanca se mantiene controlada, por eso fuerza y momento se comportan de forma más estable durante la medición."
       },
       {
         "type": "multiple_choice",
@@ -434,7 +434,7 @@
         ],
         "correctAnswerId": "B",
         "xp": 10,
-        "explanation": "El entrenamiento de potencia utiliza cargas relativamente altas pero enfatiza la máxima velocidad."
+        "explanation": "La potencia máxima no aparece a la velocidad máxima pura, sino por debajo del 50% de esa velocidad, donde todavía existe suficiente fuerza para producir mucho trabajo por unidad de tiempo."
       }
     ]
   },
@@ -890,7 +890,7 @@
         ],
         "correctAnswerId": "B",
         "xp": 10,
-        "explanation": "La hipertrofia muscular suele requerir cargas del 70-85% (entre 6 y 15 repeticiones)."
+        "explanation": "En principiantes, las primeras mejoras de fuerza suelen venir de adaptaciones neurales: mejor reclutamiento, coordinación y activación muscular, incluso sin aumento visible de masa."
       },
       {
         "type": "match_pairs",
@@ -937,14 +937,14 @@
           "activación"
         ],
         "xp": 15,
-        "explanation": "Las 'rutinas culturistas' utilizan recuperaciones incompletas (1 min) para favorecer el estrés metabólico y la hipertrofia."
+        "explanation": "El entrenamiento explosivo tiene tiempos de activación muy cortos, por eso genera mucha mejora neural y de potencia, pero poca hipertrofia comparado con métodos culturistas."
       },
       {
         "type": "true_false",
         "question": "Disminuir la inhibición de los músculos antagonistas es una forma de mejorar la fuerza.",
         "correctAnswer": true,
         "xp": 10,
-        "explanation": "Todos los sistemas energéticos actúan de forma simultánea y solapada según la duración e intensidad."
+        "explanation": "Verdadero. Al reducir la inhibición de los antagonistas, el músculo agonista encuentra menos freno y puede expresar más fuerza en el movimiento."
       },
       {
         "type": "multiple_choice",
@@ -1080,7 +1080,7 @@
         "question": "La ergometría es un test de esfuerzo realizado bajo condiciones controladas en laboratorio.",
         "correctAnswer": true,
         "xp": 10,
-        "explanation": "Para que un test de laboratorio tenga validez en el campo, debe mantener el Principio de Especificidad anatómica."
+        "explanation": "Verdadero. La ergometría evalúa el esfuerzo bajo condiciones controladas, permitiendo medir respuestas fisiológicas como frecuencia cardíaca, ventilación, VO2 y tolerancia a la carga."
       },
       {
         "type": "multiple_choice",
@@ -1097,7 +1097,7 @@
         ],
         "correctAnswerId": "B",
         "xp": 10,
-        "explanation": "La ergonomía deportiva usa el tapiz rodante y el cicloergómetro para estandarizar las mediciones del VO2."
+        "explanation": "El cicloergómetro permite controlar con precisión los vatios o la potencia aplicada, por eso se usa mucho en pruebas de esfuerzo estandarizadas."
       },
       {
         "type": "match_pairs",
@@ -1117,7 +1117,7 @@
           }
         ],
         "xp": 15,
-        "explanation": "En levantamiento olímpico predomina absoluto reclutamiento de las fibras Tipo IIb por la altísima carga."
+        "explanation": "En un protocolo incremental la carga aumenta progresivamente; en estado estable se mantiene constante; y en laboratorio la prueba se realiza de forma controlada y monitorizada."
       },
       {
         "type": "text_input",
@@ -1127,7 +1127,7 @@
           "economia de carrera"
         ],
         "xp": 20,
-        "explanation": "El término preciso es \"Economía de carrera\". Memorizar esta terminología técnica es clave para un profesional."
+        "explanation": "La economía de carrera expresa qué tan eficiente es una persona al desplazarse: menor consumo energético para una misma velocidad indica mejor eficiencia."
       },
       {
         "type": "fill_in_blanks_cards",
@@ -1143,14 +1143,14 @@
           "transferencia"
         ],
         "xp": 15,
-        "explanation": "La transferencia de energía se ve perfecta en ejercicios poliarticulares, pero los aislamientos evitan esta transferencia."
+        "explanation": "Cuanto mayor sea la similitud entre el ergómetro y la actividad real, mayor será la transferencia de los datos al rendimiento específico del deportista."
       },
       {
         "type": "true_false",
         "question": "El tapiz rodante permite alterar tanto la velocidad como la pendiente durante el test.",
         "correctAnswer": true,
         "xp": 10,
-        "explanation": "Las fibras Tipo IIa son un punto intermedio, usando tanto vía aeróbica como anaeróbica láctica."
+        "explanation": "Verdadero. El tapiz rodante permite modificar velocidad y pendiente, por eso puede aumentar progresivamente la exigencia durante una prueba incremental."
       },
       {
         "type": "multiple_choice",
@@ -1167,7 +1167,7 @@
         ],
         "correctAnswerId": "B",
         "xp": 10,
-        "explanation": "Las poleas son Cargas Indirectas Simples."
+        "explanation": "Los protocolos continuos no tienen pausas entre cargas: la intensidad sube de manera progresiva sin detener la prueba."
       }
     ]
   },
@@ -1181,7 +1181,7 @@
         "question": "El VO2 máximo aumenta de forma indefinida a lo largo de toda la vida deportiva del atleta de élite.",
         "correctAnswer": false,
         "xp": 10,
-        "explanation": "Para activar al máximo la masa gemelar, el ejercicio debe hacerse con las rodillas extendidas."
+        "explanation": "Falso. El VO2 máximo mejora con el entrenamiento hasta cierto límite, pero no aumenta de forma indefinida porque depende de factores genéticos, centrales y periféricos."
       },
       {
         "type": "multiple_choice",
@@ -1198,7 +1198,7 @@
         ],
         "correctAnswerId": "A",
         "xp": 10,
-        "explanation": "La sincronización intramuscular mejora la eficiencia con la que las fibras musculares trabajan juntas."
+        "explanation": "El gasto cardíaco es un factor central del VO2 porque determina cuánta sangre oxigenada puede enviar el corazón a los músculos durante el esfuerzo."
       },
       {
         "type": "match_pairs",
@@ -1218,7 +1218,7 @@
           }
         ],
         "xp": 15,
-        "explanation": "Asociar estos términos consolida la base teórica y te permite comprender su aplicación práctica."
+        "explanation": "FC significa frecuencia cardíaca, Q representa el gasto cardíaco y VO2 indica el volumen de oxígeno consumido. Estas siglas son base para interpretar pruebas de esfuerzo."
       },
       {
         "type": "text_input",
@@ -1229,7 +1229,7 @@
           "ml/kg*min"
         ],
         "xp": 20,
-        "explanation": "El término preciso es \"ml/kg.min\". Memorizar esta terminología técnica es clave para un profesional."
+        "explanation": "El VO2 suele expresarse en ml/kg.min para comparar personas de distinto peso corporal. Así el consumo de oxígeno queda relacionado con la masa del individuo."
       },
       {
         "type": "fill_in_blanks_cards",
@@ -1245,14 +1245,14 @@
           "máximo"
         ],
         "xp": 15,
-        "explanation": "La mioglobina es la encargada del primer aporte aeróbico, incluso antes del umbral, cediendo su O2 interno."
+        "explanation": "Antes de llegar al máximo, el VO2 aumenta casi de forma lineal con la carga de trabajo. Al acercarse al límite aparece una meseta o estabilización cercana al máximo."
       },
       {
         "type": "true_false",
         "question": "El factor periférico del VO2 hace referencia a la capacidad del músculo para extraer el oxígeno de la sangre.",
         "correctAnswer": true,
         "xp": 10,
-        "explanation": "VO2max es la máxima capacidad del organismo para captar, transportar y consumir oxígeno."
+        "explanation": "Verdadero. El factor periférico del VO2 depende de la capacidad del músculo para extraer y utilizar el oxígeno que llega por la sangre."
       },
       {
         "type": "multiple_choice",
@@ -1273,7 +1273,7 @@
         ],
         "correctAnswerId": "B",
         "xp": 10,
-        "explanation": "Las fibras Tipo IIb (blancas/rápidas) son puramente anaeróbicas, de gran diámetro y fuerza, pero se fatigan rápidamente."
+        "explanation": "El VO2max está muy condicionado por factores genéticos, aunque el entrenamiento puede mejorar la eficiencia cardiovascular y muscular dentro de ese potencial."
       }
     ]
   },
@@ -1287,7 +1287,7 @@
         "question": "La Frecuencia Cardíaca (FC) sube de manera casi lineal respecto al aumento del consumo de oxígeno (VO2).",
         "correctAnswer": true,
         "xp": 10,
-        "explanation": "Los sistemas de energía se solapan y no actúan de manera aislada."
+        "explanation": "Verdadero. A medida que sube el VO2, la frecuencia cardíaca suele aumentar de forma casi lineal, por eso se usa como indicador práctico de intensidad."
       },
       {
         "type": "multiple_choice",
@@ -1308,7 +1308,7 @@
         ],
         "correctAnswerId": "B",
         "xp": 10,
-        "explanation": "En un press de banca, el tríceps y el pectoral mayor actúan al unísono como agonistas/sinergistas."
+        "explanation": "Una persona entrenada necesita una frecuencia cardíaca menor para sostener el mismo VO2, porque su sistema cardiovascular trabaja con mayor eficiencia."
       },
       {
         "type": "match_pairs",
@@ -1356,14 +1356,14 @@
           "poca"
         ],
         "xp": 15,
-        "explanation": "Los equivalentes respiratorios VE/VO2 y VE/VCO2 son clave para detectar el punto de inflexión ventilatoria."
+        "explanation": "El test de Conconi intenta detectar umbrales a partir de la deflexión de la frecuencia cardíaca, pero su validez científica es limitada y no siempre fiable."
       },
       {
         "type": "true_false",
         "question": "El lactato medido en sangre refleja de manera exacta e inmediata todo lo que ocurre dentro del músculo.",
         "correctAnswer": false,
         "xp": 10,
-        "explanation": "Con el entrenamiento, el umbral láctico se desplaza hacia la derecha (mayor intensidad sin lactato)."
+        "explanation": "Falso. El lactato sanguíneo es un indicador útil, pero no refleja de manera exacta e inmediata todo lo que ocurre dentro del músculo."
       },
       {
         "type": "multiple_choice",
@@ -1411,7 +1411,7 @@
         ],
         "correctAnswerId": "A",
         "xp": 10,
-        "explanation": "Umbral aeróbico y umbral anaeróbico."
+        "explanation": "El VT1 suele detectarse observando el equivalente ventilatorio de oxígeno. Marca el primer punto donde la ventilación empieza a aumentar de forma desproporcionada."
       },
       {
         "type": "match_pairs",
@@ -1431,7 +1431,7 @@
           }
         ],
         "xp": 15,
-        "explanation": "En el método de 'Intensidades Máximas I' (90-100%) se debe descansar unos 3 minutos entre series."
+        "explanation": "El método de Conconi intenta estimar umbrales desde la frecuencia cardíaca; el VT1 marca el primer umbral ventilatorio; y el VT2 se asocia con la acumulación más intensa de lactato."
       },
       {
         "type": "text_input",
@@ -1441,7 +1441,7 @@
           "bicarbonato"
         ],
         "xp": 20,
-        "explanation": "La sobrecompensación es la fase donde el cuerpo asimila el estrés y mejora su nivel inicial."
+        "explanation": "El bicarbonato actúa como tampón: ayuda a neutralizar el exceso de ácido y genera CO2, lo que aumenta la ventilación para expulsarlo."
       },
       {
         "type": "fill_in_blanks_cards",
@@ -1457,14 +1457,14 @@
           "III"
         ],
         "xp": 15,
-        "explanation": "El primer umbral (VT1 o aeróbico) marca el punto donde comienza a subir el lactato por encima del reposo, pero aún se estabiliza."
+        "explanation": "El segundo umbral marca el final del máximo estado estable del lactato y la entrada a la fase III, donde el lactato se acumula con rapidez."
       },
       {
         "type": "true_false",
         "question": "El estado nutricional previo no afecta la curva del lactato durante un test.",
         "correctAnswer": false,
         "xp": 10,
-        "explanation": "Los isquiosurales ayudan a la extensión de cadera durante la subida de una sentadilla."
+        "explanation": "Falso. El estado nutricional previo puede modificar la curva de lactato, porque la disponibilidad de glucógeno y sustratos energéticos cambia la respuesta al esfuerzo."
       },
       {
         "type": "multiple_choice",
@@ -1481,7 +1481,7 @@
         ],
         "correctAnswerId": "B",
         "xp": 10,
-        "explanation": "La respuesta correcta es: \"Precisa\". Es la respuesta fisiológica y teóricamente correcta."
+        "explanation": "La medición respiración a respiración ofrece una detección más precisa de los umbrales, porque registra cambios ventilatorios de manera continua durante el test."
       }
     ]
   },
@@ -1512,7 +1512,7 @@
         ],
         "correctAnswerId": "B",
         "xp": 10,
-        "explanation": "Una palanca tiene un punto de apoyo, una potencia (fuerza) y una resistencia."
+        "explanation": "En personas mayores, incluso de más de 80 años, el entrenamiento con pesas puede aumentar fuerza, funcionalidad y autonomía cuando se dosifica con seguridad."
       },
       {
         "type": "match_pairs",
@@ -1532,7 +1532,7 @@
           }
         ],
         "xp": 15,
-        "explanation": "Para la salud articular de los ancianos o rehabilitación, las máquinas guiadas y poleas son ideales y muy seguras."
+        "explanation": "La cardiopatía isquémica afecta al corazón, la artrosis implica desgaste del cartílago y la osteoporosis reduce la densidad ósea. El entrenamiento bien dosificado puede ayudar a prevenir o manejar estos riesgos."
       },
       {
         "type": "text_input",
@@ -1543,7 +1543,7 @@
           "sociales"
         ],
         "xp": 20,
-        "explanation": "El término preciso es \"Social\". Memorizar esta terminología técnica es clave para un profesional."
+        "explanation": "Además de beneficios físicos y biológicos, el entrenamiento mejora aspectos psicológicos y sociales: confianza, autonomía, estado de ánimo e integración."
       },
       {
         "type": "fill_in_blanks_cards",
@@ -1559,14 +1559,14 @@
           "fuerza"
         ],
         "xp": 15,
-        "explanation": "El entrenamiento de fuerza en niños (supervisado) mejora el rendimiento y proviene lesiones."
+        "explanation": "La pérdida de fuerza asociada al envejecimiento no es inevitable en su totalidad: el entrenamiento de fuerza ayuda a conservar masa muscular, potencia y función."
       },
       {
         "type": "true_false",
         "question": "El ACSM en 1998 advirtió sobre el peligro de hacer series de 8-10 repeticiones en adultos mayores.",
         "correctAnswer": false,
         "xp": 10,
-        "explanation": "La ACSM recomienda circuitos de pesas con intensidades del 40-50% para adultos sanos y ancianos."
+        "explanation": "Falso. La advertencia no implica prohibir el entrenamiento, sino adaptar cargas, repeticiones y control técnico para que el trabajo en adultos mayores sea seguro."
       },
       {
         "type": "multiple_choice",
@@ -1587,7 +1587,7 @@
         ],
         "correctAnswerId": "B",
         "xp": 10,
-        "explanation": "La respuesta correcta es: \"Halterófilos\". Es la respuesta fisiológica y teóricamente correcta."
+        "explanation": "Los halterófilos suelen registrar alta densidad ósea por las grandes cargas mecánicas repetidas, que estimulan la adaptación del tejido óseo."
       }
     ]
   },
@@ -1618,7 +1618,7 @@
         ],
         "correctAnswerId": "B",
         "xp": 10,
-        "explanation": "La respuesta correcta es: \"30-50%\". Es la respuesta fisiológica y teóricamente correcta."
+        "explanation": "Para poblaciones con riesgo cardiovascular se recomiendan cargas moderadas, aproximadamente del 30-50%, priorizando control técnico, seguridad y continuidad."
       },
       {
         "type": "match_pairs",
@@ -1689,7 +1689,7 @@
         ],
         "correctAnswerId": "B",
         "xp": 10,
-        "explanation": "La coordinación intermuscular es fundamental para realizar un gesto deportivo complejo en cadena cerrada."
+        "explanation": "En niños o principiantes, estar asistido por un adulto o profesional reduce el riesgo y ayuda a controlar técnica, carga y ejecución."
       }
     ]
   },
@@ -1821,7 +1821,7 @@
         ],
         "correctAnswerId": "B",
         "xp": 10,
-        "explanation": "La respuesta correcta es: \"Indirecta simple\". Es la respuesta fisiológica y teóricamente correcta."
+        "explanation": "Una polea permite redirigir la acción de la gravedad y convertirla en una carga indirecta simple, cambiando la dirección de la resistencia."
       },
       {
         "type": "match_pairs",
@@ -1867,14 +1867,14 @@
           "fitness"
         ],
         "xp": 15,
-        "explanation": "Completar correctamente el enunciado demuestra un dominio integral del concepto biológico."
+        "explanation": "En fitness y principiantes, las máquinas suelen ocupar un lugar de éxito y seguridad porque guían el recorrido y reducen la exigencia de estabilización."
       },
       {
         "type": "true_false",
         "question": "En los ejercicios con poleas clásicas (isotónicas), la resistencia en el cable disminuye dependiendo de la articulación.",
         "correctAnswer": false,
         "xp": 10,
-        "explanation": "Tener el VT1 muy bajo sugiere entrenar más ejercicios aeróbicos base de larga duración."
+        "explanation": "Falso. En una polea clásica la tensión del cable se mantiene, aunque el torque sobre la articulación puede variar por el ángulo y el brazo de palanca."
       },
       {
         "type": "multiple_choice",
@@ -1992,7 +1992,7 @@
         ],
         "correctAnswerId": "A",
         "xp": 10,
-        "explanation": "Los elementos viscoelásticos paralelos y en serie acumulan energía que se libera al contraer inmediatamente después de estirar."
+        "explanation": "El huso muscular detecta cambios de longitud y velocidad de estiramiento. Su función protectora ayuda a regular el tono y responder ante estiramientos bruscos."
       }
     ]
   },
@@ -2489,7 +2489,7 @@
         "question": "En los métodos de repeticiones, la tensión muscular máxima dentro de la serie se logra desde la primera repetición.",
         "correctAnswer": false,
         "xp": 10,
-        "explanation": "La isquemia (corte de riego sanguíneo) durante la serie acumula metabolitos que son el mayor disparador de la hipertrofia."
+        "explanation": "Falso. Las pausas incompletas pueden aumentar el estrés metabólico, pero no son la única vía para hipertrofia ni sustituyen una carga, técnica y progresión adecuadas."
       },
       {
         "type": "multiple_choice",
@@ -2506,7 +2506,7 @@
         ],
         "correctAnswerId": "B",
         "xp": 10,
-        "explanation": "Entrenar al fallo y usar 'ayudas' somete al tejido a su máxima tensión, induciendo destrucción de puentes cruzados."
+        "explanation": "Los métodos específicos avanzados, como series forzadas o trabajo al fallo, deben reservarse para personas entrenadas porque generan mucha tensión y fatiga."
       }
     ]
   },
@@ -2537,7 +2537,7 @@
         ],
         "correctAnswerId": "B",
         "xp": 10,
-        "explanation": "Series de 15 hasta 25 repeticiones cambian la matriz energética hacia la glucólisis anaeróbica láctica."
+        "explanation": "La fuerza-resistencia suele trabajarse con rangos altos, aproximadamente de 15 a 25 repeticiones, para sostener tensión durante más tiempo."
       },
       {
         "type": "match_pairs",
@@ -2569,7 +2569,7 @@
           "fuerza maxima"
         ],
         "xp": 20,
-        "explanation": "Tener una RM mayor implica que al usar 50 kg, ese peso será un porcentaje menor de tu máximo, cansándote menos."
+        "explanation": "La capacidad se refiere a cuánto trabajo puede sostenerse. En fuerza-resistencia importa mantener rendimiento durante muchas repeticiones, no solo producir un pico máximo."
       },
       {
         "type": "fill_in_blanks_cards",
@@ -2585,14 +2585,14 @@
           "estimulación"
         ],
         "xp": 15,
-        "explanation": "La carga mínima (alrededor de 30-40% 1RM) no estimula el desarrollo salvo en fase estricta de rehabilitación."
+        "explanation": "Si el músculo está descargado o recibe poca estimulación, el estímulo puede ser insuficiente para mejorar fuerza-resistencia fuera de fases iniciales o rehabilitación."
       },
       {
         "type": "true_false",
         "question": "Aún en rutinas de pura resistencia muscular de 15 repeticiones, el atleta logrará un aumento residual de fuerza.",
         "correctAnswer": true,
         "xp": 10,
-        "explanation": "Falso. Múltiples estudios ratifican que los protocolos de 15 RM incrementan también la fuerza base y la irrigación capilar."
+        "explanation": "Verdadero. Los protocolos de fuerza-resistencia también pueden mejorar la fuerza base y la irrigación muscular, aunque su objetivo principal sea resistir la fatiga."
       },
       {
         "type": "multiple_choice",
@@ -2674,7 +2674,7 @@
           "envion"
         ],
         "xp": 20,
-        "explanation": "Las cargadas al pecho y arranques implican fuerzas masivas desplazadas en menos de un segundo."
+        "explanation": "La cargada es un gesto explosivo donde se desplaza una carga alta en muy poco tiempo, por eso se usa como ejemplo clásico de potencia muscular."
       },
       {
         "type": "fill_in_blanks_cards",
@@ -2697,7 +2697,7 @@
         "question": "La 'Cargada al pecho' cumple a la perfección la ley de Hill porque todas las articulaciones actúan exactamente al mismo tiempo.",
         "correctAnswer": false,
         "xp": 10,
-        "explanation": "Falso. En la cargada la fuerza se propaga temporalmente; una articulación activa antes que la siguiente (impulsos sucesivos)."
+        "explanation": "Falso. En movimientos explosivos la fuerza se transmite de forma secuencial desde piernas y cadera hacia tronco y brazos, no aparece toda al mismo tiempo."
       },
       {
         "type": "multiple_choice",
@@ -2714,7 +2714,7 @@
         ],
         "correctAnswerId": "B",
         "xp": 10,
-        "explanation": "La mayor velocidad siempre resulta en el menor tiempo de contacto articular posible para ejercer fuerza."
+        "explanation": "En una cadena cinemática explosiva, la fuerza se propaga temporalmente desde las piernas hacia el tronco y los brazos, sumando segmentos para producir potencia."
       }
     ]
   },

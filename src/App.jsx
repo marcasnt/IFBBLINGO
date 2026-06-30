@@ -1,4 +1,5 @@
-import { GameProvider, useGame } from './context/GameContext';
+import { GameProvider } from './context/GameContext';
+import { useGame } from './context/useGame';
 import TopBar from './components/TopBar';
 import Map from './components/Map';
 import Lesson from './components/Lesson';
