@@ -12,7 +12,7 @@ function LevelButton({ level, index, globalId, isLocked, isCurrent, IconComponen
   const offset = Math.sin(index * 0.9) * 48;
 
   return (
-    <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', transform: `translateX(${offset}px)`, position: 'relative' }}>
+    <div className="level-node" style={{ '--level-offset': `${offset}px`, display: 'flex', flexDirection: 'column', alignItems: 'center', transform: `translateX(${offset}px)`, position: 'relative' }}>
       {isCurrent && !isLocked && (
         <div style={{
           position: 'absolute',
@@ -30,6 +30,7 @@ function LevelButton({ level, index, globalId, isLocked, isCurrent, IconComponen
       )}
       <button
         className={isLocked ? 'btn flex-center' : 'btn flex-center pulse'}
+        data-level-button="true"
         style={{
           width: '84px',
           height: '84px',
@@ -46,7 +47,7 @@ function LevelButton({ level, index, globalId, isLocked, isCurrent, IconComponen
       >
         {isLocked ? <Lock size={32} /> : <IconComponent size={34} />}
       </button>
-      <span style={{
+      <span className="level-title" style={{
         marginTop: '14px',
         fontWeight: 900,
         textAlign: 'center',
@@ -63,7 +64,7 @@ function LevelButton({ level, index, globalId, isLocked, isCurrent, IconComponen
 
 function ModuleBanner({ title, subtitle, icon, gradient, locked }) {
   return (
-    <div style={{
+    <div className="module-banner" style={{
       width: '100%',
       borderRadius: '24px',
       padding: '18px 18px',
@@ -110,8 +111,8 @@ export default function Map() {
   const mod2Locked = unlockedLevelId <= MOD1_COUNT;
 
   return (
-    <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', paddingTop: '22px', paddingRight: '22px', paddingBottom: '100px', paddingLeft: '22px' }}>
-      <div style={{
+    <div className="map-screen" style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', paddingTop: '22px', paddingRight: '22px', paddingBottom: '100px', paddingLeft: '22px' }}>
+      <div className="map-hero" style={{
         width: '100%',
         display: 'grid',
         gridTemplateColumns: '118px 1fr',
@@ -140,7 +141,7 @@ export default function Map() {
         locked={false}
       />
 
-      <div style={{ display: 'flex', flexDirection: 'column', gap: '34px', width: '100%', alignItems: 'center', marginBottom: '46px', marginTop: '28px' }}>
+      <div className="level-path" style={{ display: 'flex', flexDirection: 'column', gap: '34px', width: '100%', alignItems: 'center', marginBottom: '46px', marginTop: '28px' }}>
         {modulo1Data.map((level, index) => {
           const globalId = index + 1;
           const isLocked = globalId > unlockedLevelId;
@@ -174,7 +175,7 @@ export default function Map() {
         locked={mod2Locked}
       />
 
-      <div style={{ display: 'flex', flexDirection: 'column', gap: '34px', width: '100%', alignItems: 'center', marginTop: '28px' }}>
+      <div className="level-path" style={{ display: 'flex', flexDirection: 'column', gap: '34px', width: '100%', alignItems: 'center', marginTop: '28px' }}>
         {modulo2Data.map((level, index) => {
           const globalId = MOD1_COUNT + index + 1;
           const isLocked = globalId > unlockedLevelId || mod2Locked;

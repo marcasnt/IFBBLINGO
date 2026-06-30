@@ -24,7 +24,7 @@ export default function WelcomeScreen() {
   };
 
   return (
-    <div className="fade-in" style={{
+    <div className="welcome-screen fade-in" style={{
       display: 'flex',
       flexDirection: 'column',
       alignItems: 'center',

@@ -16,7 +16,7 @@ export default function TopBar() {
 
   return (
     <>
-      <div className="app-topbar" style={{ padding: isCompact ? '10px 14px' : undefined }}>
+      <div className={`app-topbar ${isCompact ? 'app-topbar-compact' : ''}`} style={{ padding: isCompact ? '10px 14px' : undefined }}>
         <button className="icon-pill flex-center" onClick={toggleTheme} aria-label="Cambiar tema" style={{ color: 'var(--color-text)' }}>
           {theme === 'dark' ? <Sun size={isCompact ? 20 : 22} /> : <Moon size={isCompact ? 20 : 22} />}
         </button>

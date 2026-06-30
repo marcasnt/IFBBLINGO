@@ -243,15 +243,15 @@ export default function Lesson() {
   const canCheck = checkCanCheck();
 
   return (
-    <div style={{ display: 'flex', flexDirection: 'column', height: '100dvh', overflow: 'hidden' }}>
-      <div style={{ flex: 1, overflowY: 'auto', padding: '22px', display: 'flex', flexDirection: 'column' }}>
-        <div style={{ width: '100%', height: '16px', backgroundColor: 'var(--color-gray)', borderRadius: '999px', marginBottom: '22px', overflow: 'hidden', flexShrink: 0, boxShadow: 'inset 0 2px 0 rgba(0,0,0,0.05)' }}>
+    <div className="lesson-screen" style={{ display: 'flex', flexDirection: 'column', height: '100dvh', overflow: 'hidden' }}>
+      <div className="lesson-scroll" style={{ flex: 1, overflowY: 'auto', padding: '22px', display: 'flex', flexDirection: 'column' }}>
+        <div className="lesson-progress" style={{ width: '100%', height: '16px', backgroundColor: 'var(--color-gray)', borderRadius: '999px', marginBottom: '22px', overflow: 'hidden', flexShrink: 0, boxShadow: 'inset 0 2px 0 rgba(0,0,0,0.05)' }}>
           <div style={{ width: `${progress}%`, height: '100%', backgroundColor: 'var(--color-primary)', transition: 'width 0.3s', borderRadius: '999px' }}></div>
         </div>
 
-        <div style={{ display: 'flex', alignItems: 'center', marginBottom: '24px', flexShrink: 0 }}>
+        <div className="lesson-prompt-row" style={{ display: 'flex', alignItems: 'center', marginBottom: '24px', flexShrink: 0 }}>
           <Mascot state={mascotState} />
-          <div style={{
+          <div className="lesson-question-card" style={{
             backgroundColor: 'var(--color-surface)',
             border: '2px solid var(--color-border)',
             borderRadius: '22px',
@@ -265,9 +265,9 @@ export default function Lesson() {
           </div>
         </div>
 
-        <div style={{ display: 'flex', flexDirection: 'column', gap: '16px', flexShrink: 0 }}>
+        <div className="lesson-answer-stack" style={{ display: 'flex', flexDirection: 'column', gap: '16px', flexShrink: 0 }}>
           {currentQ.type === 'match_pairs' && (
-            <div style={{ display: 'flex', justifyContent: 'space-between', gap: '16px' }}>
+            <div className="match-grid" style={{ display: 'flex', justifyContent: 'space-between', gap: '16px' }}>
               <div style={{ display: 'flex', flexDirection: 'column', gap: '8px', flex: 1 }}>
                 {currentQ.pairs.map((pair, index) => {
                   const isPaired = effectiveMatchingPairs.some((item) => item[0] === index);
@@ -415,7 +415,7 @@ export default function Lesson() {
         </div>
       </div>
 
-      <div style={{
+      <div className="lesson-action-bar" style={{
         paddingTop: '24px',
         paddingRight: '24px',
         paddingLeft: '24px',

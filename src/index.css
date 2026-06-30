@@ -80,6 +80,7 @@
 
 html {
   background: var(--color-bg);
+  -webkit-text-size-adjust: 100%;
 }
 
 body {
@@ -91,11 +92,17 @@ body {
   overflow-x: hidden;
   display: flex;
   justify-content: center;
+  overscroll-behavior-y: none;
 }
 
 button,
 input {
   font: inherit;
+}
+
+button {
+  touch-action: manipulation;
+  -webkit-tap-highlight-color: transparent;
 }
 
 #root {
@@ -105,6 +112,11 @@ input {
   display: flex;
   flex-direction: column;
   background: color-mix(in srgb, var(--color-bg) 88%, transparent);
+}
+
+.map-screen,
+.lesson-scroll {
+  -webkit-overflow-scrolling: touch;
 }
 
 .btn {
@@ -320,8 +332,8 @@ input {
 }
 
 .mascot-shell {
-  width: 124px;
-  height: 124px;
+  width: clamp(124px, 22vw, 148px);
+  height: clamp(124px, 22vw, 148px);
   position: relative;
   filter: drop-shadow(0 12px 12px rgba(20, 45, 62, 0.12));
   animation: mascotFloat 3s ease-in-out infinite;
@@ -349,7 +361,7 @@ input {
   justify-content: space-between;
   align-items: center;
   gap: 10px;
-  padding: 14px 18px;
+  padding: max(14px, env(safe-area-inset-top)) 18px 14px;
   background: color-mix(in srgb, var(--color-surface) 92%, transparent);
   position: sticky;
   top: 0;
@@ -370,18 +382,191 @@ input {
   cursor: pointer;
 }
 
-@media (max-width: 430px) {
+@media (max-width: 560px) {
   #root {
     max-width: 100%;
+  }
+
+  body {
+    align-items: stretch;
+  }
+
+  .app-topbar {
+    gap: 8px;
+    padding: max(10px, env(safe-area-inset-top)) 12px 10px !important;
+  }
+
+  .app-topbar-compact {
+    overflow-x: auto;
+    scrollbar-width: none;
+  }
+
+  .app-topbar-compact::-webkit-scrollbar {
+    display: none;
+  }
+
+  .stat-pill,
+  .icon-pill {
+    min-width: 44px;
+    min-height: 44px;
+    padding: 8px 11px;
+    flex: 0 0 auto;
   }
 
   .btn {
     font-size: 0.96rem;
     padding-inline: 16px;
+    min-height: 56px;
   }
 
   .mascot-shell {
-    width: 104px;
-    height: 104px;
+    width: 136px;
+    height: 136px;
+  }
+
+  .welcome-screen {
+    justify-content: flex-start !important;
+    padding: max(28px, env(safe-area-inset-top)) 18px max(24px, env(safe-area-inset-bottom)) !important;
+  }
+
+  .welcome-screen .mascot-shell {
+    width: min(54vw, 220px);
+    height: min(54vw, 220px);
+    margin-top: 8px;
+  }
+
+  .map-screen {
+    padding: 16px 16px max(110px, calc(84px + env(safe-area-inset-bottom))) !important;
+    overflow-x: hidden;
+  }
+
+  .map-hero {
+    grid-template-columns: minmax(158px, 43vw) 1fr !important;
+    gap: 12px !important;
+    padding: 14px !important;
+    border-radius: 22px !important;
+    align-items: center !important;
+  }
+
+  .map-hero .mascot-shell {
+    width: min(43vw, 178px);
+    height: min(43vw, 178px);
+    justify-self: center;
+  }
+
+  .map-hero h1 {
+    font-size: clamp(1.16rem, 6vw, 1.44rem) !important;
+  }
+
+  .map-hero p {
+    font-size: 0.82rem !important;
+  }
+
+  .module-banner {
+    border-radius: 20px !important;
+    padding: 16px !important;
+    grid-template-columns: 48px 1fr !important;
+  }
+
+  .level-path {
+    gap: 28px !important;
+    margin-top: 26px !important;
+  }
+
+  .level-node {
+    transform: translateX(calc(var(--level-offset) * 0.42)) !important;
+  }
+
+  [data-level-button="true"] {
+    width: 92px !important;
+    height: 92px !important;
+    min-height: 92px !important;
+  }
+
+  .level-title {
+    max-width: min(64vw, 230px) !important;
+    font-size: 0.94rem !important;
+  }
+
+  .lesson-screen {
+    height: calc(100dvh - 64px) !important;
+  }
+
+  .lesson-scroll {
+    padding: 16px 16px 20px !important;
+  }
+
+  .lesson-progress {
+    height: 14px !important;
+    margin-bottom: 14px !important;
+  }
+
+  .lesson-prompt-row {
+    align-items: flex-start !important;
+    gap: 12px !important;
+    margin-bottom: 18px !important;
+  }
+
+  .lesson-prompt-row .mascot-shell {
+    width: min(38vw, 156px);
+    height: min(38vw, 156px);
+    flex: 0 0 min(38vw, 156px);
+    margin-top: 2px;
+  }
+
+  .lesson-question-card {
+    margin-left: 0 !important;
+    padding: 14px !important;
+    border-radius: 20px !important;
+    min-width: 0;
+  }
+
+  .lesson-question-card h2 {
+    font-size: clamp(1rem, 4.8vw, 1.22rem) !important;
+    line-height: 1.22 !important;
+  }
+
+  .lesson-answer-stack {
+    gap: 12px !important;
+  }
+
+  .match-grid {
+    flex-direction: column !important;
+    gap: 10px !important;
+  }
+
+  .input-field {
+    min-height: 58px;
+    font-size: 1rem;
+  }
+
+  .word-card {
+    min-height: 46px;
+  }
+
+  .lesson-action-bar {
+    padding: 16px 16px max(16px, env(safe-area-inset-bottom)) !important;
+  }
+}
+
+@media (max-width: 380px) {
+  .map-hero {
+    grid-template-columns: 145px 1fr !important;
+  }
+
+  .map-hero .mascot-shell {
+    width: 145px;
+    height: 145px;
+  }
+
+  .lesson-prompt-row .mascot-shell {
+    width: 118px;
+    height: 118px;
+    flex-basis: 118px;
+  }
+
+  .stat-pill,
+  .icon-pill {
+    padding-inline: 9px;
   }
 }
