@@ -1516,5 +1516,148 @@
         "explanation": "Los BCAA's y el triptofano compiten por transportadores similares para atravesar la barrera hematoencefalica."
       }
     ]
+  },
+  {
+    "level": 17,
+    "lessonId": "L17_bonus_distribucion_calorica",
+    "title": "Bonus: Caso Practico de Distribucion Calorica",
+    "exercises": [
+      {
+        "type": "multiple_choice",
+        "question": "Caso: Daniel pesa 80 kg, entrena fuerza 5 dias por semana y quiere subir masa muscular magra. El plan se fija en 3000 kcal/dia. Cual es el enfoque correcto?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Superavit controlado con proteinas suficientes y carbohidratos complejos"
+          },
+          {
+            "id": "B",
+            "text": "Deficit agresivo para bajar peso rapido"
+          },
+          {
+            "id": "C",
+            "text": "Cena muy abundante y desayuno minimo"
+          }
+        ],
+        "correctAnswerId": "A",
+        "xp": 15,
+        "explanation": "Para ganar masa magra se usa un superavit controlado, con proteinas suficientes y carbohidratos complejos para sostener el entrenamiento."
+      },
+      {
+        "type": "multiple_choice",
+        "question": "Para Daniel, cual distribucion de macros encaja mejor con la dieta deportiva del modulo?",
+        "options": [
+          {
+            "id": "A",
+            "text": "25% proteinas, 55% carbohidratos y 20% grasas"
+          },
+          {
+            "id": "B",
+            "text": "60% proteinas, 20% carbohidratos y 20% grasas"
+          },
+          {
+            "id": "C",
+            "text": "10% proteinas, 30% carbohidratos y 60% grasas"
+          }
+        ],
+        "correctAnswerId": "A",
+        "xp": 15,
+        "explanation": "El modulo trabaja una dieta deportiva aproximada de 20-30% proteinas, 50-60% carbohidratos y 15-25% grasas."
+      },
+      {
+        "type": "fill_in_blanks_cards",
+        "text": "Con 3000 kcal: 25% de proteinas son {0} kcal, 55% de carbohidratos son {1} kcal y 20% de grasas son {2} kcal.",
+        "options": [
+          "750",
+          "1650",
+          "600",
+          "300",
+          "900"
+        ],
+        "correctAnswers": [
+          "750",
+          "1650",
+          "600"
+        ],
+        "xp": 20,
+        "explanation": "3000 x 0.25 = 750 kcal de proteina; 3000 x 0.55 = 1650 kcal de carbohidratos; 3000 x 0.20 = 600 kcal de grasas."
+      },
+      {
+        "type": "multiple_choice",
+        "question": "Usando 4 kcal/g para proteina y carbohidrato, y 9 kcal/g para grasa, cual calculo de gramos es mas correcto?",
+        "options": [
+          {
+            "id": "A",
+            "text": "188 g proteina, 413 g carbohidratos y 67 g grasas"
+          },
+          {
+            "id": "B",
+            "text": "750 g proteina, 1650 g carbohidratos y 600 g grasas"
+          },
+          {
+            "id": "C",
+            "text": "67 g proteina, 188 g carbohidratos y 413 g grasas"
+          }
+        ],
+        "correctAnswerId": "A",
+        "xp": 20,
+        "explanation": "Proteina: 750/4 = 187.5 g; carbohidratos: 1650/4 = 412.5 g; grasas: 600/9 = 66.7 g. Redondeado: 188 g, 413 g y 67 g."
+      },
+      {
+        "type": "match_pairs",
+        "question": "Distribuye las 3000 kcal de Daniel durante el dia segun el modelo del modulo.",
+        "pairs": [
+          {
+            "left": "Desayuno 30%",
+            "right": "900 kcal"
+          },
+          {
+            "left": "Media manana 10%",
+            "right": "300 kcal"
+          },
+          {
+            "left": "Comida principal 30%",
+            "right": "900 kcal"
+          },
+          {
+            "left": "Media tarde 10%",
+            "right": "300 kcal"
+          },
+          {
+            "left": "Cena 20%",
+            "right": "600 kcal"
+          }
+        ],
+        "xp": 20,
+        "explanation": "La distribucion racional es 30%, 10%, 30%, 10% y 20%. En 3000 kcal eso equivale a 900, 300, 900, 300 y 600 kcal."
+      },
+      {
+        "type": "true_false",
+        "question": "En este caso, concentrar casi todas las calorias en la cena seria ideal para evitar simas catabolicas durante el dia.",
+        "correctAnswer": false,
+        "xp": 10,
+        "explanation": "El modulo propone repartir las calorias en varias comidas para evitar largos periodos sin nutrientes y mejorar el soporte al entrenamiento."
+      },
+      {
+        "type": "fill_in_blanks_cards",
+        "text": "Para presentar el plan final de Daniel: {0} kcal/dia, {1} g de proteina, {2} g de carbohidratos y {3} g de grasas.",
+        "options": [
+          "3000",
+          "188",
+          "413",
+          "67",
+          "2500",
+          "120"
+        ],
+        "correctAnswers": [
+          "3000",
+          "188",
+          "413",
+          "67"
+        ],
+        "xp": 25,
+        "explanation": "El plan final queda en 3000 kcal/dia con macros aproximados de 188 g de proteina, 413 g de carbohidratos y 67 g de grasas."
+      }
+    ]
   }
 ]
