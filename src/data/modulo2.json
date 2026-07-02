@@ -994,6 +994,7 @@
         "options": [
           "3",
           "1",
+          "1",
           "2",
           "5"
         ],
@@ -1402,6 +1403,117 @@
         "correctAnswerId": "B",
         "xp": 10,
         "explanation": "Existen más de 9 tipos de creatina: monohidrato, clorhidrato, Kre-Alkalyn, malato, nitrato, quelato de magnesio, ethyl éster, citrato, piruvato, gluconato, AKG y multicomponentes."
+      }
+    ]
+  },
+  {
+    "level": 16,
+    "lessonId": "L16_evaluacion_final",
+    "title": "Evaluacion Final del Modulo 2",
+    "exercises": [
+      {
+        "type": "true_false",
+        "question": "La nutricion anabolica combina el sistema muscular, nervioso y hormonal para favorecer la adaptacion al entrenamiento.",
+        "correctAnswer": true,
+        "xp": 10,
+        "explanation": "La nutricion anabolica no se limita a contar calorias: busca apoyar la contraccion, la recuperacion y el equilibrio hormonal que permiten adaptarse al entrenamiento."
+      },
+      {
+        "type": "multiple_choice",
+        "question": "Para subir masa muscular con el menor aumento posible de grasa, la dieta debe priorizar:",
+        "options": [
+          {
+            "id": "A",
+            "text": "Un superavit calorico controlado con proteinas suficientes"
+          },
+          {
+            "id": "B",
+            "text": "Eliminar los carbohidratos por completo"
+          },
+          {
+            "id": "C",
+            "text": "Reducir el agua para verse mas seco"
+          }
+        ],
+        "correctAnswerId": "A",
+        "xp": 15,
+        "explanation": "El aumento de masa muscular requiere energia disponible, proteinas y entrenamiento; un superavit controlado ayuda a crecer sin disparar la ganancia de grasa."
+      },
+      {
+        "type": "match_pairs",
+        "question": "Une cada suplemento con su funcion principal.",
+        "pairs": [
+          {
+            "left": "Creatina",
+            "right": "Mejora la disponibilidad de ATP en esfuerzos intensos"
+          },
+          {
+            "left": "BCAA's",
+            "right": "Apoyan el efecto anticatabolico y la sintesis proteica"
+          },
+          {
+            "left": "Carnitina",
+            "right": "Participa en el transporte de acidos grasos"
+          }
+        ],
+        "xp": 15,
+        "explanation": "La creatina ayuda en esfuerzos breves e intensos, los BCAA's apoyan el metabolismo proteico y la carnitina participa en el transporte de grasas hacia la mitocondria."
+      },
+      {
+        "type": "text_input",
+        "question": "Que aminoacido de los BCAA's se destaca por estimular la sintesis proteica y tener mayor efecto anticatabolico?",
+        "correctAnswers": [
+          "Leucina",
+          "leucina"
+        ],
+        "xp": 20,
+        "explanation": "La leucina es el BCAA mas asociado con la estimulacion de la sintesis proteica y el efecto anticatabolico."
+      },
+      {
+        "type": "fill_in_blanks_cards",
+        "text": "La relacion ideal de BCAA's en el suplemento es {0}:{1}:{2}, correspondiente a leucina, isoleucina y valina.",
+        "options": [
+          "3",
+          "1",
+          "1",
+          "2",
+          "5"
+        ],
+        "correctAnswers": [
+          "3",
+          "1",
+          "1"
+        ],
+        "xp": 15,
+        "explanation": "La proporcion recomendada de BCAA's es 3:1:1: tres partes de leucina, una de isoleucina y una de valina."
+      },
+      {
+        "type": "true_false",
+        "question": "La glutamina favorece la hidratacion intracelular y puede apoyar la recuperacion muscular.",
+        "correctAnswer": true,
+        "xp": 10,
+        "explanation": "La glutamina se relaciona con la hidratacion dentro de la celula muscular y con procesos de recuperacion."
+      },
+      {
+        "type": "multiple_choice",
+        "question": "Por que los BCAA's no deben tomarse a la misma hora que el triptofano?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Porque compiten por transportadores para cruzar la barrera hematoencefalica"
+          },
+          {
+            "id": "B",
+            "text": "Porque destruyen la vitamina B6"
+          },
+          {
+            "id": "C",
+            "text": "Porque bloquean la absorcion de agua"
+          }
+        ],
+        "correctAnswerId": "A",
+        "xp": 15,
+        "explanation": "Los BCAA's y el triptofano compiten por transportadores similares para atravesar la barrera hematoencefalica."
       }
     ]
   }

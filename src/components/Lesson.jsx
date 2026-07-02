@@ -19,6 +19,10 @@ function shuffleItems(items) {
   return [...items].sort(() => Math.random() - 0.5);
 }
 
+function getBlankAnswerText(answer) {
+  return typeof answer === 'string' ? answer : answer?.text;
+}
+
 function getPracticeQuestions(unlockedLevelId) {
   const unlockedModule1 = modulo1Data.slice(0, Math.min(unlockedLevelId, MOD1_COUNT));
   const unlockedModule2Count = Math.max(0, unlockedLevelId - MOD1_COUNT);
@@ -91,7 +95,10 @@ export default function Lesson() {
 
   const availableOptions = useMemo(() => {
     if (!currentQ || currentQ.type !== 'fill_in_blanks_cards') return [];
-    return shuffleItems(currentQ.options);
+    return shuffleItems(currentQ.options.map((text, index) => ({
+      id: `${index}-${text}`,
+      text
+    })));
   }, [currentQ]);
 
   if (!currentQ) return <div>Cargando...</div>;
@@ -162,7 +169,7 @@ export default function Lesson() {
           .includes(effectiveTextInput.toLowerCase().trim());
       } else if (currentQ.type === 'fill_in_blanks_cards') {
         if (effectiveBlankAnswers.includes(null)) return;
-        isCorrect = effectiveBlankAnswers.every((answer, index) => answer === currentQ.correctAnswers[index]);
+        isCorrect = effectiveBlankAnswers.every((answer, index) => getBlankAnswerText(answer) === currentQ.correctAnswers[index]);
       }
 
       if (isCorrect) {
@@ -357,10 +364,11 @@ export default function Lesson() {
 
                   const blankIndex = Number(match[1]);
                   const filledText = effectiveBlankAnswers[blankIndex];
+                  const displayText = getBlankAnswerText(filledText);
                   return (
                     <span
                       key={part + index}
-                      className={`blank-slot ${filledText ? 'filled' : ''}`}
+                      className={`blank-slot ${displayText ? 'filled' : ''}`}
                       onClick={() => {
                         if (status === 'playing' && !isHintActive && filledText) {
                           const newBlanks = [...effectiveBlankAnswers];
@@ -369,7 +377,7 @@ export default function Lesson() {
                         }
                       }}
                     >
-                      {filledText || '________'}
+                      {displayText || '________'}
                     </span>
                   );
                 })}
@@ -377,16 +385,16 @@ export default function Lesson() {
 
               <div style={{ display: 'flex', flexWrap: 'wrap', gap: '12px' }}>
                 {availableOptions.map((option) => {
-                  const isUsed = effectiveBlankAnswers.includes(option);
+                  const isUsed = effectiveBlankAnswers.some((answer) => answer?.id === option.id);
                   return (
                     <button
-                      key={option}
+                      key={option.id}
                       className={`word-card ${isUsed ? 'used' : ''}`}
                       onClick={() => {
                         if (status !== 'playing' || isHintActive) return;
                         if (isUsed) {
                           const newBlanks = [...effectiveBlankAnswers];
-                          const indexToRemove = newBlanks.indexOf(option);
+                          const indexToRemove = newBlanks.findIndex((answer) => answer?.id === option.id);
                           if (indexToRemove !== -1) {
                             newBlanks[indexToRemove] = null;
                             setBlankAnswers(newBlanks);
@@ -405,7 +413,7 @@ export default function Lesson() {
                       }}
                       disabled={status !== 'playing'}
                     >
-                      {option}
+                      {option.text}
                     </button>
                   );
                 })}
