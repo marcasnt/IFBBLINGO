@@ -1,4 +1,4 @@
-import { useMemo, useState } from 'react';
+import { useMemo, useState, useRef, useEffect } from 'react';
 import { useGame } from '../context/useGame';
 import modulo1Data from '../data/modulo1.json';
 import modulo2Data from '../data/modulo2.json';
@@ -83,6 +83,13 @@ export default function Lesson() {
   const [selectedRight, setSelectedRight] = useState(null);
   const [textInput, setTextInput] = useState('');
   const [blankAnswers, setBlankAnswers] = useState([]);
+  const scrollRef = useRef(null);
+
+  useEffect(() => {
+    if (scrollRef.current) {
+      scrollRef.current.scrollTo({ top: 0, behavior: 'instant' });
+    }
+  }, [currentIndex]);
 
   const currentQ = questions[currentIndex] || questions[0] || null;
   const progress = questions.length > 0 ? (currentIndex / questions.length) * 100 : 0;
@@ -251,7 +258,7 @@ export default function Lesson() {
 
   return (
     <div className="lesson-screen" style={{ display: 'flex', flexDirection: 'column', height: '100dvh', overflow: 'hidden' }}>
-      <div className="lesson-scroll" style={{ flex: 1, overflowY: 'auto', padding: '22px', display: 'flex', flexDirection: 'column' }}>
+      <div ref={scrollRef} className="lesson-scroll" style={{ flex: 1, overflowY: 'auto', padding: '22px', display: 'flex', flexDirection: 'column' }}>
         <div className="lesson-progress" style={{ width: '100%', height: '16px', backgroundColor: 'var(--color-gray)', borderRadius: '999px', marginBottom: '22px', overflow: 'hidden', flexShrink: 0, boxShadow: 'inset 0 2px 0 rgba(0,0,0,0.05)' }}>
           <div style={{ width: `${progress}%`, height: '100%', backgroundColor: 'var(--color-primary)', transition: 'width 0.3s', borderRadius: '999px' }}></div>
         </div>
@@ -274,8 +281,8 @@ export default function Lesson() {
 
         <div className="lesson-answer-stack" style={{ display: 'flex', flexDirection: 'column', gap: '16px', flexShrink: 0 }}>
           {currentQ.type === 'match_pairs' && (
-            <div className="match-grid" style={{ display: 'flex', justifyContent: 'space-between', gap: '16px' }}>
-              <div style={{ display: 'flex', flexDirection: 'column', gap: '8px', flex: 1 }}>
+            <div className="match-grid" style={{ display: 'flex', gap: '10px' }}>
+              <div style={{ display: 'flex', flexDirection: 'column', gap: '8px', flex: 1, minWidth: 0 }}>
                 {currentQ.pairs.map((pair, index) => {
                   const isPaired = effectiveMatchingPairs.some((item) => item[0] === index);
                   const isSelected = selectedLeft === index;
@@ -283,7 +290,7 @@ export default function Lesson() {
                     <button
                       key={`l-${index}`}
                       className={`btn btn-outline ${isSelected ? 'selected' : ''} ${isPaired ? 'btn-disabled' : ''}`}
-                      style={{ opacity: isPaired ? 0.5 : 1 }}
+                      style={{ opacity: isPaired ? 0.5 : 1, textAlign: 'center', wordBreak: 'break-word' }}
                       onClick={() => handleMatchSelect('left', index)}
                     >
                       {pair.left}
@@ -291,7 +298,7 @@ export default function Lesson() {
                   );
                 })}
               </div>
-              <div style={{ display: 'flex', flexDirection: 'column', gap: '8px', flex: 1 }}>
+              <div style={{ display: 'flex', flexDirection: 'column', gap: '8px', flex: 1, minWidth: 0 }}>
                 {shuffledRightPairs.map((pair, index) => {
                   const isPaired = effectiveMatchingPairs.some((item) => item[1] === index);
                   const isSelected = selectedRight === index;
@@ -299,7 +306,7 @@ export default function Lesson() {
                     <button
                       key={`r-${index}`}
                       className={`btn btn-outline ${isSelected ? 'selected' : ''} ${isPaired ? 'btn-disabled' : ''}`}
-                      style={{ opacity: isPaired ? 0.5 : 1 }}
+                      style={{ opacity: isPaired ? 0.5 : 1, textAlign: 'center', wordBreak: 'break-word' }}
                       onClick={() => handleMatchSelect('right', index)}
                     >
                       {pair.right}

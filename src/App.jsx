@@ -1,5 +1,6 @@
 import { GameProvider } from './context/GameContext';
 import { useGame } from './context/useGame';
+import { useEffect } from 'react';
 import TopBar from './components/TopBar';
 import Map from './components/Map';
 import Lesson from './components/Lesson';
@@ -9,6 +10,10 @@ import './index.css';
 
 function GameContent() {
   const { gameState, hasSeenWelcome } = useGame();
+
+  useEffect(() => {
+    window.scrollTo({ top: 0, behavior: 'instant' });
+  }, [gameState]);
 
   if (!hasSeenWelcome) {
     return <WelcomeScreen />;

@@ -490,6 +490,7 @@ button {
 
   .lesson-screen {
     height: calc(100dvh - 64px) !important;
+    overflow: hidden !important;
   }
 
   .lesson-scroll {
@@ -503,14 +504,14 @@ button {
 
   .lesson-prompt-row {
     align-items: flex-start !important;
-    gap: 12px !important;
-    margin-bottom: 18px !important;
+    gap: 10px !important;
+    margin-bottom: 14px !important;
   }
 
   .lesson-prompt-row .mascot-shell {
-    width: min(38vw, 156px);
-    height: min(38vw, 156px);
-    flex: 0 0 min(38vw, 156px);
+    width: min(22vw, 96px);
+    height: min(22vw, 96px);
+    flex: 0 0 min(22vw, 96px);
     margin-top: 2px;
   }
 
@@ -531,8 +532,16 @@ button {
   }
 
   .match-grid {
-    flex-direction: column !important;
-    gap: 10px !important;
+    flex-direction: row !important;
+    gap: 8px !important;
+  }
+
+  .match-grid .btn-outline {
+    font-size: 0.82rem !important;
+    padding: 10px 8px !important;
+    min-height: 44px !important;
+    line-height: 1.2 !important;
+    word-break: break-word;
   }
 
   .input-field {
@@ -560,9 +569,15 @@ button {
   }
 
   .lesson-prompt-row .mascot-shell {
-    width: 118px;
-    height: 118px;
-    flex-basis: 118px;
+    width: 78px;
+    height: 78px;
+    flex-basis: 78px;
+  }
+
+  .match-grid .btn-outline {
+    font-size: 0.76rem !important;
+    padding: 8px 6px !important;
+    min-height: 40px !important;
   }
 
   .stat-pill,
